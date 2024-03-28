@@ -1,0 +1,883 @@
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: Rule
+log-level: info
+external-controller: 0.0.0.0:9090
+ipv6: false
+dns:
+  enable: false
+  listen: 0.0.0.0:53
+  ipv6: false
+  default-nameserver:
+  - 114.114.114.114
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - '*.lan'
+  - cable.auth.com
+  - +.msftconnecttest.com
+  - +.msftncsi.com
+  - network-test.debian.org
+  - detectportal.firefox.com
+  - resolver1.opendns.com
+  - +.srv.nintendo.net
+  - +.stun.playstation.net
+  - xbox.*.microsoft.com
+  - +.xboxlive.com
+  - stun.*
+  - global.turn.twilio.com
+  - global.stun.twilio.com
+  - localhost.*.qq.com
+  - +.logon.battlenet.com.cn
+  - +.logon.battle.net
+  - +.blzstatic.cn
+  - +.cmpassport.com
+  - id6.me
+  - open.e.189.cn
+  - mdn.open.wo.cn
+  - opencloud.wostore.cn
+  - auth.wosms.cn
+  - +.jegotrip.com.cn
+  - +.icitymobile.mobi
+  - +.pingan.com.cn
+  - +.cmbchina.com
+  - +.cmbchina.com.cn
+  - +?miwifi.com
+  - pool.ntp.org
+  - +.pool.ntp.org
+  - ntp.*.com
+  - time.*.com
+  - ntp?.*.com
+  - time?.*.com
+  - time.*.gov
+  - time.*.edu.cn
+  - +.ntp.org.cn
+  - time.*.apple.com
+  - PDC._msDCS.*.*
+  - DC._msDCS.*.*
+  - GC._msDCS.*.*
+  nameserver:
+  - 114.114.114.114
+  - tls://dns.rubyfish.cn:853
+proxies:
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - internet.life.com.by
+    method: GET
+    path:
+    - /
+  name: 巴西 001
+  network: http
+  port: 3389
+  server: 78.111.102.232
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - internet.life.com.by
+    method: GET
+    path:
+    - /
+  name: 加拿大 001
+  network: http
+  port: 3389
+  server: 134.122.41.160
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - internet.life.com.by
+    method: GET
+    path:
+    - /
+  name: 哈萨克斯坦 001
+  network: http
+  port: 3389
+  server: 45.82.31.164
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 美国 001
+  network: ws
+  port: 80
+  server: 1.namesilo123.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04
+  ws-opts:
+    headers:
+      Host: de.sanfen002.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 002
+  network: ws
+  port: 2086
+  server: mizban.arzonhost.ir
+  tls: false
+  type: vmess
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
+  ws-opts:
+    headers:
+      Host: mizban.arzonhost.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 加拿大 003
+  network: ws
+  port: 2082
+  server: s1c.v2.v001sss.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 002
+  network: ws
+  port: 8080
+  server: 162.159.2.9
+  skip-cert-verify: true
+  type: vmess
+  uuid: 9b196b50-37f2-4f4b-b175-06273adc6207
+  ws-opts:
+    headers:
+      Host: technological-mel-fill-decide.trycloudflare.com
+    path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
+- alterId: 0
+  cipher: auto
+  name: 阿联酋 001
+  network: ws
+  port: 8880
+  server: 94.140.0.110
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      host: food.zhaal.ir
+    path: /
+- name: 美国 003
+  network: tcp
+  password: c2c76420-257f-492a-b20f-6560f3bfa78d
+  port: 443
+  server: kz.mjt000.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 加拿大 004
+  network: ws
+  port: 8080
+  server: yh2.freeh1.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 加拿大 005
+  network: ws
+  port: 80
+  server: cf.kfcvme50.life
+  skip-cert-verify: true
+  type: vmess
+  uuid: bc5e1ebf-9602-4177-b890-18e9d4cd23be
+  ws-opts:
+    headers:
+      Host: hytron.kfcvme50.life
+    path: /
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 006
+  network: ws
+  port: 8080
+  server: 23.227.38.86
+  servername: dongtaiwang13.dtku47.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+  ws-opts:
+    headers:
+      HOST: dongtaiwang13.dtku47.xyz
+    path: /1IKYjV0r/
+- alterId: 0
+  cipher: auto
+  name: 加拿大 007
+  network: ws
+  port: 443
+  server: cdn2_de.majutsu.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 61abbe9b-ac90-4dcc-99de-35e17f0ce847
+  ws-opts:
+    headers:
+      Host: cdn2_de.majutsu.top
+    path: /acc
+- alterId: 0
+  cipher: auto
+  name: 加拿大 008
+  network: ws
+  port: 80
+  server: 104.21.220.186
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 009
+  network: ws
+  port: 80
+  server: 104.21.227.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 010
+  network: ws
+  port: 80
+  server: 104.21.221.181
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 美国 004
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.43.26.49
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: false
+- alterId: 0
+  cipher: auto
+  name: 加拿大 011
+  network: ws
+  port: 443
+  server: 172.67.174.63
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: nina.bond
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 012
+  network: ws
+  port: 80
+  server: 104.21.224.22
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt4.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 013
+  network: ws
+  port: 80
+  server: 104.21.232.44
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 005
+  network: ws
+  port: 80
+  server: 13.212.25.50
+  skip-cert-verify: true
+  type: vmess
+  uuid: bc5e1ebf-9602-4177-b890-18e9d4cd23be
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 日本 001
+  network: ws
+  port: 80
+  server: 13.230.16.5
+  skip-cert-verify: true
+  type: vmess
+  uuid: bc5e1ebf-9602-4177-b890-18e9d4cd23be
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 日本 002
+  network: ws
+  port: 80
+  server: 52.69.13.75
+  skip-cert-verify: true
+  type: vmess
+  uuid: bc5e1ebf-9602-4177-b890-18e9d4cd23be
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 006
+  network: ws
+  port: 33258
+  server: 149.104.27.34
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: bc5e1ebf-9602-4177-b890-18e9d4cd23be
+  ws-opts:
+    headers:
+      Host: hkbn.kfcvme50.life
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡 001
+  network: ws
+  port: 80
+  server: 54.169.82.160
+  skip-cert-verify: true
+  type: vmess
+  uuid: bc5e1ebf-9602-4177-b890-18e9d4cd23be
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 007
+  network: ws
+  port: 2053
+  server: 47.76.77.103
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: dd1a99fc-8080-4b6f-b255-20fe1a57d238
+  ws-opts:
+    headers:
+      Host: hk.pddf.buzz
+    path: /pdd?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 日本 003
+  network: ws
+  port: 443
+  server: 176.126.114.97
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: dd1a99fc-8080-4b6f-b255-20fe1a57d238
+  ws-opts:
+    headers:
+      Host: hk.pddf.buzz
+    path: /pdd?ed=2048
+- alterId: 1
+  cipher: auto
+  name: 日本 004
+  network: tcp
+  port: 46484
+  server: en7a5-g03.jp05-6786-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: dd121fb6-3fbc-3a11-bf1d-5532a767af7e
+  ws-headers:
+    Host: en7a5-g03.jp05-6786-vm0.entry.fr0307a.art
+- alterId: 1
+  cipher: auto
+  name: 日本 005
+  network: tcp
+  port: 46486
+  server: 9azvt-g05.jp05-6786-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4b991d1c-f7a2-348e-b785-8daf386b6864
+  ws-headers:
+    Host: 9azvt-g05.jp05-6786-vm0.entry.fr0307a.art
+- alterId: 1
+  cipher: auto
+  name: 日本 006
+  network: tcp
+  port: 21585
+  server: 1dk1l-g05.jp03-7d22-vm0.entry.fr0307a.art
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4b991d1c-f7a2-348e-b785-8daf386b6864
+- alterId: 1
+  cipher: auto
+  name: 日本 007
+  network: tcp
+  port: 21585
+  server: gyqdl-g05.jp01-0986-vm0.entry.fr0307a.art
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e2f2f030-57c0-3849-8893-3898c46764d6
+- alterId: 1
+  cipher: auto
+  name: 日本 008
+  network: tcp
+  port: 28783
+  server: tfu6i-g01.jp06-7c5a-vm0.entry.fr0307a.art
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: daa811f7-7e7e-3089-9361-d2de712e59b6
+- alterId: 1
+  cipher: auto
+  name: 日本 009
+  network: tcp
+  port: 11777
+  server: tmq5u-g05.jp02-9a99-vm0.entry.fr0307a.art
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e2f2f030-57c0-3849-8893-3898c46764d6
+- alterId: 1
+  cipher: auto
+  name: 日本 010
+  network: tcp
+  port: 21583
+  server: 0i4ui-g03.jp03-7d22-vm0.entry.fr0307a.art
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: b37b7415-1608-3fcd-aa25-d9cc4aae5ded
+- alterId: 0
+  cipher: auto
+  name: 加拿大 014
+  network: ws
+  port: 80
+  server: 104.21.222.11
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt4.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 015
+  network: ws
+  port: 80
+  server: 104.21.220.34
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 1
+  cipher: auto
+  name: 日本 011
+  network: tcp
+  port: 21581
+  server: b834o-g01.jp03-7d22-vm0.entry.fr0307a.art
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: daa811f7-7e7e-3089-9361-d2de712e59b6
+- alterId: 1
+  cipher: auto
+  name: 日本 012
+  network: tcp
+  port: 449
+  server: h3qa5-g06.jp04-3771-vm0.entry.fr0307a.art
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
+- alterId: 1
+  cipher: auto
+  name: 日本 013
+  network: tcp
+  port: 46482
+  server: oe6wc-g01.jp05-6786-vm0.entry.fr0307a.art
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b52da429-91a0-3834-a4e0-0ed299ba8121
+- alterId: 1
+  cipher: auto
+  name: 日本 014
+  network: tcp
+  port: 446
+  server: od7ld-g03.jp04-3771-vm0.entry.fr0307a.art
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dd121fb6-3fbc-3a11-bf1d-5532a767af7e
+- alterId: 1
+  cipher: auto
+  name: 日本 015
+  network: tcp
+  port: 46482
+  server: 3wihp-g01.jp05-6786-vm0.entry.fr0307a.art
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: daa811f7-7e7e-3089-9361-d2de712e59b6
+- alterId: 1
+  cipher: auto
+  name: 日本 016
+  network: tcp
+  port: 448
+  server: cm5hi-g05.jp04-3771-vm0.entry.fr0307a.art
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4b991d1c-f7a2-348e-b785-8daf386b6864
+- alterId: 1
+  cipher: auto
+  name: 日本 017
+  network: tcp
+  port: 46482
+  server: vt50k-g01.jp05-6786-vm0.entry.fr0307a.art
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
+- alterId: 1
+  cipher: auto
+  name: 日本 018
+  network: tcp
+  port: 21581
+  server: 01eb6-g01.jp03-7d22-vm0.entry.fr0307a.art
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
+- alterId: 0
+  cipher: auto
+  name: 加拿大 016
+  network: ws
+  port: 80
+  server: 104.21.225.26
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 日本 019
+  network: tcp
+  port: 11775
+  server: t45a7-g03.jp02-9a99-vm0.entry.fr0307a.art
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b37b7415-1608-3fcd-aa25-d9cc4aae5ded
+proxy-groups:
+- name: PROXY
+  type: select
+  proxies:
+  - LOAD-BALANCE
+  - SELECT
+  - DIRECT
+- name: SELECT
+  type: select
+  proxies: &id001
+  - 巴西 001
+  - 加拿大 001
+  - 哈萨克斯坦 001
+  - 美国 001
+  - 加拿大 002
+  - 加拿大 003
+  - 美国 002
+  - 阿联酋 001
+  - 美国 003
+  - 加拿大 004
+  - 加拿大 005
+  - 加拿大 006
+  - 加拿大 007
+  - 加拿大 008
+  - 加拿大 009
+  - 加拿大 010
+  - 美国 004
+  - 加拿大 011
+  - 加拿大 012
+  - 加拿大 013
+  - 美国 005
+  - 日本 001
+  - 日本 002
+  - 美国 006
+  - 新加坡 001
+  - 美国 007
+  - 日本 003
+  - 日本 004
+  - 日本 005
+  - 日本 006
+  - 日本 007
+  - 日本 008
+  - 日本 009
+  - 日本 010
+  - 加拿大 014
+  - 加拿大 015
+  - 日本 011
+  - 日本 012
+  - 日本 013
+  - 日本 014
+  - 日本 015
+  - 日本 016
+  - 日本 017
+  - 日本 018
+  - 加拿大 016
+  - 日本 019
+- name: LOAD-BALANCE
+  type: load-balance
+  url: http://www.gstatic.com/generate_204
+  interval: 3600
+  strategy: consistent-hashing
+  proxies: *id001
+- name: GITHUB
+  type: select
+  proxies: &id002
+  - PROXY
+  - LOAD-BALANCE
+  - SELECT
+  - DIRECT
+- name: OPENAI
+  type: select
+  proxies: *id002
+- name: BLOCK
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+- name: FINAL
+  type: select
+  proxies:
+  - PROXY
+  - DIRECT
+rules:
+  - RULE-SET,proxy-classical,PROXY
+  - RULE-SET,direct-classical,DIRECT
+  - RULE-SET,block,BLOCK
+  - RULE-SET,applications,DIRECT
+  - RULE-SET,icloud,DIRECT
+  - RULE-SET,apple,DIRECT
+  - RULE-SET,github,GITHUB
+  - RULE-SET,openai,OPENAI
+  - RULE-SET,google,PROXY
+  - RULE-SET,youtube,PROXY
+  - RULE-SET,telegram,PROXY
+  - RULE-SET,spotify,PROXY
+  - RULE-SET,gfw,PROXY
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,FINAL
+
+rule-providers:
+  icloud:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/icloud.yaml"
+    path: ./rules/classical/icloud.yaml
+    interval: 86400
+
+  apple:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/apple.yaml"
+    path: ./rules/classical/apple.yaml
+    interval: 86400
+
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/domain/gfw.yaml"
+    path: ./rules/domain/gfw.yaml
+    interval: 86400
+
+  youtube:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/youtube.yaml"
+    path: ./rules/classical/youtube.yaml
+    interval: 86400
+    
+  google:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/google.yaml"
+    path: ./rules/classical/google.yaml
+    interval: 86400
+
+  github:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/github.yaml"
+    path: ./rules/classical/github.yaml
+    interval: 86400
+
+  openai:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/openai.yaml"
+    path: ./rules/classical/openai.yaml
+    interval: 86400
+
+  telegram:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/telegram.yaml"
+    path: ./rules/classical/telegram.yaml
+    interval: 86400
+
+  spotify:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/spotify.yaml"
+    path: ./rules/classical/spotify.yaml
+    interval: 86400
+
+  applications:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/applications.yaml"
+    path: ./rules/classical/applications.yaml
+    interval: 86400
+    
+  block:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/block.yaml"
+    path: ./rules/classical/block.yaml
+    interval: 86400
+
+  direct-classical:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/direct.yaml"
+    path: ./rules/classical/direct.yaml
+    interval: 86400
+  proxy-classical:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/proxy.yaml"
+    path: ./rules/classical/proxy.yaml
+    interval: 86400
+
+script:
+  code: >
+    def main(ctx, metadata):
+      # 规则列表定义(规则名:代理规则), 便于调整处理顺序, 暂时按照规则数量进行处理
+      ruleList = {
+        "proxy-classical":"PROXY",
+        "direct-classical":"DIRECT",
+
+        "github":"DIRECT",
+        "spotify":"DIRECT",
+
+        "telegram":"PROXY",
+        "google":"PROXY",
+        "gfw":"PROXY",
+
+        "advertising":"REJECT"
+      }
+
+      port = int(metadata['dst_port'])
+
+      if metadata['network'] == 'UDP' and port == 443:
+          ctx.log('[Script] matched QUIC traffic use reject')
+          return 'REJECT'
+
+      # 解析host->ip赋值到metadata中 用于后续判断
+      ip = metadata['dst_ip']
+      if ip == "":
+        ip = ctx.resolve_ip(metadata["host"])
+        metadata["dst_ip"] = ip
+
+      if ip == "":
+        return "DIRECT"
+
+      # 遍历规则策略, 有命中即返回
+      for rule,policy in ruleList.items():
+        if ctx.rule_providers[rule].match(metadata):
+          ctx.log("[match] {host} matched rule [{rule}] use {policy}".format(host=metadata["host"],rule=rule,policy=policy))
+          return policy
+
+      # 判断ip是否局域网以及中国, 是则直连 PS: 兜底走直连的话 这段逻辑可以注释
+      # code = ctx.geoip(ip)
+      # ctx.log('[geoip] {host} {ip} {code}'.format(host=metadata["host"],ip=ip,code=code))
+      # if code == "LAN" or code == "CN":
+      #   return "DIRECT"
+
+      # 漏网之鱼走直连
+      return "DIRECT"

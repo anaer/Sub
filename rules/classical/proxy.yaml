@@ -1,0 +1,4 @@
+payload:
+  - DOMAIN-SUFFIX, google.com
+  - DOMAIN-SUFFIX, bing.com
+  - DOMAIN, regex101.com
