@@ -1,0 +1,479 @@
+mixed-port: 7890
+mode: Rule
+log-level: info
+allow-lan: true
+bind-address: '*'
+ipv6: false
+udp: false
+unified-delay: true
+tcp-concurrent: true
+find-process-mode: strict
+global-client-fingerprint: chrome
+external-controller: 0.0.0.0:9090
+external-ui: ui
+external-ui-url: https://mirror.ghproxy.com/https://github.com/anaer/yacd/archive/refs/heads/gh-pages.zip
+secret: '666999'
+geodata-mode: true
+geodata-loader: standard
+geo-auto-update: true
+geo-update-interval: 3
+geox-url:
+  geoip: https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/geoip.dat
+  geosite: https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/geosite.dat
+  mmdb: https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/country.mmdb
+  asn: https://mirror.ghproxy.com/https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb
+keep-alive-interval: 15
+profile:
+  store-selected: true
+  store-fake-ip: true
+sniffer:
+  enable: true
+  parse-pure-ip: true
+  override-destination: true
+  sniff:
+    HTTP:
+      ports:
+      - 80
+      - 8080-8800
+      override-destination: true
+    TLS:
+      ports:
+      - 443
+      - 8443
+    QUIC:
+      ports:
+      - 443
+      - 8443
+  force-domain:
+  - +.v2ex.com
+  skip-domain:
+  - Mijia Cloud
+  - dlg.io.mi.com
+  - +.apple.com
+tun:
+  enable: false
+  stack: mixed
+  dns-hijack:
+  - any:53
+  auto-route: true
+  auto-detect-interface: true
+dns:
+  enable: true
+  listen: 0.0.0.0:9527
+  ipv6: false
+  ipv6-timeout: 300
+  prefer-h3: true
+  enhanced-mode: fake-ip
+  cache-algorithm: arc
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - '*.*.xboxlive.com'
+  - '*.126.net'
+  - '*.example'
+  - '*.ff14.sdo.com'
+  - '*.ffxiv.com'
+  - '*.finalfantasyxiv.com'
+  - '*.home.arpa'
+  - '*.invalid'
+  - '*.kuwo.cn'
+  - '*.lan'
+  - '*.linksys.com'
+  - '*.linksyssmartwifi.com'
+  - '*.local'
+  - '*.localdomain'
+  - '*.localhost'
+  - '*.mcdn.bilivideo.cn'
+  - '*.music.163.com'
+  - '*.music.migu.cn'
+  - '*.n.n.srv.nintendo.net'
+  - '*.ntp.org.cn'
+  - '*.router.asus.com'
+  - '*.square-enix.com'
+  - '*.test'
+  - '*.time.edu.cn'
+  - '*.xiami.com'
+  - '*.y.qq.com'
+  - +.3gppnetwork.org
+  - +.battlenet.com.cn
+  - +.blzstatic.cn
+  - +.cmbchina.com
+  - +.cmbchina.com.cn
+  - +.cmbimg.com
+  - +.cmpassport.com
+  - +.icitymobile.mobi
+  - +.jegotrip.com.cn
+  - +.logon.battle.net
+  - +.logon.battlenet.com.cn
+  - +.media.dssott.com
+  - +.msftconnecttest.com
+  - +.msftncsi.com
+  - +.n0808.com
+  - +.nflxvideo.net
+  - +.ntp.org.cn
+  - +.pingan.com.cn
+  - +.pool.ntp.org
+  - +.qq.com
+  - +.sandai.net
+  - +.srv.nintendo.net
+  - +.stun.*.*
+  - +.stun.*.*.*
+  - +.stun.*.*.*.*
+  - +.stun.*.*.*.*.*
+  - +.stun.playstation.net
+  - +.tencent.com
+  - +.wargaming.net
+  - +.wggames.cn
+  - +.wotgame.cn
+  - +.wowsgame.cn
+  - +.xboxlive.com
+  - Mijia Cloud
+  - adguardteam.github.io
+  - amobile.music.tc.qq.com
+  - anti-ad.net
+  - api-jooxtt.sanook.com
+  - api.joox.com
+  - aqqmusic.tc.qq.com
+  - auth.wosms.cn
+  - cable.auth.com
+  - detectportal.firefox.com
+  - dl.stream.qqmusic.qq.com
+  - ff.dorado.sdo.com
+  - global.stun.twilio.com
+  - global.turn.twilio.com
+  - heartbeat.belkin.com
+  - id6.me
+  - isure.stream.qqmusic.qq.com
+  - joox.com
+  - lens.l.google.com
+  - local.adguard.org
+  - localhost.*.qq.com
+  - localhost.ptlogin2.qq.com
+  - localhost.sec.qq.com
+  - mdn.open.wo.cn
+  - mesu.apple.com
+  - mobileoc.music.tc.qq.com
+  - music.163.com
+  - music.migu.cn
+  - music.taihe.com
+  - musicapi.taihe.com
+  - na.b.g-tun.com
+  - network-test.debian.org
+  - ntp.*.com
+  - ntp1.*.com
+  - ntp2.*.com
+  - ntp3.*.com
+  - ntp4.*.com
+  - ntp5.*.com
+  - ntp6.*.com
+  - ntp7.*.com
+  - ntp?.*.com
+  - open.e.189.cn
+  - opencloud.wostore.cn
+  - pool.ntp.org
+  - proxy.golang.org
+  - resolver1.opendns.com
+  - shark007.net
+  - songsearch.kugou.com
+  - static.adtidy.org
+  - streamoc.music.tc.qq.com
+  - stun.*
+  - stun.*.*
+  - stun.*.*.*
+  - stun.l.google.com
+  - swcdn.apple.com
+  - swdist.apple.com
+  - swdownload.apple.com
+  - swquery.apple.com
+  - swscan.apple.com
+  - time-ios.apple.com
+  - time.*.apple.com
+  - time.*.com
+  - time.*.edu.cn
+  - time.*.gov
+  - time1.*.com
+  - time1.cloud.tencent.com
+  - time2.*.com
+  - time3.*.com
+  - time4.*.com
+  - time5.*.com
+  - time6.*.com
+  - time7.*.com
+  - time?.*.com
+  - trackercdn.kugou.com
+  - xbox.*.*.microsoft.com
+  - xbox.*.microsoft.com
+  - xnotify.xboxlive.com
+  - y.qq.com
+  default-nameserver:
+  - 223.5.5.5
+  - 119.29.29.29
+  nameserver:
+  - https://dns.alidns.com/dns-query
+  - tls://dns.alidns.com
+  nameserver-policy:
+    +.internal.crop.com: 10.0.0.1
+    geosite:private,apple: https://dns.alidns.com/dns-query
+    geosite:gfw:
+    - https://1.1.1.2/dns-query
+    - https://1.0.0.2/dns-query
+    GEOSITE:google: 8.8.8.8
+  fallback:
+  - https://1.1.1.2/dns-query
+  - https://1.0.0.2/dns-query
+  - https://9.9.9.9/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+    - 240.0.0.0/4
+    - 0.0.0.0/32
+    domain:
+    - +.google.com
+    - +.google.cn
+    - +.googleapis.cn
+    - +.googleapis.com
+    - +.github.com
+    - +.facebook.com
+    - +.twitter.com
+    - +.youtube.com
+script:
+  shortcuts:
+    quic: network == 'udp' and dst_port == 443 and (geoip(resolve_ip(host)) != 'CN'
+      or geoip(dst_ip) != 'CN')
+proxy-providers:
+  SUB1:
+    type: http
+    interval: 3600
+    health-check:
+      enable: true
+      url: https://cp.cloudflare.com/generate_204
+      interval: 300
+      lazy: true
+    url: https://ghproxy.net/https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
+    path: ./providers/SUB1.yaml
+proxy-groups:
+- name: PROXY
+  type: select
+  proxies:
+  - LOAD-BALANCE
+  - FALLBACK
+  - URL-TEST
+  - SELECT
+  - DIRECT
+- include-all-providers: true
+  name: SELECT
+  type: select
+- include-all-providers: true
+  type: url-test
+  url: https://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 100
+  timeout: 5000
+  lazy: true
+  max-failed-times: 10
+  name: URL-TEST
+- include-all-providers: true
+  name: FALLBACK
+  type: fallback
+- name: LOAD-BALANCE
+  type: load-balance
+  strategy: consistent-hashing
+  hidden: true
+  proxies:
+  - 0组
+  - 1组
+  - 2组
+  - 3组
+  - 4组
+  - 5组
+  - 6组
+  - 7组
+  - 8组
+  - 9组
+- name: GITHUB
+  type: select
+  proxies:
+  - PROXY
+  - FALLBACK
+  - URL-TEST
+  - SELECT
+  - LOAD-BALANCE
+  - DIRECT
+- name: OPENAI
+  type: select
+  proxies:
+  - 美国
+  - FALLBACK
+  - SELECT
+  - URL-TEST
+  - LOAD-BALANCE
+  - PROXY
+  - DIRECT
+- name: BLOCK
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+- name: FINAL
+  type: select
+  proxies:
+  - PROXY
+  - DIRECT
+- include-all-providers: true
+  type: fallback
+  url: https://cp.cloudflare.com/generate_204
+  interval: 300
+  timeout: 5000
+  lazy: true
+  max-failed-times: 10
+  name: 美国
+  filter: 美国
+- include-all-providers: true
+  type: fallback
+  url: https://cp.cloudflare.com/generate_204
+  interval: 300
+  timeout: 5000
+  lazy: true
+  max-failed-times: 10
+  name: 0组
+  filter: ^.*0$
+- include-all-providers: true
+  type: fallback
+  url: https://cp.cloudflare.com/generate_204
+  interval: 300
+  timeout: 5000
+  lazy: true
+  max-failed-times: 10
+  name: 1组
+  filter: ^.*1$
+- include-all-providers: true
+  type: fallback
+  url: https://cp.cloudflare.com/generate_204
+  interval: 300
+  timeout: 5000
+  lazy: true
+  max-failed-times: 10
+  name: 2组
+  filter: ^.*2$
+- include-all-providers: true
+  type: fallback
+  url: https://cp.cloudflare.com/generate_204
+  interval: 300
+  timeout: 5000
+  lazy: true
+  max-failed-times: 10
+  name: 3组
+  filter: ^.*3$
+- include-all-providers: true
+  type: fallback
+  url: https://cp.cloudflare.com/generate_204
+  interval: 300
+  timeout: 5000
+  lazy: true
+  max-failed-times: 10
+  name: 4组
+  filter: ^.*4$
+- include-all-providers: true
+  type: fallback
+  url: https://cp.cloudflare.com/generate_204
+  interval: 300
+  timeout: 5000
+  lazy: true
+  max-failed-times: 10
+  name: 5组
+  filter: ^.*5$
+- include-all-providers: true
+  type: fallback
+  url: https://cp.cloudflare.com/generate_204
+  interval: 300
+  timeout: 5000
+  lazy: true
+  max-failed-times: 10
+  name: 6组
+  filter: ^.*6$
+- include-all-providers: true
+  type: fallback
+  url: https://cp.cloudflare.com/generate_204
+  interval: 300
+  timeout: 5000
+  lazy: true
+  max-failed-times: 10
+  name: 7组
+  filter: ^.*7$
+- include-all-providers: true
+  type: fallback
+  url: https://cp.cloudflare.com/generate_204
+  interval: 300
+  timeout: 5000
+  lazy: true
+  max-failed-times: 10
+  name: 8组
+  filter: ^.*8$
+- include-all-providers: true
+  type: fallback
+  url: https://cp.cloudflare.com/generate_204
+  interval: 300
+  timeout: 5000
+  lazy: true
+  max-failed-times: 10
+  name: 9组
+  filter: ^.*9$
+rules:
+- AND, ((NETWORK,UDP), (DST-PORT,443),(NOT,((GEOIP,CN)))),REJECT
+- RULE-SET,proxy-classical,PROXY
+- RULE-SET,direct-classical,DIRECT
+- RULE-SET,applications,DIRECT
+- GEOSITE,github,GITHUB
+- GEOSITE,openai,OPENAI
+- GEOSITE,category-ads-all,BLOCK
+- GEOSITE,adguard,BLOCK
+- GEOSITE,category-scholar-!cn,PROXY
+- GEOSITE,geolocation-!cn,PROXY
+- GEOSITE,bing,PROXY
+- GEOSITE,youtube,PROXY
+- GEOSITE,google,PROXY
+- GEOSITE,twitter,PROXY
+- GEOSITE,biliintl,PROXY
+- GEOSITE,spotify,PROXY
+- GEOSITE,telegram,PROXY
+- GEOSITE,netflix,PROXY
+- GEOSITE,disney,PROXY
+- GEOSITE,tiktok,PROXY
+- GEOSITE,facebook,PROXY
+- GEOSITE,private,DIRECT
+- GEOSITE,onedrive,DIRECT
+- GEOSITE,microsoft@cn,DIRECT
+- GEOSITE,apple@cn,DIRECT
+- GEOSITE,apple-cn,DIRECT
+- GEOSITE,steam@cn,DIRECT
+- GEOSITE,category-games@cn,DIRECT
+- GEOSITE,cn,DIRECT
+- GEOIP,private,DIRECT,no-resolve
+- GEOIP,telegram,PROXY,no-resolve
+- GEOIP,netflix,PROXY,no-resolve
+- GEOIP,google,PROXY,no-resolve
+- GEOIP,twitter,PROXY,no-resolve
+- GEOIP,cn,DIRECT
+- MATCH,FINAL
+rule-providers:
+  direct-classical:
+    type: http
+    behavior: classical
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/anaer/Sub/main/rules/classical/direct.yaml
+    path: ./rules/classical/direct.yaml
+    interval: 86400
+    proxy: DIRECT
+  proxy-classical:
+    type: http
+    behavior: classical
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/anaer/Sub/main/rules/classical/proxy.yaml
+    path: ./rules/classical/proxy.yaml
+    interval: 86400
+    proxy: DIRECT
+  applications:
+    type: http
+    behavior: classical
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/anaer/Sub/main/rules/classical/applications.yaml
+    path: ./rules/classical/applications.yaml
+    interval: 86400
+    proxy: DIRECT

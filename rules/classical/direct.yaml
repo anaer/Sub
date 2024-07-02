@@ -1,0 +1,8 @@
+payload:
+  - DOMAIN-SUFFIX, zhheo.com
+  - DOMAIN-SUFFIX, axshare.com
+  - DOMAIN-SUFFIX, microsoft.com
+  - DOMAIN-SUFFIX, lastpass.com
+  - DOMAIN-SUFFIX, innoreader.com
+  - DOMAIN-SUFFIX, gitbook.io
+  - IP-CIDR,188.180.0.0/22
