@@ -1,0 +1,9 @@
+https://ghproxy.net/https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml, tag=SUB1, update-interval=21600, opt-parser=true, inserted-resource=true, enabled=true
+https://b3b0549e-160e-495a-a528-cccf5148bc48.372372.xyz/api/v1/client/subscribe?token=9635d08e4dae217abd53733ab127183d, tag=JC-0, update-interval=21600, opt-parser=true, inserted-resource=true, enabled=true
+https://bansub7.bplink.xyz/api/v1/client/subscribe?token=e78b428259cd7b104b9273be1dcf97bc, tag=JC-1, update-interval=21600, opt-parser=true, inserted-resource=true, enabled=true
+https://getinfo.bigbigwatermelon.com/api/v1/client/subscribe?token=6703942b160d96949635c9c9aa3d758d, tag=JC-2, update-interval=21600, opt-parser=true, inserted-resource=true, enabled=true
+https://lzysub.online/api/v1/client/subscribe?token=bfd894d175c66b37ef41a3c03c529f09, tag=JC-3, update-interval=21600, opt-parser=true, inserted-resource=true, enabled=true
+https://sub1.tg-mfjd666.cloudns.be/api/v1/client/subscribe/token=598adee7147c414593f29c74cfade831f4d95313f786bb749ca643ea23bb0fd3, tag=JC-4, update-interval=21600, opt-parser=true, inserted-resource=true, enabled=true
+https://sub123.71345.xyz/api/v1/client/subscribe?token=f0858ff0a06e3e5c377ab69522abc04d, tag=JC-5, update-interval=21600, opt-parser=true, inserted-resource=true, enabled=true
+https://wws.s2fjeyeeyafe.bond/api/v1/client/subscribe?token=a4bb2d2a253a62b0a105b92ee4aa8e18&amp;flag=meta, tag=JC-6, update-interval=21600, opt-parser=true, inserted-resource=true, enabled=true
+https://xfsnet.com/api/v1/client/subscribe?token=b6604f287cdf8e5665ebc7393755cae6, tag=JC-7, update-interval=21600, opt-parser=true, inserted-resource=true, enabled=true
