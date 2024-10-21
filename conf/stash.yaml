@@ -1,0 +1,193 @@
+# 代理提供商
+proxy-providers:
+  anaer-Sub:
+    url: https://anaer.github.io/Sub/clash.yaml
+    interval: 3600
+
+# 代理分组
+proxy-groups:
+  # 功能分组
+  - name: 选择代理
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Proxy.png
+    type: select
+    proxies:
+      - 负载均衡
+      - 故障恢复
+      - 自动选择
+      - 手动选择
+      - DIRECT
+
+  - name: 负载均衡
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Star.png
+    interval: 120
+    lazy: false
+    tolerance: 50
+    type: load-balance
+    include-all: true
+
+  - name: 故障恢复
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Lock.png
+    interval: 120
+    lazy: false
+    type: fallback
+    include-all: true
+  
+  - name: 自动选择
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Auto.png
+    interval: 120
+    lazy: false
+    tolerance: 50
+    type: url-test
+    include-all: true
+
+  - name: 手动选择
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Static.png
+    interval: 120
+    lazy: true
+    type: select
+    include-all: true
+
+  - name: Spotify
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Spotify.png
+    type: select
+    proxies: 
+      - DIRECT
+      - 选择代理
+
+
+  - name: YouTube
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/YouTube.png
+    type: select
+    proxies: 
+      - 选择代理
+      - DIRECT
+
+  - name: GitHub
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/GitHub.png
+    type: select
+    proxies:
+      - 选择代理
+      - DIRECT
+
+  - name: 漏网之鱼
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Final.png
+    type: select
+    proxies:
+      - 选择代理
+      - DIRECT
+
+rules:
+  - SCRIPT,quic,REJECT
+  - RULE-SET,advertising,REJECT
+  - RULE-SET,applications,DIRECT
+  - RULE-SET,icloud,DIRECT
+  - RULE-SET,apple,DIRECT
+  - RULE-SET,github,GitHub
+  - RULE-SET,google,选择代理
+  - RULE-SET,youtube,选择代理
+  - RULE-SET,telegram,选择代理
+  - RULE-SET,spotify,Spotify
+  - RULE-SET,gfw,选择代理
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,漏网之鱼
+
+rule-providers:
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+
+  apple:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
+    path: ./ruleset/apple.yaml
+    interval: 86400
+
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+
+  youtube:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml"
+    path: ./ruleset/YouTube_Classical.yaml
+    interval: 86400
+    
+  google:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google.yaml"
+    path: ./ruleset/Google_Classical.yaml
+    interval: 86400
+
+  github:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GitHub/GitHub.yaml"
+    path: ./ruleset/GitHub_Classical.yaml
+    interval: 86400
+
+  telegram:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram.yaml"
+    path: ./ruleset/Telegram_Classical.yaml
+    interval: 86400
+
+  spotify:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Spotify/Spotify.yaml"
+    path: ./ruleset/Spotify_Classical.yaml
+    interval: 86400
+
+  applications:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    path: ./ruleset/applications.yaml
+    interval: 86400
+    
+  advertising:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising_Classical.yaml"
+    path: ./ruleset/Advertising_Classical.yaml
+    interval: 86400
+
+script:
+  shortcuts:
+    quic: network == 'udp' and dst_port == 443
+dns:
+  default-nameserver:
+    - 114.114.114.114
+    - 8.8.8.8
+  nameserver:
+    - 114.114.114.114
+    - 8.8.8.8
+    - tls://dns.rubyfish.cn:853
+    - https://1.1.1.1/dns-query
+
+  # 跳过证书验证，解决部分兼容性问题 https://help.nextdns.io/t/g9hdkjz
+  skip-cert-verify: true
+
+# HTTP 引擎相关
+# http:
+  # 强制使用 HTTP 引擎处理 TCP 连接
+  # 捕获后的连接可以使用高级功能，例如重写和脚本
+  # PS: 开启仅使用Tunnel代理时 需要配置此项
+  # force-http-engine:
+  #   - '*:80'
+
+log-level: warning
+mode: rule
+# 允许局域网
+allow-lan: false
