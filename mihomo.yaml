@@ -1,0 +1,442 @@
+mixed-port: 7890
+mode: Rule
+log-level: warning
+allow-lan: true
+bind-address: '*'
+ipv6: false
+udp: false
+unified-delay: true
+tcp-concurrent: true
+find-process-mode: strict
+global-client-fingerprint: chrome
+external-controller: 0.0.0.0:9090
+external-ui: ui
+external-ui-url: https://mirror.ghproxy.com/https://github.com/anaer/yacd/archive/refs/heads/gh-pages.zip
+secret: '666999'
+geodata-mode: true
+geodata-loader: standard
+geo-auto-update: true
+geo-update-interval: 3
+geox-url:
+  geoip: https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/geoip.dat
+  geosite: https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/geosite.dat
+  mmdb: https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/country.mmdb
+  asn: https://mirror.ghproxy.com/https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb
+keep-alive-interval: 600
+profile:
+  store-selected: true
+  store-fake-ip: true
+ntp:
+  enable: false
+  write-to-system: true
+  server: time.apple.com
+  port: 123
+  interval: 30
+sniffer:
+  enable: true
+  parse-pure-ip: false
+  override-destination: true
+  sniff:
+    HTTP:
+      ports:
+      - 80
+      - 8080-8800
+      override-destination: true
+    TLS:
+      ports:
+      - 443
+      - 8443
+    QUIC:
+      ports:
+      - 443
+      - 8443
+  skip-domain:
+  - Mijia Cloud
+  - dlg.io.mi.com
+  - +.apple.com
+  - +.linux.do
+tun:
+  enable: true
+  stack: mixed
+  dns-hijack:
+  - any:53
+  auto-route: true
+  auto-detect-interface: true
+  strict-route: true
+  endpoint-independent-nat: false
+dns:
+  enable: true
+  use-hosts: true
+  use-system-hosts: true
+  listen: 0.0.0.0:9527
+  ipv6: false
+  ipv6-timeout: 300
+  prefer-h3: true
+  enhanced-mode: fake-ip
+  cache-algorithm: arc
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - geosite:private
+  - '*.lan'
+  - '*.local'
+  - '*.localhost'
+  - '*.localdomain'
+  - '*.example'
+  - '*.ntp.org.cn'
+  - '*.time.edu.cn'
+  - +.pool.ntp.org
+  - ntp.*.com
+  - time.*.com
+  - time.*.gov
+  - +.qq.com
+  - +.tencent.com
+  - +.wechat.com
+  - +.weixin.qq.com
+  - localhost.ptlogin2.qq.com
+  - localhost.sec.qq.com
+  - localhost.work.weixin.qq.com
+  - '*.microsoftonline.com'
+  - '*.msftconnecttest.com'
+  - '*.msftncsi.com'
+  - +.msftncsi.com
+  - +.steamcontent.com
+  - time.windows.com
+  - +.stun.*.*
+  - +.stun.*.*.*
+  - +.stun.*.*.*.*
+  - +.stun.*.*.*.*.*
+  - stun.*.*
+  - stun.*.*.*
+  - mesu.apple.com
+  - swcdn.apple.com
+  - swdist.apple.com
+  - swdownload.apple.com
+  - swquery.apple.com
+  - swscan.apple.com
+  - Mijia Cloud
+  - +.cmpassport.com
+  - +.logon.battle.net
+  - +.logon.battlenet.com.cn
+  - +.pingan.com.cn
+  default-nameserver:
+  - tls://223.5.5.5:853
+  - https://120.53.53.53/dns-query
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://doh.opendns.com:443/dns-query
+  - https://1.1.1.1:443/dns-query
+  nameserver-policy:
+    geosite:private:
+    - system
+    geosite:category-ads-all: rcode://success
+  fallback:
+  - tls://dot.tiar.app
+  - tls://dns.quad9.net
+  - tls://223.5.5.5
+  - https://doh.dnslify.com/dns-query
+  - https://dnsforge.de/dns-query
+  - https://dns.twnic.tw/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+    - 240.0.0.0/4
+    - 0.0.0.0/32
+    domain:
+    - +.ai.com
+    - +.algolia.net
+    - +.anthropic.com
+    - +.argotunnel.com
+    - +.arkoselabs.com
+    - +.auth0.com
+    - +.azure.com
+    - +.azureedge.net
+    - +.bing.com
+    - +.bingapis.com
+    - +.bugsnag.com
+    - +.chatgpt.com
+    - +.claude.ai
+    - +.cloudflare.net
+    - +.cloudflareinsights.com
+    - +.cohere.ai
+    - +.docker.com
+    - +.docker.io
+    - +.facebook.com
+    - +.github.com
+    - +.githubusercontent.com
+    - +.google
+    - +.google.com
+    - +.google.dev
+    - +.googleapis.cn
+    - +.googlevideo.com
+    - +.identrust.com
+    - +.instagram.com
+    - +.intercom.io
+    - +.live.com
+    - +.livekit.cloud
+    - +.meta.ai
+    - +.microsoft.com
+    - +.microsoftapp.net
+    - +.minecraft.net
+    - +.msn.com
+    - +.openai.com
+    - +.poe.com
+    - +.segment.com
+    - +.segment.io
+    - +.sentry.io
+    - +.synn.cc
+    - +.stripe.com
+    - +.t.me
+    - +.tailscale.com
+    - +.tailscale.io
+    - +.twitter.com
+    - +.usefathom.com
+    - +.v2ex.com
+    - +.windows.net
+    - +.wootric.com
+    - +.x.com
+    - +.youtube.com
+proxy-providers:
+  SUB1:
+    type: http
+    interval: 3600
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+      lazy: true
+    url: https://ghproxy.net/https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
+    path: ./proxies/SUB1.yaml
+proxy-groups:
+- name: PROXY
+  type: select
+  proxies:
+  - LOAD-BALANCE
+  - FALLBACK
+  - URL-TEST
+  - SELECT
+  - DIRECT
+- name: DEBUG
+  type: select
+  proxies:
+  - DIRECT
+  - SELECT
+- name: SELECT
+  type: select
+  proxies:
+  - 金
+  - 木
+  - 水
+  - 火
+  - 土
+- name: URL-TEST
+  type: url-test
+  proxies:
+  - 金
+  - 木
+  - 水
+  - 火
+  - 土
+- name: FALLBACK
+  type: fallback
+  proxies:
+  - 金
+  - 木
+  - 水
+  - 火
+  - 土
+- name: LOAD-BALANCE
+  type: load-balance
+  strategy: consistent-hashing
+  hidden: true
+  proxies:
+  - 金
+  - 木
+  - 水
+  - 火
+  - 土
+- name: GITHUB
+  type: select
+  proxies:
+  - PROXY
+  - FALLBACK
+  - URL-TEST
+  - SELECT
+  - LOAD-BALANCE
+  - DIRECT
+- name: OPENAI
+  type: select
+  proxies:
+  - FALLBACK
+  - SELECT
+  - URL-TEST
+  - LOAD-BALANCE
+  - PROXY
+  - DIRECT
+- name: BLOCK
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+- name: FINAL
+  type: select
+  proxies:
+  - PROXY
+  - DIRECT
+- url: https://www.gstatic.com/generate_204
+  interval: 300
+  timeout: 5000
+  lazy: false
+  max-failed-times: 5
+  include-all-providers: true
+  type: fallback
+  name: 金
+  filter: ^.*[49]$
+- url: https://www.gstatic.com/generate_204
+  interval: 300
+  timeout: 5000
+  lazy: false
+  max-failed-times: 5
+  include-all-providers: true
+  type: fallback
+  name: 木
+  filter: ^.*[13]$
+- url: https://www.gstatic.com/generate_204
+  interval: 300
+  timeout: 5000
+  lazy: false
+  max-failed-times: 5
+  include-all-providers: true
+  type: fallback
+  name: 水
+  filter: ^.*[06]$
+- url: https://www.gstatic.com/generate_204
+  interval: 300
+  timeout: 5000
+  lazy: false
+  max-failed-times: 5
+  include-all-providers: true
+  type: fallback
+  name: 火
+  filter: ^.*[27]$
+- url: https://www.gstatic.com/generate_204
+  interval: 300
+  timeout: 5000
+  lazy: false
+  max-failed-times: 5
+  include-all-providers: true
+  type: fallback
+  name: 土
+  filter: ^.*[58]$
+rules:
+- AND, ((NETWORK,UDP), (DST-PORT,443),(NOT,((GEOIP,CN)))),REJECT
+- AND,((RULE-SET,anti-AD),(NOT,((RULE-SET,anti-AD-white)))),REJECT
+- RULE-SET,proxy-classical,PROXY
+- RULE-SET,direct-classical,DIRECT
+- RULE-SET,applications,DIRECT
+- DOMAIN-SUFFIX,fofa.info,DEBUG
+- DOMAIN-SUFFIX,v2ex.com,PROXY
+- DOMAIN,wiki.metacubex.one,PROXY
+- DOMAIN,bulianglin.com,PROXY
+- DOMAIN,regex101.com,PROXY
+- DOMAIN-SUFFIX,bing.com,PROXY
+- DOMAIN-SUFFIX,google.com,PROXY
+- DOMAIN-SUFFIX,suno.ai,PROXY
+- DOMAIN-SUFFIX,suno.com,PROXY
+- DOMAIN-SUFFIX,downforeveryoneorjustme.com,DIRECT
+- DOMAIN-SUFFIX,axshare.com,DIRECT
+- DOMAIN-SUFFIX,bboy.app,DIRECT
+- DOMAIN-SUFFIX,challenges.cloudflare.com,DIRECT
+- DOMAIN-SUFFIX,gitbook.io,DIRECT
+- DOMAIN-SUFFIX,icon-icons.com,DIRECT
+- DOMAIN-SUFFIX,innoreader.com,DIRECT
+- DOMAIN-SUFFIX,lastpass.com,DIRECT
+- DOMAIN-SUFFIX,linux.do,DIRECT
+- DOMAIN-SUFFIX,microsoft.com,DIRECT
+- DOMAIN-SUFFIX,visualstudio.com,DIRECT
+- DOMAIN-SUFFIX,zhheo.com,DIRECT
+- IP-CIDR,188.160.0.0/22,DIRECT,no-resolve
+- IP-CIDR,188.180.0.0/22,DIRECT,no-resolve
+- PROCESS-NAME,WXWork.exe,DIRECT
+- PROCESS-NAME,WeMail.exe,DIRECT
+- PROCESS-NAME,WeMailNode.exe,DIRECT
+- PROCESS-NAME,aria2.exe,DIRECT
+- PROCESS-NAME,aria2c.exe,DIRECT
+- PROCESS-NAME,proxifier.exe,DIRECT
+- GEOSITE,github,GITHUB
+- GEOSITE,openai,OPENAI
+- GEOSITE,category-ads-all,BLOCK
+- GEOSITE,category-porn,BLOCK
+- GEOSITE,tencent@ads,BLOCK
+- GEOSITE,category-scholar-!cn,PROXY
+- GEOSITE,category-social-media-!cn,PROXY
+- GEOSITE,geolocation-!cn,PROXY
+- GEOSITE,bing,PROXY
+- GEOSITE,youtube,PROXY
+- GEOSITE,google,PROXY
+- GEOSITE,twitter,PROXY
+- GEOSITE,biliintl,PROXY
+- GEOSITE,spotify,PROXY
+- GEOSITE,telegram,PROXY
+- GEOSITE,netflix,PROXY
+- GEOSITE,disney,PROXY
+- GEOSITE,tiktok,PROXY
+- GEOSITE,facebook,PROXY
+- GEOSITE,meta,PROXY
+- GEOSITE,gfw,PROXY
+- GEOSITE,apple-cn,DIRECT
+- GEOSITE,apple@cn,DIRECT
+- GEOSITE,category-games@cn,DIRECT
+- GEOSITE,cn,DIRECT
+- GEOSITE,geolocation-cn,DIRECT
+- GEOSITE,icloud@cn,DIRECT
+- GEOSITE,microsoft@cn,DIRECT
+- GEOSITE,onedrive,DIRECT
+- GEOSITE,private,DIRECT
+- GEOSITE,steam@cn,DIRECT
+- GEOSITE,tld-cn,DIRECT
+- GEOIP,telegram,PROXY,no-resolve
+- GEOIP,netflix,PROXY,no-resolve
+- GEOIP,google,PROXY,no-resolve
+- GEOIP,facebook,PROXY,no-resolve
+- GEOIP,twitter,PROXY,no-resolve
+- GEOIP,private,DIRECT,no-resolve
+- GEOIP,lan,DIRECT,no-resolve
+- GEOIP,cn,DIRECT,no-resolve
+- MATCH,FINAL
+rule-providers:
+  anti-AD:
+    type: http
+    behavior: domain
+    format: yaml
+    path: ./rules/domain/anti-AD.yaml
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml
+    interval: 86400
+  anti-AD-white:
+    type: http
+    behavior: domain
+    format: yaml
+    path: ./rules/domain/anti-AD-white.yaml
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-for-clash.yaml
+    interval: 86400
+  applications:
+    type: http
+    behavior: classical
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/anaer/Sub/main/rules/classical/applications.yaml
+    path: ./rules/classical/applications.yaml
+    interval: 86400
+    proxy: DIRECT
+  direct-classical:
+    type: http
+    behavior: classical
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/anaer/Sub/main/rules/classical/direct.yaml
+    path: ./rules/classical/direct.yaml
+    interval: 86400
+    proxy: DIRECT
+  proxy-classical:
+    type: http
+    behavior: classical
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/anaer/Sub/main/rules/classical/proxy.yaml
+    path: ./rules/classical/proxy.yaml
+    interval: 86400
+    proxy: DIRECT
