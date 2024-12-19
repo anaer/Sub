@@ -1,0 +1,16 @@
+payload:
+  - DOMAIN-SUFFIX, zhheo.com
+  - DOMAIN-SUFFIX, axshare.com
+  - DOMAIN-SUFFIX, microsoft.com
+  - DOMAIN-SUFFIX, lastpass.com
+  - DOMAIN-SUFFIX, innoreader.com
+  - DOMAIN-SUFFIX, gitbook.io
+  - DOMAIN-SUFFIX, visualstudio.com
+  - DOMAIN-SUFFIX, follow.is
+  - DOMAIN-SUFFIX, echs.top
+  - DOMAIN-SUFFIX, sharepoint.cn
+  - DOMAIN-SUFFIX, zwying.com
+  - DOMAIN-SUFFIX, lwgzs.cn
+  - DOMAIN-SUFFIX, 123pan.cn
+  - DOMAIN-SUFFIX, 123957.com
+  - IP-CIDR,188.180.0.0/22
