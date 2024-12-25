@@ -1,0 +1,14 @@
+payload:
+  - DOMAIN,bulianglin.com
+  - DOMAIN,connectivitycheck.gstatic.com
+  - DOMAIN,regex101.com
+  - DOMAIN,wiki.metacubex.one
+  - DOMAIN-SUFFIX,android.clients.google.com
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,google.com
+  - DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,serv00.com
+  - DOMAIN-SUFFIX,suno.ai
+  - DOMAIN-SUFFIX,suno.com
+  - DOMAIN-SUFFIX,v2ex.com
