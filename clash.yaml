@@ -1,0 +1,1900 @@
+mixed-port: 7890
+tcp-concurrent: false
+allow-lan: true
+ipv6: true
+mode: Rule
+log-level: info
+global-client-fingerprint: chrome
+find-process-mode: strict
+external-controller: 0.0.0.0:9090
+geodata-mode: true
+geo-auto-update: true
+geo-update-interval: 3
+geox-url:
+  geoip: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat
+  geosite: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat
+  mmdb: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
+  asn: https://mirror.ghproxy.com/https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb
+profile:
+  store-selected: true
+  store-fake-ip: true
+sniffer:
+  enable: true
+  parse-pure-ip: true
+  sniff:
+    HTTP:
+      ports:
+      - 80
+      - 8080-8800
+      override-destination: true
+    TLS:
+      ports:
+      - 443
+      - 8443
+    QUIC:
+      ports:
+      - 443
+      - 8443
+  skip-domain:
+  - Mijia Cloud
+  - dlg.io.mi.com
+  - +.apple.com
+tun:
+  enable: false
+  stack: mixed
+  dns-hijack:
+  - any:53
+  auto-route: true
+  auto-detect-interface: true
+dns:
+  enable: true
+  ipv6: true
+  prefer-h3: true
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - '*.lan'
+  - cable.auth.com
+  - +.msftconnecttest.com
+  - +.msftncsi.com
+  - network-test.debian.org
+  - detectportal.firefox.com
+  - resolver1.opendns.com
+  - +.srv.nintendo.net
+  - +.stun.playstation.net
+  - xbox.*.microsoft.com
+  - +.xboxlive.com
+  - stun.*
+  - global.turn.twilio.com
+  - global.stun.twilio.com
+  - localhost.*.qq.com
+  - +.logon.battlenet.com.cn
+  - +.logon.battle.net
+  - +.blzstatic.cn
+  - +.cmpassport.com
+  - id6.me
+  - open.e.189.cn
+  - mdn.open.wo.cn
+  - opencloud.wostore.cn
+  - auth.wosms.cn
+  - +.jegotrip.com.cn
+  - +.icitymobile.mobi
+  - +.pingan.com.cn
+  - +.cmbchina.com
+  - +.cmbchina.com.cn
+  - pool.ntp.org
+  - +.pool.ntp.org
+  - ntp.*.com
+  - time.*.com
+  - ntp?.*.com
+  - time?.*.com
+  - time.*.gov
+  - time.*.edu.cn
+  - +.ntp.org.cn
+  - time.*.apple.com
+  default-nameserver:
+  - 223.5.5.5
+  - 119.29.29.29
+  nameserver-policy:
+    www.baidu.com: 114.114.114.114
+    +.internal.crop.com: 10.0.0.1
+    www.baidu.com,+.google.cn: https://doh.pub/dns-query
+    geosite:private,apple: https://dns.alidns.com/dns-query
+    rule-set:google: 8.8.8.8
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  fallback:
+  - https://1.1.1.2/dns-query
+  - https://1.0.0.2/dns-query
+  - https://208.67.222.222/dns-query
+  - https://208.67.220.220/dns-query
+  - https://9.9.9.9/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    geosite:
+    - gfw
+    ipcidr:
+    - 240.0.0.0/4
+    - 0.0.0.0/32
+    domain:
+    - +.google.com
+    - +.github.com
+    - +.facebook.com
+    - +.twitter.com
+    - +.youtube.com
+    - +.google.cn
+    - +.googleapis.cn
+    - +.googleapis.com
+proxies:
+- name: 美国 002
+  type: vless
+  network: ws
+  server: 104.18.14.19
+  port: 2082
+  uuid: 131387aa-4b2a-43aa-bf7c-d94306ba55fb
+  servername: 13tg.jpl8xmqb.workers.dev
+  skip-cert-verify: false
+  tls: false
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: 13tg.jpl8xmqb.workers.dev
+    path: /?ed=2560
+- name: 加拿大 006
+  type: vless
+  network: ws
+  server: 104.17.147.22
+  port: 2052
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  servername: freev2rng---freev2rng---freev2rng---freev2rng---freev2rng.s88p4jh.workers.dev
+  tls: false
+  ws-opts:
+    headers:
+      Host: freev2rng---freev2rng---freev2rng---freev2rng---freev2rng.s88p4jh.workers.dev
+    path: /WG9SqpThFFMyTenz?ed=2560
+- name: 加拿大 007
+  type: vless
+  network: ws
+  server: 172.67.163.189
+  port: 8080
+  uuid: dc580147-c87c-4527-bf90-192eb1cf62d1
+  servername: stArt.siTEG52770.WorKeRS.deV
+  skip-cert-verify: false
+  tls: false
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: stArt.siTEG52770.WorKeRS.deV
+    path: /V7zmCPZUuL2T1r5r/MC4wLjAuMA==?ed=2560
+- name: 加拿大 009
+  type: vless
+  network: ws
+  server: 188.114.97.1
+  port: 80
+  uuid: 90b3cbba-e6ac-485a-9481-976a0415eab9
+  servername: biTter-DArkNEsS-3199.wAKoCi1200.WorkERS.dEv
+  skip-cert-verify: false
+  tls: false
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: biTter-DArkNEsS-3199.wAKoCi1200.WorkERS.dEv
+    path: /09EpH4tzdpaF2F6Q?ed=2560
+- name: 阿联酋 001
+  type: vless
+  server: 181.215.205.99
+  port: 443
+  uuid: 71b60539-19bf-4282-b09f-7596ffc3cc8b
+  servername: adobe.com
+  skip-cert-verify: false
+  tls: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ljzfoaXVBSNu3tw58-B0WNViso1aA9JSCX9GUcMDu0k
+    short-id: 4048A3da
+  flow: xtls-rprx-vision
+- name: 荷兰 002
+  type: vless
+  server: 174.138.13.224
+  port: 15891
+  uuid: ae2228d1-9b8f-4914-9e0a-68a115f8dbe1
+  servername: ftp.debian.org
+  skip-cert-verify: false
+  tls: true
+  client-fingerprint: random
+  reality-opts:
+    public-key: 4FNDHgDP2lnetuRioH6DsE9kMnDyhkJ2NHLMpZgyci0
+    short-id: 10f1
+- name: 荷兰 004
+  type: vless
+  server: 185.236.233.136
+  port: 2198
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  skip-cert-verify: false
+  tls: false
+- name: 美国 001
+  type: vmess
+  network: ws
+  server: gs09.guoshi1520.com
+  port: 443
+  uuid: 681e76bc-c19e-4614-ca47-95ba2253a5a3
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: gs09.guoshi1520.com
+    path: /681e76bc
+- name: 印度 001
+  type: vmess
+  network: ws
+  server: 129.154.46.115
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- name: 印度 002
+  type: vmess
+  network: ws
+  server: 141.148.220.141
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- name: 美国 003
+  type: vmess
+  network: ws
+  server: 3.98.73.243
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- name: 加拿大 001
+  type: vmess
+  network: ws
+  server: 104.16.60.8
+  port: 80
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: range-shape-b3fuegu.bananok182.workers.dev
+    path: /hms02.fxiaomi.sbs/link
+- name: 加拿大 002
+  type: vmess
+  network: ws
+  server: 104.16.61.8
+  port: 80
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: range-shape-b3fuegu.bananok182.workers.dev
+    path: /hms02.fxiaomi.sbs/link
+- name: 美国 004
+  type: vless
+  network: ws
+  server: 216.24.57.130
+  port: 8880
+  uuid: 1b6ae0f5-01dc-4b96-bca9-31c672dcf0aa
+  servername: mohsenfitshr.wibibin259.workers.dev
+  skip-cert-verify: false
+  tls: false
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: mohsenfitshr.wibibin259.workers.dev
+    path: /
+- name: 加拿大 003
+  type: vless
+  network: ws
+  server: 172.64.146.118
+  port: 8880
+  uuid: 25af9eb2-3310-4f2b-bc82-ebea62ba7906
+  servername: config-proxy-vl.telegram-config-proxy.workers.dev
+  skip-cert-verify: false
+  tls: false
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: config-proxy-vl.telegram-config-proxy.workers.dev
+    path: /?ed=2560
+- name: 加拿大 004
+  type: vmess
+  network: ws
+  server: 104.21.238.150
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 005
+  type: vmess
+  network: ws
+  server: 104.21.238.152
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 008
+  type: vmess
+  network: ws
+  server: 104.21.238.153
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 010
+  type: vmess
+  network: ws
+  server: 104.21.238.156
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 011
+  type: vmess
+  network: ws
+  server: 104.21.238.157
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 005
+  type: vmess
+  network: ws
+  server: 104.21.238.158
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 006
+  type: vmess
+  network: ws
+  server: 104.21.238.161
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 007
+  type: vmess
+  network: ws
+  server: 104.21.238.162
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 008
+  type: vmess
+  network: ws
+  server: 104.21.238.163
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 012
+  type: vmess
+  network: ws
+  server: 104.21.238.166
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 013
+  type: vmess
+  network: ws
+  server: 104.21.238.168
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 009
+  type: vmess
+  network: ws
+  server: 104.21.238.169
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 014
+  type: vmess
+  network: ws
+  server: 104.21.238.171
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 015
+  type: vmess
+  network: ws
+  server: 104.21.238.174
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 016
+  type: vmess
+  network: ws
+  server: 104.21.238.176
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 010
+  type: vmess
+  network: ws
+  server: 104.21.238.177
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 017
+  type: vmess
+  network: ws
+  server: 104.21.238.178
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 018
+  type: vmess
+  network: ws
+  server: 104.21.238.179
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 019
+  type: vmess
+  network: ws
+  server: 104.21.238.181
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 011
+  type: vmess
+  network: ws
+  server: 104.21.238.182
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 012
+  type: vmess
+  network: ws
+  server: 104.21.238.184
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 020
+  type: vmess
+  network: ws
+  server: 104.21.238.186
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 021
+  type: vmess
+  network: ws
+  server: 104.21.238.187
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 013
+  type: vmess
+  network: ws
+  server: 104.21.238.189
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 022
+  type: vmess
+  network: ws
+  server: 104.21.238.190
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 023
+  type: vmess
+  network: ws
+  server: 104.21.238.191
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 024
+  type: vmess
+  network: ws
+  server: 104.21.238.193
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 025
+  type: vmess
+  network: ws
+  server: 104.21.238.194
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 026
+  type: vmess
+  network: ws
+  server: 104.21.238.195
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 027
+  type: vmess
+  network: ws
+  server: 104.21.238.196
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 028
+  type: vmess
+  network: ws
+  server: 104.21.238.197
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 029
+  type: vmess
+  network: ws
+  server: 104.21.238.198
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 014
+  type: vmess
+  network: ws
+  server: 104.21.238.200
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 015
+  type: vmess
+  network: ws
+  server: 104.21.238.201
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 016
+  type: vmess
+  network: ws
+  server: 104.21.238.202
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 017
+  type: vmess
+  network: ws
+  server: 104.21.238.203
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 030
+  type: vmess
+  network: ws
+  server: 104.21.238.205
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 018
+  type: vmess
+  network: ws
+  server: 104.21.238.206
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 031
+  type: vmess
+  network: ws
+  server: 104.21.238.209
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 032
+  type: vmess
+  network: ws
+  server: 104.21.238.210
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 033
+  type: vmess
+  network: ws
+  server: 104.21.238.212
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 019
+  type: vmess
+  network: ws
+  server: 3.13.196.41
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- name: 加拿大 034
+  type: trojan
+  network: ws
+  server: 104.26.9.227
+  port: 443
+  password: b80Iy90Fma
+  skip-cert-verify: true
+  udp: true
+  tfo: false
+  sni: usa03.rtx.al
+  ws-opts:
+    headers:
+      Host: usa03.rtx.al
+    path: /cfyyds
+- name: 美国 020
+  type: vmess
+  network: tcp
+  server: 198.2.218.102
+  port: 41400
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  skip-cert-verify: true
+  tls: false
+  alterId: 64
+  cipher: auto
+- name: 美国 021
+  type: vless
+  network: ws
+  server: 160.79.105.221
+  port: 443
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  servername: dsb.ylks.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: dsb.ylks.us.kg
+    path: /?ed=2560
+- name: 美国 022
+  type: vless
+  network: ws
+  server: 216.221.210.185
+  port: 443
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  servername: dsb.ylks.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: dsb.ylks.us.kg
+    path: /?ed=2560
+- name: 哈萨克斯坦 001
+  type: vless
+  network: ws
+  server: 194.76.18.10
+  port: 443
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  servername: dsb.ylks.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: dsb.ylks.us.kg
+    path: /?ed=2560
+- name: 南非 001
+  type: vless
+  network: ws
+  server: 160.123.255.23
+  port: 443
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  servername: dsb.ylks.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: dsb.ylks.us.kg
+    path: /?ed=2560
+- name: 俄罗斯 001
+  type: vless
+  network: ws
+  server: 45.67.215.48
+  port: 443
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  servername: dsb.ylks.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: dsb.ylks.us.kg
+    path: /?ed=2560&proxyip=45.67.215.48:443
+- name: 俄罗斯 002
+  type: vless
+  network: ws
+  server: 45.67.215.178
+  port: 443
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  servername: dsb.ylks.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: dsb.ylks.us.kg
+    path: /?ed=2560
+- name: 南非 002
+  type: vless
+  network: ws
+  server: 160.123.255.20
+  port: 443
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  servername: dsb.ylks.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: dsb.ylks.us.kg
+    path: /?ed=2560
+- name: 南非 003
+  type: vless
+  network: ws
+  server: 160.123.255.121
+  port: 443
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  servername: dsb.ylks.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: dsb.ylks.us.kg
+    path: /?ed=2560
+- name: 美国 023
+  type: vless
+  network: ws
+  server: 160.79.104.76
+  port: 443
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  servername: dsb.ylks.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: dsb.ylks.us.kg
+    path: /?ed=2560&proxyip=160.79.104.76:443
+- name: 美国 024
+  type: vless
+  network: ws
+  server: 63.141.128.99
+  port: 443
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  servername: dsb.ylks.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: dsb.ylks.us.kg
+    path: /?ed=2560
+- name: 日本 001
+  type: vless
+  network: ws
+  server: 64.110.104.30
+  port: 443
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  servername: dsb.ylks.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: dsb.ylks.us.kg
+    path: /?ed=2560&proxyip=64.110.104.30:443
+- name: 美国 025
+  type: vless
+  network: ws
+  server: 129.80.222.224
+  port: 443
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  servername: dsb.ylks.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: dsb.ylks.us.kg
+    path: /?ed=2560
+- name: 加拿大 035
+  type: vless
+  network: ws
+  server: 172.67.187.219
+  port: 8880
+  uuid: a61fc8cb-0012-4c4b-aa5e-d1c623ae8092
+  servername: worker-late-feather-d436.wedome3486.workers.DEV
+  tls: false
+  ws-opts:
+    headers:
+      Host: worker-late-feather-d436.wedome3486.workers.DEV
+    path: /
+- name: 美国 026
+  type: trojan
+  network: tcp
+  server: 107.175.70.80
+  port: 8848
+  password: 023f7aa2-d079-40d8-a730-c681947f10bb
+  skip-cert-verify: true
+  udp: true
+  sni: 107.175.70.80
+- name: 意大利 001
+  type: vless
+  network: ws
+  server: 204.216.216.148
+  port: 8443
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  servername: dsb.ylks.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: dsb.ylks.us.kg
+    path: /?ed=2560
+- name: 伊朗 001
+  type: vmess
+  network: tcp
+  server: 92.242.220.22
+  port: 37885
+  uuid: 8dee19ab-50ce-4d06-be42-5e53c8989ccc
+  skip-cert-verify: true
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-headers:
+    Host: 92.242.220.22
+- name: 美国 027
+  type: vmess
+  network: ws
+  server: 52.29.224.33
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /
+- name: 法国 001
+  type: vmess
+  network: ws
+  server: 193.160.130.245
+  port: 443
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /
+- name: 法国 002
+  type: vmess
+  network: ws
+  server: beyonddsz.cfd
+  port: 443
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /
+- name: 伊朗 002
+  type: vmess
+  network: ws
+  server: 2.189.59.7
+  port: 443
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  servername: obdii.cfd
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /
+- name: 丹麦 001
+  type: vmess
+  network: tcp
+  server: 193.29.107.234
+  port: 49020
+  uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd
+  tls: false
+  alterId: 64
+  cipher: auto
+- name: 法国 003
+  type: vmess
+  network: ws
+  server: 35.181.77.67
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- name: 美国 028
+  type: vmess
+  network: ws
+  server: 192.74.247.199
+  port: 30005
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 64
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: www.84626764.xyz
+    path: /path/1735898521986
+- name: 美国 029
+  type: vmess
+  network: ws
+  server: 38.33.56.16
+  port: 38002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 64
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: www.56994187.xyz
+    path: /path/1735812367788
+- name: 美国 030
+  type: vmess
+  network: ws
+  server: 192.74.244.188
+  port: 31003
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  servername: www.17330585.xyz
+  skip-cert-verify: true
+  tls: true
+  alterId: 64
+  cipher: auto
+  delay: 2245
+  ws-opts:
+    headers:
+      Host: www.17330585.xyz
+    path: /path/1735898521986
+- name: 美国 031
+  type: vmess
+  network: ws
+  server: 151.101.64.155
+  port: 80
+  uuid: f071f630-bf7d-4741-8032-653b613dff04
+  servername: khamenei-313.IR.
+  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
+  delay: 1591
+  ws-opts:
+    headers:
+      Host: khamenei-313.IR.
+    path: /?ed=80/#id-telegram:--->
+- name: 美国 032
+  type: vmess
+  network: ws
+  server: 151.101.2.165
+  port: 80
+  uuid: aa76de21-1a95-4cc6-82d2-542661154a48
+  servername: banknabi-mahdi313.IR.
+  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
+  delay: 1664
+  ws-opts:
+    headers:
+      Host: banknabi-mahdi313.IR.
+    path: /?ed=80/#id-telegram:--->
+- name: 美国 033
+  type: vmess
+  network: ws
+  server: 151.101.0.155
+  port: 80
+  uuid: aa76de21-1a95-4cc6-82d2-542661154a48
+  servername: banknabi-mahdi313.IR.
+  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
+  delay: 2376
+  ws-opts:
+    headers:
+      Host: banknabi-mahdi313.IR.
+    path: /?ed=80/#id-telegram:--->
+- name: 爱尔兰 001
+  type: trojan
+  network: tcp
+  server: 52.210.128.14
+  port: 22222
+  password: telegram-id-privatevpns
+  udp: true
+  sni: trojan.burgerip.co.uk
+  delay: 981
+- name: 美国 034
+  type: vmess
+  network: ws
+  server: 38.33.56.55
+  port: 37001
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  skip-cert-verify: true
+  tls: true
+  alterId: 64
+  cipher: auto
+  delay: 1667
+  ws-opts:
+    headers:
+      Host: www.24006857.xyz
+    path: /path/1735898936173
+- name: 美国 035
+  type: vmess
+  network: ws
+  server: 38.33.56.53
+  port: 37001
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  skip-cert-verify: true
+  tls: true
+  alterId: 64
+  cipher: auto
+  delay: 1885
+  ws-opts:
+    headers:
+      Host: www.24006857.xyz
+    path: /path/1735725550785
+- name: 美国 036
+  type: vmess
+  network: ws
+  server: 192.74.242.214
+  port: 30004
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  skip-cert-verify: true
+  tls: true
+  alterId: 64
+  cipher: auto
+  delay: 1204
+  ws-opts:
+    headers:
+      Host: www.28620449.xyz
+    path: /path/1735812367788
+- name: 美国 037
+  type: vmess
+  network: ws
+  server: 198.200.48.248
+  port: 37006
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  skip-cert-verify: true
+  tls: true
+  alterId: 64
+  cipher: auto
+  delay: 1559
+  ws-opts:
+    headers:
+      Host: www.23355292.xyz
+    path: /path/1735898521986
+- name: 美国 038
+  type: vmess
+  network: ws
+  server: 137.175.23.130
+  port: 36003
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  skip-cert-verify: true
+  tls: true
+  alterId: 64
+  cipher: auto
+  delay: 1548
+  ws-opts:
+    headers:
+      Host: www.23178778.xyz
+    path: /path/1735812367788
+- name: 加拿大 036
+  type: vmess
+  network: ws
+  server: yx2.changyouVPN.top
+  port: 8880
+  uuid: 7efc3b9a-e73f-4e40-b57a-5319c463148b
+  servername: yd.changyouVPN.top
+  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
+  delay: 947
+  ws-opts:
+    headers:
+      Host: yd.changyouVPN.top
+    path: /?ed=2048
+- name: 美国 039
+  type: vmess
+  network: ws
+  server: 38.33.44.27
+  port: 38003
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  skip-cert-verify: true
+  tls: true
+  alterId: 64
+  cipher: auto
+  delay: 1171
+  ws-opts:
+    headers:
+      Host: www.59433543.xyz
+    path: /path/1735726499813
+- name: 美国 040
+  type: vmess
+  network: ws
+  server: 198.2.196.3
+  port: 36009
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  skip-cert-verify: true
+  tls: true
+  alterId: 64
+  cipher: auto
+  delay: 1560
+  ws-opts:
+    headers:
+      Host: www.84163007.xyz
+    path: /path/1735035359166
+- name: 美国 041
+  type: vmess
+  network: ws
+  server: 198.2.196.7
+  port: 36009
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  skip-cert-verify: true
+  tls: true
+  alterId: 64
+  cipher: auto
+  delay: 1570
+  ws-opts:
+    headers:
+      Host: www.84163007.xyz
+    path: /path/1735208641002
+- name: 美国 042
+  type: vmess
+  network: ws
+  server: 38.11.69.48
+  port: 30003
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  servername: www.52140341.xyz
+  skip-cert-verify: true
+  tls: true
+  alterId: 64
+  cipher: auto
+  delay: 1784
+  ws-opts:
+    headers:
+      Host: www.52140341.xyz
+    path: /path/1735812367788
+- name: 美国 043
+  type: vmess
+  network: ws
+  server: 199.188.105.56
+  port: 31004
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  skip-cert-verify: true
+  tls: true
+  alterId: 64
+  cipher: auto
+  delay: 1514
+  ws-opts:
+    headers:
+      Host: www.46554484.xyz
+    path: /path/1735639586341
+- name: 瑞典 001
+  type: vmess
+  network: ws
+  server: 51.20.161.26
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  tls: true
+  alterId: 0
+  cipher: auto
+  delay: 2354
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- name: 美国 044
+  type: vless
+  network: ws
+  server: 206.238.236.156
+  port: 443
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  servername: dsb.ylks.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: dsb.ylks.us.kg
+    path: /?ed=2560
+- name: 美国 045
+  type: vless
+  network: ws
+  server: 152.67.231.219
+  port: 443
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  servername: dsb.ylks.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: dsb.ylks.us.kg
+    path: /?ed=2560&proxyip=152.67.231.219:443
+- name: 美国 046
+  type: vmess
+  network: ws
+  server: hms02opi.fxiaomi.sbs
+  port: 443
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  skip-cert-verify: true
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: hms02.fxiaomi.sbs
+    path: /link
+- name: 加拿大 037
+  type: vmess
+  network: ws
+  server: 172.67.164.232
+  port: 443
+  uuid: 33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5
+  skip-cert-verify: true
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: 33.bycf.us.kg
+    path: /rongseven?ed=2048
+proxy-groups:
+- name: PROXY
+  type: select
+  proxies:
+  - LOAD-BALANCE
+  - SELECT
+  - FALLBACK
+  - DIRECT
+- name: SELECT
+  type: select
+  proxies: &id001
+  - 美国 002
+  - 加拿大 006
+  - 加拿大 007
+  - 加拿大 009
+  - 阿联酋 001
+  - 荷兰 002
+  - 荷兰 004
+  - 美国 001
+  - 印度 001
+  - 印度 002
+  - 美国 003
+  - 加拿大 001
+  - 加拿大 002
+  - 美国 004
+  - 加拿大 003
+  - 加拿大 004
+  - 加拿大 005
+  - 加拿大 008
+  - 加拿大 010
+  - 加拿大 011
+  - 美国 005
+  - 美国 006
+  - 美国 007
+  - 美国 008
+  - 加拿大 012
+  - 加拿大 013
+  - 美国 009
+  - 加拿大 014
+  - 加拿大 015
+  - 加拿大 016
+  - 美国 010
+  - 加拿大 017
+  - 加拿大 018
+  - 加拿大 019
+  - 美国 011
+  - 美国 012
+  - 加拿大 020
+  - 加拿大 021
+  - 美国 013
+  - 加拿大 022
+  - 加拿大 023
+  - 加拿大 024
+  - 加拿大 025
+  - 加拿大 026
+  - 加拿大 027
+  - 加拿大 028
+  - 加拿大 029
+  - 美国 014
+  - 美国 015
+  - 美国 016
+  - 美国 017
+  - 加拿大 030
+  - 美国 018
+  - 加拿大 031
+  - 加拿大 032
+  - 加拿大 033
+  - 美国 019
+  - 加拿大 034
+  - 美国 020
+  - 美国 021
+  - 美国 022
+  - 哈萨克斯坦 001
+  - 南非 001
+  - 俄罗斯 001
+  - 俄罗斯 002
+  - 南非 002
+  - 南非 003
+  - 美国 023
+  - 美国 024
+  - 日本 001
+  - 美国 025
+  - 加拿大 035
+  - 美国 026
+  - 意大利 001
+  - 伊朗 001
+  - 美国 027
+  - 法国 001
+  - 法国 002
+  - 伊朗 002
+  - 丹麦 001
+  - 法国 003
+  - 美国 028
+  - 美国 029
+  - 美国 030
+  - 美国 031
+  - 美国 032
+  - 美国 033
+  - 爱尔兰 001
+  - 美国 034
+  - 美国 035
+  - 美国 036
+  - 美国 037
+  - 美国 038
+  - 加拿大 036
+  - 美国 039
+  - 美国 040
+  - 美国 041
+  - 美国 042
+  - 美国 043
+  - 瑞典 001
+  - 美国 044
+  - 美国 045
+  - 美国 046
+  - 加拿大 037
+- name: LOAD-BALANCE
+  type: load-balance
+  url: https://cp.cloudflare.com/generate_204
+  interval: 3600
+  strategy: consistent-hashing
+  proxies: *id001
+- name: FALLBACK
+  type: fallback
+  url: https://cp.cloudflare.com/generate_204
+  interval: 3600
+  proxies: *id001
+- name: GITHUB
+  type: select
+  proxies: &id002
+  - PROXY
+  - LOAD-BALANCE
+  - SELECT
+  - FALLBACK
+  - DIRECT
+- name: OPENAI
+  type: select
+  proxies: *id002
+- name: NETFLIX
+  type: select
+  proxies: *id002
+- name: BLOCK
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+- name: FINAL
+  type: select
+  proxies:
+  - PROXY
+  - DIRECT
+rules:
+- RULE-SET,proxy-classical,PROXY
+- RULE-SET,direct-classical,DIRECT
+- RULE-SET,block,BLOCK
+- RULE-SET,applications,DIRECT
+- RULE-SET,icloud,DIRECT
+- RULE-SET,apple,DIRECT
+- RULE-SET,github,GITHUB
+- RULE-SET,openai,OPENAI
+- RULE-SET,netflix,NETFLIX
+- RULE-SET,google,PROXY
+- RULE-SET,youtube,PROXY
+- RULE-SET,telegram,PROXY
+- RULE-SET,spotify,PROXY
+- RULE-SET,gfw,PROXY
+- GEOIP,LAN,DIRECT,no-resolve
+- GEOIP,CN,DIRECT
+- MATCH,FINAL
+rule-providers:
+  icloud:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/icloud.yaml
+    path: ./rules/classical/icloud.yaml
+    interval: 86400
+    proxy: DIRECT
+  apple:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/apple.yaml
+    path: ./rules/classical/apple.yaml
+    interval: 86400
+    proxy: DIRECT
+  gfw:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/domain/gfw.yaml
+    path: ./rules/domain/gfw.yaml
+    interval: 86400
+    proxy: DIRECT
+  youtube:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/youtube.yaml
+    path: ./rules/classical/youtube.yaml
+    interval: 86400
+    proxy: DIRECT
+  google:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/google.yaml
+    path: ./rules/classical/google.yaml
+    interval: 86400
+    proxy: DIRECT
+  github:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/github.yaml
+    path: ./rules/classical/github.yaml
+    interval: 86400
+    proxy: DIRECT
+  openai:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/openai.yaml
+    path: ./rules/classical/openai.yaml
+    interval: 86400
+    proxy: DIRECT
+  telegram:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/telegram.yaml
+    path: ./rules/classical/telegram.yaml
+    interval: 86400
+    proxy: DIRECT
+  spotify:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/spotify.yaml
+    path: ./rules/classical/spotify.yaml
+    interval: 86400
+    proxy: DIRECT
+  netflix:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/netflix.yaml
+    path: ./rules/classical/netflix.yaml
+    interval: 86400
+    proxy: DIRECT
+  applications:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/applications.yaml
+    path: ./rules/classical/applications.yaml
+    interval: 86400
+    proxy: DIRECT
+  block:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/block.yaml
+    path: ./rules/classical/block.yaml
+    interval: 86400
+    proxy: DIRECT
+  direct-classical:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/direct.yaml
+    path: ./rules/classical/direct.yaml
+    interval: 86400
+    proxy: DIRECT
+  proxy-classical:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/anaer/Sub@main/rules/classical/proxy.yaml
+    path: ./rules/classical/proxy.yaml
+    interval: 86400
+    proxy: DIRECT
