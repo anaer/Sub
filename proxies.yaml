@@ -1,0 +1,1926 @@
+proxies:
+- name: 美国-01 | ⬇️ 3.8MB/s|Youtube
+  type: trojan
+  network: ws
+  server: 156.238.18.196
+  port: 2083
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  skip-cert-verify: true
+  udp: true
+  sni: vle.amclubdns.dpdns.org
+  ws-opts:
+    headers:
+      Host: vle.amclubdns.dpdns.org
+    path: /?ed=2560&PROT_TYPE=trojan
+- name: 美国-02 | ⬇️ 7.4MB/s|0%|Openai
+  type: vless
+  network: ws
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: ns.cloudflare.com
+  port: 2095
+  skip-cert-verify: false
+  tls: false
+  tfo: false
+  client-fingerprint: randomized
+  ws-opts:
+    headers:
+      Host: fuckingxijinping.cnmxijinping.workers.dev
+    path: /?ed=2560
+- name: 美国-03 | ⬇️ 2.1MB/s|Openai
+  type: vless
+  network: ws
+  uuid: 7fb18dca-47a6-498a-b5ec-9e3bdce1b592
+  server: 104.18.20.69
+  servername: us2s.pqvip.top
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: us2s.pqvip.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /pq/us2
+- name: 台湾-01 | ⬇️ 2.1MB/s|Youtube
+  type: http
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  port: 1443
+  password: exaxgqkKkd0TAMrCxeonWg==
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 日本-01 | ⬇️ 4.1MB/s|Netflix|Youtube|Openai|Gemini
+  type: vless
+  network: tcp
+  uuid: 7e91a4da-2a4a-45a4-823a-e4f2fb67e619
+  server: gzyd.cg.xxality.cn
+  servername: cgjp2.hysality.com
+  port: 35000
+  tls: true
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 美国-04 | ⬇️ 2.5MB/s|Disney
+  type: vless
+  network: ws
+  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
+  server: 104.21.81.174
+  servername: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /wP3dwCyRAVyMJFfW?ed=2560
+- name: 美国-05 | ⬇️ 1.4MB/s|Disney|Gemini
+  type: vless
+  network: ws
+  uuid: 70aa6fd6-9d04-4657-9eaa-2946541f6deb
+  server: 188.114.96.217
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: 071ll2532.16965a6a7d.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.143 Safari/537.36
+    path: /?ed=2560
+- name: 美国-06 | ⬇️ 2.2MB/s|Disney
+  type: vless
+  network: ws
+  uuid: 47e9a0db-50c6-4522-8819-502c55b06dde
+  server: 159.112.235.174
+  servername: workerr.schodog1.workers.dev
+  port: 2082
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: workerr.schodog1.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2048
+- name: 美国-07 | ⬇️ 1.2MB/s|Netflix|Disney
+  type: trojan
+  network: ws
+  server: 103.160.204.36
+  port: 2087
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  skip-cert-verify: true
+  udp: true
+  sni: vle.amclubdns.dpdns.org
+  ws-opts:
+    headers:
+      Host: vle.amclubdns.dpdns.org
+    path: /?ed=2560&PROT_TYPE=trojan
+- name: 美国-08 | ⬇️ 1.0MB/s|Disney|Gemini
+  type: trojan
+  network: ws
+  server: www.visa.com.sg
+  port: 8443
+  password: trojan
+  skip-cert-verify: false
+  udp: true
+  sni: store.timimi.dpdns.org
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /?ed=2560
+- name: 美国-09 | ⬇️ 1.2MB/s|Disney
+  type: trojan
+  network: ws
+  server: 109.234.211.66
+  port: 8443
+  password: trojan
+  skip-cert-verify: false
+  udp: true
+  sni: store.timimi.dpdns.org
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /
+- name: 美国-10
+  type: vless
+  network: ws
+  uuid: 0d710c53-876d-401f-97f0-6bd1a8db941a
+  server: 172.67.135.195
+  port: 2052
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sWEeT-DIsK-b69d.TUdTudtrUHtRU.wOrkERS.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /J61hhknxUXEwJZLq/MTU5LjY5LjE1My4xMTQ=?ed=2560
+- name: 美国-11 | ⬇️ 12.2MB/s|Disney
+  type: vless
+  network: ws
+  uuid: 5181717e-892b-45a9-a8b7-e6d5fac1c77b
+  server: 172.67.128.244
+  port: 2082
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: m543.hosseinpool10.workers.dev
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /?ed=2048
+- name: 美国-12 | ⬇️ 1.4MB/s|Netflix|Disney
+  type: vless
+  network: ws
+  uuid: f7ef59d8-e848-454d-8613-9e2f45ddd04f
+  server: 188.114.98.45
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: uuttrr.607f1dbb99.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /?ed=2560
+- name: 美国-13 | ⬇️ 1.3MB/s|Disney|Gemini
+  type: vless
+  network: ws
+  uuid: 8169cd18-e824-47a4-a4d4-96433b1a519d
+  server: 172.67.161.104
+  port: 2095
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: testdvpnhub69.95f425b718.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /?ed=2048
+- name: 冰岛-01 | ⬇️ 5.7MB/s|Disney
+  type: vless
+  network: ws
+  uuid: 572d1cbe-1c26-4765-8865-7ee3ad737c5a
+  server: 104.18.27.94
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: esetsecuritylicense.mikon76654.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /?ed=2560
+- name: 美国-14 | ⬇️ 1.6MB/s|Disney
+  type: vless
+  network: ws
+  uuid: 499ee245-f954-4d41-9943-4e85666b7414
+  server: 104.18.26.94
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: esetsecuritylicense.mybdgpd.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /?ed=2560
+- name: 印度-01 | ⬇️ 5.2MB/s|34%|Netflix|Disney|Openai|Gemini
+  type: vless
+  network: ws
+  uuid: 1d173704-d5cc-4ce2-8b06-3a9a71037530
+  server: cdnjs.com
+  servername: rayan-navy.foton.dpdns.org
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: rayan-navy.foton.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /?ed=2560
+- name: 美国-15 | ⬇️ 2.0MB/s|5%|Disney
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 185.148.105.20
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /Telegram@节点狂魔2/?ed=2560
+- name: 秘鲁-01 | ⬇️ 1.4MB/s|Openai
+  type: vless
+  network: ws
+  uuid: 033a4982-a8c7-4bfb-9481-5a8a1c62cfd6
+  server: 104.21.93.95
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: azadnet.b0b723a182.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: ''
+- name: 美国-16 | ⬇️ 1.3MB/s|Netflix|Disney
+  type: vless
+  network: ws
+  uuid: d26009b6-d347-403f-95ce-1816bb8b8ca4
+  server: 45.131.4.100
+  servername: v2raylandd.werokac991.workers.Dev
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: v2raylandd.werokac991.workers.Dev
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Slackware/Chrome/12.0.742.100 Safari/534.30
+    path: Telegram🇨🇳 @WangCai2 /?ed=2048
+- name: 印度-02 | ⬇️ 1.4MB/s|Disney|Gemini
+  type: trojan
+  network: ws
+  server: www.digitalocean.com
+  port: 443
+  password: trojan
+  skip-cert-verify: false
+  udp: true
+  sni: a.azadnet001.ddns-ip.net
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /?ed=2560
+- name: 美国-17 | ⬇️ 12.3MB/s|Netflix|Disney|Openai
+  type: vless
+  network: ws
+  uuid: 590dfbde-f8c8-429b-b947-39bb767ddd9c
+  server: 104.24.87.230
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: square-moon-bc81-ppal03.tivere6418.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /?ed=2560
+- name: 美国-18 | ⬇️ 2.6MB/s|Disney
+  type: vless
+  network: ws
+  uuid: c1d22711-2adf-4ffa-a5d8-439e665bb951
+  server: 45.131.209.86
+  servername: 656654647567245851483768538765962936476541237567854816545176587.11feea65a1d70a.workers.dev
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: 656654647567245851483768538765962936476541237567854816545176587.11feea65a1d70a.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /Telegram@WangCai2/?ed=2048
+- name: 美国-19 | ⬇️ 3.4MB/s|0%
+  type: http
+  server: 0a5eba5f-sx15s0-t1bnjq-1krtb.hkt.cdnhuawei.com
+  port: 8443
+  password: <password>
+  tls: true
+  sni: 0a5eba5f-sx15s0-t1bnjq-1krtb.hkt.cdnhuawei.com
+  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- name: 美国-20 | ⬇️ 1.8MB/s|Disney|Openai
+  type: vless
+  network: ws
+  uuid: eaa1c439-f88a-48d9-8d82-a0213db2934b
+  server: 104.21.31.49
+  port: 8080
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: mitihelp.mahdidev.workers.dev
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /UMo8gc6V3nzD8eyM?ed=2560
+- name: 印度-03 | ⬇️ 2.6MB/s|Netflix|Openai|Gemini
+  type: vless
+  network: tcp
+  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+  server: 160.250.65.124
+  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+  port: 34045
+  tls: true
+  udp: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+    short-id: e8ab71d0
+- name: 香港-01 | ⬇️ 1.7MB/s|2%|Netflix|Disney
+  type: http
+  server: 999598f4-sx8kg0-t1bnjq-1krtb.hkt.cdnhuawei.com
+  port: 8443
+  password: <password>
+  tls: true
+  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- name: 美国-21 | ⬇️ 1.0MB/s|Netflix|Disney|Openai|Gemini
+  type: vless
+  network: ws
+  uuid: 897a4bec-26b8-11e8-94be-00505695472c
+  server: bestcf.030101.xyz
+  servername: xv6.jpmj.dpdns.org
+  port: 443
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: xv6.jpmj.dpdns.org
+    path: /bbs?ed=2048
+- name: 美国-22 | ⬇️ 7.5MB/s|Disney|Youtube
+  type: trojan
+  network: ws
+  server: 156.238.18.112
+  port: 2053
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  skip-cert-verify: true
+  udp: true
+  sni: vle.amclubdns.dpdns.org
+  ws-opts:
+    headers:
+      Host: vle.amclubdns.dpdns.org
+    path: /?ed=2560&PROT_TYPE=trojan
+- name: 狮城-01 | ⬇️ 5.9MB/s|0%|Disney|Youtube
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.208
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 台湾-02 | ⬇️ 4.1MB/s|Netflix|Disney|Youtube|Gemini
+  type: ss
+  server: 183.240.187.198
+  port: 34664
+  password: 12xGRmcEy3TVETzE47MreA==
+  udp: true
+  tfo: false
+  cipher: 2022-blake3-aes-128-gcm
+- name: 德国-01
+  type: vless
+  network: ws
+  uuid: 0460c709-0b8a-41e7-b16a-f04729902120
+  server: www.speedtest.net
+  port: 2082
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+- name: 美国-23 | ⬇️ 5.1MB/s|0%|Netflix|Disney|Youtube|Openai
+  type: vless
+  network: ws
+  uuid: c09d51b8-25c5-4eaf-98bc-ef40c807de84
+  server: 104.24.157.37
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: dawn-mountain-d79f-ppal03.doniji1519.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /?ed=2560
+- name: 美国-24 | ⬇️ 4.6MB/s
+  type: vless
+  network: ws
+  uuid: 64d39d67-62dc-470c-a592-1d5a6ee87cb5
+  server: 45.159.218.17
+  servername: worker-flat-disk-100d.b9563f65aef681.workers.dev
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: worker-flat-disk-100d.b9563f65aef681.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /
+- name: 美国-25 | ⬇️ 4.3MB/s|19%|Netflix|Openai
+  type: trojan
+  network: ws
+  server: 104.21.38.90
+  port: 443
+  password: 2d068083-2cb0-4ae3-a44a-6fc82f3039cc
+  skip-cert-verify: false
+  udp: true
+  sni: dDDccCDvFg.222856.XYZ
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /yBqYg1mv8EDa06b88JSo
+- name: 秘鲁-02 | ⬇️ 4.3MB/s|Netflix|Openai
+  type: vmess
+  network: ws
+  uuid: 88a25bf3-18af-486f-b194-d87e976c230b
+  server: 162.159.137.178
+  port: 80
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  xudp: true
+  alterId: '0'
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: 165067316419432025062817003642514.s15.chibaba.filegear-sg.me
+    path: /s15.html
+- name: 香港-02 | ⬇️ 3.8MB/s|Netflix|Youtube|Openai|Gemini
+  type: trojan
+  server: gzyd.cg.xxality.cn
+  port: 35000
+  password: 7e91a4da-2a4a-45a4-823a-e4f2fb67e619
+  skip-cert-verify: false
+  udp: true
+  sni: cghk.hysality.com
+- name: 美国-26 | ⬇️ 11.6MB/s|Netflix|Disney|Youtube|Openai
+  type: vless
+  network: ws
+  uuid: 89780139-39db-4ae9-adc5-00d9da4bb8b3
+  server: 104.24.237.26
+  port: 2082
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: server123.amirjacksonpp.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /?ed=2560
+- name: 印度-04 | ⬇️ 5.2MB/s|Netflix|Youtube|Gemini
+  type: trojan
+  network: ws
+  server: 20.235.105.146
+  port: 443
+  password: ttfang
+  skip-cert-verify: false
+  udp: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /
+- name: 美国-27 | ⬇️ 5.1MB/s|Netflix|Disney|Gemini
+  type: vless
+  network: ws
+  uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7
+  server: 31.43.179.77
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: free.cfdns.online
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-28 | ⬇️ 1.2MB/s
+  type: vless
+  network: ws
+  uuid: fabeaf8f-decc-403a-a3a7-b6efd8700373
+  server: 104.18.26.90
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kknwe.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.pro.
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
+- name: 美国-29 | ⬇️ 2.4MB/s|0%|Netflix|Disney|Openai
+  type: vless
+  network: ws
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  server: 27.50.49.156
+  servername: edmc.ambercc.filegear-sg.me
+  port: 2096
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      host: edmc.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: 日本-02 | ⬇️ 3.8MB/s|47%|Netflix|Disney|Youtube|Openai
+  type: vless
+  network: ws
+  uuid: 042de66b-158d-42af-ad99-263c69999548
+  server: 120.143.180.126
+  servername: etc.mesa.ip-ddns.com
+  port: 28030
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: random
+  ws-opts:
+    headers:
+      Host: etc.mesa.ip-ddns.com
+    path: /?ed=2560
+- name: 狮城-02 | ⬇️ 2.5MB/s|Openai
+  type: vless
+  network: ws
+  uuid: 43ef1f94-978f-4539-ba01-1e6005859950
+  server: hostone-sg.zdsa.me
+  servername: hostone-sg.zdsa.me
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: hostone-sg.zdsa.me
+    path: /
+- name: 法国-01 | ⬇️ 2.4MB/s|Netflix|Disney|Openai
+  type: vless
+  network: ws
+  uuid: e97a0128-4785-4323-a2a5-dd01ce49d359
+  server: 104.19.174.68
+  servername: rayan-fg-2.mohammad-janam.filegear-sg.me
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: rayan-fg-2.mohammad-janam.filegear-sg.me
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /?ed=2560
+- name: 印度-05 | ⬇️ 2.4MB/s|Disney
+  type: vless
+  network: ws
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  server: 140.238.212.95
+  servername: ku.bgm2024.dpdns.org
+  port: 443
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      host: ku.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 美国-30
+  type: vless
+  network: tcp
+  uuid: 25131c0b-1ee5-4af3-be7f-bdf5b3ecc9d1
+  server: 143.14.220.111
+  servername: www.samsung.com
+  port: 25888
+  tls: true
+  udp: true
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA
+    short-id: be1be5fc
+- name: 荷兰-01 | ⬇️ 1.3MB/s|Netflix|Disney|Openai
+  type: vless
+  network: ws
+  uuid: 8b946375-b205-46a2-bf77-ecf0350eab5e
+  server: 104.18.155.119
+  servername: rayan-top.negar.dpdns.org
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: rayan-top.negar.dpdns.org
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2560
+- name: 秘鲁-03 | ⬇️ 1.2MB/s|Netflix|Openai
+  type: vless
+  network: ws
+  uuid: 288124da-0d68-42f4-9f48-70dc4dcc55a6
+  server: 104.21.21.190
+  servername: XCVFgT6.890606.XYz
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: xcvfgt6.890606.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /e49RZLgIb0TdfgF5HdHEIupMZeK
+- name: 英国-01 | ⬇️ 15.5MB/s|Disney|Openai
+  type: vless
+  network: ws
+  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
+  server: 101reel.com
+  servername: barayeiranmahsang.sabzipolobamahi.dpdns.org
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: barayeiranmahsang.sabzipolobamahi.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /?ed=2560
+- name: 美国-31
+  type: vless
+  network: ws
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  server: 45.142.120.145
+  servername: reedfree8mahsang2.redorg.ir
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /@ShadowProxy66?ed=2560
+- name: 美国-32 | ⬇️ 4.2MB/s|Disney
+  type: vless
+  network: ws
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  server: 162.159.153.216
+  servername: sk.ylka.dpdns.org
+  port: 443
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      host: sk.ylka.dpdns.org
+    path: /?ed=2560
+- name: 美国-33 | ⬇️ 2.6MB/s|0%|Disney|Youtube
+  type: ss
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 16015
+  password: 102BCY8E8O4Z7NLH
+  udp: true
+  cipher: aes-256-gcm
+- name: 英国-02
+  type: vless
+  network: ws
+  uuid: 8ad321e9-7f47-4706-a101-11aefa88723b
+  server: 104.19.173.68
+  servername: rayan-sun.parsa.dpdns.org
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: rayan-sun.parsa.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /?ed=2560
+- name: 英国-03 | ⬇️ 8.2MB/s|0%|Disney
+  type: vless
+  network: ws
+  uuid: 6d0b71e4-b843-4acc-a239-884e422c9f33
+  server: 172.67.133.49
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ponq0qxlwnh55dbid7ebc1j6ltxdcyer.mamadibaram.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.77 Safari/537.36
+    path: /rAnzZ41YzhPlT0iC?ed=2560
+- name: 美国-34 | ⬇️ 7.3MB/s|30%|Netflix|Openai
+  type: vless
+  network: ws
+  uuid: 7248e825-887c-48b9-83bc-c26bc6392bf8
+  server: 104.21.42.250
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: xxcdvfgt.191268.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /W02wBrOOqlSUywV3ibrzzKXJGy3S1
+- name: 香港-03 | ⬇️ 5.0MB/s|Disney|Youtube
+  type: trojan
+  network: ws
+  server: 91.193.58.0
+  port: 443
+  password: trojan
+  skip-cert-verify: true
+  udp: true
+  sni: wahaha.yingyangkuaixian.dpdns.org
+  ws-opts:
+    headers:
+      Host: wahaha.yingyangkuaixian.dpdns.org
+    path: /?ed=2560
+- name: 芬兰-01 | ⬇️ 2.6MB/s|Disney|Youtube
+  type: trojan
+  network: ws
+  server: 138.2.89.64
+  port: 32962
+  password: ttfang
+  skip-cert-verify: false
+  udp: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /
+- name: 德国-02 | ⬇️ 1.2MB/s|Netflix|Openai
+  type: vless
+  network: ws
+  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  server: 104.17.147.22
+  servername: smart.v2plusify.org
+  port: 2087
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: smart.v2plusify.org
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
+    path: /
+- name: 印度-06
+  type: vless
+  network: ws
+  uuid: 6ec52bc7-fcd7-4841-ab69-70d6e03a6eda
+  server: 104.26.1.212
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: www.zula.ir.zula.ir.zula.ir.a2hdhjdxjbxjsjdjd.ddns-ip.nEt.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
+        Gecko) Chrome/26.0.1410.64 Safari/537.31
+    path: ''
+- name: 香港-04 | ⬇️ 3.3MB/s|0%|Netflix|Disney|Youtube|Gemini
+  type: ss
+  server: 103.36.91.32
+  port: 8388
+  password: asd123456
+  udp: true
+  cipher: chacha20-ietf
+- name: 美国-35 | ⬇️ 2.6MB/s|0%|Disney|Youtube
+  type: ss
+  server: w72tapyb.slashdevslashnetslashtun.net
+  port: 16011
+  password: 1ZLDLR3R0YLGK13R
+  udp: true
+  cipher: aes-256-gcm
+- name: 美国-36 | ⬇️ 2.4MB/s|0%|Disney|Youtube
+  type: ss
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 16003
+  password: I0PAE3KSYK9XHUXN
+  udp: true
+  cipher: aes-256-gcm
+- name: 美国-37 | ⬇️ 2.0MB/s|0%|Disney|Youtube
+  type: ss
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 16005
+  password: 03NMR4P2PYT168VO
+  udp: true
+  cipher: aes-256-gcm
+- name: 美国-38 | ⬇️ 2.0MB/s|Netflix|Disney|Openai
+  type: vless
+  network: ws
+  uuid: 8b5cf811-af1f-475a-9e61-28b93c38d309
+  server: 104.16.171.8
+  servername: vpn.6662221.xyz
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: vpn.6662221.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /?ed=2560
+- name: 美国-39
+  type: vless
+  network: ws
+  uuid: d6b8011a-c725-435a-9fec-bf6d3530392c
+  server: 162.159.129.67
+  servername: vle.amclubsdns.dpdns.org
+  port: 8443
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: vle.amclubsdns.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /?ed=2560
+- name: 香港-05 | ⬇️ 7.0MB/s|Disney
+  type: trojan
+  network: ws
+  server: 45.67.215.95
+  port: 443
+  password: tg-fq521free
+  skip-cert-verify: true
+  udp: true
+  sni: torjan.xn--xhq44j.eu.org
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
+- name: 越南-01 | ⬇️ 3.0MB/s|Youtube|Openai
+  type: vless
+  network: ws
+  uuid: 5cf6bd4f-4318-4eda-e9da-4bbb0103f26a
+  server: 104.17.213.241
+  servername: vn.oldcloud.online
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: vn.oldcloud.online
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /
+- name: 香港-06 | ⬇️ 2.2MB/s|Disney|Youtube|Openai
+  type: vless
+  network: ws
+  uuid: 3df93bd0-ae17-46db-92e5-90bff99762c0
+  server: 190.93.245.101
+  servername: cmp.danjun.ddns-ip.net
+  port: 2087
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: cmp.danjun.ddns-ip.net
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.135 Safari/537.36
+    path: /
+- name: 美国-40 | ⬇️ 2.0MB/s|Disney|Openai
+  type: ss
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 18007
+  password: ZNZ0AB1IE3XCOB95
+  udp: true
+  cipher: aes-256-gcm
+- name: 美国-41 | ⬇️ 2.0MB/s|0%|Disney|Youtube
+  type: ss
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 16008
+  password: PRVUTQEIOG4O2XX2
+  udp: true
+  cipher: aes-256-gcm
+- name: 印度-07 | ⬇️ 1.5MB/s|Netflix|Youtube|Openai|Gemini
+  type: vless
+  network: tcp
+  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  server: 150.230.30.237
+  servername: www.yahoo.com
+  port: 26113
+  tls: true
+  udp: true
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
+    short-id: 1fbd20fd
+- name: 印度-08
+  type: vless
+  network: ws
+  uuid: b1a8ceea-6601-45b5-a674-7e5b64ab6f6f
+  server: 162.159.129.11
+  servername: sub.divib.dynv6.net
+  port: 2053
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: sub.divib.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: /?ed=2560/?BIA_CHANEL@JOKERRVPN
+- name: 香港-07 | ⬇️ 8.8MB/s|Disney|Youtube
+  type: vless
+  network: ws
+  uuid: 0343e230-5132-4e98-844e-b42ad1a6a273
+  server: www.gov.se
+  servername: nptian.xiaotianvpn.sbs
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: nptian.xiaotianvpn.sbs
+    path: /?ed=2560
+- name: 美国-42
+  type: vless
+  network: ws
+  uuid: 4527ff0c-8ac2-452a-95cb-c2d29e5a8421
+  server: 104.24.73.254
+  servername: ghh.wsthh.site
+  port: 2087
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ghh.wsthh.site
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /?ed=2560
+- name: 美国-43 | ⬇️ 3.4MB/s|0%|Openai
+  type: ss
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 18011
+  password: X0BA1014Z3K0JP45
+  udp: true
+  cipher: aes-256-gcm
+- name: 韩国-01 | ⬇️ 3.3MB/s|Youtube|Openai|Gemini
+  type: vless
+  network: ws
+  uuid: 1c2c7606-dca3-457e-daa7-eaab72ba4a77
+  server: 43.203.125.53
+  port: 53878
+  tls: false
+  udp: true
+  ws-opts:
+    path: /bing
+- name: 香港-08 | ⬇️ 2.9MB/s|0%|Netflix
+  type: vmess
+  network: tcp
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  server: 120.237.79.157
+  port: 41174
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  xudp: true
+  alterId: '64'
+  cipher: auto
+- name: 法国-02 | ⬇️ 2.7MB/s|Openai
+  type: vmess
+  network: ws
+  uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b
+  server: cloudgetservice.mcloudservice.site
+  servername: Fra-Vp-123.BLaZECLOUD.Site
+  port: 443
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  xudp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      HOST: Fra-Vp-123.BLaZECLOUD.Site
+    path: /linvkws
+- name: 美国-44 | ⬇️ 2.6MB/s|0%|Disney|Youtube
+  type: ss
+  server: w72tapyb.slashdevslashnetslashtun.net
+  port: 16001
+  password: DE7ENYHAZF8K9SIN
+  udp: true
+  cipher: aes-256-gcm
+- name: 德国-03
+  type: vless
+  network: grpc
+  uuid: a05f7f5b-374d-4255-a70d-a62869cd7d45
+  server: easrtvisufs.selenarahmani.blog
+  servername: speedtest.net
+  port: 17861
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-
+  reality-opts:
+    public-key: CK4NZOZ03AjWzK4gAs5hXyUfghXepouBPfqJct0KUwQ
+    short-id: da
+- name: 美国-45 | ⬇️ 2.4MB/s|0%|Disney|Openai
+  type: ss
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 18010
+  password: HV799YGEAULAN61Q
+  udp: true
+  cipher: aes-256-gcm
+- name: 荷兰-02 | ⬇️ 1.7MB/s|Netflix
+  type: vless
+  network: ws
+  uuid: 4e4768df-0fbb-4cc1-8fd3-7c6fea95742a
+  server: 104.16.195.192
+  servername: rayan-07.parastoo.dpdns.org
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: rayan-07.parastoo.dpdns.org
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /@Rayan_Config
+- name: 美国-46 | ⬇️ 1.3MB/s
+  type: vless
+  network: ws
+  uuid: 60882caa-4e74-42a2-be70-220755fc1551
+  server: jquery.com
+  servername: rayan-karma.parvaneh.dpdns.org
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: rayan-karma.parvaneh.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /?ed=2560
+- name: 美国-47
+  type: trojan
+  network: ws
+  server: 216.24.57.30
+  port: 443
+  password: tg-fq521free
+  skip-cert-verify: false
+  udp: true
+  sni: torjan.xn--xhq44j.eu.org
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
+- name: 德国-04 | ⬇️ 4.8MB/s|Netflix|Disney|Openai
+  type: vless
+  network: grpc
+  uuid: 3794b5d7-0aa6-4112-abc2-5dcea1d685d5
+  server: 147.45.178.175
+  servername: sourceforge.net
+  port: 2053
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: xyz
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+- name: 秘鲁-04 | ⬇️ 3.6MB/s|Netflix|Openai
+  type: vmess
+  network: ws
+  uuid: 2fc37713-3017-497e-ff2d-965f826a19a3
+  server: 104.21.3.189
+  servername: cc2d2.89060004.xyz
+  port: 2087
+  skip-cert-verify: true
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      HOST: cc2d2.89060004.xyz
+    path: /
+- name: 美国-48
+  type: vless
+  network: ws
+  uuid: 06ec083d-2a70-4ca2-9f3d-19442b58fc4e
+  server: 172.67.73.216
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.tax.gov.ir.aparat.com.a.2.jEy.dPdNs.org.
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /Telegram@vpnjeyTelegram@vpnjeyTelegram@vpnjey
+- name: 美国-49 | ⬇️ 3.5MB/s|0%|Disney|Youtube
+  type: ss
+  server: qh62onjn.slashdevslashnetslashtun.net
+  port: 15015
+  password: 1VHQPB34UCZVMD58
+  udp: true
+  cipher: aes-256-gcm
+- name: 德国-05 | ⬇️ 2.7MB/s|Netflix|Youtube|Openai
+  type: vmess
+  network: ws
+  uuid: c208e0ae-6f6d-4745-99da-44a44744c530
+  server: www.meter.net
+  port: 2083
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  xudp: true
+  alterId: '0'
+  cipher: auto
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: blaze-ger-248.blazecloudmain.site
+    max-early-data: 2560
+    path: /linkwsrt
+- name: 美国-50 | ⬇️ 2.6MB/s|0%|Disney|Youtube
+  type: ss
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 16004
+  password: 2IOK8HAFGRN9I3FI
+  udp: true
+  cipher: aes-256-gcm
+- name: 香港-09 | ⬇️ 1.5MB/s|Netflix|Disney
+  type: http
+  server: 2608d13f-sx6ps0-t1bnjq-1krtb.hkt.cdnhuawei.com
+  port: 8443
+  password: <password>
+  tls: true
+  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- name: 芬兰-02
+  type: vless
+  network: ws
+  uuid: Parsashonam-279
+  server: 172.66.168.210
+  port: 8080
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: FragmentFi.Rubika.cYoU.
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056
+- name: 德国-06 | ⬇️ 3.4MB/s|Netflix|Disney|Openai
+  type: vless
+  network: ws
+  uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8
+  server: 104.26.6.214
+  servername: rayan-07.leila.dpdns.org
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: rayan-07.leila.dpdns.org
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile
+        Safari/537.36
+    path: /@Rayan_Config
+- name: 芬兰-03 | ⬇️ 2.9MB/s|Netflix|Disney|Openai
+  type: vless
+  network: ws
+  uuid: 376734bc-4db8-4317-b451-af0262cb01c7
+  server: 172.67.137.129
+  servername: INviNCIBle.fAfa20.shOP
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: INviNCIBle.fAfa20.shOP
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /
+- name: 狮城-03 | ⬇️ 2.7MB/s|10%
+  type: vless
+  network: tcp
+  uuid: 3145e274-fb50-45f8-bad0-e0561bbed05d
+  server: 166.108.235.1
+  port: 2321
+  udp: true
+  xudp: true
+- name: 荷兰-03
+  type: vless
+  network: ws
+  uuid: a6e223ee-d490-42bf-9bc6-30f6d4164fae
+  server: www.speedtest.net
+  port: 8080
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ARM1.dollardoon.com
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7?ed=2048
+- name: 比利时-01 | ⬇️ 9.5MB/s|Youtube
+  type: vless
+  network: ws
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  server: 185.133.35.251
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/56.0.2924.87 Safari/537.36
+    path: /Telegramًں‡¨ًں‡³
+- name: 香港-10 | ⬇️ 7.9MB/s|Youtube
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 135.84.75.3
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.101 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 冰岛-02 | ⬇️ 5.9MB/s|Disney
+  type: vless
+  network: ws
+  uuid: 7f037831-591d-4067-9c8c-39f07d12858a
+  server: 45.131.7.67
+  servername: yuming.kkllllkkkk95.workers.dev
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: yuming.kkllllkkkk95.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.75 Safari/537.36
+    path: /Telegram@WangCai2/?ed=2048
+- name: 印度-09 | ⬇️ 3.0MB/s|Youtube|Openai|Gemini
+  type: ss
+  server: 103.186.155.30
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+  cipher: aes-256-cfb
+- name: 荷兰-04 | ⬇️ 2.1MB/s|Netflix|Youtube
+  type: vless
+  network: raw
+  uuid: 10f3650d-32f6-470a-b100-e29471cf3380
+  server: 78.159.131.107
+  servername: pingless.com
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 6vqqlSsqIQLQ-pmkPfTQ0tJ2kh3U74YqTUcn06nYagY
+    short-id: b6
+- name: 印度-10 | ⬇️ 1.9MB/s|Disney|Gemini
+  type: vless
+  network: ws
+  uuid: 48a6a580-b0b2-4cf8-bd22-27e52f7f0de0
+  server: 172.67.175.148
+  servername: frEEDom.MOREsH.STORe
+  port: 8443
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      host: frEEDom.MOREsH.STORe
+    path: /ldpb5mdglqhdohwp/c2hpcmvulnlhzw1pa28uz2dmzi5uzxq=
+- name: 德国-07 | ⬇️ 1.8MB/s|Openai
+  type: vless
+  network: raw
+  uuid: fe1888f8-2361-11f0-9970-45e1d80c4039
+  server: 89.23.108.188
+  servername: images.apple.com
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: nm1ZhMktJbHTcJv0gqV8l0s_c9BWfQe5d02qhpSkKWo
+    short-id: 7fd4
+- name: 越南-02
+  type: ss
+  server: 103.186.154.27
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 秘鲁-05 | ⬇️ 1.4MB/s|Disney|Openai
+  type: vless
+  network: ws
+  uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
+  server: 212.183.88.29
+  servername: PosTWARE-2jm.pagEs.DeV
+  port: 2087
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: PosTWARE-2jm.pagEs.DeV
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    path: /sA7GzJhCYXmpVes8?ed=2560
+- name: 印度-11 | ⬇️ 1.2MB/s|Youtube|Openai|Gemini
+  type: ss
+  server: 103.186.154.20
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+  cipher: aes-256-cfb
+- name: 越南-03
+  type: ss
+  server: 103.186.154.29
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 越南-04
+  type: ss
+  server: 103.186.154.37
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 德国-08
+  type: vless
+  network: tcp
+  uuid: e96adc51-70f2-451d-83c5-77094b9d680f
+  server: hound.origamimarketings.com
+  servername: tgju.org
+  port: 7777
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: K0iITauuYEqIayR3IB5Ny8MVKyORDJ65rUSHc3tLe1E
+    short-id: 42c0b628ba6a42a9
+- name: 印度-12 | ⬇️ 6.0MB/s|Netflix|Youtube|Openai|Gemini
+  type: vless
+  network: grpc
+  uuid: 904a7d68-bd97-4158-9069-27cbab888a43
+  server: esterviuserd.selenarahmani.blog
+  servername: aider.chat
+  port: 2053
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN
+  reality-opts:
+    public-key: b-17bBrxypH7jYoyReMbsfR2usUAV9FKmFNVBsofhRw
+    short-id: 9d50102196b6bf35
+- name: 德国-09 | ⬇️ 4.9MB/s|Netflix|Disney|Openai
+  type: vless
+  network: ws
+  uuid: e73c97ad-af2e-49e9-8321-5e217ca57124
+  server: 104.17.147.22
+  servername: mAHsA.965871a.stORe
+  port: 2053
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: mahsa.965871a.store
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    path: /mM3VP46oYCTZgh56
+- name: 印度-13
+  type: trojan
+  network: ws
+  server: japan.com
+  port: 443
+  password: vip
+  skip-cert-verify: false
+  udp: true
+  sni: heihu880.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /?ed=2560
+- name: 印度-14 | ⬇️ 2.9MB/s|Netflix|Disney|Gemini
+  type: vless
+  network: ws
+  uuid: 2036e2c3-18a5-4eed-9db4-f91a7f02c7d5
+  server: 104.21.80.1
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /193.123.81.105=443
+- name: 法国-03
+  type: vless
+  network: ws
+  uuid: e231db10-25b8-4e6d-8942-a93d4d4ac422
+  server: 45.131.208.94
+  servername: 638874929584132219.zagreb-prx-dnraaad.info
+  port: 2096
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: 638874929584132219.zagreb-prx-dnraaad.info
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /hclrkdws
+- name: 香港-11 | ⬇️ 1.4MB/s|Disney
+  type: http
+  server: dd902adc-sxc9s0-t1bnjq-1krtb.hkt.cdnhuawei.com
+  port: 8443
+  password: <password>
+  tls: true
+  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- name: 德国-10
+  type: ss
+  server: david2.lemoex.blog
+  port: 2083
+  password: FvyvUPQFDIlz+4Op+236QmDL1v76TsvpDSZgqjJ0gnw=
+  udp: true
+  cipher: chacha20-ietf-poly1305
+- name: 越南-05
+  type: ss
+  server: 103.186.154.35
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 芬兰-04
+  type: vless
+  network: ws
+  uuid: Parsashonam-281
+  server: 104.16.53.11
+  port: 8080
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: FragmentFi.Rubika.cYoU.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
+    path: /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056
+- name: 狮城-04 | ⬇️ 1.3MB/s|Youtube|Openai|Gemini
+  type: vless
+  network: ws
+  uuid: 453aeace-638f-441e-98cd-6dbab6e0c75e
+  server: 143.198.196.86
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: zoom.us
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /FREE by Tharuwa (0767597317)
+- name: 冰岛-03 | ⬇️ 1.0MB/s|Disney
+  type: trojan
+  network: ws
+  server: 172.67.175.148
+  port: 443
+  password: 13253e6e-a1f7-4090-801f-a8dc2b083bef
+  skip-cert-verify: false
+  udp: true
+  sni: inviNcIble.fafa20.ShOp
+  ws-opts:
+    headers:
+      Host: inviNcIble.fafa20.ShOp
+    path: /tr7PXHQRn4VPwGA2zY/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ=?ed=2560
+- name: 香港-12
+  type: trojan
+  server: 155.117.228.70
+  port: 26193
+  password: 7367d04e-4c59-4dff-a50e-12e730a09891
+  skip-cert-verify: true
+  udp: true
+  client-fingerprint: chrome
+- name: 香港-13
+  type: ssr
+  server: 2.linkhub.support
+  port: 40206
+  password: ENZ52K
+  cipher: rc4-md5
+  obfs: plain
+  protocol: auth_aes128_md5
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  protocol-param: 92902:pFWGOQ
+- name: 香港-14
+  type: vless
+  network: ws
+  uuid: 5f077162-99ad-424d-9f77-e5f7e37d9ef8
+  server: nnchkclyx.codesofun.pp.ua
+  servername: nnchk.codesofun.pp.ua
+  port: 443
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: nnchk.codesofun.pp.ua
+    path: /ea3ac731
+- name: 香港-15
+  type: ssr
+  server: 2.linkhub.support
+  port: 40208
+  password: ENZ52K
+  cipher: rc4-md5
+  obfs: plain
+  protocol: auth_aes128_md5
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  protocol-param: 92902:pFWGOQ
+- name: 香港-16
+  type: ss
+  server: 120.233.71.140
+  port: 52252
+  password: tmd8427
+  udp: true
+  tfo: false
+  cipher: aes-128-gcm
+- name: 德国-11
+  type: vless
+  network: ws
+  uuid: f5f2458c-5fcb-4820-82c2-2997492c54d5
+  server: meli1.dashvili.ir
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /
+- name: 德国-12
+  type: vless
+  network: ws
+  uuid: 87ced8c4-b4d4-4c7b-ba67-11b78833a1b6
+  server: 172.66.44.68
+  servername: 37c60f8d.ALBAnGURaKUqi.paGEs.dEv
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: 37c60f8d.ALBAnGURaKUqi.paGEs.dEv
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420
+- name: 德国-13
+  type: vless
+  network: ws
+  uuid: 7f1c42b8-069d-4fbe-8cdc-0fc1a131c8a8
+  server: 104.21.36.57
+  servername: avtice.fullmargintraders.com
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: avtice.fullmargintraders.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /wsv/7f1c42b8-069d-4fbe-8cdc-0fc1a131c8a8
+- name: 香港-17
+  type: vless
+  network: ws
+  uuid: 6337837a-2b47-4e0d-a695-75c5a4a8ad51
+  server: 45.144.167.46
+  servername: rs-hk.lzjnb.shop
+  port: 19816
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: rs-hk.lzjnb.shop
+      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /lzjjjj666
+- name: 德国-14
+  type: vless
+  network: ws
+  uuid: d643b9ca-57b7-4cd5-84b8-a77f26b6346e
+  server: 162.159.1.33
+  servername: rayan-fg-1.narges.filegear-sg.me
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: rayan-fg-1.narges.filegear-sg.me
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /Telegram@V2ray_Alpha/?ed=2560
+- name: 德国-15
+  type: vless
+  network: ws
+  uuid: 8ca4ca74-fa0c-4c18-86c5-ce6d0382ff14
+  server: 104.21.32.1
+  servername: DO-iTforyOu-E1P.PAgeS.dEV
+  port: 2096
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: DO-iTforyOu-E1P.PAgeS.dEV
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /
+- name: 德国-16
+  type: vless
+  network: ws
+  uuid: e927c61f-8a00-45a5-9d43-06ac4f1b8b0e
+  server: 188.114.96.3
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: VpNkenZo7.vpnKeNzO0.wORKerS.DeV
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /QyAbjEiGvmffRF36?ed=2560
+- name: 印度-15
+  type: vless
+  network: ws
+  uuid: 827545b9-5e1d-4e29-a97f-46b388891f57
+  server: ::ffff:50.7.85.220
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: hello-world-twilight-lake-386e.yijiled513.workers.dev
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: ''
+- name: 荷兰-05
+  type: ss
+  server: 45.87.175.190
+  port: 8080
+  password: cvII85TrW6n0OGyfpHVS1u
+  udp: true
+  cipher: chacha20-ietf-poly1305
+- name: 荷兰-06 | ⬇️ 3.8MB/s|Netflix|Openai
+  type: ss
+  server: 45.158.171.139
+  port: 8080
+  password: 4a2rfixophdjffa8KVA4Aa
+  udp: true
+  cipher: chacha20-ietf-poly1305
+- name: 德国-17 | ⬇️ 3.0MB/s|5%|Netflix|Disney|Openai
+  type: vless
+  network: ws
+  uuid: telegram-id-ArV2ray
+  server: 173.245.49.41
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.a.3.speedtest2029.com.
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /-Arfilter@Arfilter-TEL--@Arfilter-TEL--@Arfilter-TEL--@Arfilter-JOIN-@Arfilter-TEL--@Arfilter-JOIN-@Arfilter-TEL-@Arfilter-TEL--@Arfilter-JOIN-@Arfilter-TEL--@Arfilter?ed=80
+- name: 德国-18 | ⬇️ 1.1MB/s
+  type: vless
+  network: ws
+  uuid: 4a856224-5aef-408e-8fee-4531490ecf9b
+  server: ov-germany4.09vpn.com
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /vless/
+- name: 德国-19
+  type: vless
+  network: ws
+  uuid: f3242907-f8e4-4166-8156-c773430bd8a4
+  server: hf.tin9.ir
+  port: 2052
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /
+- name: 荷兰-07 | ⬇️ 5.7MB/s|Openai
+  type: vless
+  network: tcp
+  uuid: fdc0229d-2037-48c4-94d3-496e67cce5d8
+  server: 85.234.65.120
+  servername: github.com
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 307pppp6s7XwguGbsjY3xaJPIubgj_D8zNJT5SmtsVA
+    short-id: f90c
+- name: 俄罗斯-01 | ⬇️ 2.3MB/s|Youtube
+  type: vless
+  network: tcp
+  uuid: 84cec1f6-8312-40da-b17a-4511e11a6026
+  server: cyber.azar.ddns-ip.net
+  servername: refersion.com
+  port: 2083
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 64ZzXuN3BNiYLcliMenVVbjdSX_jCpB-yvW7MTsz2n4
+    short-id: 4d932424dbe98b
+- name: 香港-18 | ⬇️ 2.1MB/s|0%|Disney
+  type: ss
+  server: 103.149.183.154
+  port: 8388
+  password: asd123456
+  cipher: chacha20-ietf
+- name: 法国-04 | ⬇️ 1.2MB/s|Netflix|Openai
+  type: vless
+  network: ws
+  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  server: 13.36.29.194
+  servername: trojan.burgerip.co.uk
+  port: 22224
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /telegram-channel-vlessconfig
+- name: 狮城-05
+  type: vless
+  network: ws
+  uuid: 33039dbe-8889-42f1-9aeb-ecfbfa2a1640
+  server: 104.18.32.69
+  port: 2086
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: 21tg.459tj345.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.104 Safari/537.36
+    path: /?ed=2560
+- name: 日本-03 | ⬇️ 1.3MB/s|47%|Netflix|Disney|Youtube|Openai
+  type: vless
+  network: ws
+  uuid: 49dc19c3-e447-4422-9a54-35af28207a6e
+  server: 126.39.63.163
+  servername: mihu.sorry.ip-ddns.com
+  port: 26111
+  tls: true
+  udp: true
+  client-fingerprint: random
+  ws-opts:
+    headers:
+      Host: mihu.sorry.ip-ddns.com
+    path: /?ed=2560
+- name: 香港-19 | ⬇️ 2.2MB/s|Netflix|Disney
+  type: trojan
+  network: tcp
+  server: dozo01.flztjc.top
+  port: 8313
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  skip-cert-verify: false
+  udp: true
+  sni: hk-13-568.flztjc.net
+  client-fingerprint: chrome
