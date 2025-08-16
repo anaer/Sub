@@ -1,0 +1,1882 @@
+mixed-port: 7890
+tcp-concurrent: false
+allow-lan: true
+ipv6: true
+mode: Rule
+log-level: info
+global-client-fingerprint: chrome
+find-process-mode: strict
+external-controller: 0.0.0.0:9090
+geodata-mode: true
+geo-auto-update: true
+geo-update-interval: 3
+geox-url:
+  geoip: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat
+  geosite: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat
+  mmdb: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
+  asn: https://mirror.ghproxy.com/https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb
+profile:
+  store-selected: true
+  store-fake-ip: true
+sniffer:
+  enable: true
+  parse-pure-ip: true
+  sniff:
+    HTTP:
+      ports:
+      - 80
+      - 8080-8800
+      override-destination: true
+    TLS:
+      ports:
+      - 443
+      - 8443
+    QUIC:
+      ports:
+      - 443
+      - 8443
+  skip-domain:
+  - Mijia Cloud
+  - dlg.io.mi.com
+  - +.apple.com
+tun:
+  enable: false
+  stack: mixed
+  dns-hijack:
+  - any:53
+  auto-route: true
+  auto-detect-interface: true
+dns:
+  enable: true
+  ipv6: true
+  prefer-h3: true
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - '*.lan'
+  - cable.auth.com
+  - +.msftconnecttest.com
+  - +.msftncsi.com
+  - network-test.debian.org
+  - detectportal.firefox.com
+  - resolver1.opendns.com
+  - +.srv.nintendo.net
+  - +.stun.playstation.net
+  - xbox.*.microsoft.com
+  - +.xboxlive.com
+  - stun.*
+  - global.turn.twilio.com
+  - global.stun.twilio.com
+  - localhost.*.qq.com
+  - +.logon.battlenet.com.cn
+  - +.logon.battle.net
+  - +.blzstatic.cn
+  - +.cmpassport.com
+  - id6.me
+  - open.e.189.cn
+  - mdn.open.wo.cn
+  - opencloud.wostore.cn
+  - auth.wosms.cn
+  - +.jegotrip.com.cn
+  - +.icitymobile.mobi
+  - +.pingan.com.cn
+  - +.cmbchina.com
+  - +.cmbchina.com.cn
+  - pool.ntp.org
+  - +.pool.ntp.org
+  - ntp.*.com
+  - time.*.com
+  - ntp?.*.com
+  - time?.*.com
+  - time.*.gov
+  - time.*.edu.cn
+  - +.ntp.org.cn
+  - time.*.apple.com
+  default-nameserver:
+  - 223.5.5.5
+  - 119.29.29.29
+  nameserver-policy:
+    www.baidu.com: 114.114.114.114
+    +.internal.crop.com: 10.0.0.1
+    www.baidu.com,+.google.cn: https://doh.pub/dns-query
+    geosite:private,apple: https://dns.alidns.com/dns-query
+    rule-set:google: 8.8.8.8
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  fallback:
+  - https://1.1.1.2/dns-query
+  - https://1.0.0.2/dns-query
+  - https://208.67.222.222/dns-query
+  - https://208.67.220.220/dns-query
+  - https://9.9.9.9/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    geosite:
+    - gfw
+    ipcidr:
+    - 240.0.0.0/4
+    - 0.0.0.0/32
+    domain:
+    - +.google.com
+    - +.github.com
+    - +.facebook.com
+    - +.twitter.com
+    - +.youtube.com
+    - +.google.cn
+    - +.googleapis.cn
+    - +.googleapis.com
+proxies:
+- name: 美国 001
+  type: vmess
+  network: ws
+  server: 104.18.114.1
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 002
+  type: vmess
+  network: ws
+  server: 104.18.114.2
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 003
+  type: vmess
+  network: ws
+  server: 104.21.238.3
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 004
+  type: vmess
+  network: ws
+  server: 104.21.238.4
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 005
+  type: vmess
+  network: ws
+  server: 104.21.238.5
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 006
+  type: vmess
+  network: ws
+  server: 104.21.238.6
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 007
+  type: vmess
+  network: ws
+  server: 104.21.238.7
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 008
+  type: vmess
+  network: ws
+  server: 104.21.238.8
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 009
+  type: vmess
+  network: ws
+  server: 104.21.238.9
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 010
+  type: vmess
+  network: ws
+  server: 104.21.238.10
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 011
+  type: vmess
+  network: ws
+  server: planb.mojcn.com
+  port: 16617
+  uuid: 0c0fdaa9-da2e-42c0-b38e-25d54ec1e6d4
+  skip-cert-verify: false
+  tls: false
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: b37048544d083a503188d38c53d6e4f2.mobgslb.tbcache.com
+    path: /
+- name: 英国 001
+  type: vmess
+  network: ws
+  server: t.cnmjcn.cyou
+  port: 16618
+  uuid: 42c37c6c-9ad9-42dc-99d6-afd3c100a563
+  skip-cert-verify: false
+  tls: false
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: e5406c2f4f42756d4a4089ffcd58947b.mobgslb.tbcache.com
+    path: /
+- name: 美国 012
+  type: trojan
+  network: ws
+  server: 172.67.214.21
+  port: 443
+  password: 7248e825-887c-48b9-83bc-c26bc6392bf8
+  skip-cert-verify: false
+  sni: xXcdvFgt.191268.XYz
+  ws-opts:
+    headers:
+      Host: xXcdvFgt.191268.XYz
+    path: /ctdmgeIg3NII3ibrzzKXJGy3S1
+- name: 亚美尼亚 001
+  type: trojan
+  network: ws
+  server: 188.164.159.18
+  port: 443
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 亚美尼亚 002
+  type: trojan
+  network: ws
+  server: 188.164.159.107
+  port: 2096
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 亚美尼亚 003
+  type: trojan
+  network: ws
+  server: 188.164.159.138
+  port: 2083
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 亚美尼亚 004
+  type: trojan
+  network: ws
+  server: 188.164.159.91
+  port: 2083
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 亚美尼亚 005
+  type: trojan
+  network: ws
+  server: 188.164.159.43
+  port: 2083
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 亚美尼亚 006
+  type: trojan
+  network: ws
+  server: 188.164.159.98
+  port: 2083
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 亚美尼亚 007
+  type: trojan
+  network: ws
+  server: 188.164.159.55
+  port: 2096
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 日本 001
+  type: trojan
+  network: ws
+  server: 103.116.7.67
+  port: 2083
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 韩国 001
+  type: trojan
+  network: ws
+  server: 121.167.146.253
+  port: 12902
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 韩国 002
+  type: trojan
+  network: ws
+  server: 175.212.51.220
+  port: 21301
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 乌克兰 001
+  type: trojan
+  network: ws
+  server: 31.43.179.27
+  port: 443
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 立陶宛 001
+  type: trojan
+  network: ws
+  server: 86.38.214.186
+  port: 443
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 俄罗斯 001
+  type: trojan
+  network: ws
+  server: 5.182.85.255
+  port: 2096
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 俄罗斯 002
+  type: trojan
+  network: ws
+  server: 46.254.92.142
+  port: 2087
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 俄罗斯 003
+  type: trojan
+  network: ws
+  server: 77.232.140.114
+  port: 2053
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 俄罗斯 004
+  type: trojan
+  network: ws
+  server: 46.254.93.251
+  port: 2087
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 俄罗斯 005
+  type: trojan
+  network: ws
+  server: 176.124.223.40
+  port: 2053
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 俄罗斯 006
+  type: trojan
+  network: ws
+  server: 5.182.84.50
+  port: 2096
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 乌克兰 002
+  type: trojan
+  network: ws
+  server: 45.67.215.217
+  port: 2087
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 俄罗斯 007
+  type: trojan
+  network: ws
+  server: 46.254.93.211
+  port: 2053
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 俄罗斯 008
+  type: trojan
+  network: ws
+  server: 92.243.74.23
+  port: 2096
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 俄罗斯 009
+  type: trojan
+  network: ws
+  server: 92.243.74.3
+  port: 8443
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 俄罗斯 010
+  type: trojan
+  network: ws
+  server: 92.243.74.239
+  port: 8443
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 013
+  type: trojan
+  network: ws
+  server: 154.17.10.113
+  port: 12266
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 014
+  type: trojan
+  network: ws
+  server: 154.23.172.19
+  port: 11000
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 015
+  type: trojan
+  network: ws
+  server: 154.26.182.37
+  port: 443
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 016
+  type: trojan
+  network: ws
+  server: 67.226.221.102
+  port: 80
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 017
+  type: trojan
+  network: ws
+  server: lynn.ns.cloudflare.com
+  port: 443
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 018
+  type: trojan
+  network: ws
+  server: 172.64.35.66
+  port: 443
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 019
+  type: trojan
+  network: ws
+  server: www.visa.com.sg
+  port: 2053
+  password: 0F22D008-24D4-4DFE-947B-8D2FD64CD24C
+  skip-cert-verify: false
+  udp: true
+  sni: t.hongkong6.qzz.io
+  ws-opts:
+    headers:
+      Host: t.hongkong6.qzz.io
+    path: /
+- name: 美国 020
+  type: trojan
+  network: ws
+  server: 135.84.64.36
+  port: 2083
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 021
+  type: trojan
+  network: ws
+  server: 162.159.44.230
+  port: 2053
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 022
+  type: trojan
+  network: ws
+  server: 104.19.60.99
+  port: 2087
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 023
+  type: trojan
+  network: ws
+  server: 199.34.228.187
+  port: 443
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 024
+  type: trojan
+  network: ws
+  server: 161.145.150.29
+  port: 2083
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 025
+  type: trojan
+  network: ws
+  server: kip.ns.cloudflare.com
+  port: 443
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 026
+  type: trojan
+  network: ws
+  server: 108.165.152.78
+  port: 2083
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 027
+  type: trojan
+  network: ws
+  server: 192.210.207.89
+  port: 20080
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 028
+  type: trojan
+  network: ws
+  server: 108.165.152.1
+  port: 2087
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 029
+  type: trojan
+  network: ws
+  server: 199.34.228.71
+  port: 8443
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 030
+  type: trojan
+  network: ws
+  server: 155.46.213.38
+  port: 2083
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 031
+  type: trojan
+  network: ws
+  server: 199.34.228.50
+  port: 2053
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 032
+  type: trojan
+  network: ws
+  server: 108.165.152.202
+  port: 2083
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 033
+  type: trojan
+  network: ws
+  server: 162.120.94.232
+  port: 8443
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 034
+  type: trojan
+  network: ws
+  server: 47.79.38.17
+  port: 443
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 035
+  type: trojan
+  network: ws
+  server: 108.165.152.175
+  port: 2096
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 036
+  type: trojan
+  network: ws
+  server: 167.68.5.248
+  port: 2087
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 037
+  type: trojan
+  network: ws
+  server: 108.165.152.59
+  port: 2087
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 美国 038
+  type: trojan
+  network: ws
+  server: 172.67.77.127
+  port: 443
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 印度 001
+  type: trojan
+  network: tcp
+  server: 103.252.116.138
+  port: 443
+  password: 2ee85121-31de-4581-a492-eb00f606e392
+  skip-cert-verify: false
+  sni: hk.freeguard.org
+- name: 德国 001
+  type: trojan
+  network: ws
+  server: 5.10.214.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 德国 002
+  type: trojan
+  network: ws
+  server: 5.10.215.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 阿塞拜疆 001
+  type: trojan
+  network: ws
+  server: 5.10.244.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 阿塞拜疆 002
+  type: trojan
+  network: ws
+  server: 5.10.245.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 阿塞拜疆 003
+  type: trojan
+  network: ws
+  server: 5.10.246.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 阿塞拜疆 004
+  type: trojan
+  network: ws
+  server: 5.10.247.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 德国 003
+  type: trojan
+  network: ws
+  server: 5.175.141.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 荷兰 001
+  type: trojan
+  network: ws
+  server: 5.182.34.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 俄罗斯 011
+  type: trojan
+  network: ws
+  server: 5.182.84.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 俄罗斯 012
+  type: trojan
+  network: ws
+  server: 5.182.85.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 印度 002
+  type: trojan
+  network: ws
+  server: 14.102.228.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 印度 003
+  type: trojan
+  network: ws
+  server: 14.102.229.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 英国 002
+  type: trojan
+  network: ws
+  server: 25.25.25.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 英国 003
+  type: trojan
+  network: ws
+  server: 25.26.27.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 美国 039
+  type: trojan
+  network: ws
+  server: 31.12.75.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 乌克兰 003
+  type: trojan
+  network: ws
+  server: 31.43.179.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 德国 004
+  type: trojan
+  network: ws
+  server: 31.185.108.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 英国 004
+  type: trojan
+  network: ws
+  server: 45.8.211.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 英国 005
+  type: trojan
+  network: ws
+  server: 45.12.30.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 英国 006
+  type: trojan
+  network: ws
+  server: 45.12.31.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 美国 040
+  type: trojan
+  network: ws
+  server: 45.40.144.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 美国 041
+  type: trojan
+  network: ws
+  server: 45.40.145.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 美国 042
+  type: trojan
+  network: ws
+  server: 45.40.146.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 美国 043
+  type: trojan
+  network: ws
+  server: 45.40.147.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 美国 044
+  type: trojan
+  network: ws
+  server: 45.40.148.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 美国 045
+  type: trojan
+  network: ws
+  server: 45.40.149.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 美国 046
+  type: trojan
+  network: ws
+  server: 45.40.150.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 美国 047
+  type: trojan
+  network: ws
+  server: 45.40.151.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 美国 048
+  type: trojan
+  network: ws
+  server: 45.40.152.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 美国 049
+  type: trojan
+  network: ws
+  server: 45.40.153.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 美国 050
+  type: trojan
+  network: ws
+  server: 45.40.154.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 美国 051
+  type: trojan
+  network: ws
+  server: 45.40.155.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 乌克兰 004
+  type: trojan
+  network: ws
+  server: 45.67.215.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 法国 001
+  type: trojan
+  network: ws
+  server: 45.80.108.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 法国 002
+  type: trojan
+  network: ws
+  server: 45.80.110.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 法国 003
+  type: trojan
+  network: ws
+  server: 45.80.111.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 英国 007
+  type: trojan
+  network: ws
+  server: 45.85.118.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 英国 008
+  type: trojan
+  network: ws
+  server: 45.85.119.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 荷兰 002
+  type: trojan
+  network: ws
+  server: 45.128.76.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 荷兰 003
+  type: trojan
+  network: ws
+  server: 45.130.125.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 荷兰 004
+  type: trojan
+  network: ws
+  server: 45.131.4.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 荷兰 005
+  type: trojan
+  network: ws
+  server: 45.131.5.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 荷兰 006
+  type: trojan
+  network: ws
+  server: 45.131.6.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 荷兰 007
+  type: trojan
+  network: ws
+  server: 45.131.7.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 荷兰 008
+  type: trojan
+  network: ws
+  server: 45.131.208.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 荷兰 009
+  type: trojan
+  network: ws
+  server: 45.131.209.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 荷兰 010
+  type: trojan
+  network: ws
+  server: 45.131.210.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 荷兰 011
+  type: trojan
+  network: ws
+  server: 45.131.211.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 荷兰 012
+  type: trojan
+  network: ws
+  server: 45.135.235.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 荷兰 013
+  type: trojan
+  network: ws
+  server: 45.142.120.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 荷兰 014
+  type: trojan
+  network: ws
+  server: 45.146.201.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+- name: 荷兰 015
+  type: trojan
+  network: ws
+  server: 45.149.12.216
+  port: 2096
+  password: ttfang
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram🇨🇳
+proxy-groups:
+- name: PROXY
+  type: select
+  proxies:
+  - LOAD-BALANCE
+  - SELECT
+  - FALLBACK
+  - DIRECT
+- name: SELECT
+  type: select
+  proxies: &id001
+  - 美国 001
+  - 美国 002
+  - 美国 003
+  - 美国 004
+  - 美国 005
+  - 美国 006
+  - 美国 007
+  - 美国 008
+  - 美国 009
+  - 美国 010
+  - 美国 011
+  - 英国 001
+  - 美国 012
+  - 亚美尼亚 001
+  - 亚美尼亚 002
+  - 亚美尼亚 003
+  - 亚美尼亚 004
+  - 亚美尼亚 005
+  - 亚美尼亚 006
+  - 亚美尼亚 007
+  - 日本 001
+  - 韩国 001
+  - 韩国 002
+  - 乌克兰 001
+  - 立陶宛 001
+  - 俄罗斯 001
+  - 俄罗斯 002
+  - 俄罗斯 003
+  - 俄罗斯 004
+  - 俄罗斯 005
+  - 俄罗斯 006
+  - 乌克兰 002
+  - 俄罗斯 007
+  - 俄罗斯 008
+  - 俄罗斯 009
+  - 俄罗斯 010
+  - 美国 013
+  - 美国 014
+  - 美国 015
+  - 美国 016
+  - 美国 017
+  - 美国 018
+  - 美国 019
+  - 美国 020
+  - 美国 021
+  - 美国 022
+  - 美国 023
+  - 美国 024
+  - 美国 025
+  - 美国 026
+  - 美国 027
+  - 美国 028
+  - 美国 029
+  - 美国 030
+  - 美国 031
+  - 美国 032
+  - 美国 033
+  - 美国 034
+  - 美国 035
+  - 美国 036
+  - 美国 037
+  - 美国 038
+  - 印度 001
+  - 德国 001
+  - 德国 002
+  - 阿塞拜疆 001
+  - 阿塞拜疆 002
+  - 阿塞拜疆 003
+  - 阿塞拜疆 004
+  - 德国 003
+  - 荷兰 001
+  - 俄罗斯 011
+  - 俄罗斯 012
+  - 印度 002
+  - 印度 003
+  - 英国 002
+  - 英国 003
+  - 美国 039
+  - 乌克兰 003
+  - 德国 004
+  - 英国 004
+  - 英国 005
+  - 英国 006
+  - 美国 040
+  - 美国 041
+  - 美国 042
+  - 美国 043
+  - 美国 044
+  - 美国 045
+  - 美国 046
+  - 美国 047
+  - 美国 048
+  - 美国 049
+  - 美国 050
+  - 美国 051
+  - 乌克兰 004
+  - 法国 001
+  - 法国 002
+  - 法国 003
+  - 英国 007
+  - 英国 008
+  - 荷兰 002
+  - 荷兰 003
+  - 荷兰 004
+  - 荷兰 005
+  - 荷兰 006
+  - 荷兰 007
+  - 荷兰 008
+  - 荷兰 009
+  - 荷兰 010
+  - 荷兰 011
+  - 荷兰 012
+  - 荷兰 013
+  - 荷兰 014
+  - 荷兰 015
+- name: LOAD-BALANCE
+  type: load-balance
+  url: https://cp.cloudflare.com/generate_204
+  interval: 3600
+  strategy: consistent-hashing
+  proxies: *id001
+- name: FALLBACK
+  type: fallback
+  url: https://cp.cloudflare.com/generate_204
+  interval: 3600
+  proxies: *id001
+- name: FINAL
+  type: select
+  proxies:
+  - PROXY
+  - DIRECT
+rule-providers:
+  reject:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
+    path: ./ruleset/reject.yaml
+    interval: 86400
+  icloud:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+  apple:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt
+    path: ./ruleset/apple.yaml
+    interval: 86400
+  google:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt
+    path: ./ruleset/google.yaml
+    interval: 86400
+  proxy:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt
+    path: ./ruleset/proxy.yaml
+    interval: 86400
+  direct:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt
+    path: ./ruleset/direct.yaml
+    interval: 86400
+  private:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt
+    path: ./ruleset/private.yaml
+    interval: 86400
+  gfw:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+  tld-not-cn:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt
+    path: ./ruleset/tld-not-cn.yaml
+    interval: 86400
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt
+    path: ./ruleset/cncidr.yaml
+    interval: 86400
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
+    path: ./ruleset/lancidr.yaml
+    interval: 86400
+  applications:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt
+    path: ./ruleset/applications.yaml
+    interval: 86400
+rules:
+- RULE-SET,reject,REJECT
+- RULE-SET,apple,DIRECT
+- RULE-SET,applications,DIRECT
+- RULE-SET,cncidr,DIRECT
+- RULE-SET,direct,DIRECT
+- RULE-SET,icloud,DIRECT
+- RULE-SET,lancidr,DIRECT
+- RULE-SET,private,DIRECT
+- RULE-SET,proxy,PROXY
+- RULE-SET,gfw,PROXY
+- RULE-SET,google,PROXY
+- RULE-SET,telegramcidr,PROXY
+- RULE-SET,tld-not-cn,PROXY
+- GEOIP,LAN,DIRECT
+- GEOIP,CN,DIRECT
+- MATCH,FINAL
