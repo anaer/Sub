@@ -1,0 +1,4128 @@
+proxies:
+- name: 俄罗斯联邦-001 |6.3MB/s|GPT|D+|6%
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 185.148.107.3
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /
+- name: 德国-001 | ⬇️ 6.1MB/s|NF
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 5.10.215.177
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: /Telegram@WangCai2/?ed=2560
+- name: 美国-001 | ⬇️ 5.1MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 135.84.75.3
+  servername: Telegram-channel-v2ray_configs_pools
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+    path: /Telegram🇨🇳
+- name: 俄罗斯联邦-002 |8.2MB/s
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 45.8.211.3
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.143 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 美国-002 |5.0MB/s|D+
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 45.159.219.3
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 美国-003 | ⬇️ 8.2MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 216.24.57.3
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
+    path: /Telegram🇨🇳
+- name: 美国-004 | ⬇️ 5.7MB/s
+  type: vless
+  network: ws
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+  server: 139.64.235.247
+  servername: ex.sue.x10.mx
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ex.sue.x10.mx
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /Telegram🇨🇳
+- name: 美国-005 | ⬇️ 7.4MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 192.200.160.177
+  servername: ip.langmanshanxi.top
+  port: 8880
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram
+  client-fingerprint: chrome
+- name: 澳大利亚-001 | ⬇️ 5.2MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 192.65.217.177
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+  client-fingerprint: chrome
+- name: 美国-006 | ⬇️ 5.7MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 205.233.181.213
+  servername: jp.laoyoutiao.link
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /?ed=2560
+- name: 俄罗斯联邦-003 | ⬇️ 5.7MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 185.174.138.3
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
+        Gecko) Chrome/26.0.1410.64 Safari/537.31
+    path: /Telegram🇨🇳
+- name: 美国-007 | ⬇️ 5.3MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 139.64.235.63
+  servername: jp.laoyoutiao.link
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+  client-fingerprint: chrome
+- name: 俄罗斯联邦-004 | ⬇️ 5.7MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 193.9.49.186
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 卢森堡-001 | ⬇️ 5.9MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 188.42.88.186
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 俄罗斯联邦-005 | ⬇️ 5.1MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 185.148.105.186
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-008 | ⬇️ 5.2MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 205.233.181.63
+  servername: jp.laoyoutiao.link
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+  client-fingerprint: chrome
+- name: 立陶宛-001 |8.3MB/s
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 89.116.161.3
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /Telegram
+- name: 美国-009 | ⬇️ 6.2MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 104.254.140.213
+  servername: jp.laoyoutiao.link
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /?ed=2560
+- name: 俄罗斯联邦-006 | ⬇️ 5.3MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  server: 5.182.84.254
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: yg.bantony199.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 美国-010 | ⬇️ 5.9MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.193.213.37
+  port: 80
+  tls: false
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: Telegram🇨🇳 @MxlShare+@WangCai2+/?ed=2560
+- name: 美国-011 | ⬇️ 5.7MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 135.84.76.63
+  servername: jp.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/44.0.2403.157 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 荷兰-001 | ⬇️ 5.9MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.131.209.63
+  servername: jp.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.104 Safari/537.36
+    path: /---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net/
+- name: 美国-012 | ⬇️ 5.6MB/s|NF|D+|YT
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 216.24.57.177
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 英国-001 |8.1MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 25.129.198.177
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+  client-fingerprint: chrome
+- name: 日本-001 | ⬇️ 7.7MB/s|15%|NF|D+|YT|GPT|GM
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.197
+  servername: yd.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: yd.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
+- name: 西班牙-001 | ⬇️ 6.1MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.251.81.213
+  servername: jp.laoyoutiao.link
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /?ed=2560
+- name: 德国-002 | ⬇️ 5.9MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 89.116.46.213
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.110 Safari/537.36
+- name: 美国-013 | ⬇️ 7.4MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 160.79.105.213
+  servername: jp.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+- name: 美国-014 | ⬇️ 5.9MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 167.68.5.3
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 英国-002 | ⬇️ 5.8MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 25.25.25.29
+  servername: hk.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 美国-015 |6.1MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 135.84.79.177
+  servername: ip.langmanshanxi.top
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
+        Safari/537.36
+    path: /TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+- name: 法国-001 | ⬇️ 5.0MB/s|22%|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.16.110.63
+  servername: sg.laoyoutiao.link
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram🇨🇳
+  client-fingerprint: chrome
+- name: 德国-003 | ⬇️ 7.8MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 188.244.122.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 荷兰-002 | ⬇️ 7.8MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 188.164.248.213
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /Telegram@V2ray_Alpha/?ed=2048
+- name: 哈萨克斯坦-001 | ⬇️ 5.2MB/s|D+|YT
+  type: trojan
+  network: ws
+  server: 194.76.18.129
+  port: 443
+  password: tg-fq521free
+  skip-cert-verify: false
+  udp: true
+  sni: torjan.xn--xhq44j.eu.org
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
+  client-fingerprint: chrome
+- name: 加拿大-001 | ⬇️ 6.7MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 74.49.215.63
+  servername: jp.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 荷兰-003 | ⬇️ 5.3MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 194.152.44.177
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+  client-fingerprint: chrome
+- name: 美国-016 |7.9MB/s
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 192.0.54.213
+  servername: jp.laoyoutiao.link
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /
+- name: 美国-017 | ⬇️ 5.2MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 45.159.217.177
+  servername: ip.langmanshanxi.top
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    path: /Telegram @freecodes /?ed=2560
+- name: 法国-002 | ⬇️ 6.1MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.11.203.213
+  servername: jp.laoyoutiao.link
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /?ed=2560
+- name: 保加利亚-001 | ⬇️ 5.6MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 147.78.140.63
+  servername: jp.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 塞浦路斯-001 |6.9MB/s
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 195.26.229.3
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 俄罗斯联邦-007 | ⬇️ 6.9MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 213.219.247.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/56.0.2924.87 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-018 | ⬇️ 6.3MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+  server: 195.13.44.247
+  servername: ex.sue.x10.mx
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ex.sue.x10.mx
+      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /Telegram🇨🇳
+- name: 日本-002 | ⬇️ 10.9MB/s|15%|NF|D+|YT|GM
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.166
+  servername: sg.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /
+- name: 荷兰-004 | ⬇️ 6.6MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 194.152.44.213
+  servername: jp.laoyoutiao.link
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /?ed=2560
+- name: 塞浦路斯-002 | ⬇️ 6.0MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+  server: 195.26.229.247
+  servername: ex.sue.x10.mx
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ex.sue.x10.mx
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed
+- name: 英国-003 | ⬇️ 5.5MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.25
+  servername: kjgx.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: Telegram@WangCai2/?ed=2560
+- name: 美国-019 | ⬇️ 7.0MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 159.246.55.186
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 俄罗斯联邦-008 | ⬇️ 6.6MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+  server: 185.174.138.247
+  servername: ex.sue.x10.mx
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ex.sue.x10.mx
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 俄罗斯联邦-009 | ⬇️ 6.5MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.221.160.29
+  servername: hk.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.116 Safari/537.36
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 美国-020 |6.4MB/s
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 167.68.4.168
+  servername: kjgx.laoyoutiao.link
+  port: 8880
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+    path: /Telegram@WangCai2/?ed=2560
+- name: 西班牙-002 | ⬇️ 6.3MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.251.83.168
+  servername: kjgx.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: Telegram@WangCai2/?ed=2560
+- name: 美国-021 | ⬇️ 5.9MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 103.133.1.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 俄罗斯联邦-010 | ⬇️ 5.3MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 5.182.85.63
+  servername: sg.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /Telegram
+- name: 美国-022 | ⬇️ 5.8MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 14.102.229.63
+  servername: jp.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 美国-023 | ⬇️ 6.1MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.159.218.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-024 | ⬇️ 6.0MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  server: 205.233.181.254
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: yg.bantony199.top
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /Telegram🇨🇳
+- name: 美国-025 | ⬇️ 5.9MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 205.233.181.168
+  servername: kjgx.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
+    path: Telegram@WangCai2/?ed=2560
+- name: 美国-026 | ⬇️ 5.7MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 159.112.235.168
+  servername: kjgx.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+    path: Telegram@WangCai2/?ed=2560
+- name: 俄罗斯联邦-011 | ⬇️ 5.6MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 185.148.104.177
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 俄罗斯联邦-012 | ⬇️ 7.8MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.148.104.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.116 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-027 | ⬇️ 6.5MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 159.246.55.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 西班牙-003 | ⬇️ 6.3MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.238.228.29
+  servername: hk.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 俄罗斯联邦-013 | ⬇️ 6.2MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 193.9.49.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 哈萨克斯坦-002 | ⬇️ 6.2MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 31.43.179.177
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /Telegram@WangCai2/?ed=2560
+- name: 日本-003 | ⬇️ 5.9MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.89
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: Telegram@WangCai2/?ed=2048
+- name: 美国-028 | ⬇️ 8.4MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 167.68.4.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 德国-004 | ⬇️ 6.4MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 5.10.215.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 立陶宛-002 | ⬇️ 5.9MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+  server: 89.116.180.247
+  servername: ex.sue.x10.mx
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ex.sue.x10.mx
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 美国-029 | ⬇️ 5.1MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+  server: 45.159.217.247
+  servername: ex.sue.x10.mx
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ex.sue.x10.mx
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /Telegram@V2ray_Alpha
+- name: 俄罗斯联邦-014 | ⬇️ 5.0MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 46.254.93.63
+  servername: jp.laoyoutiao.link
+  port: 8880
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  xudp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+  client-fingerprint: chrome
+- name: 西班牙-004 | ⬇️ 8.0MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.251.80.63
+  servername: jp.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 美国-030 | ⬇️ 6.0MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 199.181.197.29
+  servername: hk.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 日本-004 |5.3MB/s|GPT|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.106
+  servername: yd.laoyoutiao.link
+  port: 8880
+  tls: false
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: yd.laoyoutiao.link
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560fp=chrome
+- name: 日本-005 | ⬇️ 5.7MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.199
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: Telegram@WangCai2/?ed=2560
+- name: 美国-031 | ⬇️ 5.8MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 216.205.52.29
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /
+- name: 美国-032 |5.3MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 66.235.200.186
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 俄罗斯联邦-015 |1.1MB/s|NF|D+|GM
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.221.160.213
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+- name: 美国-033 | ⬇️ 6.0MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.159.216.63
+  servername: jp.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 澳大利亚-002 | ⬇️ 6.6MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 192.65.217.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/44.0.2403.157 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 日本-006 | ⬇️ 8.0MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.36
+  servername: yd.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: yd.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 瑞士-001 | ⬇️ 7.6MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  server: 185.18.250.254
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: yg.bantony199.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 罗马尼亚-001 | ⬇️ 6.6MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.12.30.168
+  servername: kjgx.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+    path: /Telegram@WangCai2/
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 捷克-001 | ⬇️ 8.2MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 195.85.23.213
+  servername: jp.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /?ed=2560
+- name: 英国属地曼岛-001 | ⬇️ 8.1MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.162.230.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-034 | ⬇️ 7.2MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  server: 170.114.45.254
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: yg.bantony199.top
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /Telegram🇨🇳
+- name: 罗马尼亚-002 | ⬇️ 6.8MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.85.119.213
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+- name: 哈萨克斯坦-003 | ⬇️ 6.6MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 195.245.221.168
+  servername: kjgx.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: Telegram@WangCai2/?ed=2560
+- name: 荷兰-005 | ⬇️ 5.9MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.131.211.213
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+- name: 荷兰-006 | ⬇️ 5.2MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.131.4.63
+  servername: jp.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 英国属地曼岛-002 | ⬇️ 6.3MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 185.162.229.177
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /Telegram🇨🇳@WangCai2/?ed=2560
+- name: 乌克兰-001 | ⬇️ 5.3MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 46.202.30.177
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.101 Safari/537.36
+    path: /Telegram@WangCai2/?ed=2560
+- name: 英国-004 | ⬇️ 8.0MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.193.29.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/46.0.2490.71 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 荷兰-007 | ⬇️ 7.7MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.131.210.63
+  servername: sg.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.75 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 日本-007 | ⬇️ 7.6MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.149
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: Telegram🇨🇳@WangCai2/?ed=2560
+- name: 美国-035 | ⬇️ 6.8MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.193.213.53
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/56.0.2924.87 Safari/537.36
+    path: TelegramрЯЗ®рЯЗ≥
+- name: 香港-001 | ⬇️ 6.3MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.19.213
+  servername: jp.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /?ed=2560
+- name: 日本-008 | ⬇️ 6.3MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.132
+  servername: jp.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+    path: Telegram@WangCai2/?ed=2560
+- name: 英国属地曼岛-003 | ⬇️ 5.8MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.162.228.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 罗马尼亚-003 | ⬇️ 5.4MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.12.31.213
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.75 Safari/537.36
+- name: 美国-036 |3.5MB/s|GPT|NF|D+|0%
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 199.34.230.63
+  servername: sg.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 日本-009 | ⬇️ 7.4MB/s|78%|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.236
+  servername: yd.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: yd.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 美国-037 | ⬇️ 7.3MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.193.213.128
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
+    path: TelegramрЯЗ
+- name: 日本-010 | ⬇️ 6.0MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.135
+  servername: kjgx.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: Telegram@WangCai2/?ed=2560
+- name: 哈萨克斯坦-004 | ⬇️ 5.6MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 195.245.221.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 日本-011 | ⬇️ 8.7MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.148
+  servername: sg.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: Telegram@WangCai2/?ed=2048
+- name: 美国-038 |6.5MB/s|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.159.217.63
+  servername: jp.laoyoutiao.link
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+  client-fingerprint: chrome
+- name: 西班牙-005 | ⬇️ 6.1MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.238.228.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 英国-005 |7.4MB/s|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.193.28.168
+  servername: kjgx.laoyoutiao.link
+  port: 8880
+  skip-cert-verify: true
+  tls: false
+  tfo: false
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+    path: /Telegram@WangCai2/?ed=2560
+- name: 美国-039 | ⬇️ 5.4MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.193.213.175
+  servername: us.laoyoutiao.link
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: Telegram🇨🇳@WangCai2/?ed
+- name: 美国-040 | ⬇️ 5.2MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 170.114.45.3
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/56.0.2924.87 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 日本-012 |5.2MB/s|YT-HK|D+
+  type: trojan
+  network: ws
+  server: 156.238.18.220
+  port: 8443
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  skip-cert-verify: true
+  udp: true
+  sni: vle.amclubsvip.dpdns.org
+  ws-opts:
+    headers:
+      Host: vle.amclubsvip.dpdns.org
+    path: /?ed=2560&PROT_TYPE=trojan&NAT64=true
+- name: 荷兰-008 | ⬇️ 6.5MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.131.5.63
+  servername: jp.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-041 | ⬇️ 5.5MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.193.213.108
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: TelegramрЯЗ
+- name: 荷兰-009 |1.0MB/s|GPT⁺|NF|D+
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 188.164.248.3
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 德国-005 |5.6MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 140.99.233.188
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 荷兰-010 | ⬇️ 7.6MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.131.208.213
+  port: 8880
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  xudp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /
+- name: 日本-013 |5.0MB/s|YT-HK|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.215
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /Telegram @MxlShare @WangCai2 /?ed=2560
+- name: 美国-042 | ⬇️ 8.2MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.193.213.174
+  servername: us.laoyoutiao.link
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: Telegram🇨🇳@WangCai2/?ed
+- name: 日本-014 | ⬇️ 6.1MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.244
+  servername: sg.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: Telegram@WangCai2/?ed=2048
+- name: 立陶宛-003 | ⬇️ 7.7MB/s|48%|D+|GPT|GM
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 89.116.250.3
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 美国-043 |6.2MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 160.79.104.188
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 约旦-001 |5.6MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 62.72.166.177
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+  client-fingerprint: chrome
+- name: 美国-044 |6.2MB/s|GPT|D+
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 45.159.216.3
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /Telegram🇨🇳
+- name: 荷兰-011 | ⬇️ 5.2MB/s|NF|GM
+  type: vless
+  network: ws
+  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+  server: 45.131.209.130
+  servername: ovhwuxian.pai50288.uk
+  port: 8443
+  tls: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ovhwuxian.pai50288.uk
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.116 Safari/537.36
+    path: /57ba2ab1
+  client-fingerprint: chrome
+- name: 加拿大-002 | ⬇️ 5.4MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 74.49.214.188
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 英国-006 | ⬇️ 7.6MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 185.193.29.186
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /Telegram @WangCai2 /?ed=2560
+- name: 阿联酋-001 | ⬇️ 5.6MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 193.124.224.63
+  servername: jp.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: /Telegram@V2ray_Alpha/?ed=2048
+- name: 俄罗斯联邦-016 |7.4MB/s|GPT|D+|GM
+  type: vless
+  network: ws
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  server: 185.174.138.251
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
+- name: 巴西-001 |8.8MB/s
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 185.133.35.3
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 荷兰-012 |6.4MB/s
+  type: vless
+  network: ws
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  server: 194.152.44.251
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /Telegram%20@WangCai2%20/
+- name: 约旦-002 |6.7MB/s
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 62.72.166.63
+  servername: jp.laoyoutiao.link
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+  client-fingerprint: chrome
+- name: 瑞士-002 | ⬇️ 1.9MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 185.18.250.3
+  servername: bitget1.asdasd.click
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /
+- name: 爱沙尼亚-001 | ⬇️ 5.3MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 45.80.110.177
+  servername: ip.langmanshanxi.top
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /Telegram@WangCai2/?ed=2560
+- name: 奥地利-001 |5.7MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 212.183.88.177
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+  client-fingerprint: chrome
+- name: 立陶宛-004 |5.7MB/s|D+
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 89.116.180.3
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 美国-045 |5.2MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 80.93.202.186
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 荷兰-013 | ⬇️ 5.8MB/s|D+|GM
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 188.164.248.186
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-046 |7.3MB/s|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 199.34.229.63
+  servername: jp.laoyoutiao.link
+  port: 8880
+  skip-cert-verify: true
+  tls: false
+  tfo: false
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+  client-fingerprint: chrome
+- name: 法国-003 |6.9MB/s
+  type: vless
+  network: ws
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  server: 185.16.110.251
+  servername: cf.d3z.net
+  port: 8880
+  tls: false
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /
+- name: 美国-047 |6.2MB/s|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.193.213.12
+  servername: cs.laoyoutiao.link
+  port: 80
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: cs.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 新加坡-001 |6.6MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 92.243.74.188
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 美国-048 |8.8MB/s|D+
+  type: vless
+  network: ws
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  server: 66.81.247.251
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /
+- name: 俄罗斯联邦-017 |5.6MB/s|D+
+  type: vless
+  network: ws
+  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  server: 46.254.92.254
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: yg.bantony199.top
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 英国-007 |5.0MB/s|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.170.166.63
+  servername: jp.laoyoutiao.link
+  port: 8880
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /Telegram
+  client-fingerprint: chrome
+- name: 美国-049 | ⬇️ 6.6MB/s|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.193.213.92
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /TelegramрЯЗ®рЯЗ≥
+- name: 立陶宛-005 |5.2MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 89.116.180.186
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 俄罗斯联邦-018 |1.5MB/s|GPT⁺|NF|D+|0%
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 185.148.104.3
+  servername: bitget1.asdasd.click
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+    path: /
+- name: 德国-006 |7.5MB/s|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 5.10.214.213
+  servername: jp.laoyoutiao.link
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /?ed=2560
+- name: 卢森堡-002 |7.3MB/s|D+
+  type: vless
+  network: ws
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  server: 188.42.88.251
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-050 |8.8MB/s|D+
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 192.0.63.3
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 新加坡-002 | ⬇️ 8.4MB/s|D+|YT
+  type: trojan
+  network: ws
+  server: 139.180.154.158
+  port: 443
+  password: ttfang
+  skip-cert-verify: true
+  udp: true
+  sni: ttfang.fange.me
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+  client-fingerprint: chrome
+- name: 俄罗斯联邦-019 |7.3MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 185.174.138.186
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-051 |5.7MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 66.81.247.186
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 保加利亚-002 |6.7MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 147.78.140.177
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+  client-fingerprint: chrome
+- name: 俄罗斯联邦-020 |6.3MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 185.148.106.177
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+  client-fingerprint: chrome
+- name: 俄罗斯联邦-021 |5.5MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 185.148.107.87
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile
+        Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-052 |6.9MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 45.159.219.177
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+  client-fingerprint: chrome
+- name: 美国-053 |6.9MB/s|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 192.200.160.63
+  servername: jp.laoyoutiao.link
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+  client-fingerprint: chrome
+- name: 美国-054 |6.8MB/s|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 195.13.44.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 立陶宛-006 | ⬇️ 5.8MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 88.216.66.3
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 美国-055 |8.1MB/s
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.193.213.26
+  servername: us.laoyoutiao.link
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /Telegram@WangCai2/?ed
+- name: 美国-056 |6.7MB/s
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 14.102.229.186
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 俄罗斯联邦-022 |7.5MB/s|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.148.107.213
+  servername: jp.laoyoutiao.link
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /?ed=2560
+- name: 俄罗斯联邦-023 |7.1MB/s
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 185.148.105.3
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 美国-057 |7.6MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 14.102.229.188
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 美国-058 |6.5MB/s|GM
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.159.216.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-059 |5.5MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 160.79.104.177
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  xudp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+  client-fingerprint: chrome
+- name: 克罗地亚-001 | ⬇️ 6.5MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 213.182.199.3
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 英国属地曼岛-004 |5.6MB/s|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.162.229.168
+  servername: kjgx.laoyoutiao.link
+  port: 8880
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  xudp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /Telegram@WangCai2/
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 美国-060 |6.7MB/s
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 167.68.4.3
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /Telegram
+- name: 美国-061 | ⬇️ 5.5MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.193.213.152
+  servername: us.laoyoutiao.link
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: Telegram@WangCai2/?ed
+- name: 日本-015 |5.0MB/s|YT-HK|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.150
+  port: 8880
+  tls: false
+  ws-opts:
+    headers:
+      Host: yd.laoyoutiao.link
+    path: Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+- name: 美国-062 |9.1MB/s|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.193.213.114
+  port: 80
+  tls: false
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: Telegram🇨🇳 @MxlShare+@WangCai2+/?ed=2560
+- name: 俄罗斯联邦-024 |9.0MB/s|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.221.160.168
+  servername: kjgx.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /Telegram@freecodes/
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 美国-063 |6.5MB/s
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.193.213.76
+  servername: cs.laoyoutiao.link
+  port: 80
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: cs.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 美国-064 |6.0MB/s|D+
+  type: vless
+  network: ws
+  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  server: 141.193.27.143
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: yg.bantony199.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-065 |5.7MB/s
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 209.94.90.63
+  servername: jp.laoyoutiao.link
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /Telegram🇨🇳
+- name: 美国-066 |7.4MB/s|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.193.213.20
+  servername: cs.laoyoutiao.link
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: cs.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: Telegram🇨🇳@WangCai2/?ed=2560
+- name: 立陶宛-007 |7.4MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 45.153.7.87
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-067 |10.7MB/s
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.193.213.135
+  servername: us.laoyoutiao.link
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 美国-068 |6.6MB/s
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 199.34.229.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 美国-069 |5.7MB/s|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 139.64.235.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 美国-070 |5.7MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 66.45.118.87
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 俄罗斯联邦-025 |12.7MB/s
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 193.9.49.188
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile
+        Safari/537.36
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 美国-071 |11.4MB/s
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.193.213.253
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile
+        Safari/537.36
+    path: /Telegram🇨🇳
+- name: 美国-072 |9.1MB/s|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 130.250.137.168
+  servername: kjgx.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /Telegram@WangCai2/
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 立陶宛-008 |8.3MB/s
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.153.7.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 俄罗斯联邦-026 |8.2MB/s|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.148.106.168
+  servername: kjgx.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: /Telegram@freecodes/
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 乌克兰-002 |7.9MB/s|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 46.202.30.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /Telegram🇨🇳 @WangCai2 /
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 日本-016 |7.1MB/s|YT-HK|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.227
+  servername: kjgx.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /Telegram🇨🇳@WangCai2/
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 美国-073 |6.7MB/s
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 199.181.197.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/56.0.2924.87 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 卢森堡-003 |5.9MB/s
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 188.42.88.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 美国-074 |5.7MB/s
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 216.205.52.168
+  servername: kjgx.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /Telegram@freecodes/
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 美国-075 |5.2MB/s
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 63.141.128.188
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 哈萨克斯坦-005 |5.0MB/s|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.176.26.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 荷兰-014 | ⬇️ 12.0MB/s|18%|NF|YT|GPT
+  type: ss
+  server: 51.15.17.169
+  port: 989
+  password: f8f7aCzcPKbsF8p3
+  udp: true
+  cipher: aes-256-cfb
+- name: 爱沙尼亚-002 |7.8MB/s
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 185.159.247.87
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-076 |7.8MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 63.141.128.87
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 英国-008 |7.7MB/s|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 94.247.142.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 美国-077 |7.2MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 135.84.73.87
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 日本-017 |2.8MB/s|GPT⁺|D+|0%
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.94
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.167 Safari/537.36
+    path: /Telegram@WangCai2/
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+- name: 卢森堡-004 |6.5MB/s
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 188.42.88.213
+  servername: jp.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /Telegram@V2ray_Alpha/?ed=2048
+- name: 美国-078 |6.5MB/s
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 66.81.247.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/32.0.1700.107 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 日本-018 |6.0MB/s|YT-HK
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.225
+  servername: kjgx.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /Telegram🇨🇳@WangCai2/
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 新加坡-003 |5.9MB/s
+  type: ss
+  server: 103.36.91.32
+  port: 8388
+  password: asd123456
+  udp: true
+  cipher: chacha20-ietf
+- name: 哈萨克斯坦-006 |5.8MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 194.76.18.87
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-079 |5.2MB/s
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.193.213.126
+  servername: cs.laoyoutiao.link
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: cs.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 瑞士-003 |5.0MB/s
+  type: vless
+  network: ws
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  server: 185.18.250.12
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ana-SErVICe.xAbjCDZ.wORkErs.deV
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/56.0.2924.87 Safari/537.36
+    path: /1Y6MN5DFV8zB82Ai?ed=2560
+- name: 俄罗斯联邦-027 |5.0MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 185.221.160.188
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 斯洛文尼亚-001 |9.2MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 92.53.188.188
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+        Chrome/v1.0.0 Safari/538.1
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 美国-080 | ⬇️ 7.5MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.193.27.29
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /
+- name: 美国-081 | ⬇️ 7.3MB/s|NF|D+|GPT
+  type: trojan
+  network: ws
+  server: 192.0.54.221
+  port: 2083
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgc.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /?ed=2560
+  client-fingerprint: chrome
+- name: 日本-019 | ⬇️ 7.0MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.86
+  servername: jp.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: Telegram@WangCai2/?ed=2560
+- name: 哈萨克斯坦-007 |6.9MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 185.176.26.188
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 英国-009 | ⬇️ 6.8MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.193.31.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 捷克-002 | ⬇️ 6.8MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 195.85.23.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/39.0.2171.95 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 俄罗斯联邦-028 | ⬇️ 6.7MB/s|D+|YT
+  type: trojan
+  network: ws
+  server: 45.67.215.95
+  port: 443
+  password: tg-fq521free
+  skip-cert-verify: false
+  udp: true
+  sni: torjan.xn--xhq44j.eu.org
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
+- name: 罗马尼亚-004 | ⬇️ 6.7MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.12.31.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-082 | ⬇️ 6.7MB/s|NF|D+|GPT
+  type: trojan
+  network: ws
+  server: 63.141.128.66
+  port: 2087
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgc.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /?ed=2560
+  client-fingerprint: chrome
+- name: 印度-001 | ⬇️ 6.5MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 103.245.228.29
+  servername: hk.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 立陶宛-009 | ⬇️ 6.5MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 89.116.180.63
+  servername: jp.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 荷兰-015 | ⬇️ 6.4MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.131.4.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-083 |6.3MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 66.81.247.188
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 韩国-001 |6.2MB/s
+  type: vless
+  network: ws
+  uuid: 5177172c-125a-47fa-bccd-3778b459a75e
+  server: 221.151.212.249
+  servername: subvless.trevely.us.kg
+  port: 50000
+  tls: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: subvless.trevely.us.kg
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /?ed=2560
+  client-fingerprint: chrome
+- name: 美国-084 | ⬇️ 5.8MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.202.113.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Chrome/12.0.742.100 Safari/534.30
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 俄罗斯联邦-029 |5.6MB/s|D+
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 77.232.140.3
+  servername: bitget1.asdasd.click
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 巴西-002 | ⬇️ 5.4MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.133.35.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-085 | ⬇️ 5.4MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.159.217.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 哈萨克斯坦-008 | ⬇️ 5.3MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 194.76.18.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 哈萨克斯坦-009 | ⬇️ 5.1MB/s|0%|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 31.43.179.29
+  servername: hk.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 新加坡-004 |5.1MB/s
+  type: vless
+  network: ws
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  server: 27.50.48.21
+  servername: edgc.aimercc.dpdns.org
+  port: 443
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      host: edgc.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 俄罗斯联邦-030 |5.1MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 185.59.218.7
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.101 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-086 | ⬇️ 7.2MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 168.100.6.29
+  servername: hk.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /Telegram
+- name: 英国-010 | ⬇️ 5.6MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 25.129.198.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 英国-011 | ⬇️ 8.6MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.57
+  servername: us.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /
+- name: 印度尼西亚-001 |10.6MB/s|YT-HK|D+|0%
+  type: ss
+  server: 202.155.152.86
+  port: 27600
+  password: 5b1a170b-5188-4f48-b240-b770e78bf2a4
+  cipher: aes-256-gcm
+- name: 英国-012 | ⬇️ 5.2MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 154.197.121.3
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 德国-007 |8.2MB/s
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 5.175.141.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+- name: 英国-013 | ⬇️ 6.1MB/s|NF|D+|YT|GM
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.126
+  servername: Telegram-channel-freecodes
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /
+- name: 香港-002 |17.3MB/s|YT-HK|D+
+  type: vless
+  network: ws
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  server: 202.85.53.160
+  servername: edgb.aimercc.dpdns.org
+  port: 7000
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      host: edgb.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 美国-087 |2.7MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 195.13.45.87
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 新加坡-005 |8.5MB/s
+  type: vless
+  network: ws
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  server: 92.243.74.239
+  servername: edgb.aimercc.dpdns.org
+  port: 8443
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      host: edgb.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 立陶宛-010 |8.4MB/s
+  type: trojan
+  network: ws
+  server: 86.38.214.186
+  port: 443
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 英国-014 | ⬇️ 5.5MB/s|47%|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.100
+  servername: sk.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sk.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 英国-015 | ⬇️ 8.1MB/s|47%|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.5
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sk.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+    path: /Telegram%F0%9F%87%A8%F0%9F%87%B3%20@MxlShare%20@WangCai2%20/
+- name: 立陶宛-011 | ⬇️ 5.8MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.81.58.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 英国-016 | ⬇️ 5.2MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.74
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
+- name: 立陶宛-012 | ⬇️ 7.4MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.153.7.213
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+- name: 英国-017 | ⬇️ 6.0MB/s|D+|YT|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.167
+  servername: sk.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sk.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /Telegram
+- name: 英国-018 |7.2MB/s|YT-HK|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.159
+  servername: us.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /Telegram
+- name: 英国-019 |5.8MB/s|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.208
+  port: 8880
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+    path: /Telegram @WangCai2 /?ed=2560fp=chrome
+- name: 英国-020 |5.1MB/s|GPT|D+|6%
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.45
+  servername: kjgx.laoyoutiao.link
+  port: 8880
+  tls: false
+  udp: true
+  alterId: 0
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+    path: /Telegram @freecodes /
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: '2560'
+  client-fingerprint: chrome
+- name: 英国-021 | ⬇️ 5.8MB/s|48%|D+|YT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.137
+  servername: sk.laoyoutiao.link
+  port: 8880
+  tls: false
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 波兰-001 |6.9MB/s
+  type: vless
+  network: ws
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  server: 45.144.48.158
+  servername: edgb.esslh.filegear-sg.me
+  port: 8443
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      host: edgb.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 立陶宛-013 | ⬇️ 8.1MB/s|0%|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 45.81.58.193
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2560
+- name: 美国-088 |6.4MB/s
+  type: vless
+  network: ws
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  server: 167.68.5.248
+  servername: edgb.esslh.filegear-sg.me
+  port: 2087
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      host: edgb.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 美国-089 |7.1MB/s
+  type: trojan
+  network: ws
+  server: 209.94.90.64
+  port: 443
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: epgb.aimercc.dpdns.org
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 美国-090 |2.8MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 216.205.52.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/68.0.3440.106 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 德国-008 | ⬇️ 8.2MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 5.10.215.3
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /Telegram🇨🇳
+- name: 英国-022 | ⬇️ 8.8MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.93
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/56.0.2924.87 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
+- name: 英国-023 | ⬇️ 5.9MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.216
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
+- name: 英国-024 | ⬇️ 5.0MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.72
+  servername: kjgx.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/39.0.2171.95 Safari/537.36
+    path: Telegram@WangCai2/?ed=2560
+- name: 英国-025 |8.0MB/s|YT-HK|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.65
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /
+- name: 西班牙-006 | ⬇️ 5.9MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.251.80.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 乌克兰-003 | ⬇️ 5.8MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+  server: 91.124.127.247
+  servername: ex.sue.x10.mx
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ex.sue.x10.mx
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/39.0.2171.95 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 印度-002 | ⬇️ 5.4MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 103.245.228.213
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+- name: 英国-026 | ⬇️ 6.7MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.109
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
+- name: 英国-027 | ⬇️ 5.9MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 164.38.155.177
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 立陶宛-014 |6.7MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 89.116.161.186
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 英国-028 |6.2MB/s|YT-HK|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.71
+  servername: us.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /
+- name: 荷兰-016 |7.5MB/s|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.18.184.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 英国-029 | ⬇️ 5.2MB/s|48%|D+|YT|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.123
+  servername: sk.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sk.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 日本-020 |5.0MB/s|YT-JP|D+
+  type: vless
+  network: ws
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  server: 147.78.243.148
+  servername: edgb.esslh.filegear-sg.me
+  port: 1443
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      host: edgb.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 英国-030 | ⬇️ 6.2MB/s|0%|D+|YT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.60
+  servername: us.laoyoutiao.link
+  port: 8880
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /Telegram
+- name: 英国-031 | ⬇️ 1.5MB/s|NF|D+|YT|GM
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.190
+  servername: sk.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sk.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 英国-032 |5.0MB/s|GPT|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.212
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /Telegram%20%40freecodes%20/
+- name: 美国-091 | ⬇️ 8.3MB/s|0%|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 209.46.30.29
+  servername: hk.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /
