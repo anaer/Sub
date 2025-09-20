@@ -1,0 +1,958 @@
+proxies:
+- name: 德国-001 |2.9MB/s|YT-CN|0%
+  type: vless
+  network: tcp
+  uuid: 9959aff1-8f9e-4827-b997-782b7895c59c
+  server: 204.10.194.78
+  servername: yfnl1.xn--4gq62f52gppi29k.com
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+- name: 美国-001 |2.1MB/s|GPT⁺|YT-CN
+  type: vless
+  network: ws
+  uuid: 9959aff1-8f9e-4827-b997-782b7895c59c
+  server: 63.141.128.173
+  servername: yfjcus-7.yfjc.sbs
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: yfjcus-7.yfjc.sbs
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /yfjc/us7
+  client-fingerprint: chrome
+- name: 英国-001 |4.1MB/s|GPT⁺|53%
+  type: vless
+  network: grpc
+  uuid: 72c17850-c1a8-4915-a437-45de2645a6e1
+  server: 51.89.230.180
+  port: 25365
+  udp: true
+  xudp: true
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  encryption: none
+- name: 法国-001 |1.2MB/s|GPT⁺|YT-RU|NF|0%
+  type: vless
+  network: grpc
+  uuid: 59076475-a35e-4b5b-8e60-da7f215f618b
+  server: 141.227.172.56
+  port: 25365
+  udp: true
+  xudp: true
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  encryption: none
+- name: 越南-001 |1.1MB/s|GPT⁺|YT-VN|NF|(AzadNet.t.me)
+  type: ss
+  server: 103.186.154.29
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+  cipher: aes-256-cfb
+- name: 荷兰-001 |1.3MB/s|GPT⁺|YT-NL|NF|21%
+  type: ss
+  server: 51.15.17.169
+  port: 989
+  password: f8f7aCzcPKbsF8p3
+  udp: true
+  cipher: aes-256-cfb
+- name: 越南-002 |1.0MB/s|GPT
+  type: ss
+  server: 103.186.155.147
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 越南-003 |1.0MB/s|GPT
+  type: ss
+  server: 103.186.154.13
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 法国-002 |7.4MB/s|GPT|67%
+  type: vmess
+  network: ws
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  server: 57.128.189.240
+  servername: kapelleng.com
+  port: 443
+  skip-cert-verify: true
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      HOST: kapelleng.com
+    path: /linkvws
+- name: 法国-003 |7.0MB/s|GPT|75%
+  type: vmess
+  network: ws
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  server: 57.128.189.253
+  servername: kapelleng.com
+  port: 443
+  skip-cert-verify: true
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      HOST: kapelleng.com
+    path: /linkvws
+- name: 法国-004 |2.7MB/s|GPT⁺|YT-US|NF|GM|0%
+  type: vless
+  network: grpc
+  uuid: 29e646a4-2fda-4495-83cc-e041b660fa21
+  server: 141.227.168.179
+  port: 39703
+  udp: true
+  xudp: true
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  encryption: none
+- name: 法国-005 |3.3MB/s|GPT⁺|YT-RU|NF|0%
+  type: vless
+  network: grpc
+  uuid: a1015799-6c9a-4bab-8ad0-8c9444d46fa0
+  server: 141.227.166.22
+  port: 11230
+  udp: true
+  xudp: true
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  encryption: none
+- name: 越南-004 |1.3MB/s|GPT
+  type: ss
+  server: 103.186.154.49
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 越南-005 |1.1MB/s
+  type: ss
+  server: 103.186.155.31
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 越南-006 |1.1MB/s|GPT
+  type: ss
+  server: 103.186.155.238
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 法国-006 |2.8MB/s|GPT|YT-RU|0%
+  type: vless
+  network: grpc
+  uuid: ba1fc4fe-c5a5-4ad3-b4e2-f02ecffd992e
+  server: 141.227.176.48
+  port: 10227
+  udp: true
+  xudp: true
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  encryption: none
+- name: 越南-007 |1.0MB/s
+  type: ss
+  server: 103.186.154.187
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 越南-008 |1.2MB/s|GPT
+  type: ss
+  server: 103.186.155.230
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 法国-007 |6.1MB/s|GPT⁺|27%
+  type: vless
+  network: grpc
+  uuid: efa0a105-87ae-4063-b724-1729592c9f05
+  server: 51.178.162.48
+  port: 57447
+  udp: true
+  xudp: true
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  encryption: none
+- name: 法国-008 |1.4MB/s|GPT⁺|YT-US|NF|0%
+  type: vless
+  network: grpc
+  uuid: b6a6c154-c5eb-42b9-a90b-3d1eec7b8d7e
+  server: 141.227.180.107
+  port: 47626
+  udp: true
+  xudp: true
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  encryption: none
+- name: 德国-002 |6.9MB/s|GPT|38%
+  type: vmess
+  network: ws
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  server: 57.129.24.131
+  servername: kampong.org
+  port: 443
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  xudp: true
+  alterId: '1'
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: kampong.org
+    path: linkvws
+- name: 法国-009 |2.1MB/s|GPT⁺|YT-US|NF|GM|53%
+  type: vless
+  network: grpc
+  uuid: 24244970-2b14-47e6-b0c1-95cecc9bcc3c
+  server: 141.227.174.30
+  port: 32657
+  udp: true
+  xudp: true
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  encryption: none
+- name: 波兰-001 | ⬇️ 6.4MB/s
+  type: vless
+  network: grpc
+  uuid: a8e10cc2-3de0-4558-b303-bfba2a5919b3
+  server: 146.59.116.149
+  port: 24881
+  udp: true
+  xudp: true
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+- name: 法国-010 |2.4MB/s|GPT|0%
+  type: vless
+  network: grpc
+  uuid: 89f5b64b-4ef3-4a51-9b9d-55a41c463055
+  server: 141.227.134.150
+  port: 45649
+  udp: true
+  xudp: true
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+- name: 法国-011 |2.2MB/s|GPT⁺|YT-FR|NF|29%
+  type: vless
+  network: grpc
+  uuid: 2715b5fc-a3a8-49dd-8c10-55f18f3030c5
+  server: 141.94.213.115
+  port: 25365
+  udp: true
+  xudp: true
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  encryption: none
+- name: 越南-009 |1.2MB/s|YT-VN|GM|0%
+  type: ss
+  server: 103.186.155.135
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+  cipher: aes-256-cfb
+- name: 法国-012 |3.7MB/s|GPT⁺|38%
+  type: vless
+  network: ws
+  uuid: 962bfec5-ef89-4180-8f5b-9209a7207668
+  server: 51.195.31.95
+  servername: wWw.speEDtEST.NeT
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: wWw.speEDtEST.NeT
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /wslinws?ed
+  encryption: none
+- name: 法国-013 |3.7MB/s|GPT⁺|27%
+  type: vless
+  network: grpc
+  uuid: bd610ee9-54fd-4f7c-b3e0-4b3114ee2c95
+  server: 57.130.11.49
+  port: 25365
+  udp: true
+  xudp: true
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+- name: 德国-003 | ⬇️ 1.5MB/s
+  type: ss
+  server: 142.93.166.6
+  port: 80
+  password: O3k5u79Rzc8fAcwLf2cQy3
+  udp: true
+  cipher: chacha20-ietf-poly1305
+- name: 越南-010 | ⬇️ 1.1MB/s
+  type: ss
+  server: 103.186.154.53
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 越南-011 |1.3MB/s|GPT
+  type: ss
+  server: 103.186.155.141
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 越南-012 |1.2MB/s
+  type: ss
+  server: 103.186.155.60
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 法国-014 |2.6MB/s|GPT⁺|0%
+  type: vless
+  network: grpc
+  uuid: 1f90ea31-15a1-4896-bfff-c83f74ce0f7e
+  server: 141.227.136.183
+  port: 15819
+  udp: true
+  xudp: true
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  encryption: none
+- name: 伊朗-001 | ⬇️ 1.3MB/s
+  type: vless
+  network: tcp
+  uuid: 888a20e2-fc3f-4f52-973c-36a6386225b8
+  server: 89.44.242.222
+  port: 29500
+  encryption: none
+- name: 日本-001 |6.9MB/s|GPT⁺|YT-JP|D+|0%
+  type: trojan
+  network: tcp
+  server: 160.16.104.143
+  port: 443
+  password: 9e76767d-4bfa-4f04-a800-42e2f63afed2
+  skip-cert-verify: true
+  udp: true
+  sni: www.linemo.jp
+  client-fingerprint: chrome
+- name: 意大利-001 |3.0MB/s|GPT⁺|0%
+  type: vless
+  network: grpc
+  uuid: 6c8b1551-128c-44f2-82d3-1065ad0c2024
+  server: 141.227.140.224
+  port: 59185
+  udp: true
+  xudp: true
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  encryption: none
+- name: 法国-015 |3.5MB/s|GPT⁺|YT-CZ|NF|0%
+  type: vless
+  network: grpc
+  uuid: 0a708abd-79b3-420d-a564-e8a1ff580f83
+  server: 141.227.134.153
+  port: 25365
+  udp: true
+  xudp: true
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  encryption: none
+- name: 法国-016 |4.1MB/s|GPT|27%
+  type: vless
+  network: ws
+  uuid: dde87267-da95-4a6b-9891-0c864a3e9be8
+  server: 51.38.168.151
+  port: 8080
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: wWw.SpeEDTeSt.nEt
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /wslinka?ed
+- name: 法国-017 |2.6MB/s|GPT⁺|YT-RU|NF|0%
+  type: vless
+  network: grpc
+  uuid: d4163749-abe1-4f84-a8c9-4972795892f2
+  server: 141.227.160.228
+  port: 31846
+  udp: true
+  xudp: true
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  encryption: none
+- name: 伊朗-002 | ⬇️ 1.1MB/s|GPT
+  type: vless
+  network: tcp
+  uuid: 4a0e3cf3-4a10-4a38-bba4-b17b592a0d2b
+  server: 89.44.242.222
+  port: 29495
+  encryption: none
+- name: 德国-004 |4.7MB/s|GPT|10%
+  type: vless
+  network: tcp
+  uuid: defb9686-1d5d-4919-a87f-c93b54b9c0d3
+  server: 91.98.41.123
+  port: 28260
+  skip-cert-verify: true
+  tls: false
+  udp: true
+- name: 法国-018 |4.5MB/s|GPT|27%
+  type: vless
+  network: grpc
+  uuid: 10377e13-ba4e-4b86-ad26-08ac573bfa29
+  server: 57.130.29.231
+  port: 46393
+  udp: true
+  xudp: true
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+- name: 日本-002 | ⬇️ 8.4MB/s|5%|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.197
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: yd.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
+- name: 立陶宛-001 | ⬇️ 6.5MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 89.116.180.63
+  servername: jp.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 德国-005 | ⬇️ 5.9MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 89.116.46.213
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.110 Safari/537.36
+- name: 斯洛文尼亚-001 | ⬇️ 11.2MB/s|NF|D+|YT|GPT
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 92.53.188.3
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.115 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 加拿大-001 | ⬇️ 6.7MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 74.49.215.63
+  servername: jp.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 俄罗斯联邦-001 |1.6MB/s|YT-GB|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.67.215.29
+  servername: hk.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 德国-006 | ⬇️ 8.2MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  server: 5.10.215.3
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /Telegram🇨🇳
+- name: 美国-002 | ⬇️ 5.1MB/s|D+
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 45.159.217.177
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 英国-002 | ⬇️ 5.5MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.25
+  servername: kjgx.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: Telegram@WangCai2/?ed=2560
+- name: 俄罗斯联邦-002 | ⬇️ 5.3MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 5.182.85.63
+  servername: sg.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /Telegram
+- name: 英国-003 | ⬇️ 8.1MB/s|47%|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.5
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sk.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+    path: /Telegram%F0%9F%87%A8%F0%9F%87%B3%20@MxlShare%20@WangCai2%20/
+- name: 乌克兰-001 | ⬇️ 6.7MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.124.127.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 俄罗斯联邦-003 |3.0MB/s|NF|D+|67%
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 46.254.92.29
+  servername: hk.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 沙特阿拉伯-001 | ⬇️ 7.4MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.209.253.168
+  servername: kjgx.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: Telegram@WangCai2/?ed=2560
+- name: 立陶宛-002 | ⬇️ 5.9MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+  server: 89.116.180.247
+  servername: ex.sue.x10.mx
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ex.sue.x10.mx
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 英国-004 | ⬇️ 9.0MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.163
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: Telegram@WangCai2/?ed=2560
+- name: 斯洛文尼亚-002 | ⬇️ 4.9MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 92.53.188.213
+  servername: jp.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+- name: 立陶宛-003 | ⬇️ 5.8MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.81.58.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-003 | ⬇️ 5.0MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 66.235.200.186
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /Telegram @WangCai2 /?ed=2560
+- name: 英国-005 | ⬇️ 5.2MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.74
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
+- name: 新加坡-001 | ⬇️ 5.2MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 92.243.74.156
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 英国-006 | ⬇️ 8.8MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.93
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/56.0.2924.87 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
+- name: 英国-007 | ⬇️ 6.4MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.94
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
+    path: Telegram@WangCai2/?ed
+- name: 美国-004 | ⬇️ 5.8MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.193.213.10
+  servername: us.laoyoutiao.link
+  port: 80
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/57.0.2987.133 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 日本-003 | ⬇️ 8.7MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.148
+  servername: sg.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: Telegram@WangCai2/?ed=2048
+- name: 日本-004 |1.7MB/s|GPT⁺|YT-HK|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.93
+  servername: jp.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: Telegram@WangCai2/?ed=2048
+- name: 日本-005 |6.1MB/s|GPT|YT-HK|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.160
+  servername: yd.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: yd.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 英国-008 | ⬇️ 5.9MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.216
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
+- name: 英国-009 | ⬇️ 5.0MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.72
+  servername: kjgx.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/39.0.2171.95 Safari/537.36
+    path: Telegram@WangCai2/?ed=2560
+- name: 英国-010 | ⬇️ 6.2MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.195
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
+- name: 英国-011 | ⬇️ 6.8MB/s|NF|D+|GPT
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.18
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
+- name: 德国-007 |4.1MB/s|NF|D+|GM
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.80.111.29
+  servername: hk.laoyoutiao.link
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /
+- name: 乌克兰-002 | ⬇️ 5.8MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+  server: 91.124.127.247
+  servername: ex.sue.x10.mx
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ex.sue.x10.mx
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/39.0.2171.95 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 英国-012 | ⬇️ 6.7MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.109
+  servername: Telegram-channel-WangCai2
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
+- name: 美国-005 | ⬇️ 6.3MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+  server: 195.13.44.247
+  servername: ex.sue.x10.mx
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ex.sue.x10.mx
+      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /Telegram🇨🇳
+- name: 俄罗斯联邦-004 | ⬇️ 6.6MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+  server: 185.174.138.247
+  servername: ex.sue.x10.mx
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ex.sue.x10.mx
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /Telegram🇨🇳
+- name: 美国-006 | ⬇️ 5.1MB/s|NF|D+
+  type: vless
+  network: ws
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+  server: 45.159.217.247
+  servername: ex.sue.x10.mx
+  port: 8880
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ex.sue.x10.mx
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /Telegram@V2ray_Alpha
