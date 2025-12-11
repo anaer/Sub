@@ -1,0 +1,55 @@
+name: 同步
+
+# 触发条件
+on:
+  workflow_dispatch:
+  watch:
+    types: [started]
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 设置时区
+        run: sudo timedatectl set-timezone 'Asia/Shanghai'
+
+      - name: 迁出代码
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: 执行任务
+        run: |
+          curl https://gist.githubusercontent.com/anaer/f0ba4dda0c0e106c9497bad193d9d3d9/raw/SUB0.yaml -o proxies.yaml
+
+      # 判断是否存在git变更, 设置变更变量
+      - name: Check for changes
+        id: git-status
+        run: |
+          git diff --exit-code --quiet || echo "changed=true" >> $GITHUB_OUTPUT
+        continue-on-error: true
+
+      # 如果存在变更, 怎提交代码并推送
+      - name: Push to origin main
+        if: steps.git-status.outputs.changed == 'true'
+        run: |
+          git config --local user.name "$GITHUB_ACTOR"
+          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git pull
+          git add .
+          git commit -m "sync"
+
+      - name: 推送更改
+        if: steps.git-status.outputs.changed == 'true'
+        uses: ad-m/github-push-action@master
+        with:
+          # github_token: ${{ secrets.TOKEN }}
+          branch: main
+
+      - name: 删除历史记录
+        uses: anaer/delete-workflow-runs@main
+        with:
+          retain_days: 1
+          keep_minimum_runs: 3

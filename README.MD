@@ -1,5 +1,11 @@
 PS:
-1. 自用节点转到Gist了
+1. clash.yaml节点定时任务跑, 规则就不维护了, 有问题请自行修改
+2. proxies.yaml 自用节点
+
+```yaml
+https://anaer.github.io/Sub/clash.yaml
+https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
+```
 
 mihomo:
 https://gist.githubusercontent.com/anaer/f0ba4dda0c0e106c9497bad193d9d3d9/raw/SUB0.yaml
