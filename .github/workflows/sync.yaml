@@ -5,8 +5,8 @@ on:
   workflow_dispatch:
   watch:
     types: [started]
-  schedule:
-    - cron: "0 0 * * *"
+  # schedule:
+  #   - cron: "0 0 * * *"
 
 jobs:
   deploy:
