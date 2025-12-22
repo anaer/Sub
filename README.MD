@@ -7,12 +7,6 @@ https://anaer.github.io/Sub/clash.yaml
 https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
 ```
 
-mihomo:
-https://gist.githubusercontent.com/anaer/f0ba4dda0c0e106c9497bad193d9d3d9/raw/SUB0.yaml
-
-QuantumultX:
-https://gist.githubusercontent.com/anaer/f0ba4dda0c0e106c9497bad193d9d3d9/raw/QX.yaml
-
 **订阅节点仅作学习交流用，用于查找资料，学习知识，不要做任何违法行为。所有资源均来自互联网，非盈利目的，仅供大家交流学习使用，出现违法问题概不负责。**
 
 ## 软件
