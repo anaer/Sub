@@ -22,7 +22,7 @@ jobs:
 
       - name: 执行任务
         run: |
-          curl https://gist.githubusercontent.com/anaer/f0ba4dda0c0e106c9497bad193d9d3d9/raw/SUB0.yaml -o proxies.yaml
+          curl https://gist.githubusercontent.com/anaer/f0ba4dda0c0e106c9497bad193d9d3d9/raw/Work.yaml -o proxies.yaml
 
       # 判断是否存在git变更, 设置变更变量
       - name: Check for changes
