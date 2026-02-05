@@ -4,13 +4,28 @@ proxies:
   server: 61.255.174.11
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCVFld0iC0TZn6k648_0uT0oXw609MC0WdYefYZbCn32A==
-- name: 韩国-002 |8.9MB/s|GPT|X
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGAs2FPK-OgQcY04IpJYPqJoXw609MC0WdYefYZbCn32A==
+- name: 韩国-002 |0.8MB/s|0%|GPT|X|History
   type: ss
-  server: 211.201.169.70
-  port: 51537
+  server: 121.170.203.147
+  port: 19203
   password: qwerREWQ@@
+  udp: true
+  tfo: true
   cipher: aes-256-cfb
+  client-fingerprint: chrome
+- name: 马来西亚-001
+  type: http
+  server: 202.73.12.14
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFnMm6t7fMzQsqkYWlQrBVEoXw609MC0WdYefYZbCn32A==
+- name: 马来西亚-002
+  type: http
+  server: 202.87.221.113
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGLAxbqzj2KUdGSP9fb8uG_oXw609MC0WdYefYZbCn32A==
 - name: 日本-001 |559KB/s|GPT⁺|YT-CN|NF|0%
   type: anytls
   server: 160.16.75.254
@@ -20,33 +35,8 @@ proxies:
   udp: true
   sni: gw.alicdn.com
   username: a2d12dc9-c111-45ac-b803-87e48f3484d8
-- name: 马来西亚-001
-  type: http
-  server: 202.73.12.14
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBv-l3aQC3vzvhZo3iBf3ytoXw609MC0WdYefYZbCn32A==
-- name: 韩国-003 |1.3MB/s|GM
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  skip-cert-verify: true
-  tls: false
-  udp: true
-  username: Og%3D%3D
-  client-fingerprint: chrome
-- name: 韩国-004 |1.8MB/s|GPT⁺|YT-KR|NF|D+|0%
-  type: ss
-  server: 121.170.203.147
-  port: 19203
-  password: qwerREWQ@@
-  udp: true
-  tfo: true
-  cipher: aes-256-cfb
-  client-fingerprint: chrome
-- name: 德国-001 |1.0MB/s|[广播|机房]|3.6MB/s|X|History
+- name: 德国-001 |GB_speednode_0013
   type: vmess
-  network: tcp
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   server: 82.198.246.97
   servername: 4120-BE04-13ef56096989.457.PP.ua
@@ -55,128 +45,108 @@ proxies:
   tls: false
   udp: true
   xudp: true
-  alterId: '0'
+  alterId: 0
   cipher: auto
 - name: 阿联酋-001
   type: http
   server: 5.42.206.146
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCZvVtnzCUImh_8ZWyvg8WgoXw609MC0WdYefYZbCn32A==
-- name: 日本-002
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsF8k4WOq_8fP58VetqouWH8oXw609MC0WdYefYZbCn32A==
+- name: 法国-001
   type: http
-  server: 103.108.230.31
+  server: 51.77.190.29
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBSNhfd46sYv9tksPXUOpmroXw609MC0WdYefYZbCn32A==
-- name: 日本-003
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGFZq37s34pY_OQiji4UZm5xsnp5o63PElOVpFduiCmYA==
+- name: 法国-002
   type: http
-  server: 180.149.230.169
+  server: 51.77.190.60
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAbP2X7BpUHfiOUI-U-wkRaoXw609MC0WdYefYZbCn32A==
-- name: 马绍尔群岛-001 |4.4MB/s|GPT⁺|YT-US|NF|D+|GM|5%
-  type: vless
-  network: ws
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 185.207.197.138
-  servername: sni.111000.indevs.in
-  port: 2096
-  tls: true
-  udp: true
-  xudp: true
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-  client-fingerprint: chrome
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsG1A8WVqnbvcgibRH-O_U20xsnp5o63PElOVpFduiCmYA==
+- name: 法国-003
+  type: http
+  server: 79.137.101.250
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEkuikQRkk7q5WfmfP64rFfxsnp5o63PElOVpFduiCmYA==
 - name: 德国-002
   type: http
-  server: 89.249.73.26
+  server: 51.38.121.169
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBkSAXxqtjAIu1cgMKnnTv7oXw609MC0WdYefYZbCn32A==
-- name: 法国-001 |4.5MB/s|GPT|YT-DE|NF|D+
-  type: trojan
-  network: ws
-  server: 135.125.232.253
-  port: 2053
-  password: iwangjie
-  skip-cert-verify: false
-  sni: nodes.830901.xyz
-  ws-opts:
-    headers:
-      Host: nodes.830901.xyz
-    path: '%2F%3Fed%3D2560'
-- name: 爱尔兰-001 |5.4MB/s|3%|GPT⁺|NF|X|[广播|机房]
-  type: ss
-  server: 34.242.133.144
-  port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-- name: 日本-004
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH-ekb4-OK4ihpdgjebv3gOxsnp5o63PElOVpFduiCmYA==
+- name: 荷兰-001 |4.2MB/s|GPT
+  type: socks5
+  server: 5.255.113.177
+  port: 1080
+  skip-cert-verify: true
+- name: 日本-002 |7.5MB/s|GPT⁺|YT-RU|NF|0%
+  type: vless
+  network: tcp
+  uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
+  server: 116.80.44.144
+  servername: www.yahoo.co.jp
+  port: 27724
+  security: reality
+  tls: true
+  udp: false
+  sni: www.yahoo.co.jp
+  reality-opts:
+    public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  fp: chrome
+  pbk: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
+- name: 德国-003
   type: http
-  server: 103.108.230.50
+  server: 5.104.107.104
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCBqw04pOAw9EkGx6czifnNoXw609MC0WdYefYZbCn32A==
-- name: 法国-002 |5.8MB/s|YT-FR|NF|D+
-  type: trojan
-  network: ws
-  server: 141.94.68.216
-  port: 2053
-  password: iwangjie
-  skip-cert-verify: false
-  sni: nodes.830901.xyz
-  ws-opts:
-    headers:
-      Host: nodes.830901.xyz
-    path: '%2F%3Fed%3D2560'
-- name: 英国-001
-  type: http
-  server: 139.28.176.106
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBFuC1s7MB8eCBZeqRboB40oXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFHdA1d1uL4hk0jm9hJngrXxsnp5o63PElOVpFduiCmYA==
+- name: 美国-001 |3.7MB/s|GPT⁺|YT-CN|NF
+  type: hysteria
+  server: 208.87.243.151
+  port: 38845
+  skip-cert-verify: true
+  udp: true
+  sni: www.bing.com
+  alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  up: 11 Mbps
+  protocol: udp
 - name: 比利时-001
   type: http
   server: 146.70.176.222
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuB85ZtnqpG5JwGOlWtTWt3doXw609MC0WdYefYZbCn32A==
-- name: 斯洛伐克-001
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHid5y8RyD7X2QswB_kT9SIoXw609MC0WdYefYZbCn32A==
+- name: 匈牙利-001
   type: http
-  server: 193.37.255.2
+  server: 91.219.236.190
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuC2HsIvSi-zGHLKP7wB6TzhoXw609MC0WdYefYZbCn32A==
-- name: 比利时-002
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEEno7cSU8p3n_niJTaXmmAoXw609MC0WdYefYZbCn32A==
+- name: 英国-001
   type: http
-  server: 37.120.236.26
+  server: 51.89.153.211
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAyk4nUyEzYf6n9WuXSN4H3oXw609MC0WdYefYZbCn32A==
-- name: 丹麦-001
-  type: http
-  server: 82.103.131.250
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBw0V3FTZz0ZfyJG3j1Q9oRoXw609MC0WdYefYZbCn32A==
-- name: 德国-003
-  type: http
-  server: 5.199.130.48
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBpLrkFZEm5mNG-3SA87YdXxsnp5o63PElOVpFduiCmYA==
-- name: 芬兰-001
-  type: http
-  server: 194.34.134.21
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAhgQn9iuaQY1v-Xxw-qVhVoXw609MC0WdYefYZbCn32A==
-- name: 德国-004 |5.0MB/s|GPT⁺|YT-CN|NF|49%
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsF0kE6YKoBn3JMQPyYx-3CMxsnp5o63PElOVpFduiCmYA==
+- name: 芬兰-001 |5.1MB/s|GPT⁺|YT-DE|NF|7%
+  type: vless
+  network: tcp
+  uuid: ee603510-52e4-29f9-00b0-9a051ad424fb
+  server: 65.109.179.221
+  port: 26261
+  udp: true
+  xudp: true
+  encryption: none
+- name: 德国-004 |1.6MB/s|GPT|X|History
   type: vless
   network: tcp
   uuid: nasnet
@@ -195,181 +165,49 @@ proxies:
   client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-- name: 奥地利-001 |5.1MB/s|GPT⁺|YT-RU|NF|D+|23%
-  type: vless
-  network: tcp
-  uuid: f88c83ad-c1ea-464a-bc8d-4b3f5bf48d14
-  server: 152.53.182.235
-  servername: live.com
-  port: 443
-  tls: true
-  udp: true
-  xudp: true
-  http-opts:
-    path:
-    - /
-  reality-opts:
-    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-- name: 法国-003
-  type: http
-  server: 51.77.190.29
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAx8ewvqIv-I56deDaWv_U3xsnp5o63PElOVpFduiCmYA==
 - name: 法国-004
-  type: http
-  server: 51.77.190.70
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuD3W90LGPGer6puRhBxXxX-xsnp5o63PElOVpFduiCmYA==
-- name: 意大利-001
-  type: http
-  server: 158.58.173.73
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAkVKu9AS6Qj8Z6l0p6oAP1oXw609MC0WdYefYZbCn32A==
-- name: 法国-005
-  type: http
-  server: 79.137.101.250
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCtbjTflSNpHtcOJSRAcHFgxsnp5o63PElOVpFduiCmYA==
-- name: 奥地利-002
-  type: http
-  server: 94.198.41.242
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCb79ZegJ6KJL1WqqiaH38XoXw609MC0WdYefYZbCn32A==
-- name: 德国-005
-  type: http
-  server: 51.38.116.150
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAipLHR_Bolz5oIu4wns0tfxsnp5o63PElOVpFduiCmYA==
-- name: 瑞典-001 |4.2MB/s|GPT⁺|YT-SE|NF|1%
-  type: ss
-  server: 51.20.96.71
-  port: 443
-  password: amazonskr05
-  udp: true
-  cipher: aes-256-cfb
-- name: 捷克-001
-  type: http
-  server: 217.138.220.94
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAIYxY_scLlQXLG-3KlR5vSoXw609MC0WdYefYZbCn32A==
-- name: 越南-001 |1.8MB/s|GPT⁺|YT-US|NF|GM
-  type: ss
-  server: 103.186.154.51
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 越南-002 |1.1MB/s|GPT⁺|YT-US|NF|GM
-  type: ss
-  server: 103.186.154.227
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 越南-003 |1.1MB/s|GPT⁺|YT-US|NF|GM
-  type: ss
-  server: 103.186.155.224
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 德国-006
-  type: http
-  server: 57.129.88.76
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDLkD6pgjrDXSKD1qEM1estxsnp5o63PElOVpFduiCmYA==
-- name: 英国-002
-  type: http
-  server: 51.89.153.211
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuA7XEl38sD17pMiwDoxxK1ixsnp5o63PElOVpFduiCmYA==
-- name: 越南-004 |1.4MB/s|GPT⁺|YT-US|NF|GM
-  type: ss
-  server: 103.186.155.46
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  cipher: aes-256-cfb
-- name: 德国-007 |4.1MB/s|GPT⁺|YT-DE|NF|27%
-  type: vless
-  network: tcp
-  uuid: 278cdc8a-1c0c-4710-bc48-b8c6e5f36c24
-  server: 217.154.254.198
-  servername: azure.com
-  port: 443
-  tls: true
-  udp: true
-  xudp: true
-  alpn:
-  - h2
-  http-opts:
-    path:
-    - /
-  reality-opts:
-    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 英国-003
-  type: http
-  server: 145.239.6.2
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDxxF75LOiq_MHvoXqTpmeaoXw609MC0WdYefYZbCn32A==
-- name: 法国-006
   type: http
   server: 51.68.100.204
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAB3d69SwDvXqp1_uFx-yApxsnp5o63PElOVpFduiCmYA==
-- name: 越南-005 |1.1MB/s|GPT⁺|YT-US|NF|GM
-  type: ss
-  server: 103.186.154.246
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 韩国-005 |1.0MB/s|GPT⁺|YT-KR|NF|D+|0%
-  type: ss
-  server: 27.255.82.135
-  port: 48720
-  password: qwerREWQ@@
-  udp: true
-  tfo: true
-  cipher: aes-256-cfb
-  client-fingerprint: chrome
-- name: 越南-006 |530KB/s|GPT⁺|YT-US|NF|GM
-  type: ss
-  server: 103.186.154.9
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 法国-007
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGk7kappIOExAsI2VKq2PqHxsnp5o63PElOVpFduiCmYA==
+- name: 英国-002
+  type: http
+  server: 51.89.173.123
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGhy9p8IQhzHd7JbrgzvSPMxsnp5o63PElOVpFduiCmYA==
+- name: 德国-005 |1.1MB/s|GPT⁺|YT-DE|NF|D+|5%
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 82.117.245.9
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 法国-005
+  type: http
+  server: 51.68.240.51
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFVRpWjEOWEM0F4SVpQSnGGxsnp5o63PElOVpFduiCmYA==
+- name: 匈牙利-002
+  type: http
+  server: 185.104.187.130
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGx7AkeEwlSfVWZGmRyTe0KoXw609MC0WdYefYZbCn32A==
+- name: 法国-006
   type: http
   server: 37.187.194.214
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCcy74OjNmXU1Z1tAuSAAN5xsnp5o63PElOVpFduiCmYA==
-- name: 瑞士-001
-  type: http
-  server: 179.43.152.90
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBKJFMf6JYkHDGMcqcdFuBfoXw609MC0WdYefYZbCn32A==
-- name: 越南-007 |1.5MB/s|GPT⁺|YT-US|NF|GM
-  type: ss
-  server: 103.186.154.42
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 爱尔兰-002 |1.3MB/s|GPT⁺|YT-IE|NF|3%
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsE7PdPOrZiwtbkXUZ0rNAdNxsnp5o63PElOVpFduiCmYA==
+- name: 爱尔兰-001 |1.0MB/s|GPT⁺|YT-IE|NF|3%
   type: vless
   network: grpc
   uuid: d811ecf9-4029-4794-a43e-3611c3575b9e
@@ -386,19 +224,194 @@ proxies:
     grpc-service-name: www.bing.com
   client-fingerprint: chrome
   encryption: none
-- name: 波兰-001
+- name: 奥地利-001
   type: http
-  server: 57.128.235.172
+  server: 130.195.222.54
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDjLxtAyLH1NWYtruB7laaVoXw609MC0WdYefYZbCn32A==
-- name: 越南-008 |1.2MB/s|GPT⁺|YT-US|NF|GM
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHGOTFMJUPegUaT-p0cZ3jfoXw609MC0WdYefYZbCn32A==
+- name: 法国-007 |4.2MB/s|GPT⁺|YT-FR|NF|D+|5%
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 188.130.207.158
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 奥地利-002
+  type: http
+  server: 94.198.41.242
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGBz_7wWnfleJBgWdz1Oa45oXw609MC0WdYefYZbCn32A==
+- name: 意大利-001
+  type: http
+  server: 185.213.21.111
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFnyv3sd1MPVA762xZ8g7BYoXw609MC0WdYefYZbCn32A==
+- name: 英国-003
+  type: http
+  server: 212.84.160.58
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFRqSwlipCUW2MKErJenqGCoXw609MC0WdYefYZbCn32A==
+- name: 法国-008 |3.1MB/s|GPT⁺|YT-FR|NF|D+|5%
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 217.60.36.183
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 斯洛伐克-001
+  type: http
+  server: 185.245.85.126
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHFysCML_ryLWLOCWtVyxINoXw609MC0WdYefYZbCn32A==
+- name: 英国-004
+  type: http
+  server: 145.239.6.2
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHxGeX9QZ5--ll0uR8nGglWoXw609MC0WdYefYZbCn32A==
+- name: 德国-006
+  type: http
+  server: 51.38.116.134
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGUu5Gkl6fTb88P1F0Fx2BYxsnp5o63PElOVpFduiCmYA==
+- name: 德国-007 |1.3MB/s|GPT⁺|YT-DE|NF|D+|5%
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 5.178.110.39
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  client-fingerprint: chrome
+- name: 比利时-002
+  type: http
+  server: 37.120.236.26
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFlY7v5bQzXaR6C6uGDBE3voXw609MC0WdYefYZbCn32A==
+- name: 英国-005
+  type: http
+  server: 88.150.230.5
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHcmz8sonUlCSXy_siPgqLZoXw609MC0WdYefYZbCn32A==
+- name: 乌克兰-001
+  type: http
+  server: 176.103.50.127
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHido-EY2YR9MLbNSK-LrnPoXw609MC0WdYefYZbCn32A==
+- name: 法国-009 |2.8MB/s|GPT⁺|YT-FR|NF|42%
   type: ss
-  server: 103.186.155.213
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  server: 51.254.142.162
+  port: 5223
+  password: hnITSVgdQOQF6aCT4YIizv
+  udp: true
+  cipher: chacha20-ietf-poly1305
+- name: 英国-006
+  type: http
+  server: 139.28.176.106
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHGvlWT3JbO2lor3qE5deKhoXw609MC0WdYefYZbCn32A==
+- name: 荷兰-002 |4.6MB/s|GPT⁺
+  type: socks5
+  server: 5.255.117.127
+  port: 1080
+  skip-cert-verify: true
+- name: 意大利-002
+  type: http
+  server: 95.141.37.244
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGU2LVupBVvehCPrghBiRbKoXw609MC0WdYefYZbCn32A==
+- name: 德国-008
+  type: http
+  server: 89.163.214.214
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsF2dlvj5W5vc8RSmWafTIAuxsnp5o63PElOVpFduiCmYA==
+- name: 法国-010 |5.0MB/s|YT-FR|NF|D+
+  type: trojan
+  network: ws
+  server: 141.94.68.216
+  port: 2053
+  password: iwangjie
+  skip-cert-verify: false
+  sni: nodes.830901.xyz
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: '%2F%3Fed%3D2560'
+- name: 冰岛-001
+  type: http
+  server: 37.235.49.61
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEqqjJGX0xU4tiznQAyyHdUoXw609MC0WdYefYZbCn32A==
+- name: 阿联酋-002
+  type: http
+  server: 146.70.241.122
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEv99_n8bJUQAhm9uOYi9hpoXw609MC0WdYefYZbCn32A==
+- name: 瑞士-001
+  type: http
+  server: 179.43.152.90
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH0yL1rc_lAAPfKha-Vpc8joXw609MC0WdYefYZbCn32A==
+- name: 德国-009 |4.0MB/s|GPT⁺|YT-RU|NF|42%
+  type: ss
+  server: 185.100.159.79
+  port: 443
+  password: i9lip2dJ8kV4wJQ0pJuRr6
+  udp: true
+  cipher: chacha20-ietf-poly1305
+- name: 法国-011 |5.7MB/s|GPT⁺|YT-FR|NF|1%
+  type: ss
+  server: 13.38.75.96
+  port: 443
+  password: amazonskr05
+  udp: true
   cipher: aes-256-cfb
-- name: 伊朗-001 |3.2MB/s|GPT|YT-GB|NF|7%
+- name: 荷兰-003
+  type: http
+  server: 51.158.252.46
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEIyivMj_k4ankow465xQ5zoXw609MC0WdYefYZbCn32A==
+- name: 奥地利-003
+  type: http
+  server: 94.198.41.218
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHItAfEXN3MxDVu8t9Ynz4XoXw609MC0WdYefYZbCn32A==
+- name: 伊朗-001 |732KB/s
   type: vless
   network: http
   uuid: 3b12e953-96f0-40da-ac32-3038dadf20f7
@@ -415,392 +428,603 @@ proxies:
     method: GET
     path:
     - /
-- name: 英国-004
+- name: 意大利-003
   type: http
-  server: 51.89.173.123
+  server: 37.120.135.218
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDhDou_Aau6VauQKGtmIgcJxsnp5o63PElOVpFduiCmYA==
-- name: 德国-008
-  type: http
-  server: 5.104.107.251
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDNBD2YhmXUX3or7mDuWH-soXw609MC0WdYefYZbCn32A==
-- name: 越南-009 |647KB/s|GPT⁺|YT-US|NF
-  type: ss
-  server: 103.186.154.153
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 法国-008
-  type: http
-  server: 51.77.190.60
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBoBjgcebwaDmkj2rj8u003xsnp5o63PElOVpFduiCmYA==
-- name: 冰岛-001
-  type: http
-  server: 37.235.49.103
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCSs7Z6eWJQYgZJLgNbJYNOoXw609MC0WdYefYZbCn32A==
-- name: 越南-010 |865KB/s|GPT⁺|YT-VN|NF|GM
-  type: ss
-  server: 103.186.154.43
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 匈牙利-001
-  type: http
-  server: 185.104.187.130
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAnoKcRTSZmiHp8R_Tw46OGoXw609MC0WdYefYZbCn32A==
-- name: 希腊-001
-  type: http
-  server: 93.174.121.131
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDFP6eQA2VHIqBYt4wLPsOtoXw609MC0WdYefYZbCn32A==
-- name: 斯洛伐克-002
-  type: http
-  server: 185.245.85.126
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDDm9pE7BKwSgg66WOmGzCWoXw609MC0WdYefYZbCn32A==
-- name: 越南-011 |1.2MB/s|GPT⁺|YT-US|NF|GM
-  type: ss
-  server: 103.186.155.68
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 加拿大-001
-  type: http
-  server: 104.245.146.82
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDm1Gp8-lnf3tKTAIxpGDZGoXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH20dqBMrEp_Xm4a4ySV3phoXw609MC0WdYefYZbCn32A==
 - name: 保加利亚-001
   type: http
   server: 193.107.70.113
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDHJ_DgyvkdzRWUTd2SUgWeoXw609MC0WdYefYZbCn32A==
-- name: 越南-012 |2.3MB/s|GPT|YT|X|History
-  type: ss
-  server: 103.186.154.209
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 意大利-002
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGntPigo1kRLjDWJyaguaWOoXw609MC0WdYefYZbCn32A==
+- name: 法国-012
   type: http
-  server: 37.120.135.218
+  server: 51.77.190.70
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuA_7Rcx2N57byp4MJo8eQN0oXw609MC0WdYefYZbCn32A==
-- name: 荷兰-001
-  type: http
-  server: 51.158.252.46
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBJVxQQhb0qcnHsU53oNK6-oXw609MC0WdYefYZbCn32A==
-- name: 越南-013 |1.6MB/s|GPT⁺|YT-US|NF|GM
-  type: ss
-  server: 103.186.154.52
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 越南-014 |1.2MB/s|GPT⁺|YT-US|NF
-  type: ss
-  server: 103.186.154.142
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 荷兰-002
-  type: http
-  server: 51.15.16.66
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDmW2lpTdtKj63WF2vrzOssoXw609MC0WdYefYZbCn32A==
-- name: 爱沙尼亚-001
-  type: http
-  server: 95.153.32.34
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCjpQpQ4fMhheMX0q-aTIbzoXw609MC0WdYefYZbCn32A==
-- name: 捷克-002
-  type: http
-  server: 217.138.220.226
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBZkPJEhKt93XDE9HVKssotoXw609MC0WdYefYZbCn32A==
-- name: 爱沙尼亚-002
-  type: http
-  server: 95.153.31.102
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAewByYb2pMfVD7V6v8Ox8AoXw609MC0WdYefYZbCn32A==
-- name: 法国-009
-  type: http
-  server: 139.64.167.210
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCgZzKejzjTwy6KcovSeYpnxsnp5o63PElOVpFduiCmYA==
-- name: 土耳其-001
-  type: http
-  server: 188.213.34.126
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuD5kOuD7z9J6E8-o3i4Ua7XoXw609MC0WdYefYZbCn32A==
-- name: 法国-010
-  type: http
-  server: 51.68.240.51
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCZAAHVKy-UHFka2s3WE_83xsnp5o63PElOVpFduiCmYA==
-- name: 希腊-002
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsG8236QuhceK0wpWZAWcpotxsnp5o63PElOVpFduiCmYA==
+- name: 希腊-001
   type: http
   server: 95.129.46.100
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBTXdpG6VrsKaWTacxLIMzFoXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFUXYW7d9OtmxGpioxfu0gIoXw609MC0WdYefYZbCn32A==
+- name: 匈牙利-003
+  type: http
+  server: 185.252.223.226
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsF7eF11hJteCx4dS-HZMwiHoXw609MC0WdYefYZbCn32A==
+- name: 捷克-001
+  type: http
+  server: 217.138.220.226
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHV4p1TsjTf0hrldE0kl0ytoXw609MC0WdYefYZbCn32A==
 - name: 塞浦路斯-001
   type: http
   server: 157.97.132.199
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCTe65FO4JC7tV0YRCFHB9roXw609MC0WdYefYZbCn32A==
-- name: 英国-005
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGERJ9YLP60mqb17qtlF-HsoXw609MC0WdYefYZbCn32A==
+- name: 美国-002 |5.6MB/s|GPT|X|History
+  type: socks5
+  server: 174.138.61.184
+  port: 1080
+  skip-cert-verify: true
+- name: 斯洛伐克-002
   type: http
-  server: 38.114.120.157
+  server: 165.231.211.122
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuD2FduwJx_2NP-Pst-aNX2fxsnp5o63PElOVpFduiCmYA==
-- name: 新加坡-001
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEXU_waBNXW_WUYclArd_BtoXw609MC0WdYefYZbCn32A==
+- name: 匈牙利-004
   type: http
-  server: 116.251.216.100
+  server: 185.252.223.210
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBybXkDSI5OzSHEQYt2vw2PoXw609MC0WdYefYZbCn32A==
-- name: 立陶宛-001
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEq6qXHsygUQKImMVfd8HsMoXw609MC0WdYefYZbCn32A==
+- name: 荷兰-004
   type: http
-  server: 185.64.104.88
+  server: 51.15.16.66
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCmIkWl4ynMbrhipdcFrVlcoXw609MC0WdYefYZbCn32A==
-- name: 乌克兰-001
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEWCZhiTPGOThdLkpw4je9boXw609MC0WdYefYZbCn32A==
+- name: 法国-013
   type: http
-  server: 176.103.50.127
+  server: 139.64.167.210
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDLpYoohoUhveErmbVQpFH2oXw609MC0WdYefYZbCn32A==
-- name: 白俄罗斯-001
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFufgx3ltzs73iaK5nVcDLTxsnp5o63PElOVpFduiCmYA==
+- name: 希腊-002
   type: http
-  server: 178.172.217.19
+  server: 93.174.121.131
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuA-ZfuDCN3hqznU7GXMIclQoXw609MC0WdYefYZbCn32A==
-- name: 越南-015 |821KB/s|GPT⁺|YT-US|NF|GM
-  type: ss
-  server: 103.186.155.143
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 俄罗斯联邦-001
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFVpa48-O1zBz3c0ku8b9W5oXw609MC0WdYefYZbCn32A==
+- name: 加拿大-001
   type: http
-  server: 146.70.231.130
+  server: 173.209.51.250
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCBwhUHq6ifRgHBJbVZW-t8oXw609MC0WdYefYZbCn32A==
-- name: 越南-016 |1.1MB/s|GPT⁺|YT-US|NF|GM
-  type: ss
-  server: 103.186.154.62
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 爱尔兰-003
-  type: http
-  server: 188.241.178.86
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuD4cvKVcWdFLnTzexwoJMHSoXw609MC0WdYefYZbCn32A==
-- name: 葡萄牙-001
-  type: http
-  server: 185.113.140.45
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCPETrCs-_PZ8X26gaV6U1-oXw609MC0WdYefYZbCn32A==
-- name: 立陶宛-002
-  type: http
-  server: 85.206.170.244
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDEUW0FHo7JpuXSiIhKN6uwoXw609MC0WdYefYZbCn32A==
-- name: 日本-005 |7.8MB/s|YT-JP|NF|GM
-  type: vless
-  network: ws
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 43.165.190.11
-  servername: mot.morisi.ggff.net
-  port: 42841
-  tls: true
-  ws-opts:
-    headers:
-      Host: mot.morisi.ggff.net
-    path: /@Marisa_kristi
-- name: 菲律宾-001 |4.2MB/s|GPT|X
-  type: vmess
-  network: ws
-  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
-  server: 154.83.2.156
-  port: 2086
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: v205.19740822.xyz
-    path: /
-- name: 美国-001 |3.8MB/s|GPT|YT-US|NF|GM|6%
-  type: ss
-  server: 3.94.168.57
-  port: 443
-  password: amazonskr05
-  udp: true
-  cipher: aes-256-cfb
-- name: 奥地利-003
-  type: http
-  server: 94.198.41.218
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuA-rbIz9XfmHuKTLNrmiAfLoXw609MC0WdYefYZbCn32A==
-- name: 越南-017 |635KB/s|GPT⁺|YT-US|NF|GM
-  type: ss
-  server: 103.186.155.62
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 意大利-003
-  type: http
-  server: 95.141.37.244
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCuZ2GnCq6sJB-TqlCYCnXkoXw609MC0WdYefYZbCn32A==
-- name: 哥伦比亚-001
-  type: http
-  server: 138.121.203.146
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDCpW3-qaFjiFzGTxycyNfroXw609MC0WdYefYZbCn32A==
-- name: 德国-009
-  type: http
-  server: 23.160.72.215
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDItUi5TQMg6c7WlJuJPYJSxsnp5o63PElOVpFduiCmYA==
-- name: 荷兰-003 |5.0MB/s|GPT⁺|YT-RU|NF|6%
-  type: vless
-  network: tcp
-  uuid: 0df23c07-b289-4d65-822a-228478ca73bd
-  server: 77.246.99.24
-  servername: eh.vk.com
-  port: 55537
-  tls: true
-  udp: true
-  xudp: true
-  reality-opts:
-    public-key: PClmXGgES7jXMr2jXfP644yISutD0uxVeUNNqYBTTmU
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFwdP3w88h34T0qBOPJs4oxoXw609MC0WdYefYZbCn32A==
 - name: 保加利亚-002
   type: http
   server: 185.216.32.26
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuC4-BctAImWwaJRIf9fLVfioXw609MC0WdYefYZbCn32A==
-- name: 芬兰-002
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGXR1UUyr-0Z4R_9g7WSrIkoXw609MC0WdYefYZbCn32A==
+- name: 德国-010 |1018KB/s
+  type: socks5
+  server: 193.233.254.7
+  port: 1080
+  password: '@193.233.254.7:'
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  client-fingerprint: chrome
+  username: Og@193.233.254.7
+- name: 丹麦-001
   type: http
-  server: 83.143.242.74
+  server: 82.103.131.250
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuB_kz8_VCB9KPXICfvityaEoXw609MC0WdYefYZbCn32A==
-- name: 冰岛-002
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH2tZvI3Ho_RCOjYDoL9Am9oXw609MC0WdYefYZbCn32A==
+- name: 波兰-001
   type: http
-  server: 37.235.49.61
+  server: 57.128.235.172
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuArcE2YRvxevFJ9DUZQYOU-oXw609MC0WdYefYZbCn32A==
-- name: 土耳其-002
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGtlTCa04brIinjOgsWNloWoXw609MC0WdYefYZbCn32A==
+- name: 罗马尼亚-001 |5.3MB/s|GPT⁺|YT-DE|NF|D+|5%
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 188.241.241.33
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 俄罗斯联邦-001
   type: http
-  server: 185.169.64.46
+  server: 146.70.52.54
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBPjq-C0lCCQ8lefeaJkj7woXw609MC0WdYefYZbCn32A==
-- name: 瑞典-002
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGxeTrQiChr_HWFyC1wS39doXw609MC0WdYefYZbCn32A==
+- name: 加拿大-002
   type: http
-  server: 146.70.122.66
+  server: 173.209.49.50
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBVhPK1-k_B5qq8RI52VCfnoXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHGslWwkuHrXaRVAQLXuTOEoXw609MC0WdYefYZbCn32A==
+- name: 德国-011 |633KB/s
+  type: socks5
+  server: 193.233.254.9
+  port: 1080
+  password: '@193.233.254.9:'
+  skip-cert-verify: true
+  tls: false
+  username: Og@193.233.254.9
+- name: 捷克-002
+  type: http
+  server: 217.138.220.94
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGIuuewiaV8SHjgRhgo677doXw609MC0WdYefYZbCn32A==
+- name: 新加坡-001
+  type: http
+  server: 116.251.216.100
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGiauv6oJTsSAeLbkcHd8F9oXw609MC0WdYefYZbCn32A==
+- name: 匈牙利-005
+  type: http
+  server: 185.104.187.234
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGeAp7KCkue5ACZpTSWFDbcoXw609MC0WdYefYZbCn32A==
+- name: 斯洛伐克-003
+  type: http
+  server: 193.37.255.2
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFcdYdRJIFoehjw7igO0m9yoXw609MC0WdYefYZbCn32A==
 - name: 埃及-001
   type: http
   server: 188.214.122.162
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDy9gL41NL9k8VQtwUq6fp5oXw609MC0WdYefYZbCn32A==
-- name: 俄罗斯联邦-002
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGY69EtiOiTcEu2AsqsuM3XoXw609MC0WdYefYZbCn32A==
+- name: 荷兰-005 |1.0MB/s|GPT⁺|YT-RU|NF
+  type: vless
+  network: tcp
+  uuid: ce7f5e28-d72d-4006-8d70-f428a4721910
+  server: 77.239.124.88
+  servername: mskhost.outlinekeys.net
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  http-opts:
+    path:
+    - /
+  reality-opts:
+    public-key: 3zn513ilYXOJngXLRP0MUnK23HuB9TKLjQ7YG20dzTQ
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+- name: 德国-012
   type: http
-  server: 146.70.52.54
+  server: 89.249.73.26
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCGGaDADsFyWBuehlyHAH62oXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFcNxQPvkJQ5mK3yZuxZ4z1oXw609MC0WdYefYZbCn32A==
+- name: 加拿大-003
+  type: http
+  server: 148.113.221.150
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsExE5D4wzFHMAVCtqCS3lQcxsnp5o63PElOVpFduiCmYA==
+- name: 埃及-002
+  type: http
+  server: 188.214.122.18
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFPzzRlUwb2vQcT8kNcJOiloXw609MC0WdYefYZbCn32A==
+- name: 立陶宛-001 |4.0MB/s|GPT⁺|YT-RU|NF|42%
+  type: vless
+  network: tcp
+  uuid: 1004c163-26ea-5662-b5b2-40df01176f8b
+  server: 2.59.162.100
+  servername: apple.com
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  http-opts:
+    path:
+    - /
+  reality-opts:
+    public-key: eH6HWGKJUtp4VmC9KxtdcyxtLI0O52vhAmZx1ybOtUs
+    short-id: ffffffffff
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+- name: 立陶宛-002
+  type: http
+  server: 185.64.104.88
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH-_6VBb-TspNmyVgKIZqdaoXw609MC0WdYefYZbCn32A==
+- name: 加拿大-004
+  type: http
+  server: 104.245.146.82
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGA5LXMZTY8Eh2Kxd-_mWhxoXw609MC0WdYefYZbCn32A==
+- name: 挪威-001
+  type: http
+  server: 83.143.82.62
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsG7vAeDGtaPdEc4GW-nE3h_oXw609MC0WdYefYZbCn32A==
+- name: 爱沙尼亚-001
+  type: http
+  server: 95.153.31.102
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFls60-UcBCrek7aSYmv6FhoXw609MC0WdYefYZbCn32A==
+- name: 德国-013
+  type: http
+  server: 193.108.116.248
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH00ZsIvLLHj3F78j5R9LZfxsnp5o63PElOVpFduiCmYA==
+- name: 丹麦-002
+  type: http
+  server: 89.45.7.250
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsE6hombCn2pCAb5C_ZcfMHFoXw609MC0WdYefYZbCn32A==
+- name: 爱尔兰-002
+  type: http
+  server: 188.241.178.86
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH9eh4JTnugW6TVo5cvKAtToXw609MC0WdYefYZbCn32A==
+- name: 德国-014 |3.1MB/s|GPT⁺|YT-DE|NF|0%
+  type: vless
+  network: tcp
+  uuid: 40b1e510-6017-48f4-b3db-2486805a2395
+  server: 64.188.67.193
+  servername: sun6-22.userapi.com
+  port: 444
+  tls: true
+  udp: true
+  xudp: true
+  http-opts:
+    path:
+    - /
+  reality-opts:
+    public-key: FguUYp-QbjkcMYcNeNxEJ_IVqd5y4NZjokAkae4IyXw
+    short-id: bbbf95fa
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+- name: 德国-015
+  type: http
+  server: 23.160.72.218
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGzPakD4GiKG9-PrKIrsUhTxsnp5o63PElOVpFduiCmYA==
+- name: 西班牙-001
+  type: http
+  server: 167.17.71.36
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH-gYXwh-bEKM8BBl7NA32Mxsnp5o63PElOVpFduiCmYA==
+- name: 德国-016
+  type: http
+  server: 23.160.72.50
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFbgZbNBxXXpQkYwnF1FBt3xsnp5o63PElOVpFduiCmYA==
+- name: 俄罗斯联邦-002 |4.4MB/s|GPT|YT-RU|NF|25%
+  type: vless
+  network: tcp
+  uuid: 296df966-1e6c-4a42-b089-7bec1ef3a820
+  server: 213.176.19.149
+  servername: ru5.fastlanehosting.ru
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  alpn:
+  - h2
+  - http/1.1
+  http-opts:
+    path:
+    - /
+  client-fingerprint: chrome
+  encryption: none
+- name: 芬兰-002 |2.3MB/s|GPT⁺|NF|D+|0%
+  type: vless
+  network: tcp
+  uuid: 0df23c07-b289-4d65-822a-228478ca73bd
+  server: 5.61.89.225
+  servername: eh.vk.com
+  port: 32061
+  tls: true
+  udp: true
+  xudp: true
+  http-opts:
+    path:
+    - /
+  reality-opts:
+    public-key: e2yc3QjJ1spCe1eLR9cMd_2-TieGJKs2sLKlfW2L-xo
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 土耳其-001
+  type: http
+  server: 185.169.64.46
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsE3KDTdBwM2KXK2ACL9_EtMoXw609MC0WdYefYZbCn32A==
+- name: 以色列-001
+  type: http
+  server: 182.54.236.194
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFJryOSTBSd_7onpB0MJBlboXw609MC0WdYefYZbCn32A==
+- name: 土耳其-002
+  type: http
+  server: 188.213.34.126
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEqoSJtr6uvOpPIBfK6p6K5oXw609MC0WdYefYZbCn32A==
+- name: 德国-017 |1.4MB/s
+  type: socks5
+  server: 193.233.254.8
+  port: 1080
+  password: Og@193.233.254.8
+  skip-cert-verify: true
+  username: Og@193.233.254.8
+- name: 保加利亚-003
+  type: http
+  server: 37.120.152.186
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsF3OncL85Gkc6JvQemsT965oXw609MC0WdYefYZbCn32A==
+- name: 阿联酋-003 |1.1MB/s|23%|TK-AE|YT-AE|NF|GPT⁺
+  type: ss
+  server: 154.90.55.15
+  port: 11201
+  password: b13c4c021cec2c0b
+  udp: true
+  cipher: rc4-md5
+- name: 立陶宛-003
+  type: http
+  server: 85.206.170.244
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGLO8tKXogFqy7bMiPaWqjooXw609MC0WdYefYZbCn32A==
+- name: 法国-014
+  type: http
+  server: 139.64.167.194
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEzCUqd2w4XcdtCVOxOlnD5xsnp5o63PElOVpFduiCmYA==
+- name: 德国-018
+  type: http
+  server: 23.158.56.244
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHwdQlTjTpFjXyqemVO9ZS8xsnp5o63PElOVpFduiCmYA==
+- name: 德国-019
+  type: http
+  server: 23.160.72.45
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGojnfnwadhUU8yiu1gAqGmxsnp5o63PElOVpFduiCmYA==
+- name: 瑞典-001
+  type: http
+  server: 146.70.122.66
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFZ8DLyjyvhRiu2TWrLBZpUoXw609MC0WdYefYZbCn32A==
+- name: 丹麦-003
+  type: http
+  server: 146.70.42.202
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsF7VDZnJwt7sWjIy5y9bmaAoXw609MC0WdYefYZbCn32A==
+- name: 波兰-002
+  type: http
+  server: 151.115.88.238
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEPY0DwXbpp-3Wg6SOSZteToXw609MC0WdYefYZbCn32A==
+- name: 芬兰-003
+  type: http
+  server: 83.143.242.74
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHg-98qLAEAlgMfRKLw8OzRoXw609MC0WdYefYZbCn32A==
+- name: 土耳其-003
+  type: http
+  server: 130.195.216.2
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH_5ZMgyo2Dl4wT9JLEOfUyoXw609MC0WdYefYZbCn32A==
+- name: 德国-020
+  type: http
+  server: 193.108.116.232
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH9Mtx3eKxmSbSqBt__nI8Bxsnp5o63PElOVpFduiCmYA==
+- name: 丹麦-004
+  type: http
+  server: 88.218.3.162
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFyoWRsc7RPZANFK5H8fDS-oXw609MC0WdYefYZbCn32A==
+- name: 德国-021 |1.3MB/s|GPT|YT-DE|NF|D+|0%
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 194.9.6.3
+  servername: sni.111000.indevs.in
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 德国-022
+  type: http
+  server: 23.160.72.205
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFQJ6ptlotpvcwfQRZyDT02xsnp5o63PElOVpFduiCmYA==
+- name: 挪威-002
+  type: http
+  server: 83.143.82.58
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFzlaeHfwRWyH1nLTvwEWPYoXw609MC0WdYefYZbCn32A==
+- name: 白俄罗斯-001
+  type: http
+  server: 178.172.217.19
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsECCP1WlKQeq2PR1583FscloXw609MC0WdYefYZbCn32A==
+- name: 俄罗斯联邦-003
+  type: http
+  server: 146.70.231.130
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHvyj1mIMBgiIJDZBBWoYMhoXw609MC0WdYefYZbCn32A==
 - name: 克罗地亚-001
+  type: http
+  server: 178.218.162.117
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFmstUeBVKxDLCE_6au0kcdoXw609MC0WdYefYZbCn32A==
+- name: 印度-001
+  type: http
+  server: 148.113.47.86
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEAxdlsXk9seUqEUX_h3bOhoXw609MC0WdYefYZbCn32A==
+- name: 美国-003
+  type: http
+  server: 38.128.66.22
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFQ5fj6PSXXYmI25kmyWcQAxsnp5o63PElOVpFduiCmYA==
+- name: 克罗地亚-002
   type: http
   server: 178.218.162.114
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAfwWuVf8KB72k4oO3OvM9joXw609MC0WdYefYZbCn32A==
-- name: 印度-001
-  type: http
-  server: 148.113.0.104
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDzYP-KOUC1D5jOuP7L21GcoXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHjSdVRr8MRbQ3IzENMN2gQoXw609MC0WdYefYZbCn32A==
+- name: 俄罗斯联邦-004 |1.4MB/s|GPT⁺|YT-RU|NF|42%
+  type: vless
+  uuid: 82bf8df9-300f-4d65-a8b9-b300ccaeb930
+  server: 94.131.113.228
+  servername: fast.strelkavpn.ru
+  port: 443
+  tls: true
+  reality-opts:
+    public-key: gUDEXo3UPF5WlJdIvpKMZbcLfKxMkiDyWgXjleD0aA4
+    short-id: aa5d376d9d56
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
 - name: 尼日利亚-001
   type: http
   server: 169.255.57.58
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBGc6UgY5l_oM4D_DJWwg7hoXw609MC0WdYefYZbCn32A==
-- name: 俄罗斯联邦-003 |3.6MB/s|GPT⁺|YT-RU|D+|21%
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFWPB1B5wLdfP-kJrnr6fzGoXw609MC0WdYefYZbCn32A==
+- name: 冰岛-002
+  type: http
+  server: 37.235.49.103
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFjzU7P3ewE9IqQSKa479bAoXw609MC0WdYefYZbCn32A==
+- name: 马耳他-001
+  type: http
+  server: 171.22.254.19
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHNX49s0XhPx11Gh9zHFIChoXw609MC0WdYefYZbCn32A==
+- name: 印度-002
+  type: http
+  server: 148.113.0.104
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEVlKMI9XKCxFo0Y6Q507Z8oXw609MC0WdYefYZbCn32A==
+- name: 白俄罗斯-002
+  type: http
+  server: 178.172.217.13
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH-qX9Z3_eSij1iE1eVa8QBoXw609MC0WdYefYZbCn32A==
+- name: 印度-003
+  type: http
+  server: 148.113.8.93
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHlSV3EeNkeXZDi0DbSGnWZoXw609MC0WdYefYZbCn32A==
+- name: 越南-001 |647KB/s|GPT⁺|YT-US|NF
+  type: ss
+  server: 103.186.154.153
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 罗马尼亚-002
+  type: http
+  server: 188.212.101.130
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEM6eWBVkR0cnn2JcFxO4WvoXw609MC0WdYefYZbCn32A==
+- name: 美国-004 |1.0MB/s|GPT⁺|YT-CN|4%
   type: vless
-  uuid: 40ecece1-edd9-4543-99c7-529ee594135d
-  server: 217.198.12.6
-  servername: 0ru84.tcpdoor.net
+  network: ws
+  uuid: e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e
+  server: 69.84.182.13
+  servername: fr-1-fr-1.aiopen.sbs
   port: 443
-  skip-cert-verify: true
   tls: true
   udp: true
-  tfo: true
-  reality-opts:
-    public-key: RHUQAGJ_MYNKsZt2XO_DATEm1cQh0Rdpz83DTCGSKl0
-    short-id: 740d6f2e
-  client-fingerprint: firefox
-- name: 丹麦-002
+  xudp: true
+  ws-opts:
+    headers:
+      Host: fr-1-fr-1.aiopen.sbs
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /kbjc/fr1
+  client-fingerprint: chrome
+  encryption: none
+- name: 阿根廷-001
   type: http
-  server: 146.70.42.202
+  server: 103.50.33.186
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDTzRBsBI_Bqkpyhqb0CITIoXw609MC0WdYefYZbCn32A==
-- name: 丹麦-003
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGeJpD7ft24ksOnsgVBSyFqoXw609MC0WdYefYZbCn32A==
+- name: 吉尔吉斯斯坦-001
   type: http
-  server: 89.45.7.250
+  server: 91.213.233.176
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDDmP5GqZjhTTRdQU0a4W0CoXw609MC0WdYefYZbCn32A==
-- name: 瑞典-003 |6.1MB/s|YT-RU|NF|20%
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFP9sikmpkTmtaj4bKCCfaOoXw609MC0WdYefYZbCn32A==
+- name: 瑞典-002 |5.1MB/s|GPT⁺|YT-RU|NF|20%
   type: vless
   uuid: a7a9f670-44c0-45a9-8047-69db0203c142
   server: 193.23.200.153
@@ -810,277 +1034,64 @@ proxies:
   tls: true
   udp: true
   tfo: true
-- name: 印度-002
-  type: http
-  server: 148.113.47.86
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuD8kCqqrE4auEPeuKyCUK44oXw609MC0WdYefYZbCn32A==
-- name: 丹麦-004
-  type: http
-  server: 88.218.3.162
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuC4gisYQoCU3YLfKpw5LgTioXw609MC0WdYefYZbCn32A==
-- name: 克罗地亚-002
-  type: http
-  server: 178.218.162.117
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAp0y4fBKlUV6ulCHuODR4noXw609MC0WdYefYZbCn32A==
-- name: 保加利亚-003
-  type: http
-  server: 37.120.152.186
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCvOOnbtXBIb2RgPDIRB7G2oXw609MC0WdYefYZbCn32A==
-- name: 韩国-006
-  type: http
-  server: 140.174.179.129
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDBdkQfQDJIxQ9X15RbJuk_oXw609MC0WdYefYZbCn32A==
-- name: 摩洛哥-001
-  type: http
-  server: 154.70.207.146
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBbSTF_lTRGPkk4ZwKPVzQZoXw609MC0WdYefYZbCn32A==
-- name: 澳大利亚-001
-  type: http
-  server: 182.54.232.23
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAGg-BKw3ZACDjGJaRbFqPKoXw609MC0WdYefYZbCn32A==
-- name: 澳大利亚-002
-  type: http
-  server: 144.48.37.111
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBchEhOiN_QA2n-P-z2k6U9oXw609MC0WdYefYZbCn32A==
-- name: 智利-001
-  type: http
-  server: 45.250.252.93
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuA_DyeEO2AKytE6Pw5IENRcoXw609MC0WdYefYZbCn32A==
-- name: 新西兰-001
-  type: http
-  server: 103.75.11.41
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCYlU5cUMNWr63sEdPCTZOJoXw609MC0WdYefYZbCn32A==
-- name: 阿根廷-001
-  type: http
-  server: 103.50.33.200
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDIxKNFOon6fptU9nLxdyUWoXw609MC0WdYefYZbCn32A==
-- name: 阿根廷-002
-  type: http
-  server: 103.50.33.107
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAc1ycinuEquT7kOU9642RuoXw609MC0WdYefYZbCn32A==
-- name: 阿根廷-003
-  type: http
-  server: 103.50.33.186
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAgFnYZo_GmumL6CwQIjNu5oXw609MC0WdYefYZbCn32A==
-- name: 秘鲁-001
-  type: http
-  server: 190.120.229.196
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDH3QdFeRMyUXJFNmcpIWQfoXw609MC0WdYefYZbCn32A==
-- name: 澳大利亚-003
-  type: http
-  server: 144.48.37.141
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuD01yZ6ttB3G5FdnfQZgs5_xsnp5o63PElOVpFduiCmYA==
-- name: 澳大利亚-004
-  type: http
-  server: 144.48.38.138
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuApPwp_1KXQtQdjYAbRgTuGxsnp5o63PElOVpFduiCmYA==
-- name: 尼加拉瓜-001
-  type: http
-  server: 131.196.35.40
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDZUIC_YZcZxNCWjlo3aH7xoXw609MC0WdYefYZbCn32A==
-- name: 阿根廷-004
-  type: http
-  server: 38.165.230.194
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBwg1bhQeaGEgZUAPixFyv3oXw609MC0WdYefYZbCn32A==
-- name: 哈萨克斯坦-001 |3.3MB/s|GPT⁺|YT-FR|NF|42%
-  type: vless
-  network: ws
-  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
-  server: 194.76.18.25
-  servername: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
-  port: 443
-  tls: true
+- name: 韩国-003 |1.7MB/s|GPT|X|History
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+  skip-cert-verify: true
+  tls: false
   udp: true
-  xudp: true
-  ws-opts:
-    headers:
-      Host: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
-    path: /ws
+  username: Og%3D%3D
   client-fingerprint: chrome
-  encryption: none
-- name: 澳大利亚-005
+- name: 吉尔吉斯斯坦-002
   type: http
-  server: 45.248.77.67
+  server: 91.213.233.111
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuB5iSS5IC2izDYPxxWTqgFooXw609MC0WdYefYZbCn32A==
-- name: 阿尔及利亚-001
-  type: http
-  server: 197.140.142.57
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDQXcukFFzTzCSXZxtDMoVjoXw609MC0WdYefYZbCn32A==
-- name: 越南-018
-  type: http
-  server: 103.97.125.216
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBmVF-rR8luJwWnFu6xflFcoXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEEBtjs644jd1nYzFOSLDFJoXw609MC0WdYefYZbCn32A==
 - name: 哥斯达黎加-001
   type: http
   server: 200.122.181.11
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCV50vYjT-loh6Txz2T8XPkoXw609MC0WdYefYZbCn32A==
-- name: 澳大利亚-006
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGWboe2-vGdLKmeBAuG9ub-oXw609MC0WdYefYZbCn32A==
+- name: 尼加拉瓜-001
   type: http
-  server: 103.108.229.143
+  server: 131.196.35.40
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAdLTtL6FZisAV6rOQyvoQPxsnp5o63PElOVpFduiCmYA==
-- name: 新西兰-002
-  type: http
-  server: 180.149.231.71
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDbrJ75-pXOS4dBpHO9KoBToXw609MC0WdYefYZbCn32A==
-- name: 塞浦路斯-002 |1.8MB/s|GPT⁺|YT-NL|NF|D+|5%
-  type: vless
-  network: ws
-  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
-  server: 45.83.21.88
-  servername: rAyAn-007.pArViN.DpDnS.OrG
-  port: 443
-  tls: true
-  udp: true
-  xudp: true
-  ws-opts:
-    headers:
-      Host: rAyAn-007.pArViN.DpDnS.OrG
-    path: /Telegram:@AZARBAYJAB1?ed=2560
-  client-fingerprint: chrome
-  encryption: none
-- name: 塞浦路斯-003
-  type: http
-  server: 185.191.206.100
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAOsWXu2DBkU06mNqC1apZqoXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFyof947wx4taXWkPH6DEp5oXw609MC0WdYefYZbCn32A==
 - name: 约旦-001
   type: http
   server: 82.212.103.6
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAiIdEnHw5Dd0a8qTTuJgdOoXw609MC0WdYefYZbCn32A==
-- name: 吉尔吉斯斯坦-001
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEOjH9_tJgQV3I_AYqophTuoXw609MC0WdYefYZbCn32A==
+- name: 塞浦路斯-002
   type: http
-  server: 91.213.233.176
+  server: 185.191.206.100
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuB0ob9sOVnA4gsaFjeLCkSyoXw609MC0WdYefYZbCn32A==
-- name: 阿尔及利亚-002
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFIzO6OxEKMJH7dXIiZagSooXw609MC0WdYefYZbCn32A==
+- name: 日本-003
   type: http
-  server: 197.140.142.233
+  server: 5.180.44.194
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDShyJG8GW4gejrjOlIg21DoXw609MC0WdYefYZbCn32A==
-- name: 哈萨克斯坦-002
-  type: http
-  server: 185.120.77.104
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDH5isSj6Fp8-aMo3kO_ZQ2oXw609MC0WdYefYZbCn32A==
-- name: 阿根廷-005
-  type: http
-  server: 190.103.177.162
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBxQZj1EbBOVUD1yt9SpY2Zxsnp5o63PElOVpFduiCmYA==
-- name: 新加坡-002 |1.8MB/s|1.5MB/s|X|History
-  type: socks5
-  server: 146.235.19.84
-  port: 10810
-  skip-cert-verify: true
-- name: 玻利维亚-001
-  type: http
-  server: 190.186.42.50
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCb9dbnO-VzS2_b4ezvZQQ8oXw609MC0WdYefYZbCn32A==
-- name: 奥地利-004
-  type: http
-  server: 130.195.222.54
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDMiVffxQ3yGUjH-ECJW39IoXw609MC0WdYefYZbCn32A==
-- name: 俄罗斯联邦-004 |2.4MB/s|YT-RU
-  type: vless
-  network: tcp
-  uuid: 148fcfad-46d5-40c1-8045-52c4f626fc8a
-  server: 5.188.142.230
-  servername: eh.vk.com
-  port: 8081
-  tls: true
-  udp: true
-  xudp: true
-  http-opts:
-    path:
-    - /
-  reality-opts:
-    public-key: EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14
-    short-id: 425ba80cd1a821a8
-  client-fingerprint: chrome
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsG-ZPCv9m3aAynNuM8_VHX3oXw609MC0WdYefYZbCn32A==
 - name: 哥斯达黎加-002
   type: http
   server: 138.59.135.94
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuA7zm1iS156n2WnRSowrvO5oXw609MC0WdYefYZbCn32A==
-- name: 新加坡-003 |1.8MB/s|GPT⁺|YT-SG|NF|D+|17%
-  type: vmess
-  network: none
-  uuid: 656920dc-ed05-4f41-8c49-bdff41e383a9
-  server: 82.21.80.224
-  servername: viffes.shortanimedrama.space
-  port: 17310
-  skip-cert-verify: true
-  tls: true
-  alterId: 0
-  cipher: auto
-- name: 越南-019 |2.7MB/s
-  type: ss
-  server: 103.186.154.54
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  cipher: aes-256-cfb
-- name: 美国-002 |1.5MB/s|GPT|6%
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsG6o0Pk6bLUxounXEf5vZdIoXw609MC0WdYefYZbCn32A==
+- name: 肯尼亚-001
+  type: http
+  server: 102.68.86.97
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEaJZvmpOdYDCYDDddYPuPFoXw609MC0WdYefYZbCn32A==
+- name: 美国-005 |1.5MB/s|GPT|6%
   type: vless
   network: ws
   uuid: e6c7ed63-89db-4ae1-a3f8-7a722921b3b2
@@ -1100,164 +1111,293 @@ proxies:
     path: /O1w0n3vYgFKYs7EzNAvLPvOp
   client-fingerprint: chrome
   encryption: none
-- name: 美国-003 |2.8MB/s
+- name: 哈萨克斯坦-001
+  type: http
+  server: 185.120.77.104
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH7klBtnmFqx73iDoPQfu3_oXw609MC0WdYefYZbCn32A==
+- name: 哥伦比亚-001
+  type: http
+  server: 138.121.203.146
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHsXinD77jP_35X-SkOPV9ioXw609MC0WdYefYZbCn32A==
+- name: 阿尔及利亚-001
+  type: http
+  server: 197.140.142.57
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsE4pmUVMYs1trXhYWV2XAnNoXw609MC0WdYefYZbCn32A==
+- name: 越南-002 |554KB/s|YT-US|NF|GPT⁺|GM
+  type: ss
+  server: 103.186.155.83
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 越南-003 |1.2MB/s|YT-US|NF|GPT⁺|GM
+  type: ss
+  server: 103.186.155.48
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 阿根廷-002
+  type: http
+  server: 103.50.33.107
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEOytCnMWTVbZqaGNOFxVrQoXw609MC0WdYefYZbCn32A==
+- name: 俄罗斯联邦-005 |2.7MB/s|GPT|YT-RU|NF|5%
+  type: vless
+  network: tcp
+  uuid: 002accb526534fcab24a72b0ea1cff59
+  server: 176.125.240.166
+  servername: apple.com
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  reality-opts:
+    public-key: GgiY38LjRI1hS1LKhdqvtJ5SDDO436GvihG-TzEI2XE
+    short-id: aabbccdd
+  client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+- name: 阿尔及利亚-002
+  type: http
+  server: 197.140.142.233
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFdUFHIPDtgAhPyvMlenjZpoXw609MC0WdYefYZbCn32A==
+- name: 阿根廷-003
+  type: http
+  server: 38.165.230.210
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEY59CyAep2UEG4QlhvnJuYoXw609MC0WdYefYZbCn32A==
+- name: 罗马尼亚-003 |3.9MB/s|GPT⁺|YT-US|NF|D+|GM|5%
   type: vless
   network: ws
-  uuid: 258bad91-733a-4e6a-96f4-11568b97c04a
-  server: 69.84.182.20
-  servername: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 45.12.30.138
+  servername: sni.111000.indevs.in
+  port: 2096
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 美国-006
+  type: vless
+  network: tcp
+  uuid: 3c28c3cf-85ef-4a8a-a475-3a8585d563fe
+  server: 159.223.205.136
+  servername: dash.cloudflare.com
+  port: 42356
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  reality-opts:
+    public-key: nY642oPT9bs-EddohAqLcif8a7qaxAUwxeDD85eXNjw
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 美国-007 |2.6MB/s
+  type: vless
+  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
+  server: 178.130.47.143
+  servername: uscdn3.suio.me
+  port: 443
+  tls: true
+  client-fingerprint: chrome
+- name: 爱沙尼亚-002
+  type: http
+  server: 95.153.32.34
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFHyOSZMo79Y93JT5DEYtcVoXw609MC0WdYefYZbCn32A==
+- name: 英国-007
+  type: http
+  server: 38.114.120.157
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHblVBPp_qWGsf1I6LfiefHxsnp5o63PElOVpFduiCmYA==
+- name: 芬兰-004
+  type: http
+  server: 194.34.134.21
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsElfis1iMHhexR6LKZ2npqtoXw609MC0WdYefYZbCn32A==
+- name: 意大利-004
+  type: http
+  server: 158.58.173.73
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsE0-ZYAoIikeXI80HkooSLHoXw609MC0WdYefYZbCn32A==
+- name: 葡萄牙-001
+  type: http
+  server: 185.113.140.45
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHA2rRQeDEwpjq8TSknkiFRoXw609MC0WdYefYZbCn32A==
+- name: 俄罗斯联邦-006
+  type: http
+  server: 146.70.52.62
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHdlrVvl57QeO17PuhYy1bIoXw609MC0WdYefYZbCn32A==
+- name: 德国-023 |853KB/s|YT-DE|NF|D+|5%
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 45.132.1.208
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 美国-008 |859KB/s
+  type: http
+  server: 154.26.192.123
+  port: 10988
+  password: gs4BXwT6SW
+  skip-cert-verify: false
+  tls: false
+  username: fQ67Dpe5dU
+- name: 韩国-004 |2.7MB/s|GPT⁺|YT-CN|NF|D+|2%
+  type: ss
+  server: 211.201.169.70
+  port: 51537
+  password: qwerREWQ@@
+  udp: true
+  tfo: true
+  cipher: aes-256-cfb
+  client-fingerprint: chrome
+- name: 法国-015 |6.9MB/s|YT-DE|NF|D+
+  type: trojan
+  network: ws
+  server: 135.125.232.253
+  port: 2053
+  password: iwangjie
+  skip-cert-verify: false
+  sni: nodes.830901.xyz
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: '%2F%3Fed%3D2560'
+- name: 日本-004
+  type: http
+  server: 103.108.230.31
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWQbpILnq29dqqIXz3SD4GfooXw609MC0WdYefYZbCn32A==
+- name: 韩国-005
+  type: http
+  server: 140.174.179.129
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWTT9Pz_ijZq0YyUu25OhgEuoXw609MC0WdYefYZbCn32A==
+- name: 澳大利亚-001
+  type: http
+  server: 182.54.232.23
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWSL43jQT7GsFAe6FnFSJPrsoXw609MC0WdYefYZbCn32A==
+- name: 智利-001
+  type: http
+  server: 45.250.252.93
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWRfgrE5bQbMcM9ICZVwCuckoXw609MC0WdYefYZbCn32A==
+- name: 澳大利亚-002
+  type: http
+  server: 45.125.247.13
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWSu6OuDSLDScZVkK4iHOIFBoXw609MC0WdYefYZbCn32A==
+- name: 澳大利亚-003
+  type: http
+  server: 103.108.229.143
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWTQgykvjT3gexlPDe__wzCCxsnp5o63PElOVpFduiCmYA==
+- name: 秘鲁-001
+  type: http
+  server: 190.120.229.196
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWScbaIye8tSAgc5oVlCMa4moXw609MC0WdYefYZbCn32A==
+- name: 澳大利亚-004
+  type: http
+  server: 144.48.37.111
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWTfHANI_VUV8DNM-M4RFEXUoXw609MC0WdYefYZbCn32A==
+- name: 新西兰-001
+  type: http
+  server: 180.149.231.71
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWSQy6nwf_FGbIGwGaJALnBboXw609MC0WdYefYZbCn32A==
+- name: 阿根廷-004
+  type: http
+  server: 38.165.230.194
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWQxIeIPgoHRR2ZMBKTdTT_EoXw609MC0WdYefYZbCn32A==
+- name: 澳大利亚-005
+  type: http
+  server: 144.48.37.141
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWQFqn9v9ppv1QjXzBL1mvBuxsnp5o63PElOVpFduiCmYA==
+- name: 澳大利亚-006
+  type: http
+  server: 144.48.38.138
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWT-46kYq8qaxnLsEImfxVJ3xsnp5o63PElOVpFduiCmYA==
+- name: 阿根廷-005
+  type: http
+  server: 190.103.177.162
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWTiXWVMvHG4eLssRZSAKd0sxsnp5o63PElOVpFduiCmYA==
+- name: 塞浦路斯-003 |1.8MB/s|GPT⁺|YT-NL|NF|D+|5%
+  type: vless
+  network: ws
+  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
+  server: 45.83.21.88
+  servername: rAyAn-007.pArViN.DpDnS.OrG
   port: 443
   tls: true
   udp: true
   xudp: true
   ws-opts:
     headers:
-      Host: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /ws
+      Host: rAyAn-007.pArViN.DpDnS.OrG
+    path: /Telegram:@AZARBAYJAB1?ed=2560
   client-fingerprint: chrome
   encryption: none
-- name: 韩国-007 |1.4MB/s|GPT⁺|YT-CN|NF|D+|2%
-  type: ss
-  server: 221.139.79.39
-  port: 32974
-  password: qwerREWQ@@
-  udp: true
-  tfo: true
-  cipher: aes-256-cfb
-  client-fingerprint: chrome
-- name: 阿尔及利亚-003
+- name: 澳大利亚-007
   type: http
-  server: 197.140.142.226
+  server: 45.248.77.67
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCYqO8qLAgBmd1nmh-unZMgoXw609MC0WdYefYZbCn32A==
-- name: 捷克-003 |5.2MB/s
+  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWQIwk3IWGSdEB8QI7CjZS5aoXw609MC0WdYefYZbCn32A==
+- name: 俄罗斯联邦-007 |3.6MB/s|GPT⁺|YT-RU|D+|21%
   type: vless
-  network: ws
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  server: 194.87.240.67
-  servername: snippet.fgfw.cc.cd
+  uuid: 40ecece1-edd9-4543-99c7-529ee594135d
+  server: 217.198.12.6
+  servername: 0ru84.tcpdoor.net
   port: 443
+  skip-cert-verify: true
   tls: true
-  udp: true
-  xudp: true
-  alpn:
-  - http/1.1
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.cc.cd
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /danfeng?ed=2560
-  client-fingerprint: chrome
-  encryption: none
-- name: 波兰-002
-  type: http
-  server: 151.115.88.238
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDRh4xvMHFv8fxYj-FGk9x-oXw609MC0WdYefYZbCn32A==
-- name: 日本-006 |1.9MB/s|GPT⁺|YT-JP|NF|D+|GM|5%
-  type: vless
-  network: ws
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 8.211.137.100
-  servername: mot.saghv.filegear-sg.me
-  port: 11867
-  tls: true
-  ws-opts:
-    headers:
-      Host: mot.saghv.filegear-sg.me
-    path: /@Marisa_kristi
-- name: 新加坡-004 |5.0MB/s|GPT⁺|YT-SG|NF|D+|GM|0%
-  type: vless
-  network: ws
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 54.255.217.120
-  servername: mot.saghv.filegear-sg.me
-  port: 4096
-  tls: true
-  ws-opts:
-    headers:
-      Host: mot.saghv.filegear-sg.me
-    path: /@Marisa_kristi
-- name: 新加坡-005 |7.8MB/s|GPT⁺|YT-SG|NF|D+|GM|5%
-  type: vless
-  network: ws
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 175.41.167.160
-  servername: mot.saghv.filegear-sg.me
-  port: 10101
-  tls: true
-  ws-opts:
-    headers:
-      Host: mot.saghv.filegear-sg.me
-    path: /@Marisa_kristi
-- name: 韩国-008 |6.6MB/s|GPT⁺|YT-KR|NF|D+|4%
-  type: ss
-  server: 221.150.109.89
-  port: 24986
-  password: qwerREWQ@@
   udp: true
   tfo: true
-  cipher: aes-256-cfb
-  client-fingerprint: chrome
-- name: 韩国-009 |1.1MB/s|GPT⁺|YT-KR|NF|D+|0%
-  type: ss
-  server: 121.170.203.136
-  port: 6373
-  password: qwerREWQ@@
-  udp: true
-  tfo: true
-  cipher: aes-256-cfb
-  client-fingerprint: chrome
-- name: 越南-020 |745KB/s|GPT⁺|YT-VN|NF
-  type: ss
-  server: 103.186.154.74
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 越南-021 |1.2MB/s
-  type: ss
-  server: 103.186.154.151
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 越南-022 |2.0MB/s
-  type: ss
-  server: 103.186.154.181
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 越南-023 |644KB/s|GPT⁺|YT-US|NF|GM
-  type: ss
-  server: 103.186.155.44
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 越南-024 |1.1MB/s
-  type: ss
-  server: 103.186.154.148
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 越南-025 |1.7MB/s
-  type: ss
-  server: 103.186.155.209
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 越南-026 |927KB/s|GPT⁺|YT-VN|NF
-  type: ss
-  server: 103.186.154.79
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 越南-027 |2.4MB/s
-  type: ss
-  server: 103.186.154.241
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
+  reality-opts:
+    public-key: RHUQAGJ_MYNKsZt2XO_DATEm1cQh0Rdpz83DTCGSKl0
+    short-id: 740d6f2e
+  client-fingerprint: firefox
