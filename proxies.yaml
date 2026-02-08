@@ -1,11 +1,25 @@
 proxies:
-- name: 韩国-001
+- name: 美国-001 |859KB/s
   type: http
-  server: 61.255.174.11
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGAs2FPK-OgQcY04IpJYPqJoXw609MC0WdYefYZbCn32A==
-- name: 韩国-002 |0.8MB/s|0%|GPT|X|History
+  server: 154.26.192.123
+  port: 10988
+  password: gs4BXwT6SW
+  skip-cert-verify: false
+  tls: false
+  username: fQ67Dpe5dU
+- name: 日本-001 |1.1MB/s|YT-JP|NF|D+|GM
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 136.0.11.62
+  servername: sni.111000.indevs.in
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 韩国-001 |0.8MB/s|0%|GPT|X|History
   type: ss
   server: 121.170.203.147
   port: 19203
@@ -14,19 +28,19 @@ proxies:
   tfo: true
   cipher: aes-256-cfb
   client-fingerprint: chrome
-- name: 马来西亚-001
-  type: http
-  server: 202.73.12.14
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFnMm6t7fMzQsqkYWlQrBVEoXw609MC0WdYefYZbCn32A==
-- name: 马来西亚-002
-  type: http
-  server: 202.87.221.113
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGLAxbqzj2KUdGSP9fb8uG_oXw609MC0WdYefYZbCn32A==
-- name: 日本-001 |559KB/s|GPT⁺|YT-CN|NF|0%
+- name: 日本-002 |1.3MB/s|YT-JP|NF|D+|GM
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 43.133.10.236
+  servername: sni.jpmj.dev
+  port: 33405
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 日本-003 |559KB/s|GPT⁺|YT-CN|NF|0%
   type: anytls
   server: 160.16.75.254
   port: 443
@@ -35,118 +49,587 @@ proxies:
   udp: true
   sni: gw.alicdn.com
   username: a2d12dc9-c111-45ac-b803-87e48f3484d8
-- name: 德国-001 |GB_speednode_0013
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  server: 82.198.246.97
-  servername: 4120-BE04-13ef56096989.457.PP.ua
-  port: 180
+- name: 韩国-002
+  type: http
+  server: 61.255.174.11
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWaDpeQUBCtzF0ZBOi57t3RoXw609MC0WdYefYZbCn32A==
+- name: 韩国-003 |597KB/s|GPT|YT-KR|D+
+  type: vless
+  network: ws
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  server: 221.158.139.181
+  servername: l.ayovo.netlib.re
+  port: 12433
   skip-cert-verify: false
-  tls: false
+  tls: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+  client-fingerprint: chrome
+- name: 韩国-004 |2.1MB/s|YT-KR|NF|D+|GM
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 112.185.223.152
+  servername: sni.jpmj.dev
+  port: 50001
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 马来西亚-001
+  type: http
+  server: 202.73.12.14
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVmNA37K8GzYpVOiqZ0lkoLoXw609MC0WdYefYZbCn32A==
+- name: 马来西亚-002
+  type: http
+  server: 202.87.221.113
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUuvcCB2ZKZukpt53MOYYPFoXw609MC0WdYefYZbCn32A==
+- name: 韩国-005 |1.2MB/s|GPT|D+|GM
+  type: vless
+  network: ws
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  server: 220.118.97.223
+  servername: l.ayovo.netlib.re
+  port: 10180
+  skip-cert-verify: false
+  tls: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+  client-fingerprint: chrome
+- name: 新加坡-001 |4.2MB/s|GPT⁺|YT-US|NF|D+|GM|5%
+  type: vless
+  network: ws
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  server: 27.50.48.8
+  servername: snip.ere.de5.net
+  port: 443
+  tls: true
   udp: true
   xudp: true
-  alterId: 0
-  cipher: auto
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
+        Safari/537.36
+    path: /?ed=2560
+  client-fingerprint: random
+  encryption: none
+- name: 新加坡-002 |5.2MB/s|GPT⁺|YT-US|NF|D+|GM|5%
+  type: vless
+  network: ws
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  server: 27.50.48.6
+  servername: snip.ere.de5.net
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+    path: /?ed=2560
+  client-fingerprint: random
+  encryption: none
 - name: 阿联酋-001
   type: http
   server: 5.42.206.146
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsF8k4WOq_8fP58VetqouWH8oXw609MC0WdYefYZbCn32A==
-- name: 法国-001
-  type: http
-  server: 51.77.190.29
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGFZq37s34pY_OQiji4UZm5xsnp5o63PElOVpFduiCmYA==
-- name: 法国-002
-  type: http
-  server: 51.77.190.60
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsG1A8WVqnbvcgibRH-O_U20xsnp5o63PElOVpFduiCmYA==
-- name: 法国-003
-  type: http
-  server: 79.137.101.250
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEkuikQRkk7q5WfmfP64rFfxsnp5o63PElOVpFduiCmYA==
-- name: 德国-002
-  type: http
-  server: 51.38.121.169
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH-ekb4-OK4ihpdgjebv3gOxsnp5o63PElOVpFduiCmYA==
-- name: 荷兰-001 |4.2MB/s|GPT
-  type: socks5
-  server: 5.255.113.177
-  port: 1080
-  skip-cert-verify: true
-- name: 日本-002 |7.5MB/s|GPT⁺|YT-RU|NF|0%
-  type: vless
-  network: tcp
-  uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
-  server: 116.80.44.144
-  servername: www.yahoo.co.jp
-  port: 27724
-  security: reality
-  tls: true
-  udp: false
-  sni: www.yahoo.co.jp
-  reality-opts:
-    public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  fp: chrome
-  pbk: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
-- name: 德国-003
-  type: http
-  server: 5.104.107.104
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFHdA1d1uL4hk0jm9hJngrXxsnp5o63PElOVpFduiCmYA==
-- name: 美国-001 |3.7MB/s|GPT⁺|YT-CN|NF
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUpaeJTg9xjgSKA2bGL5dbpoXw609MC0WdYefYZbCn32A==
+- name: 法国-001 |1.9MB/s
   type: hysteria
-  server: 208.87.243.151
-  port: 38845
+  server: 62.210.10.186
+  port: 50011
   skip-cert-verify: true
   udp: true
-  sni: www.bing.com
+  sni: apple.com
+  alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: 55 Mbps
+  protocol: udp
+  up: 11 Mbps
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+- name: 英国-001 |4.4MB/s|YT-US|NF|D+|GM
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 25.129.198.238
+  servername: sni.jpmj.dev
+  port: 2096
+  tls: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  client-fingerprint: chrome
+  encryption: none
+- name: 英国-002 |3.1MB/s|YT-US|NF|D+|GM
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 25.129.199.238
+  servername: sni.jpmj.dev
+  port: 2096
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 美国-002 |2.2MB/s|YT-US|NF|D+|GM
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 162.120.94.138
+  servername: sni.111000.indevs.in
+  port: 2096
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
+  client-fingerprint: chrome
+- name: 英国-003 |3.0MB/s|YT-US|NF|D+|GM
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 25.26.27.238
+  servername: sni.jpmj.dev
+  port: 2096
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560
+  client-fingerprint: chrome
+- name: 法国-002 |2.5MB/s|TK-FR|YT-FR|GPT⁺
+  type: hysteria
+  server: 195.154.200.40
+  port: 15010
+  skip-cert-verify: true
+  udp: true
+  sni: apple.com
+  alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: '100'
+  up: '100'
+  auth-str: dongtaiwang.com
+- name: 法国-003 |2.2MB/s|GPT|YT-US|NF|D+|GM|5%
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 141.11.203.238
+  servername: sni.jpmj.dev
+  port: 2096
+  tls: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  client-fingerprint: chrome
+  encryption: none
+- name: 美国-003 |4.7MB/s|GPT⁺|YT-US|NF|D+|GM|5%
+  type: vless
+  network: ws
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  server: 198.62.62.241
+  servername: l.ayovo.netlib.re
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /?ed=2560
+  client-fingerprint: chrome
+  encryption: none
+- name: 西班牙-001 |2.1MB/s|YT-US|NF|D+|GM
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 185.251.81.238
+  servername: sni.jpmj.dev
+  port: 2096
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560
+  client-fingerprint: chrome
+- name: 罗马尼亚-001 |5.5MB/s|YT-US|NF|D+|GM
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 45.12.30.138
+  servername: sni.111000.indevs.in
+  port: 2096
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 美国-004 |3.8MB/s|GPT⁺|YT-US|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 54.176.205.20
+  servername: sni.111000.indevs.in
+  port: 80
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 德国-001 |3.0MB/s|YT-US|NF|D+|GM
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 5.10.214.238
+  servername: sni.jpmj.dev
+  port: 2096
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 德国-002
+  type: http
+  server: 89.249.73.26
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfX4KLwbYKuLtZMaxsQESl4moXw609MC0WdYefYZbCn32A==
+- name: 英国-004 |2.6MB/s|GPT⁺|YT-US|NF|D+|GM|5%
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 185.170.166.138
+  servername: sni.111000.indevs.in
+  port: 2096
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  client-fingerprint: chrome
+- name: 罗马尼亚-002 |1.7MB/s|YT-US|NF|D+|GM
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 45.12.30.238
+  servername: sni.jpmj.dev
+  port: 2096
+  tls: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  client-fingerprint: chrome
+  encryption: none
+- name: 法国-004 |4.2MB/s|GPT⁺|YT-FR|NF|D+|5%
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 188.130.207.158
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 美国-005 |2.5MB/s|YT-US|NF|D+|GM|5%
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 103.116.7.138
+  servername: sni.111000.indevs.in
+  port: 2096
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  client-fingerprint: chrome
+- name: 德国-003 |4.1MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 89.19.44.122
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 瑞士-001 |5.7MB/s|GPT⁺|YT-US|NF
+  type: vless
+  network: ws
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  server: 185.18.250.245
+  servername: l.ayovo.netlib.re
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /x-aniu/?ed=2560
+  client-fingerprint: chrome
+  encryption: none
+- name: 德国-004 |4.0MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 57.129.47.14
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 美国-006 |1.5MB/s|GPT|YT-US|NF|D+|GM|5%
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 167.68.42.238
+  servername: sni.jpmj.dev
+  port: 2096
+  tls: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  client-fingerprint: chrome
+  encryption: none
+- name: 罗马尼亚-003 |2.3MB/s|YT-US|NF|D+|GM|5%
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 45.85.119.238
+  servername: sni.jpmj.dev
+  port: 2096
+  tls: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/67.0.3396.99 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  client-fingerprint: chrome
+  encryption: none
+- name: 法国-005 |5.5MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 54.37.74.239
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 法国-006 |2.6MB/s|GPT|YT-FR|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 217.60.36.183
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 德国-005 |5.6MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 91.107.250.40
+  servername: sni.111000.indevs.in
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 荷兰-001 |2.6MB/s|GPT⁺
+  type: hysteria
+  server: 51.159.226.1
+  port: 49003
+  skip-cert-verify: true
+  udp: true
+  sni: apple.com
   alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
-  down: 55 Mbps
-  up: 11 Mbps
+  down: '55'
+  up: '11'
   protocol: udp
-- name: 比利时-001
-  type: http
-  server: 146.70.176.222
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHid5y8RyD7X2QswB_kT9SIoXw609MC0WdYefYZbCn32A==
-- name: 匈牙利-001
-  type: http
-  server: 91.219.236.190
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEEno7cSU8p3n_niJTaXmmAoXw609MC0WdYefYZbCn32A==
-- name: 英国-001
-  type: http
-  server: 51.89.153.211
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsF0kE6YKoBn3JMQPyYx-3CMxsnp5o63PElOVpFduiCmYA==
-- name: 芬兰-001 |5.1MB/s|GPT⁺|YT-DE|NF|7%
+- name: 德国-006 |6.4MB/s|YT-DE|NF|D+
   type: vless
-  network: tcp
-  uuid: ee603510-52e4-29f9-00b0-9a051ad424fb
-  server: 65.109.179.221
-  port: 26261
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 5.178.110.39
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
   udp: true
   xudp: true
-  encryption: none
-- name: 德国-004 |1.6MB/s|GPT|X|History
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  client-fingerprint: chrome
+- name: 法国-007 |3.1MB/s|GPT|YT-FR|NF|D+|0%
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 31.59.121.227
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 摩尔多瓦-001 |6.0MB/s|YT-FR|NF|D+|5%
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 94.131.9.65
+  servername: sni.111000.indevs.in
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 法国-008 |5.2MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 162.19.243.106
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 德国-007 |4.2MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 5.178.110.124
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 日本-004 |2.6MB/s|GPT⁺|YT-RU|NF|1%
+  type: trojan
+  network: tcp
+  server: 160.16.124.55
+  port: 3423
+  password: 5fb072e0ddd631cf66cf752b09210480
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+- name: 德国-008 |6.6MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 116.203.58.165
+  servername: sni.111000.indevs.in
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 法国-009
+  type: http
+  server: 51.77.190.60
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWvdRibrXI9YAtUizhy9hrcxsnp5o63PElOVpFduiCmYA==
+- name: 荷兰-002 |2.1MB/s|GPT
+  type: socks5
+  server: 5.255.117.250
+  port: 1080
+  skip-cert-verify: true
+- name: 德国-009 |564KB/s|GPT⁺|YT-DE|NF|49%
+  type: ss
+  server: 57.129.95.232
+  port: 11201
+  password: 420946afc5918c49
+  cipher: chacha20-ietf-poly1305
+- name: 比利时-001
+  type: http
+  server: 37.120.236.26
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kXs9-01H-rc8d5MXWYc5olaaUlt5jjlppjOmq7ul7I-YoXw609MC0WdYefYZbCn32A==
+- name: 德国-010 |1.6MB/s|GPT|X|History
   type: vless
   network: tcp
   uuid: nasnet
@@ -165,23 +648,157 @@ proxies:
   client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-- name: 法国-004
-  type: http
-  server: 51.68.100.204
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGk7kappIOExAsI2VKq2PqHxsnp5o63PElOVpFduiCmYA==
-- name: 英国-002
-  type: http
-  server: 51.89.173.123
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGhy9p8IQhzHd7JbrgzvSPMxsnp5o63PElOVpFduiCmYA==
-- name: 德国-005 |1.1MB/s|GPT⁺|YT-DE|NF|D+|5%
+- name: 美国-007 |3.8MB/s|GPT⁺|YT-US|NF|GM
+  type: vless
+  network: tcp
+  uuid: 18805ff3-b420-45de-af18-93be14024ae8
+  server: 47.251.25.74
+  servername: www.amazon.com
+  port: 443
+  skip-cert-verify: false
+  security: reality
+  tls: true
+  udp: false
+  tfo: false
+  sni: www.amazon.com
+  reality-opts:
+    public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  fp: chrome
+  pbk: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
+- name: 法国-010 |8.1MB/s|YT-DE|NF|D+
   type: vless
   network: ws
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 82.117.245.9
+  server: 162.19.253.192
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 德国-011 |7.1MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 89.58.43.93
+  servername: sni.111000.indevs.in
+  port: 2006
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 德国-012 |3.9MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 89.19.44.239
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 法国-011 |3.4MB/s|YT-FR|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 146.70.32.24
+  servername: sni.111000.indevs.in
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 法国-012 |4.2MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 51.38.98.202
+  servername: sni.111000.indevs.in
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 美国-008
+  type: http
+  server: 169.197.142.119
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfU038LX9N4Vd6_azr6bLDiixsnp5o63PElOVpFduiCmYA==
+- name: 英国-005
+  type: http
+  server: 139.28.176.106
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfX46qFCUllazfnGgyoUbiZKoXw609MC0WdYefYZbCn32A==
+- name: 德国-013 |2.0MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 194.87.25.176
+  servername: sni.111000.indevs.in
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 法国-013
+  type: http
+  server: 51.68.240.51
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUXf83KRJdPuZZIBgVFC3Urxsnp5o63PElOVpFduiCmYA==
+- name: 德国-014 |5.2MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 5.178.106.158
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 德国-015 |2.6MB/s|GPT⁺|YT-DE|NF|49%
+  type: ss
+  server: 51.89.10.72
+  port: 11201
+  password: 78c2e39121c820fb
+  udp: true
+  cipher: chacha20-ietf-poly1305
+- name: 法国-014
+  type: http
+  server: 79.137.101.250
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfU1KZvbGQ57I34RnKu-dilLxsnp5o63PElOVpFduiCmYA==
+- name: 法国-015 |1.9MB/s|YT-DE|NF|D+
+  type: trojan
+  network: ws
+  server: 135.125.232.253
+  port: 2053
+  password: iwangjie
+  skip-cert-verify: false
+  sni: nodes.830901.xyz
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: '%2F%3Fed%3D2560'
+- name: 法国-016 |5.0MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 162.19.243.46
   servername: sni.111000.indevs.in
   port: 8443
   tls: true
@@ -189,24 +806,24 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 法国-005
+- name: 意大利-001
   type: http
-  server: 51.68.240.51
+  server: 158.58.173.73
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFVRpWjEOWEM0F4SVpQSnGGxsnp5o63PElOVpFduiCmYA==
-- name: 匈牙利-002
-  type: http
-  server: 185.104.187.130
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGx7AkeEwlSfVWZGmRyTe0KoXw609MC0WdYefYZbCn32A==
-- name: 法国-006
-  type: http
-  server: 37.187.194.214
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsE7PdPOrZiwtbkXUZ0rNAdNxsnp5o63PElOVpFduiCmYA==
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWQ5XdaRafeTDw_MOXx-7mGoXw609MC0WdYefYZbCn32A==
+- name: 法国-017 |5.0MB/s|GPT⁺|YT-FR|NF|D+|5%
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 95.182.98.38
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
 - name: 爱尔兰-001 |1.0MB/s|GPT⁺|YT-IE|NF|3%
   type: vless
   network: grpc
@@ -224,17 +841,73 @@ proxies:
     grpc-service-name: www.bing.com
   client-fingerprint: chrome
   encryption: none
-- name: 奥地利-001
-  type: http
-  server: 130.195.222.54
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHGOTFMJUPegUaT-p0cZ3jfoXw609MC0WdYefYZbCn32A==
-- name: 法国-007 |4.2MB/s|GPT⁺|YT-FR|NF|D+|5%
+- name: 德国-016 |536KB/s|YT-DE|NF|D+
   type: vless
   network: ws
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 188.130.207.158
+  server: 57.129.47.11
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 荷兰-003 |4.2MB/s|GPT
+  type: socks5
+  server: 5.255.113.177
+  port: 1080
+  skip-cert-verify: true
+- name: 法国-018
+  type: http
+  server: 51.77.190.29
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWHMlHQvdGCv5qpTg6PNRzBxsnp5o63PElOVpFduiCmYA==
+- name: 法国-019 |2.0MB/s
+  type: hysteria
+  server: 62.210.196.68
+  port: 26691
+  skip-cert-verify: true
+  udp: true
+  sni: apple.com
+  alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: 55 Mbps
+  protocol: udp
+  up: 11 Mbps
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+- name: 德国-017 |3.8MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 89.19.44.24
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 德国-018 |4.7MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 51.75.77.148
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 德国-019 |514KB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 57.129.47.67
   servername: sni.111000.indevs.in
   port: 8443
   tls: true
@@ -242,29 +915,11 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 奥地利-002
-  type: http
-  server: 94.198.41.242
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGBz_7wWnfleJBgWdz1Oa45oXw609MC0WdYefYZbCn32A==
-- name: 意大利-001
-  type: http
-  server: 185.213.21.111
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFnyv3sd1MPVA762xZ8g7BYoXw609MC0WdYefYZbCn32A==
-- name: 英国-003
-  type: http
-  server: 212.84.160.58
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFRqSwlipCUW2MKErJenqGCoXw609MC0WdYefYZbCn32A==
-- name: 法国-008 |3.1MB/s|GPT⁺|YT-FR|NF|D+|5%
+- name: 法国-020 |4.9MB/s|YT-DE|NF|D+
   type: vless
   network: ws
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 217.60.36.183
+  server: 162.19.243.46
   servername: sni.111000.indevs.in
   port: 2053
   tls: true
@@ -272,90 +927,97 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 斯洛伐克-001
-  type: http
-  server: 185.245.85.126
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHFysCML_ryLWLOCWtVyxINoXw609MC0WdYefYZbCn32A==
-- name: 英国-004
-  type: http
-  server: 145.239.6.2
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHxGeX9QZ5--ll0uR8nGglWoXw609MC0WdYefYZbCn32A==
-- name: 德国-006
-  type: http
-  server: 51.38.116.134
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGUu5Gkl6fTb88P1F0Fx2BYxsnp5o63PElOVpFduiCmYA==
-- name: 德国-007 |1.3MB/s|GPT⁺|YT-DE|NF|D+|5%
+- name: 法国-021 |5.0MB/s|YT-DE|NF|D+
   type: vless
   network: ws
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 5.178.110.39
+  server: 162.19.246.248
   servername: sni.111000.indevs.in
   port: 2053
   tls: true
-  udp: true
-  xudp: true
   ws-opts:
     headers:
       Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
     path: /?ed=2560&Telegram🇨🇳@WangCai2
-  client-fingerprint: chrome
-- name: 比利时-002
+- name: 匈牙利-001
   type: http
-  server: 37.120.236.26
+  server: 185.104.187.130
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFlY7v5bQzXaR6C6uGDBE3voXw609MC0WdYefYZbCn32A==
-- name: 英国-005
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVut76gb0ZpZvcA2cIZeH_LoXw609MC0WdYefYZbCn32A==
+- name: 奥地利-001
   type: http
-  server: 88.150.230.5
+  server: 130.195.222.54
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHcmz8sonUlCSXy_siPgqLZoXw609MC0WdYefYZbCn32A==
-- name: 乌克兰-001
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfV8P3EP9flVY4KrIgJdIJfFoXw609MC0WdYefYZbCn32A==
+- name: 法国-022 |4.1MB/s|GPT|YT-FR|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 31.59.120.161
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 德国-020 |6.5MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 213.202.218.198
+  servername: sni.111000.indevs.in
+  port: 2083
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 法国-023 |1.1MB/s|GPT⁺|YT-FR|NF|D+|5%
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 46.8.224.150
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 德国-021 |7.5MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 57.129.63.149
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 法国-024 |7.7MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 162.19.254.52
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 爱沙尼亚-001
   type: http
-  server: 176.103.50.127
+  server: 95.153.32.34
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHido-EY2YR9MLbNSK-LrnPoXw609MC0WdYefYZbCn32A==
-- name: 法国-009 |2.8MB/s|GPT⁺|YT-FR|NF|42%
-  type: ss
-  server: 51.254.142.162
-  port: 5223
-  password: hnITSVgdQOQF6aCT4YIizv
-  udp: true
-  cipher: chacha20-ietf-poly1305
-- name: 英国-006
-  type: http
-  server: 139.28.176.106
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHGvlWT3JbO2lor3qE5deKhoXw609MC0WdYefYZbCn32A==
-- name: 荷兰-002 |4.6MB/s|GPT⁺
-  type: socks5
-  server: 5.255.117.127
-  port: 1080
-  skip-cert-verify: true
-- name: 意大利-002
-  type: http
-  server: 95.141.37.244
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGU2LVupBVvehCPrghBiRbKoXw609MC0WdYefYZbCn32A==
-- name: 德国-008
-  type: http
-  server: 89.163.214.214
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsF2dlvj5W5vc8RSmWafTIAuxsnp5o63PElOVpFduiCmYA==
-- name: 法国-010 |5.0MB/s|YT-FR|NF|D+
+  username: afY491o7YfK00koaXQD9kXs9-01H-rc8d5MXWYc5olbaclRjTG_fbjsiKKc60O5hoXw609MC0WdYefYZbCn32A==
+- name: 法国-025 |1.7MB/s|YT-FR|NF|D+
   type: trojan
   network: ws
   server: 141.94.68.216
@@ -367,50 +1029,234 @@ proxies:
     headers:
       Host: nodes.830901.xyz
     path: '%2F%3Fed%3D2560'
-- name: 冰岛-001
+- name: 德国-022 |6.0MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 188.245.108.104
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 法国-026 |2.4MB/s|GPT|YT-FR|NF|D+|5%
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 146.70.32.51
+  servername: sni.111000.indevs.in
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 美国-009
   type: http
-  server: 37.235.49.61
+  server: 38.128.66.22
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEqqjJGX0xU4tiznQAyyHdUoXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUvQLAhXee2DzPRzXuXTXHwxsnp5o63PElOVpFduiCmYA==
+- name: 德国-023 |3.4MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 45.153.230.220
+  servername: sni.111000.indevs.in
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 奥地利-002
+  type: http
+  server: 94.198.41.242
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXEB-X_ZJUAr-glBk-cgTksoXw609MC0WdYefYZbCn32A==
+- name: 德国-024 |790KB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 57.129.47.58
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 英国-006
+  type: http
+  server: 51.89.153.211
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUnvE2-pkm1_jJIfXYDP2D9xsnp5o63PElOVpFduiCmYA==
+- name: 法国-027
+  type: http
+  server: 51.68.100.204
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfV0hWJLSUaZK1vNqH44iozTxsnp5o63PElOVpFduiCmYA==
 - name: 阿联酋-002
   type: http
   server: 146.70.241.122
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEv99_n8bJUQAhm9uOYi9hpoXw609MC0WdYefYZbCn32A==
-- name: 瑞士-001
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVrE371mFY1OhmWv3i4jHz_oXw609MC0WdYefYZbCn32A==
+- name: 日本-005 |1.1MB/s|GPT⁺|YT-RU|NF|1%
+  type: trojan
+  network: tcp
+  server: 160.16.116.227
+  port: 3423
+  password: 5fb072e0ddd631cf66cf752b09210480
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+- name: 奥地利-003 |5.5MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 152.53.131.209
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  client-fingerprint: chrome
+- name: 法国-028 |7.2MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 54.37.73.185
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 丹麦-001
   type: http
-  server: 179.43.152.90
+  server: 82.103.131.250
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH0yL1rc_lAAPfKha-Vpc8joXw609MC0WdYefYZbCn32A==
-- name: 德国-009 |4.0MB/s|GPT⁺|YT-RU|NF|42%
-  type: ss
-  server: 185.100.159.79
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVxwZB0v2v8Qs-riL5QcI4BoXw609MC0WdYefYZbCn32A==
+- name: 加拿大-001 |4.7MB/s|GPT⁺|X|Succeed
+  type: socks5
+  server: 143.110.217.153
+  port: 1080
+  skip-cert-verify: true
+- name: 奥地利-004
+  type: http
+  server: 94.198.41.218
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWaJa1VrSY4TcCKFiXTIAPHoXw609MC0WdYefYZbCn32A==
+- name: 荷兰-004 |1.6MB/s|GPT⁺
+  type: socks5
+  server: 5.255.117.127
+  port: 1080
+  skip-cert-verify: true
+- name: 德国-025 |3.6MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 194.164.192.16
+  servername: sni.111000.indevs.in
   port: 443
-  password: i9lip2dJ8kV4wJQ0pJuRr6
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  client-fingerprint: chrome
+- name: 保加利亚-001
+  type: http
+  server: 185.216.32.26
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUkT9CoVtJvizlrZcnRh78KoXw609MC0WdYefYZbCn32A==
+- name: 德国-026 |5.3MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 57.129.14.56
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 德国-027 |2.1MB/s|2.6MB/s|X|History
+  type: socks5
+  server: 193.233.254.7
+  port: 1080
+  password: '@193.233.254.7:'
+  skip-cert-verify: true
+  tls: false
   udp: true
-  cipher: chacha20-ietf-poly1305
-- name: 法国-011 |5.7MB/s|GPT⁺|YT-FR|NF|1%
-  type: ss
-  server: 13.38.75.96
-  port: 443
-  password: amazonskr05
-  udp: true
-  cipher: aes-256-cfb
-- name: 荷兰-003
+  client-fingerprint: chrome
+  username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOenBBTVRrekxqSXpNeTR5TlRRdU56b0AxOTMuMjMzLjI1NC43OkAxOTMuMjMzLjI1NC43Og%3D%3D
+- name: 英国-007
+  type: http
+  server: 88.150.230.5
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUnmWJdZBUFacvNlhWcR3BaoXw609MC0WdYefYZbCn32A==
+- name: 德国-028 |6.9MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 82.117.245.9
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 荷兰-005 |1.8MB/s|GPT
+  type: socks5
+  server: 104.248.197.67
+  port: 1080
+  skip-cert-verify: true
+- name: 斯洛伐克-001
+  type: http
+  server: 165.231.211.122
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVJpOhFUjDrIK4f_acIchKXoXw609MC0WdYefYZbCn32A==
+- name: 法国-029
+  type: http
+  server: 139.64.167.210
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfV__hOLZkFHSwWOUr1Pp1Faxsnp5o63PElOVpFduiCmYA==
+- name: 荷兰-006
   type: http
   server: 51.158.252.46
   port: 8081
   password: '1'
   username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEIyivMj_k4ankow465xQ5zoXw609MC0WdYefYZbCn32A==
-- name: 奥地利-003
-  type: http
-  server: 94.198.41.218
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHItAfEXN3MxDVu8t9Ynz4XoXw609MC0WdYefYZbCn32A==
+- name: 罗马尼亚-004 |3.4MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 188.241.241.28
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
 - name: 伊朗-001 |732KB/s
   type: vless
   network: http
@@ -428,122 +1274,168 @@ proxies:
     method: GET
     path:
     - /
-- name: 意大利-003
-  type: http
-  server: 37.120.135.218
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH20dqBMrEp_Xm4a4ySV3phoXw609MC0WdYefYZbCn32A==
-- name: 保加利亚-001
-  type: http
-  server: 193.107.70.113
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGntPigo1kRLjDWJyaguaWOoXw609MC0WdYefYZbCn32A==
-- name: 法国-012
-  type: http
-  server: 51.77.190.70
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsG8236QuhceK0wpWZAWcpotxsnp5o63PElOVpFduiCmYA==
-- name: 希腊-001
-  type: http
-  server: 95.129.46.100
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFUXYW7d9OtmxGpioxfu0gIoXw609MC0WdYefYZbCn32A==
-- name: 匈牙利-003
-  type: http
-  server: 185.252.223.226
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsF7eF11hJteCx4dS-HZMwiHoXw609MC0WdYefYZbCn32A==
-- name: 捷克-001
-  type: http
-  server: 217.138.220.226
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHV4p1TsjTf0hrldE0kl0ytoXw609MC0WdYefYZbCn32A==
-- name: 塞浦路斯-001
-  type: http
-  server: 157.97.132.199
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGERJ9YLP60mqb17qtlF-HsoXw609MC0WdYefYZbCn32A==
-- name: 美国-002 |5.6MB/s|GPT|X|History
-  type: socks5
-  server: 174.138.61.184
-  port: 1080
-  skip-cert-verify: true
-- name: 斯洛伐克-002
-  type: http
-  server: 165.231.211.122
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEXU_waBNXW_WUYclArd_BtoXw609MC0WdYefYZbCn32A==
-- name: 匈牙利-004
-  type: http
-  server: 185.252.223.210
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEq6qXHsygUQKImMVfd8HsMoXw609MC0WdYefYZbCn32A==
-- name: 荷兰-004
-  type: http
-  server: 51.15.16.66
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEWCZhiTPGOThdLkpw4je9boXw609MC0WdYefYZbCn32A==
-- name: 法国-013
-  type: http
-  server: 139.64.167.210
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFufgx3ltzs73iaK5nVcDLTxsnp5o63PElOVpFduiCmYA==
-- name: 希腊-002
-  type: http
-  server: 93.174.121.131
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFVpa48-O1zBz3c0ku8b9W5oXw609MC0WdYefYZbCn32A==
-- name: 加拿大-001
-  type: http
-  server: 173.209.51.250
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFwdP3w88h34T0qBOPJs4oxoXw609MC0WdYefYZbCn32A==
-- name: 保加利亚-002
-  type: http
-  server: 185.216.32.26
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGXR1UUyr-0Z4R_9g7WSrIkoXw609MC0WdYefYZbCn32A==
-- name: 德国-010 |1018KB/s
-  type: socks5
-  server: 193.233.254.7
-  port: 1080
-  password: '@193.233.254.7:'
-  skip-cert-verify: true
-  tls: false
-  udp: true
-  client-fingerprint: chrome
-  username: Og@193.233.254.7
-- name: 丹麦-001
-  type: http
-  server: 82.103.131.250
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH2tZvI3Ho_RCOjYDoL9Am9oXw609MC0WdYefYZbCn32A==
-- name: 波兰-001
-  type: http
-  server: 57.128.235.172
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGtlTCa04brIinjOgsWNloWoXw609MC0WdYefYZbCn32A==
-- name: 罗马尼亚-001 |5.3MB/s|GPT⁺|YT-DE|NF|D+|5%
+- name: 荷兰-007 |4.6MB/s|YT-US|NF|D+|GM
   type: vless
   network: ws
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 188.241.241.33
+  server: 45.131.5.238
+  servername: sni.jpmj.dev
+  port: 2096
+  tls: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  client-fingerprint: chrome
+  encryption: none
+- name: 爱沙尼亚-002 |3.6MB/s|GPT⁺|YT-EE|0%
+  type: vless
+  network: tcp
+  uuid: ca911bd2-e08f-42d8-aefb-3117494d3367
+  server: 144.31.178.150
+  servername: ads.x5.ru
+  port: 8080
+  tls: true
+  udp: true
+  xudp: true
+  http-opts:
+    path:
+    - /
+  reality-opts:
+    public-key: WvNaAxI0W__qfUKbtysH4IwF155YENlv3PG6crCmPkA
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+- name: 英国-008
+  type: http
+  server: 51.89.173.123
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVvqphIfBaJkf9plABXp_D1xsnp5o63PElOVpFduiCmYA==
+- name: 美国-010 |3.1MB/s|YT-US|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 45.82.161.175
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 美国-011 |3.8MB/s|YT-US|NF|D+|GM
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 159.203.144.233
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 英国-009
+  type: http
+  server: 145.239.6.2
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfX66Lr804vdZjAkdX0aEIRIoXw609MC0WdYefYZbCn32A==
+- name: 土耳其-001
+  type: http
+  server: 188.213.34.126
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXZwx-LEe0A_K_PILwMxW_yoXw609MC0WdYefYZbCn32A==
+- name: 意大利-002
+  type: http
+  server: 185.213.21.111
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXlhx1IAj3nVdUOyZr-auD6oXw609MC0WdYefYZbCn32A==
+- name: 英国-010
+  type: http
+  server: 38.114.120.157
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVTyDpGoikUDt4ujVR_g3OOxsnp5o63PElOVpFduiCmYA==
+- name: 西班牙-002 |1.5MB/s|GPT|YT-ES|NF|26%
+  type: ss
+  server: 5.188.181.201
+  port: 9054
+  password: VcFuyXvND2yQWSFY
+  cipher: aes-256-cfb
+- name: 英国-011
+  type: http
+  server: 212.84.160.58
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXj2b0AZj9PM4REcKTZT6mgoXw609MC0WdYefYZbCn32A==
+- name: 美国-012 |4.0MB/s|GPT⁺|YT-US|NF|D+|GM|5%
+  type: vless
+  network: ws
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  server: 154.211.8.18
+  servername: snip.ere.de5.net
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /?ed=2560
+  client-fingerprint: random
+  encryption: none
+- name: 乌克兰-001
+  type: http
+  server: 176.103.50.127
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUPayuCjqC-0ECGi7J5EuXhoXw609MC0WdYefYZbCn32A==
+- name: 塞浦路斯-001 |4.2MB/s|GPT⁺|YT-RS|NF|D+|5%
+  type: vless
+  network: ws
+  uuid: 4c642cae-1a6d-4e51-a1c3-fa5892437aa3
+  server: 2.56.172.184
+  servername: 5465765525.ccfly.tech
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: 5465765525.ccfly.tech
+    path: /?ed=2048
+  client-fingerprint: chrome
+- name: 捷克-001
+  type: http
+  server: 217.138.220.94
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXJMW-JZewhhj6cT0AsLm8_oXw609MC0WdYefYZbCn32A==
+- name: 荷兰-008 |4.3MB/s|GPT|YT-NL|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 51.158.205.160
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 法国-030 |6.7MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 51.195.118.15
   servername: sni.111000.indevs.in
   port: 2053
   tls: true
@@ -551,63 +1443,169 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 俄罗斯联邦-001
+- name: 立陶宛-001
   type: http
-  server: 146.70.52.54
+  server: 85.206.170.244
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGxeTrQiChr_HWFyC1wS39doXw609MC0WdYefYZbCn32A==
-- name: 加拿大-002
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUJQ75pi0K_T-qscYJ5pFzsoXw609MC0WdYefYZbCn32A==
+- name: 美国-013 |3.1MB/s|YT-US|NF|D+|GM
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 199.119.137.95
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 德国-029 |6.2MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 57.129.63.60
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 法国-031
   type: http
-  server: 173.209.49.50
+  server: 37.187.194.214
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHGslWwkuHrXaRVAQLXuTOEoXw609MC0WdYefYZbCn32A==
-- name: 德国-011 |633KB/s
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVCTF6uwYsjbgoWeGPHSzlPxsnp5o63PElOVpFduiCmYA==
+- name: 匈牙利-002
+  type: http
+  server: 185.252.223.210
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVO8LdsECXbEDId60VPGscRoXw609MC0WdYefYZbCn32A==
+- name: 俄罗斯联邦-001 |2.6MB/s
+  type: vless
+  uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+  server: 185.234.59.174
+  servername: hls-svod.itunes.apple.com
+  port: 443
+  tls: true
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: f79448a30d
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 美国-014 |4.9MB/s|GPT⁺|X|History
   type: socks5
-  server: 193.233.254.9
+  server: 192.241.156.17
   port: 1080
-  password: '@193.233.254.9:'
   skip-cert-verify: true
-  tls: false
-  username: Og@193.233.254.9
+- name: 美国-015 |5.3MB/s|GPT⁺|X|Succeed
+  type: socks5
+  server: 174.138.61.184
+  port: 1080
+  skip-cert-verify: true
 - name: 捷克-002
   type: http
-  server: 217.138.220.94
+  server: 217.138.220.226
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGIuuewiaV8SHjgRhgo677doXw609MC0WdYefYZbCn32A==
-- name: 新加坡-001
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVaaVb0xovRq30pXReGbaXeoXw609MC0WdYefYZbCn32A==
+- name: 荷兰-009
   type: http
-  server: 116.251.216.100
+  server: 51.15.16.66
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGiauv6oJTsSAeLbkcHd8F9oXw609MC0WdYefYZbCn32A==
-- name: 匈牙利-005
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWdqx6RHfOYEB8OZVEEz-qkoXw609MC0WdYefYZbCn32A==
+- name: 日本-006 |0.6MB/s|GPT⁺|YT|X
+  type: trojan
+  network: tcp
+  server: 160.16.236.32
+  port: 3901
+  password: 5fb072e0ddd631cf66cf752b09210480
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  sni: www.nintendogames.net
+  client-fingerprint: chrome
+- name: 德国-030 |6.3MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 139.144.77.176
+  servername: sni.111000.indevs.in
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 波兰-001
   type: http
-  server: 185.104.187.234
+  server: 57.128.235.172
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGeAp7KCkue5ACZpTSWFDbcoXw609MC0WdYefYZbCn32A==
-- name: 斯洛伐克-003
-  type: http
-  server: 193.37.255.2
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFcdYdRJIFoehjw7igO0m9yoXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVCZc5jChfUpgM62_vWVk3SoXw609MC0WdYefYZbCn32A==
+- name: 俄罗斯联邦-002 |3.5MB/s|YT-RU|NF|D+
+  type: vless
+  network: tcp
+  uuid: c2d09c1c-7d4d-46c4-838f-ad263b93c4e1
+  server: 213.165.54.4
+  servername: cdnjs.com
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  reality-opts:
+    public-key: vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4
+    short-id: 82c8140feb118043
+  client-fingerprint: safari
+  encryption: none
+  flow: xtls-rprx-vision
+- name: 荷兰-010 |5.5MB/s|GPT⁺|X|Succeed
+  type: socks5
+  server: 161.35.82.57
+  port: 1080
+  skip-cert-verify: true
 - name: 埃及-001
   type: http
   server: 188.214.122.162
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGY69EtiOiTcEu2AsqsuM3XoXw609MC0WdYefYZbCn32A==
-- name: 荷兰-005 |1.0MB/s|GPT⁺|YT-RU|NF
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfW165avfaS3EgPYr58ChSbxoXw609MC0WdYefYZbCn32A==
+- name: 德国-031 |1.4MB/s
+  type: socks5
+  server: 193.233.254.8
+  port: 1080
+  password: Og@193.233.254.8
+  skip-cert-verify: true
+  username: Og@193.233.254.8
+- name: 德国-032 |2.8MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 185.218.137.83
+  servername: sni.111000.indevs.in
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 荷兰-011 |4.0MB/s|GPT⁺|X|History
+  type: socks5
+  server: 104.248.203.234
+  port: 1080
+  skip-cert-verify: true
+- name: 荷兰-012 |4.4MB/s|GPT⁺|NF|X
   type: vless
   network: tcp
-  uuid: ce7f5e28-d72d-4006-8d70-f428a4721910
-  server: 77.239.124.88
-  servername: mskhost.outlinekeys.net
-  port: 443
+  uuid: f1870ac5-ab5f-4255-965d-4a0476cb0b1a
+  server: 89.23.103.249
+  servername: ir.ozone.ru
+  port: 8443
   tls: true
   udp: true
   xudp: true
@@ -615,145 +1613,295 @@ proxies:
     path:
     - /
   reality-opts:
-    public-key: 3zn513ilYXOJngXLRP0MUnK23HuB9TKLjQ7YG20dzTQ
+    public-key: P-3bYKbPp5YeCefayC3S3PvLanBv_lp0p_5qfrjbM34
+    short-id: 39a1eb3ec417cd66
   client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-- name: 德国-012
-  type: http
-  server: 89.249.73.26
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFcNxQPvkJQ5mK3yZuxZ4z1oXw609MC0WdYefYZbCn32A==
-- name: 加拿大-003
-  type: http
-  server: 148.113.221.150
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsExE5D4wzFHMAVCtqCS3lQcxsnp5o63PElOVpFduiCmYA==
-- name: 埃及-002
-  type: http
-  server: 188.214.122.18
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFPzzRlUwb2vQcT8kNcJOiloXw609MC0WdYefYZbCn32A==
-- name: 立陶宛-001 |4.0MB/s|GPT⁺|YT-RU|NF|42%
+- name: 美国-016 |1.7MB/s|YT-US|NF|D+|GM
   type: vless
-  network: tcp
-  uuid: 1004c163-26ea-5662-b5b2-40df01176f8b
-  server: 2.59.162.100
-  servername: apple.com
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 129.153.74.179
+  servername: sni.111000.indevs.in
   port: 443
   tls: true
   udp: true
   xudp: true
-  http-opts:
-    path:
-    - /
-  reality-opts:
-    public-key: eH6HWGKJUtp4VmC9KxtdcyxtLI0O52vhAmZx1ybOtUs
-    short-id: ffffffffff
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Chrome/12.0.742.100 Safari/534.30
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
   client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
+- name: 土耳其-002
+  type: http
+  server: 130.195.216.2
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWqJcOsrXY1Foc7JyVz5C0voXw609MC0WdYefYZbCn32A==
 - name: 立陶宛-002
   type: http
   server: 185.64.104.88
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH-_6VBb-TspNmyVgKIZqdaoXw609MC0WdYefYZbCn32A==
-- name: 加拿大-004
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUuuIuclzCvOxkd24FlHED3oXw609MC0WdYefYZbCn32A==
+- name: 德国-033 |3.6MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 94.159.104.1
+  servername: sni.111000.indevs.in
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 德国-034 |3.5MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 87.120.92.150
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 瑞士-002
+  type: http
+  server: 179.43.152.90
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWglxvldF-o-tPx24dT-D-foXw609MC0WdYefYZbCn32A==
+- name: 哥伦比亚-001
+  type: http
+  server: 138.121.203.146
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUNAEYoylvP88-aP4SlM3cOoXw609MC0WdYefYZbCn32A==
+- name: 葡萄牙-001
+  type: http
+  server: 185.113.140.45
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXpV58h5g0ycXeow7lzmWYDoXw609MC0WdYefYZbCn32A==
+- name: 加拿大-002
   type: http
   server: 104.245.146.82
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGA5LXMZTY8Eh2Kxd-_mWhxoXw609MC0WdYefYZbCn32A==
-- name: 挪威-001
-  type: http
-  server: 83.143.82.62
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsG7vAeDGtaPdEc4GW-nE3h_oXw609MC0WdYefYZbCn32A==
-- name: 爱沙尼亚-001
-  type: http
-  server: 95.153.31.102
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFls60-UcBCrek7aSYmv6FhoXw609MC0WdYefYZbCn32A==
-- name: 德国-013
-  type: http
-  server: 193.108.116.248
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH00ZsIvLLHj3F78j5R9LZfxsnp5o63PElOVpFduiCmYA==
-- name: 丹麦-002
-  type: http
-  server: 89.45.7.250
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsE6hombCn2pCAb5C_ZcfMHFoXw609MC0WdYefYZbCn32A==
-- name: 爱尔兰-002
-  type: http
-  server: 188.241.178.86
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH9eh4JTnugW6TVo5cvKAtToXw609MC0WdYefYZbCn32A==
-- name: 德国-014 |3.1MB/s|GPT⁺|YT-DE|NF|0%
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXOzd-AXw3nsbLYFL2tu58coXw609MC0WdYefYZbCn32A==
+- name: 美国-017 |3.8MB/s|YT-US|NF|D+|GM
   type: vless
-  network: tcp
-  uuid: 40b1e510-6017-48f4-b3db-2486805a2395
-  server: 64.188.67.193
-  servername: sun6-22.userapi.com
-  port: 444
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 143.42.4.6
+  servername: sni.111000.indevs.in
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 德国-035 |5.6MB/s|GPT|D+|X|[广播|机房]
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 45.132.1.208
+  servername: sni.111000.indevs.in
+  port: 8443
   tls: true
   udp: true
-  xudp: true
-  http-opts:
-    path:
-    - /
-  reality-opts:
-    public-key: FguUYp-QbjkcMYcNeNxEJ_IVqd5y4NZjokAkae4IyXw
-    short-id: bbbf95fa
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
   client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-- name: 德国-015
+- name: 斯洛伐克-002
   type: http
-  server: 23.160.72.218
+  server: 193.37.255.2
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGzPakD4GiKG9-PrKIrsUhTxsnp5o63PElOVpFduiCmYA==
-- name: 西班牙-001
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfU6Rq5iQE4WU6nDRn-YJP1_oXw609MC0WdYefYZbCn32A==
+- name: 加拿大-003
   type: http
-  server: 167.17.71.36
+  server: 173.209.49.50
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH-gYXwh-bEKM8BBl7NA32Mxsnp5o63PElOVpFduiCmYA==
-- name: 德国-016
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVbYvMZdO4Phnt4JhS3gn6XoXw609MC0WdYefYZbCn32A==
+- name: 波兰-002
   type: http
-  server: 23.160.72.50
+  server: 151.115.88.238
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFbgZbNBxXXpQkYwnF1FBt3xsnp5o63PElOVpFduiCmYA==
-- name: 俄罗斯联邦-002 |4.4MB/s|GPT|YT-RU|NF|25%
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVCMQt-k6Z0JunRVIChPI40oXw609MC0WdYefYZbCn32A==
+- name: 日本-007 |3.3MB/s|YT-JP|NF|D+|GM
   type: vless
-  network: tcp
-  uuid: 296df966-1e6c-4a42-b089-7bec1ef3a820
-  server: 213.176.19.149
-  servername: ru5.fastlanehosting.ru
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 109.123.231.212
+  servername: sni.jpmj.dev
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 以色列-001
+  type: http
+  server: 182.54.236.194
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXRjpIzA5-lJx7M5EZUwxLjoXw609MC0WdYefYZbCn32A==
+- name: 保加利亚-002
+  type: http
+  server: 37.120.152.186
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXvvpu98i8UyAFhNviWi27voXw609MC0WdYefYZbCn32A==
+- name: 希腊-001
+  type: http
+  server: 93.174.121.131
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXwoL_MzvaizxIKGt_8ih2goXw609MC0WdYefYZbCn32A==
+- name: 德国-036 |2.5MB/s|3.0MB/s|X|History
+  type: socks5
+  server: 193.233.254.9
+  port: 1080
+  skip-cert-verify: true
+  tls: false
+- name: 德国-037 |5.9MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 139.144.77.58
+  servername: sni.111000.indevs.in
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 芬兰-001
+  type: http
+  server: 83.143.242.74
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXvXY1KdfezD-7grNbgyAdcoXw609MC0WdYefYZbCn32A==
+- name: 冰岛-001
+  type: http
+  server: 37.235.49.61
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUzrS0P3Mh5iWGICVqLo-TsoXw609MC0WdYefYZbCn32A==
+- name: 新加坡-003 |4.6MB/s|GPT⁺|YT-US|NF|D+|GM|5%
+  type: vless
+  network: ws
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  server: 27.50.48.13
+  servername: snip.ere.de5.net
   port: 443
   tls: true
   udp: true
   xudp: true
-  alpn:
-  - h2
-  - http/1.1
-  http-opts:
-    path:
-    - /
-  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /?ed=2560
+  client-fingerprint: random
   encryption: none
-- name: 芬兰-002 |2.3MB/s|GPT⁺|NF|D+|0%
+- name: 匈牙利-003
+  type: http
+  server: 185.252.223.226
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfU3LI7uY0XttZqOrYm-s5rFoXw609MC0WdYefYZbCn32A==
+- name: 罗马尼亚-005 |5.2MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 188.241.241.33
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 日本-008 |1.9MB/s|GPT⁺|YT-CN|NF|0%
+  type: trojan
+  network: tcp
+  server: 52.194.222.6
+  port: 26378
+  password: BxceQaOe
+  skip-cert-verify: true
+  udp: true
+  sni: t.me%2Fripaojiedian
+  client-fingerprint: chrome
+- name: 丹麦-002
+  type: http
+  server: 146.70.42.202
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfX8GqgxzUTnCpx91YMj9wp1oXw609MC0WdYefYZbCn32A==
+- name: 德国-038 |5.4MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 139.144.77.170
+  servername: sni.111000.indevs.in
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 美国-018 |4.0MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 143.20.213.235
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 加拿大-004
+  type: http
+  server: 148.113.221.150
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVh9MzTC50NKRa9QCF77ohsxsnp5o63PElOVpFduiCmYA==
+- name: 塞浦路斯-002
+  type: http
+  server: 157.97.132.199
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVrFQ8xygAQvLcJueZjP6gqoXw609MC0WdYefYZbCn32A==
+- name: 德国-039 |2.2MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 194.9.6.3
+  servername: sni.111000.indevs.in
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 芬兰-002 |1.5MB/s|GPT⁺|YT-FI|NF|D+|0%
   type: vless
   network: tcp
   uuid: 0df23c07-b289-4d65-822a-228478ca73bd
@@ -770,115 +1918,150 @@ proxies:
     public-key: e2yc3QjJ1spCe1eLR9cMd_2-TieGJKs2sLKlfW2L-xo
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-- name: 土耳其-001
+  encryption: none
+- name: 印度-001
   type: http
-  server: 185.169.64.46
+  server: 148.113.8.93
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsE3KDTdBwM2KXK2ACL9_EtMoXw609MC0WdYefYZbCn32A==
-- name: 以色列-001
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVMJqWJas_JcDNfXfULamApoXw609MC0WdYefYZbCn32A==
+- name: 埃及-002
   type: http
-  server: 182.54.236.194
+  server: 188.214.122.18
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFJryOSTBSd_7onpB0MJBlboXw609MC0WdYefYZbCn32A==
-- name: 土耳其-002
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXrxSEQ85WRqkSHwkjYjG7uoXw609MC0WdYefYZbCn32A==
+- name: 挪威-001
   type: http
-  server: 188.213.34.126
+  server: 83.143.82.62
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEqoSJtr6uvOpPIBfK6p6K5oXw609MC0WdYefYZbCn32A==
-- name: 德国-017 |1.4MB/s
-  type: socks5
-  server: 193.233.254.8
-  port: 1080
-  password: Og@193.233.254.8
-  skip-cert-verify: true
-  username: Og@193.233.254.8
-- name: 保加利亚-003
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXd27M-tsNpC-3EKhM7CzHwoXw609MC0WdYefYZbCn32A==
+- name: 克罗地亚-001
   type: http
-  server: 37.120.152.186
+  server: 178.218.162.114
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsF3OncL85Gkc6JvQemsT965oXw609MC0WdYefYZbCn32A==
-- name: 阿联酋-003 |1.1MB/s|23%|TK-AE|YT-AE|NF|GPT⁺
-  type: ss
-  server: 154.90.55.15
-  port: 11201
-  password: b13c4c021cec2c0b
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUbcrNNPB_LHRoVeOvgZzhEoXw609MC0WdYefYZbCn32A==
+- name: 俄罗斯联邦-003
+  type: http
+  server: 146.70.52.54
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWdSNsmFHmky8Gj6HqVUvfkoXw609MC0WdYefYZbCn32A==
+- name: 新加坡-004 |3.7MB/s|GPT⁺|YT-US|NF|D+|GM|5%
+  type: vless
+  network: ws
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  server: 27.50.49.104
+  servername: snip.ere.de5.net
+  port: 443
+  tls: true
   udp: true
-  cipher: rc4-md5
-- name: 立陶宛-003
+  xudp: true
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+    path: /?ed=2560
+  client-fingerprint: random
+  encryption: none
+- name: 俄罗斯联邦-004 |2.3MB/s
+  type: vless
+  network: tcp
+  uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
+  server: 45.139.26.152
+  servername: eh.vk.com
+  port: 7443
+  tls: true
+  udp: true
+  xudp: true
+  http-opts:
+    path:
+    - /
+  reality-opts:
+    public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
+    short-id: fd88bd27db4cc661
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+- name: 爱尔兰-002
   type: http
-  server: 85.206.170.244
+  server: 188.241.178.86
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGLO8tKXogFqy7bMiPaWqjooXw609MC0WdYefYZbCn32A==
-- name: 法国-014
-  type: http
-  server: 139.64.167.194
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEzCUqd2w4XcdtCVOxOlnD5xsnp5o63PElOVpFduiCmYA==
-- name: 德国-018
-  type: http
-  server: 23.158.56.244
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHwdQlTjTpFjXyqemVO9ZS8xsnp5o63PElOVpFduiCmYA==
-- name: 德国-019
-  type: http
-  server: 23.160.72.45
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGojnfnwadhUU8yiu1gAqGmxsnp5o63PElOVpFduiCmYA==
-- name: 瑞典-001
-  type: http
-  server: 146.70.122.66
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFZ8DLyjyvhRiu2TWrLBZpUoXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWxVs8Kzw9ZhyE_4JaXSPgOoXw609MC0WdYefYZbCn32A==
+- name: 新加坡-005 |3.9MB/s|GPT⁺|YT-US|NF|D+|GM|5%
+  type: vless
+  network: ws
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  server: 27.50.48.2
+  servername: snip.ere.de5.net
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /?ed=2560
+  client-fingerprint: random
+  encryption: none
+- name: 法国-032 |1.3MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 185.211.6.152
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
 - name: 丹麦-003
-  type: http
-  server: 146.70.42.202
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsF7VDZnJwt7sWjIy5y9bmaAoXw609MC0WdYefYZbCn32A==
-- name: 波兰-002
-  type: http
-  server: 151.115.88.238
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEPY0DwXbpp-3Wg6SOSZteToXw609MC0WdYefYZbCn32A==
-- name: 芬兰-003
-  type: http
-  server: 83.143.242.74
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHg-98qLAEAlgMfRKLw8OzRoXw609MC0WdYefYZbCn32A==
-- name: 土耳其-003
-  type: http
-  server: 130.195.216.2
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH_5ZMgyo2Dl4wT9JLEOfUyoXw609MC0WdYefYZbCn32A==
-- name: 德国-020
-  type: http
-  server: 193.108.116.232
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH9Mtx3eKxmSbSqBt__nI8Bxsnp5o63PElOVpFduiCmYA==
-- name: 丹麦-004
   type: http
   server: 88.218.3.162
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFyoWRsc7RPZANFK5H8fDS-oXw609MC0WdYefYZbCn32A==
-- name: 德国-021 |1.3MB/s|GPT|YT-DE|NF|D+|0%
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfU6S9rGioHwTAyTvhXJ63fUoXw609MC0WdYefYZbCn32A==
+- name: 印度-002
+  type: http
+  server: 148.113.0.104
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfX1TuOqR4cdT6y3CLc-QhJfoXw609MC0WdYefYZbCn32A==
+- name: 冰岛-002
+  type: http
+  server: 37.235.49.103
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kXs9-01H-rc8d5MXWYc5olavE6HckeWLNwoa7m9zf3FNoXw609MC0WdYefYZbCn32A==
+- name: 白俄罗斯-001
+  type: http
+  server: 178.172.217.19
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXHXesFlfRHUrmOFuveszuloXw609MC0WdYefYZbCn32A==
+- name: 俄罗斯联邦-005
+  type: http
+  server: 146.70.52.62
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfU4VTI7iTpeNUnZ3hSz62zGoXw609MC0WdYefYZbCn32A==
+- name: 印度-003
+  type: http
+  server: 148.113.47.86
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWWms2HJn_OxjzXpgnFXzOooXw609MC0WdYefYZbCn32A==
+- name: 德国-040 |4.0MB/s|YT-DE|NF|D+
   type: vless
   network: ws
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 194.9.6.3
+  server: 94.159.100.124
   servername: sni.111000.indevs.in
   port: 443
   tls: true
@@ -886,145 +2069,272 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-022
-  type: http
-  server: 23.160.72.205
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFQJ6ptlotpvcwfQRZyDT02xsnp5o63PElOVpFduiCmYA==
-- name: 挪威-002
-  type: http
-  server: 83.143.82.58
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFzlaeHfwRWyH1nLTvwEWPYoXw609MC0WdYefYZbCn32A==
-- name: 白俄罗斯-001
-  type: http
-  server: 178.172.217.19
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsECCP1WlKQeq2PR1583FscloXw609MC0WdYefYZbCn32A==
-- name: 俄罗斯联邦-003
+- name: 俄罗斯联邦-006
   type: http
   server: 146.70.231.130
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHvyj1mIMBgiIJDZBBWoYMhoXw609MC0WdYefYZbCn32A==
-- name: 克罗地亚-001
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUehLRxv00KoBN_ZE25C4ZooXw609MC0WdYefYZbCn32A==
+- name: 意大利-003
   type: http
-  server: 178.218.162.117
+  server: 37.120.135.218
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFmstUeBVKxDLCE_6au0kcdoXw609MC0WdYefYZbCn32A==
-- name: 印度-001
-  type: http
-  server: 148.113.47.86
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEAxdlsXk9seUqEUX_h3bOhoXw609MC0WdYefYZbCn32A==
-- name: 美国-003
-  type: http
-  server: 38.128.66.22
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFQ5fj6PSXXYmI25kmyWcQAxsnp5o63PElOVpFduiCmYA==
-- name: 克罗地亚-002
-  type: http
-  server: 178.218.162.114
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHjSdVRr8MRbQ3IzENMN2gQoXw609MC0WdYefYZbCn32A==
-- name: 俄罗斯联邦-004 |1.4MB/s|GPT⁺|YT-RU|NF|42%
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWuIZZmbBK6Q_yH9ipvV78IoXw609MC0WdYefYZbCn32A==
+- name: 德国-041 |1.0MB/s|YT-NL|NF|D+
   type: vless
-  uuid: 82bf8df9-300f-4d65-a8b9-b300ccaeb930
-  server: 94.131.113.228
-  servername: fast.strelkavpn.ru
-  port: 443
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 81.200.154.2
+  servername: sni.111000.indevs.in
+  port: 8443
   tls: true
-  reality-opts:
-    public-key: gUDEXo3UPF5WlJdIvpKMZbcLfKxMkiDyWgXjleD0aA4
-    short-id: aa5d376d9d56
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 尼日利亚-001
-  type: http
-  server: 169.255.57.58
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFWPB1B5wLdfP-kJrnr6fzGoXw609MC0WdYefYZbCn32A==
-- name: 冰岛-002
-  type: http
-  server: 37.235.49.103
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFjzU7P3ewE9IqQSKa479bAoXw609MC0WdYefYZbCn32A==
-- name: 马耳他-001
-  type: http
-  server: 171.22.254.19
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHNX49s0XhPx11Gh9zHFIChoXw609MC0WdYefYZbCn32A==
-- name: 印度-002
-  type: http
-  server: 148.113.0.104
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEVlKMI9XKCxFo0Y6Q507Z8oXw609MC0WdYefYZbCn32A==
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
 - name: 白俄罗斯-002
   type: http
   server: 178.172.217.13
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH-qX9Z3_eSij1iE1eVa8QBoXw609MC0WdYefYZbCn32A==
-- name: 印度-003
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUDxdxYoCA6FBkuk7Aa_Gi-oXw609MC0WdYefYZbCn32A==
+- name: 土耳其-003
   type: http
-  server: 148.113.8.93
+  server: 185.169.64.46
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHlSV3EeNkeXZDi0DbSGnWZoXw609MC0WdYefYZbCn32A==
-- name: 越南-001 |647KB/s|GPT⁺|YT-US|NF
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfU4zUHG4U87rUL4Urk3NT5CoXw609MC0WdYefYZbCn32A==
+- name: 法国-033
+  type: http
+  server: 139.64.167.194
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfV385wG2zImrhsHdqUhas7Exsnp5o63PElOVpFduiCmYA==
+- name: 哥斯达黎加-001
+  type: http
+  server: 138.59.135.94
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWIfks39q3aYsFU_hCyMrEUoXw609MC0WdYefYZbCn32A==
+- name: 丹麦-004
+  type: http
+  server: 89.45.7.250
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUP9O4A2PL52W-yff8XDp1doXw609MC0WdYefYZbCn32A==
+- name: 毛里求斯-001 |4.5MB/s|0%|YT-HK|NF|D+|X
+  type: vmess
+  network: http
+  uuid: ac6e19f8-4852-41e1-c120-c7261ee8f6e5
+  server: 45.196.235.171
+  port: 443
+  alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+- name: 越南-001 |899KB/s|GPT⁺|YT-US|NF
   type: ss
-  server: 103.186.154.153
+  server: 103.186.154.193
   port: 38388
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   cipher: aes-256-cfb
-- name: 罗马尼亚-002
+- name: 罗马尼亚-006
   type: http
   server: 188.212.101.130
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEM6eWBVkR0cnn2JcFxO4WvoXw609MC0WdYefYZbCn32A==
-- name: 美国-004 |1.0MB/s|GPT⁺|YT-CN|4%
+  username: afY491o7YfK00koaXQD9kXs9-01H-rc8d5MXWYc5olaMHFk1cAHi_3yHyviCkAfpoXw609MC0WdYefYZbCn32A==
+- name: 尼日利亚-001
+  type: http
+  server: 169.255.57.58
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXRPahU1jy-rAJo_gnXKC6ToXw609MC0WdYefYZbCn32A==
+- name: 德国-042 |3.2MB/s|YT-DE|NF|D+
   type: vless
   network: ws
-  uuid: e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e
-  server: 69.84.182.13
-  servername: fr-1-fr-1.aiopen.sbs
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 5.253.188.238
+  servername: sni.111000.indevs.in
   port: 443
   tls: true
-  udp: true
-  xudp: true
   ws-opts:
     headers:
-      Host: fr-1-fr-1.aiopen.sbs
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /kbjc/fr1
-  client-fingerprint: chrome
-  encryption: none
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 德国-043 |3.2MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 77.239.104.36
+  servername: sni.111000.indevs.in
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
 - name: 阿根廷-001
   type: http
   server: 103.50.33.186
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGeJpD7ft24ksOnsgVBSyFqoXw609MC0WdYefYZbCn32A==
-- name: 吉尔吉斯斯坦-001
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWitwTGmWwqfOz-ZzxN1AxgoXw609MC0WdYefYZbCn32A==
+- name: 新加坡-006
   type: http
-  server: 91.213.233.176
+  server: 116.251.216.100
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFP9sikmpkTmtaj4bKCCfaOoXw609MC0WdYefYZbCn32A==
-- name: 瑞典-002 |5.1MB/s|GPT⁺|YT-RU|NF|20%
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfV1y1DUInLEpK2lZcbs5Rw7oXw609MC0WdYefYZbCn32A==
+- name: 波兰-003 |2.3MB/s|GPT⁺|YT-RU|NF|11%
+  type: vless
+  network: tcp
+  uuid: 6416708c-eaa5-4ec5-b652-a2db2feab875
+  server: 195.3.223.143
+  servername: pl.jojack.ru
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  http-opts:
+    path:
+    - /
+  reality-opts:
+    public-key: hSTtlpXKAYVVu5ybX3hQfq8dfsUrO_HoFVgfGGoCHVw
+    short-id: 0aca3ba84615eda9
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+- name: 哥斯达黎加-002
+  type: http
+  server: 200.122.181.11
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXtEFZIVqSmMAFUu_nQV7K3oXw609MC0WdYefYZbCn32A==
+- name: 毛里求斯-002 |4.4MB/s|0%|YT-HK|NF|D+|X
+  type: vmess
+  network: http
+  uuid: 47eefac2-9767-49e1-c8e6-524e39d8765f
+  server: 45.196.235.171
+  port: 80
+  alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+- name: 俄罗斯联邦-007 |1.7MB/s|X
+  type: socks5
+  server: 94.230.127.180
+  port: 1080
+  skip-cert-verify: true
+- name: 西班牙-003 |1.9MB/s|GPT⁺|YT-ES|NF|26%
+  type: ss
+  server: 5.188.181.201
+  port: 9025
+  password: XPtzA9sCug3SPR4c
+  udp: true
+  cipher: aes-256-cfb
+- name: 澳大利亚-001
+  type: http
+  server: 103.108.229.143
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kXs9-01H-rc8d5MXWYc5olZT2QOJT15eDCD4ifD61IKTxsnp5o63PElOVpFduiCmYA==
+- name: 澳大利亚-002
+  type: http
+  server: 144.48.37.141
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUZuzOD8j4ECOqpeVvofyQZxsnp5o63PElOVpFduiCmYA==
+- name: 阿根廷-002
+  type: http
+  server: 103.50.33.107
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVKTAUSQOHNxxOi_xyPO3yZoXw609MC0WdYefYZbCn32A==
+- name: 秘鲁-001
+  type: http
+  server: 190.120.229.196
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWLz4GVzX_eMTkcSTALFxfeoXw609MC0WdYefYZbCn32A==
+- name: 澳大利亚-003
+  type: http
+  server: 144.48.37.111
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXx-3XAwawyiuD2kUzAqUpEoXw609MC0WdYefYZbCn32A==
+- name: 克罗地亚-002
+  type: http
+  server: 178.218.162.117
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVxdd0jgv8wdxoLJEr-ItBfoXw609MC0WdYefYZbCn32A==
+- name: 澳大利亚-004
+  type: http
+  server: 45.125.247.13
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfU_EarDrC0xb_yOKTE5rd6FoXw609MC0WdYefYZbCn32A==
+- name: 智利-001
+  type: http
+  server: 45.250.252.93
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXnOE2IyLJZ04mLqiLmWao9oXw609MC0WdYefYZbCn32A==
+- name: 越南-002 |647KB/s|GPT⁺|YT-US|NF
+  type: ss
+  server: 103.186.154.153
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 阿根廷-003
+  type: http
+  server: 38.165.230.194
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXOjOaUDr1L_w9LT9Ps0LfhoXw609MC0WdYefYZbCn32A==
+- name: 摩洛哥-001
+  type: http
+  server: 154.70.207.146
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWHnCzLM1MPqV0d6OfyMGjdoXw609MC0WdYefYZbCn32A==
+- name: 智利-002
+  type: http
+  server: 45.250.252.51
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfX99SZ7lCVe8UPx5MYWUYb_oXw609MC0WdYefYZbCn32A==
+- name: 澳大利亚-005
+  type: http
+  server: 45.248.77.67
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfW9E9JrCSWDF17nZw0srwpIoXw609MC0WdYefYZbCn32A==
+- name: 澳大利亚-006
+  type: http
+  server: 144.48.38.138
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfU6gV3NExMYh-tp3LLtrTolxsnp5o63PElOVpFduiCmYA==
+- name: 新西兰-001
+  type: http
+  server: 103.75.11.41
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXCRwj-_uZC-xtMFVtXsGEDoXw609MC0WdYefYZbCn32A==
+- name: 阿根廷-004
+  type: http
+  server: 38.165.230.210
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWFjSIpxw0FSQP4sMftXOZpoXw609MC0WdYefYZbCn32A==
+- name: 瑞典-001 |5.1MB/s|GPT⁺|YT-RU|NF|20%
   type: vless
   uuid: a7a9f670-44c0-45a9-8047-69db0203c142
   server: 193.23.200.153
@@ -1034,64 +2344,68 @@ proxies:
   tls: true
   udp: true
   tfo: true
-- name: 韩国-003 |1.7MB/s|GPT|X|History
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  skip-cert-verify: true
-  tls: false
-  udp: true
-  username: Og%3D%3D
-  client-fingerprint: chrome
-- name: 吉尔吉斯斯坦-002
+- name: 塞浦路斯-003
   type: http
-  server: 91.213.233.111
+  server: 185.191.206.100
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEEBtjs644jd1nYzFOSLDFJoXw609MC0WdYefYZbCn32A==
-- name: 哥斯达黎加-001
-  type: http
-  server: 200.122.181.11
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGWboe2-vGdLKmeBAuG9ub-oXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXOxamPv0CmQUWzb6kHsEadoXw609MC0WdYefYZbCn32A==
 - name: 尼加拉瓜-001
   type: http
   server: 131.196.35.40
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFyof947wx4taXWkPH6DEp5oXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfU89B5n9Ua3Ji9mEzJbmAMjoXw609MC0WdYefYZbCn32A==
+- name: 新西兰-002
+  type: http
+  server: 180.149.231.71
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUH5Wae7y19Wc0y_6bBCXZ1oXw609MC0WdYefYZbCn32A==
+- name: 巴西-001
+  type: http
+  server: 177.54.146.84
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXs51Y7etBJjqGBeKps9hfXoXw609MC0WdYefYZbCn32A==
+- name: 吉尔吉斯斯坦-001
+  type: http
+  server: 91.213.233.176
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWiSZbQdxBA38dgCAz_TgvYoXw609MC0WdYefYZbCn32A==
 - name: 约旦-001
   type: http
   server: 82.212.103.6
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEOjH9_tJgQV3I_AYqophTuoXw609MC0WdYefYZbCn32A==
-- name: 塞浦路斯-002
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXndcEmr_frbsLdux3u9hz9oXw609MC0WdYefYZbCn32A==
+- name: 越南-003 |1.3MB/s|GPT⁺|YT-VN|NF|GM
+  type: vless
+  network: ws
+  uuid: cca053d5-7123-4a87-83d6-babe4e9c8115
+  server: 103.245.237.124
+  port: 58202
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/39.0.2171.95 Safari/537.36
+    path: /
+  encryption: none
+- name: 印度-004 |5.0MB/s|GPT⁺
+  type: socks5
+  server: 64.227.131.240
+  port: 1080
+  skip-cert-verify: true
+- name: 哈萨克斯坦-001
   type: http
-  server: 185.191.206.100
+  server: 185.120.77.104
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFIzO6OxEKMJH7dXIiZagSooXw609MC0WdYefYZbCn32A==
-- name: 日本-003
-  type: http
-  server: 5.180.44.194
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsG-ZPCv9m3aAynNuM8_VHX3oXw609MC0WdYefYZbCn32A==
-- name: 哥斯达黎加-002
-  type: http
-  server: 138.59.135.94
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsG6o0Pk6bLUxounXEf5vZdIoXw609MC0WdYefYZbCn32A==
-- name: 肯尼亚-001
-  type: http
-  server: 102.68.86.97
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEaJZvmpOdYDCYDDddYPuPFoXw609MC0WdYefYZbCn32A==
-- name: 美国-005 |1.5MB/s|GPT|6%
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXHj6eY5VudaxedMFS4L0dvoXw609MC0WdYefYZbCn32A==
+- name: 美国-019 |1.5MB/s|GPT|6%
   type: vless
   network: ws
   uuid: e6c7ed63-89db-4ae1-a3f8-7a722921b3b2
@@ -1111,43 +2425,32 @@ proxies:
     path: /O1w0n3vYgFKYs7EzNAvLPvOp
   client-fingerprint: chrome
   encryption: none
-- name: 哈萨克斯坦-001
-  type: http
-  server: 185.120.77.104
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH7klBtnmFqx73iDoPQfu3_oXw609MC0WdYefYZbCn32A==
-- name: 哥伦比亚-001
-  type: http
-  server: 138.121.203.146
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHsXinD77jP_35X-SkOPV9ioXw609MC0WdYefYZbCn32A==
-- name: 阿尔及利亚-001
-  type: http
-  server: 197.140.142.57
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsE4pmUVMYs1trXhYWV2XAnNoXw609MC0WdYefYZbCn32A==
-- name: 越南-002 |554KB/s|YT-US|NF|GPT⁺|GM
+- name: 越南-004 |2.7MB/s
   type: ss
-  server: 103.186.155.83
+  server: 103.186.154.243
   port: 38388
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
   cipher: aes-256-cfb
-- name: 越南-003 |1.2MB/s|YT-US|NF|GPT⁺|GM
-  type: ss
-  server: 103.186.155.48
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 阿根廷-002
+- name: 阿根廷-005
   type: http
-  server: 103.50.33.107
+  server: 190.103.177.162
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEOytCnMWTVbZqaGNOFxVrQoXw609MC0WdYefYZbCn32A==
-- name: 俄罗斯联邦-005 |2.7MB/s|GPT|YT-RU|NF|5%
+  username: afY491o7YfK00koaXQD9kXs9-01H-rc8d5MXWYc5olYEKuJSu4lzpKWwztX5pDTfxsnp5o63PElOVpFduiCmYA==
+- name: 意大利-004
+  type: http
+  server: 95.141.37.244
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXKaHO5bRosc6sxVZ_LQHTMoXw609MC0WdYefYZbCn32A==
+- name: 马耳他-001
+  type: http
+  server: 171.22.254.19
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfX748NJjjDHeK-th7tDLEDhoXw609MC0WdYefYZbCn32A==
+- name: 俄罗斯联邦-008 |1.4MB/s
   type: vless
   network: tcp
   uuid: 002accb526534fcab24a72b0ea1cff59
@@ -1157,215 +2460,41 @@ proxies:
   tls: true
   udp: true
   xudp: true
+  alpn:
+  - h2
   reality-opts:
     public-key: GgiY38LjRI1hS1LKhdqvtJ5SDDO436GvihG-TzEI2XE
     short-id: aabbccdd
-  client-fingerprint: random
+  client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-- name: 阿尔及利亚-002
-  type: http
-  server: 197.140.142.233
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFdUFHIPDtgAhPyvMlenjZpoXw609MC0WdYefYZbCn32A==
-- name: 阿根廷-003
-  type: http
-  server: 38.165.230.210
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsEY59CyAep2UEG4QlhvnJuYoXw609MC0WdYefYZbCn32A==
-- name: 罗马尼亚-003 |3.9MB/s|GPT⁺|YT-US|NF|D+|GM|5%
-  type: vless
-  network: ws
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.12.30.138
-  servername: sni.111000.indevs.in
-  port: 2096
-  tls: true
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 美国-006
+- name: 韩国-006 |1.4MB/s|0.8MB/s|X|History
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  client-fingerprint: chrome
+- name: 德国-044 |1.2MB/s|GPT⁺|YT-RU|NF|D+|6%
   type: vless
   network: tcp
-  uuid: 3c28c3cf-85ef-4a8a-a475-3a8585d563fe
-  server: 159.223.205.136
-  servername: dash.cloudflare.com
-  port: 42356
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  reality-opts:
-    public-key: nY642oPT9bs-EddohAqLcif8a7qaxAUwxeDD85eXNjw
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 美国-007 |2.6MB/s
-  type: vless
-  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
-  server: 178.130.47.143
-  servername: uscdn3.suio.me
+  uuid: 84f66368-8a37-468e-ae95-5622255fd4db
+  server: 159.195.26.28
+  servername: live.com
   port: 443
   tls: true
-  client-fingerprint: chrome
-- name: 爱沙尼亚-002
-  type: http
-  server: 95.153.32.34
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFHyOSZMo79Y93JT5DEYtcVoXw609MC0WdYefYZbCn32A==
-- name: 英国-007
-  type: http
-  server: 38.114.120.157
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHblVBPp_qWGsf1I6LfiefHxsnp5o63PElOVpFduiCmYA==
-- name: 芬兰-004
-  type: http
-  server: 194.34.134.21
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsElfis1iMHhexR6LKZ2npqtoXw609MC0WdYefYZbCn32A==
-- name: 意大利-004
-  type: http
-  server: 158.58.173.73
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsE0-ZYAoIikeXI80HkooSLHoXw609MC0WdYefYZbCn32A==
-- name: 葡萄牙-001
-  type: http
-  server: 185.113.140.45
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHA2rRQeDEwpjq8TSknkiFRoXw609MC0WdYefYZbCn32A==
-- name: 俄罗斯联邦-006
-  type: http
-  server: 146.70.52.62
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHdlrVvl57QeO17PuhYy1bIoXw609MC0WdYefYZbCn32A==
-- name: 德国-023 |853KB/s|YT-DE|NF|D+|5%
-  type: vless
-  network: ws
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.132.1.208
-  servername: sni.111000.indevs.in
-  port: 8443
-  tls: true
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 美国-008 |859KB/s
-  type: http
-  server: 154.26.192.123
-  port: 10988
-  password: gs4BXwT6SW
-  skip-cert-verify: false
-  tls: false
-  username: fQ67Dpe5dU
-- name: 韩国-004 |2.7MB/s|GPT⁺|YT-CN|NF|D+|2%
-  type: ss
-  server: 211.201.169.70
-  port: 51537
-  password: qwerREWQ@@
   udp: true
-  tfo: true
-  cipher: aes-256-cfb
+  xudp: true
+  http-opts:
+    path:
+    - /
+  reality-opts:
+    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
   client-fingerprint: chrome
-- name: 法国-015 |6.9MB/s|YT-DE|NF|D+
-  type: trojan
-  network: ws
-  server: 135.125.232.253
-  port: 2053
-  password: iwangjie
-  skip-cert-verify: false
-  sni: nodes.830901.xyz
-  ws-opts:
-    headers:
-      Host: nodes.830901.xyz
-    path: '%2F%3Fed%3D2560'
-- name: 日本-004
-  type: http
-  server: 103.108.230.31
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWQbpILnq29dqqIXz3SD4GfooXw609MC0WdYefYZbCn32A==
-- name: 韩国-005
-  type: http
-  server: 140.174.179.129
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWTT9Pz_ijZq0YyUu25OhgEuoXw609MC0WdYefYZbCn32A==
-- name: 澳大利亚-001
-  type: http
-  server: 182.54.232.23
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWSL43jQT7GsFAe6FnFSJPrsoXw609MC0WdYefYZbCn32A==
-- name: 智利-001
-  type: http
-  server: 45.250.252.93
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWRfgrE5bQbMcM9ICZVwCuckoXw609MC0WdYefYZbCn32A==
-- name: 澳大利亚-002
-  type: http
-  server: 45.125.247.13
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWSu6OuDSLDScZVkK4iHOIFBoXw609MC0WdYefYZbCn32A==
-- name: 澳大利亚-003
-  type: http
-  server: 103.108.229.143
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWTQgykvjT3gexlPDe__wzCCxsnp5o63PElOVpFduiCmYA==
-- name: 秘鲁-001
-  type: http
-  server: 190.120.229.196
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWScbaIye8tSAgc5oVlCMa4moXw609MC0WdYefYZbCn32A==
-- name: 澳大利亚-004
-  type: http
-  server: 144.48.37.111
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWTfHANI_VUV8DNM-M4RFEXUoXw609MC0WdYefYZbCn32A==
-- name: 新西兰-001
-  type: http
-  server: 180.149.231.71
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWSQy6nwf_FGbIGwGaJALnBboXw609MC0WdYefYZbCn32A==
-- name: 阿根廷-004
-  type: http
-  server: 38.165.230.194
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWQxIeIPgoHRR2ZMBKTdTT_EoXw609MC0WdYefYZbCn32A==
-- name: 澳大利亚-005
-  type: http
-  server: 144.48.37.141
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWQFqn9v9ppv1QjXzBL1mvBuxsnp5o63PElOVpFduiCmYA==
-- name: 澳大利亚-006
-  type: http
-  server: 144.48.38.138
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWT-46kYq8qaxnLsEImfxVJ3xsnp5o63PElOVpFduiCmYA==
-- name: 阿根廷-005
-  type: http
-  server: 190.103.177.162
-  port: 8081
-  password: '1'
-  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWTiXWVMvHG4eLssRZSAKd0sxsnp5o63PElOVpFduiCmYA==
-- name: 塞浦路斯-003 |1.8MB/s|GPT⁺|YT-NL|NF|D+|5%
+  encryption: none
+  flow: xtls-rprx-vision
+- name: 塞浦路斯-004 |1.8MB/s|GPT⁺|YT-NL|NF|D+|5%
   type: vless
   network: ws
   uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
@@ -1381,23 +2510,401 @@ proxies:
     path: /Telegram:@AZARBAYJAB1?ed=2560
   client-fingerprint: chrome
   encryption: none
-- name: 澳大利亚-007
+- name: 越南-005 |554KB/s|YT-US|NF|GPT⁺|GM
+  type: ss
+  server: 103.186.155.83
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 阿尔及利亚-001
   type: http
-  server: 45.248.77.67
+  server: 197.140.142.182
   port: 8081
   password: '1'
-  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWQIwk3IWGSdEB8QI7CjZS5aoXw609MC0WdYefYZbCn32A==
-- name: 俄罗斯联邦-007 |3.6MB/s|GPT⁺|YT-RU|D+|21%
-  type: vless
-  uuid: 40ecece1-edd9-4543-99c7-529ee594135d
-  server: 217.198.12.6
-  servername: 0ru84.tcpdoor.net
-  port: 443
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWbcdx6oEEkz0e22pft4aZBoXw609MC0WdYefYZbCn32A==
+- name: 日本-009 |10.3MB/s|33%|GPT⁺|X|Succeed
+  type: socks5
+  server: 141.98.197.133
+  port: 18791
   skip-cert-verify: true
+- name: 荷兰-013 |7.1MB/s
+  type: vless
+  network: tcp
+  uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+  server: 94.228.213.219
+  servername: hls-svod.itunes.apple.com
+  port: 443
   tls: true
   udp: true
-  tfo: true
+  xudp: true
+  http-opts:
+    path:
+    - /
   reality-opts:
-    public-key: RHUQAGJ_MYNKsZt2XO_DATEm1cQh0Rdpz83DTCGSKl0
-    short-id: 740d6f2e
-  client-fingerprint: firefox
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: 48720c
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 美国-020 |2.8MB/s|YT-US|NF|D+|GM
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 14.102.228.238
+  servername: sni.jpmj.dev
+  port: 2096
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 德国-045 |1.3MB/s|GPT⁺|YT-DE|NF|D+|5%
+  type: vless
+  network: ws
+  uuid: 00000000-0000-4000-8000-000000000000
+  server: 91.107.167.127
+  servername: mot.saghv.filegear-sg.me
+  port: 12345
+  tls: true
+  ws-opts:
+    headers:
+      Host: mot.saghv.filegear-sg.me
+    path: /@Marisa_kristi
+- name: 阿尔及利亚-002
+  type: http
+  server: 197.140.142.233
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVfXfDvISFXJtP1BBOVS6sGoXw609MC0WdYefYZbCn32A==
+- name: 英国-012 |3.0MB/s|YT-US|NF|D+|GM
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 25.25.25.238
+  servername: sni.jpmj.dev
+  port: 2096
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 荷兰-014 |3.2MB/s|GPT⁺|YT-NL|NF|D+
+  type: vless
+  network: ws
+  uuid: 4c642cae-1a6d-4e51-a1c3-fa5892437aa3
+  server: 185.103.255.111
+  servername: 5465765525.ccfly.tech
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: 5465765525.ccfly.tech
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 比利时-002
+  type: http
+  server: 146.70.176.222
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXgxTufMNNEw0cMUJNhJwpooXw609MC0WdYefYZbCn32A==
+- name: 德国-046 |7.3MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 194.195.240.210
+  servername: sni.111000.indevs.in
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 芬兰-003 |854KB/s
+  type: vless
+  network: tcp
+  uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741
+  server: 178.17.53.28
+  servername: yandex.ru
+  port: 47539
+  tls: true
+  udp: true
+  xudp: true
+  http-opts:
+    path:
+    - /
+  reality-opts:
+    public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U
+    short-id: 82a55f31981ea6be
+  client-fingerprint: chrome
+  encryption: none
+- name: 法国-034
+  type: http
+  server: 51.77.190.70
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVBhF9jQ4l05ceicMNlGUfkxsnp5o63PElOVpFduiCmYA==
+- name: 希腊-002
+  type: http
+  server: 95.129.46.100
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXIMse2HHzNMQSIr7fx2b0joXw609MC0WdYefYZbCn32A==
+- name: 斯洛伐克-003
+  type: http
+  server: 185.245.85.126
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWbKdyBrMGcknQQ1zfB5DJzoXw609MC0WdYefYZbCn32A==
+- name: 爱沙尼亚-003
+  type: http
+  server: 95.153.31.102
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUCamFP9pUsrjfkxUd0H1k3oXw609MC0WdYefYZbCn32A==
+- name: 俄罗斯联邦-009 |2.0MB/s
+  type: vless
+  uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+  server: 185.234.59.173
+  servername: hls-svod.itunes.apple.com
+  port: 443
+  tls: true
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: f79448a30d
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 哈萨克斯坦-002 |2.2MB/s|GPT|NF|0%
+  type: vless
+  network: ws
+  uuid: c659ce22-0a02-4d75-8c89-58d99916b846
+  server: 194.76.18.25
+  servername: ir6.hnbyme.online
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: ir6.hnbyme.online
+    path: /
+  client-fingerprint: chrome
+- name: 保加利亚-003
+  type: http
+  server: 193.107.70.113
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfU0LSI9zklxj7dGCSGOSbIUoXw609MC0WdYefYZbCn32A==
+- name: 德国-047 |3.8MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 192.124.178.227
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 芬兰-004
+  type: http
+  server: 194.34.134.21
+  port: 8081
+  password: '1'
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfX8AesJq5oVD-2UdZvx0RVEoXw609MC0WdYefYZbCn32A==
+- name: 韩国-007 |3.8MB/s|GPT⁺|YT-KR|NF|D+|GM|5%
+  type: vless
+  network: ws
+  uuid: 4c642cae-1a6d-4e51-a1c3-fa5892437aa3
+  server: 211.219.241.28
+  servername: 5465765525.ccfly.tech
+  port: 31337
+  tls: true
+  ws-opts:
+    headers:
+      Host: 5465765525.ccfly.tech
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 德国-048 |636KB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 57.129.63.145
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 荷兰-015 |4.1MB/s|YT-NL|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 51.158.146.186
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 德国-049 |4.1MB/s|YT-RU
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 45.128.99.24
+  servername: sni.111000.indevs.in
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 德国-050 |1.0MB/s|GPT|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 57.129.47.12
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 立陶宛-003 |2.1MB/s|GPT⁺|YT-RU|NF|42%
+  type: vless
+  network: tcp
+  uuid: 1004c163-26ea-5662-b5b2-40df01176f8b
+  server: 2.59.162.100
+  servername: apple.com
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  http-opts:
+    path:
+    - /
+  reality-opts:
+    public-key: eH6HWGKJUtp4VmC9KxtdcyxtLI0O52vhAmZx1ybOtUs
+    short-id: ffffffffff
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+- name: 美国-021 |3.0MB/s|GPT|YT-DE|NF|D+|5%
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 143.20.213.128
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 荷兰-016 |769KB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 185.170.153.186
+  servername: sni.111000.indevs.in
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 荷兰-017 |3.5MB/s|GPT⁺|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 45.149.235.148
+  servername: sni.111000.indevs.in
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 荷兰-018 |3.8MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 89.169.13.207
+  servername: sni.111000.indevs.in
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 英国-013 |2.0MB/s|GPT|YT-GB|NF|D+|5%
+  type: vless
+  network: ws
+  uuid: 4c642cae-1a6d-4e51-a1c3-fa5892437aa3
+  server: 141.147.85.167
+  servername: 5465765525.ccfly.tech
+  port: 8443
+  tls: true
+  ws-opts:
+    headers:
+      Host: 5465765525.ccfly.tech
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 罗马尼亚-007 |5.5MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 188.241.241.123
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 越南-006 |1.2MB/s|GPT⁺|YT-US|NF|GM
+  type: ss
+  server: 103.186.155.54
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 美国-022 |2.2MB/s|GPT|YT-US|NF|D+|GM|5%
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 162.251.82.238
+  servername: sni.jpmj.dev
+  port: 2096
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  client-fingerprint: chrome
+- name: 美国-023 |3.7MB/s|GPT⁺|YT-CN|NF
+  type: hysteria
+  server: 208.87.243.151
+  port: 38845
+  skip-cert-verify: true
+  udp: true
+  sni: www.bing.com
+  alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  up: 11 Mbps
+  protocol: udp
+- name: 美国-024
+  type: vless
+  network: tcp
+  uuid: 3c28c3cf-85ef-4a8a-a475-3a8585d563fe
+  server: 159.223.205.136
+  servername: dash.cloudflare.com
+  port: 42356
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  reality-opts:
+    public-key: nY642oPT9bs-EddohAqLcif8a7qaxAUwxeDD85eXNjw
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
