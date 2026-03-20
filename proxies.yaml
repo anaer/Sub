@@ -1,138 +1,31 @@
 proxies:
-- name: 韩国-001 |1.2MB/s|100%
+- name: 韩国-001 |1.3MB/s|GM
   type: socks5
   server: 121.169.46.116
   port: 1090
   skip-cert-verify: true
+  tls: false
   udp: true
-  username: Og%3D%3D
-- name: 马来西亚-001 |3.0MB/s|7%|YT-SG|NF|D+|GPT⁺|GM-SG
-  type: vless
-  network: ws
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  server: 166.88.7.8
-  servername: snippet.danfeng.gv.uy
-  port: 587
-  tls: true
-  udp: true
-  xudp: true
-  alpn:
-  - http/1.1
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.gv.uy
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /danfeng
-  client-fingerprint: random
-- name: 日本-001 |3.1MB/s|7%|YT-JP|NF|D+|GPT⁺|GM-JP
-  type: vless
-  network: ws
-  uuid: 69b73277-99ed-6b7f-f52b-79b98093e7ae
-  server: 153.121.45.101
-  servername: dd4973b2.lfree.cn.mt
-  port: 443
-  tls: true
-  udp: true
-  alpn:
-  - h3
-  ws-opts:
-    headers:
-      Host: dd4973b2.lfree.cn.mt
-    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
-  client-fingerprint: random
-- name: 韩国-002 |3.2MB/s|YT-KR|NF
-  type: vless
-  network: ws
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  server: 121.155.79.99
-  servername: snippet.danfeng.casacam.net
-  port: 29999
-  tls: true
-  udp: true
-  alpn:
-  - http/1.1
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.casacam.net
-    path: /danfeng
-  client-fingerprint: random
-- name: 韩国-003 |2.5MB/s|7%
-  type: vless
-  network: ws
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  server: 121.131.86.236
-  servername: snippet.danfeng.kozow.com
-  port: 13214
-  tls: true
-  udp: true
-  xudp: true
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.kozow.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /danfeng?ed=2560
+  username: T2clM0QlM0Q6
   client-fingerprint: chrome
-- name: 韩国-004 |3.4MB/s|YT-KR|NF|D+
+- name: 日本-001 |6.1MB/s|7%|YT-JP|NF|D+|GPT⁺|GM-JP
   type: vless
   network: ws
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  server: 59.3.3.161
-  servername: ylnhh.cc.cd
-  port: 8443
-  skip-cert-verify: false
+  uuid: 00000000-0000-4000-8000-000000000000
+  server: 45.120.157.18
+  servername: v-jkid7x7r71t868pqf81hs.worker.ddns-ip.net
+  port: 3193
   tls: true
   udp: true
+  xudp: true
   ws-opts:
     headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳+@WangCai2
-- name: 美国-001 |4.0MB/s|0%|TK-GB|YT-GB|NF
-  type: vless
-  network: ws
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  server: 192.0.63.162
-  servername: snippet.danfeng.casacam.net
-  port: 443
-  tls: true
-  udp: true
-  alpn:
-  - http/1.1
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.casacam.net
-    path: /danfeng
-  client-fingerprint: random
-- name: 美国-002 |5.9MB/s|7%|TK-GB
-  type: vless
-  network: ws
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  server: 192.0.63.134
-  servername: snippet.danfeng.kozow.com
-  port: 443
-  tls: true
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.kozow.com
-    path: /danfeng?ed=2560
-- name: 塞浦路斯-001 |5.0MB/s|7%|TK-US|YT-US|NF|D+|GPT⁺|GM-US
-  type: vless
-  network: ws
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  server: 154.92.9.157
-  servername: snippet.danfeng.ee.cd
-  port: 2053
-  tls: true
-  udp: true
-  alpn:
-  - http/1.1
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.ee.cd
-    path: /danfeng
-  client-fingerprint: random
-- name: 美国-003 |3.7MB/s|GPT⁺|YT-CN|NF
+      Host: v-jkid7x7r71t868pqf81hs.worker.ddns-ip.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /@Marisa_kristi
+  client-fingerprint: chrome
+- name: 美国-001 |3.7MB/s|GPT⁺|YT-CN|NF
   type: hysteria
   server: 208.87.243.151
   port: 38845
@@ -146,23 +39,38 @@ proxies:
   down: 55 Mbps
   up: 11 Mbps
   protocol: udp
-- name: 韩国-005 |3.1MB/s|7%|YT-KR|NF|D+|GPT⁺|GM-KR
+- name: 德国-001 |2.1MB/s|25%|TK-US|YT-CN|GPT⁺
+  type: vmess
+  network: tcp
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  server: 82.198.246.97
+  servername: 4120-BE04-13ef56096989.457.PP.ua
+  port: 180
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  xudp: true
+  alterId: 0
+  cipher: auto
+- name: 美国-002 |1.4MB/s|GPT⁺|YT-US|NF|D+|GM|0%
   type: vless
   network: ws
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  server: 14.52.191.85
-  servername: snippet.danfeng.gv.uy
-  port: 18979
+  server: 192.0.54.225
+  servername: snippet.danfeng.kozow.com
+  port: 443
   tls: true
   udp: true
-  alpn:
-  - http/1.1
+  xudp: true
   ws-opts:
     headers:
-      Host: snippet.danfeng.gv.uy
-    path: /danfeng
-  client-fingerprint: random
-- name: 美国-004 |5.3MB/s|0%|TK-GB|YT-GB|NF
+      Host: snippet.danfeng.kozow.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /danfeng?ed=2560
+  client-fingerprint: chrome
+  encryption: none
+- name: 美国-003 |5.8MB/s|100%|TK-GB|YT-GB|NF|D+|GPT⁺
   type: vless
   network: ws
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
@@ -170,95 +78,89 @@ proxies:
   servername: snippet.danfeng.kozow.com
   port: 443
   tls: true
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.kozow.com
-    path: /danfeng?ed=2560
-- name: 韩国-006 |3.9MB/s
-  type: vless
-  network: ws
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  server: 220.85.70.7
-  servername: snippet.danfeng.kozow.com
-  port: 16030
-  tls: true
   udp: true
   xudp: true
   ws-opts:
     headers:
       Host: snippet.danfeng.kozow.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /danfeng?ed=2560
   client-fingerprint: chrome
-- name: 美国-005 |654KB/s|7%|TK-US|YT-US|NF|D+|GPT⁺|GM-US
+  encryption: none
+- name: 美国-004 |1.2MB/s|GPT⁺|YT-US|NF|D+|GM
   type: vless
   network: ws
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  server: 173.255.250.199
-  servername: snippet.danfeng.casacam.net
+  server: 192.0.54.188
+  servername: snippet.danfeng.kozow.com
   port: 443
   tls: true
   udp: true
   xudp: true
-  alpn:
-  - http/1.1
   ws-opts:
     headers:
-      Host: snippet.danfeng.casacam.net
+      Host: snippet.danfeng.kozow.com
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
-    path: /danfeng
-  client-fingerprint: random
-- name: 美国-006 |787KB/s|7%|TK-US|YT-US|NF|D+|GPT⁺|GM-US
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /danfeng?ed=2560
+  client-fingerprint: chrome
+  encryption: none
+- name: 美国-005 |1.7MB/s|GPT⁺|YT-US|NF|D+|GM
   type: vless
   network: ws
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  server: 31.58.50.143
-  servername: danfeng.sylu.cc
-  port: 8443
+  server: 192.0.63.56
+  servername: snippet.danfeng.kozow.com
+  port: 443
   tls: true
   udp: true
   xudp: true
-  alpn:
-  - http/1.1
   ws-opts:
     headers:
-      Host: danfeng.sylu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /danfeng
-  client-fingerprint: random
-- name: 美国-007 |3.7MB/s|7%|TK-US|YT-US|NF|D+|GPT|GM-US
+      Host: snippet.danfeng.kozow.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /danfeng?ed=2560
+  client-fingerprint: chrome
+  encryption: none
+- name: 美国-006 |551KB/s|7%|TK-US|YT-US|NF|D+|GPT⁺|GM-US
+  type: vless
+  network: ws
+  uuid: 671309af-9a2f-4f36-8a64-9112b6129e9d
+  server: 216.40.87.143
+  servername: chedan.jueson.de5.net
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: chedan.jueson.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  client-fingerprint: chrome
+  encryption: none
+- name: 美国-007 |5.5MB/s|7%|TK-GB|YT-GB|NF|D+|GPT⁺
   type: vless
   network: ws
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  server: 45.202.113.193
-  servername: snippet.danfeng.ee.cd
-  port: 2096
+  server: 192.0.63.134
+  servername: snippet.danfeng.kozow.com
+  port: 443
   tls: true
   udp: true
-  alpn:
-  - http/1.1
+  xudp: true
   ws-opts:
     headers:
-      Host: snippet.danfeng.ee.cd
-    path: /danfeng
-  client-fingerprint: random
-- name: 美国-008 |4.8MB/s|0%|TK-US|YT-CN|NF|D+|GPT⁺
-  type: vless
-  uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
-  server: 157.254.223.44
-  servername: itunes.apple.com
-  port: 18959
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  reality-opts:
-    public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
-    short-id: d557c6895d014075
+      Host: snippet.danfeng.kozow.com
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /danfeng?ed=2560
   client-fingerprint: chrome
-- name: 美国-009 |5.3MB/s|50%|TK-GB|YT-GB|NF|D+|GPT⁺
+  encryption: none
+- name: 美国-008 |5.7MB/s|7%|TK-GB|YT-GB|NF|D+|GPT⁺
   type: vless
   network: ws
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
@@ -276,7 +178,369 @@ proxies:
     path: /danfeng?ed=2560
   client-fingerprint: chrome
   encryption: none
-- name: 韩国-007 |1.2MB/s|YT-KR|NF|D+
+- name: 南非-001 |6.8MB/s|0%|YT-CN|NF|D+|GPT⁺
+  type: anytls
+  server: 45.221.98.14
+  port: 59901
+  password: dongtaiwang.com
+  skip-cert-verify: true
+  udp: true
+  alpn:
+  - h2
+  client-fingerprint: chrome
+  disable-sni: true
+  fp: chrome
+  allowInsecure: '1'
+- name: 美国-009 |1.1MB/s|7%|TK-US|YT-US|NF|D+|GPT⁺|GM-US
+  type: vless
+  network: ws
+  uuid: 671309af-9a2f-4f36-8a64-9112b6129e9d
+  server: 216.167.68.206
+  servername: chedan.jueson.de5.net
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: chedan.jueson.de5.net
+      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+        Chrome/v1.0.0 Safari/538.1
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  client-fingerprint: chrome
+  encryption: none
+- name: 美国-010
+  type: mieru
+  server: 157.254.223.48
+  port: 33990
+  password: dongtaiwang.com
+  multiplexing: MULTIPLEXING_LOW
+  transport: TCP
+  username: dongtaiwang.com
+- name: 南非-002
+  type: mieru
+  server: 45.221.98.11
+  port: 28866
+  password: dongtaiwang.com
+  multiplexing: MULTIPLEXING_LOW
+  transport: TCP
+  username: dongtaiwang.com
+- name: 美国-011 |4.6MB/s|28%|TK-US|YT-US|NF|GPT⁺
+  type: ss
+  server: 88.210.36.108
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+- name: 德国-002
+  type: vless
+  network: ws
+  uuid: 00000000-0000-4000-8000-000000000000
+  server: 212.52.1.202
+  servername: jmc9f8ao6n5xq.saghv.filegear-sg.me
+  port: 81
+  tls: true
+  udp: false
+  ws-opts:
+    headers:
+      host: jmc9f8ao6n5xq.saghv.filegear-sg.me
+    path: /@Marisa_kristi
+  client-fingerprint: chrome
+- name: 南非-003 |3.2MB/s|0%|YT-ZA|NF|GPT⁺|GM-ZA
+  type: ss
+  server: 102.37.156.224
+  port: 443
+  password: aduB9HGxQHjA2SBMRjkHX6
+  udp: true
+  cipher: chacha20-ietf-poly1305
+- name: 美国-012 |4.7MB/s|28%|TK-US|YT-US|GPT⁺
+  type: ss
+  server: 88.210.36.106
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+- name: 波兰-001 |3.3MB/s|GPT|4%
+  type: vless
+  network: tcp
+  uuid: 564a1583-4d4f-40da-b673-e371faaba64a
+  server: 144.31.1.172
+  servername: pl-waw-1.blook.network
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  http-opts:
+    path:
+    - /
+  reality-opts:
+    public-key: q1GJ-cUUd4FGu0ZfsXosBvyzbJmpRHrZYMidWhAqMQI
+    short-id: 578dc0c4
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+- name: 美国-013
+  type: vless
+  network: tcp
+  uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
+  server: 157.254.223.44
+  servername: itunes.apple.com
+  port: 18959
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  reality-opts:
+    public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
+    short-id: d557c6895d014075
+  client-fingerprint: chrome
+  flow: None
+- name: 波兰-002 |3.9MB/s|4%|TK-PL|YT-PL|NF|GPT⁺
+  type: vless
+  network: tcp
+  uuid: 7478ff88-1354-4143-96ce-6c8059273ef0
+  server: 144.31.1.60
+  servername: www.amd.com
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  http-opts:
+    path:
+    - /
+  reality-opts:
+    public-key: FscaEWx0paNBzL7GWHj4Fll7Xc-KxdhKgTthBAnByWI
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+- name: 美国-014
+  type: vless
+  network: ws
+  uuid: ee248e40-9468-4ef6-81b7-707a1e47c54a
+  server: 192.200.160.20
+  servername: 639073677243557970.camry-perma.info
+  port: 443
+  tls: true
+  udp: false
+  ws-opts:
+    headers:
+      host: 639073677243557970.camry-perma.info
+    path: /yaeungws
+  client-fingerprint: chrome
+- name: 俄罗斯联邦-001 |6.0MB/s|7%|TK-US|YT-US|NF|D+|GPT⁺|GM-US
+  type: vless
+  network: ws
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  server: 193.9.49.65
+  servername: r.icy.de5.net
+  port: 443
+  tls: true
+  ws-opts:
+    headers:
+      Host: r.icy.de5.net
+    path: /?ed=2560
+- name: 荷兰-001 |3.8MB/s|8%
+  type: socks5
+  server: 5.255.99.75
+  port: 1080
+  udp: true
+- name: 沙特阿拉伯-001 |4.1MB/s|YT-RU|NF|D+
+  type: vless
+  network: tcp
+  uuid: c2d09c1c-7d4d-46c4-838f-ad263b93c4e1
+  server: 213.165.54.4
+  servername: cdnjs.com
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  reality-opts:
+    public-key: vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4
+    short-id: 82c8140feb118043
+  client-fingerprint: safari
+  encryption: none
+  flow: xtls-rprx-vision
+- name: 韩国-002 |3.8MB/s|7%
+  type: vless
+  network: ws
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  server: 14.42.206.205
+  servername: snippet.danfeng.kozow.com
+  port: 16001
+  tls: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /danfeng?ed=2560
+  client-fingerprint: chrome
+- name: 爱沙尼亚-001 |996KB/s|31%|TK-EE|YT-RU|NF|GPT⁺
+  type: vless
+  network: tcp
+  uuid: fd37be2f-f8d1-47de-97e8-13c28107d31e
+  server: 193.109.120.119
+  servername: est15.frostbot.ru
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  http-opts:
+    path:
+    - /
+  reality-opts:
+    public-key: 3u-RoUuzGFtfVwCbUJ4GxAhNUyR6DcyAzeyaSdNXG0A
+    short-id: 8c
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+- name: 越南-001 |801KB/s|YT-US|NF|GPT⁺|GM-US
+  type: ss
+  server: 103.186.154.236
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 越南-002 |1.5MB/s|YT-RU|NF|GPT⁺|GM-RU
+  type: ss
+  server: 103.186.155.183
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 德国-003 |6.4MB/s|YT-DE|NF|D+
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 5.178.110.39
+  servername: sni.111000.indevs.in
+  port: 2053
+  tls: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  client-fingerprint: chrome
+- name: 越南-003 |669KB/s|YT-US|NF|GPT⁺|GM-US
+  type: ss
+  server: 103.186.155.214
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 越南-004 |522KB/s|YT-RU|NF|GPT⁺
+  type: ss
+  server: 103.186.155.24
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 越南-005 |851KB/s|YT-US|NF|GPT⁺|GM-US
+  type: ss
+  server: 103.186.154.37
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 越南-006 |711KB/s|YT-US|NF|GPT⁺|GM-US
+  type: ss
+  server: 103.186.154.40
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 越南-007 |1.7MB/s|YT-US|NF|GPT⁺|GM-US
+  type: ss
+  server: 103.186.154.14
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 越南-008 |776KB/s|YT-US|NF|GPT⁺|GM-US
+  type: ss
+  server: 103.186.155.60
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 越南-009 |712KB/s|YT-US|NF|GPT⁺|GM-US
+  type: ss
+  server: 103.186.155.235
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 印度-001 |3.8MB/s|YT-CN|NF|D+|GPT⁺|GM-CN
+  type: vless
+  network: tcp
+  uuid: 1834316d-2b59-4239-970d-c764218bcdf2
+  server: 144.24.97.225
+  servername: osxapps.itunes.apple.com
+  port: 443
+  tls: true
+  udp: true
+  xudp: true
+  http-opts:
+    path:
+    - /
+  reality-opts:
+    public-key: h6jFhmMYpmiEmm4sxrBLBSxtgsdM5k5EUvrv1bKNFGU
+    short-id: 8894620bd4b91f71
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 德国-004
+  type: hysteria
+  server: 5.83.129.90
+  port: 54177
+  skip-cert-verify: true
+  sni: apple.com
+  alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '1000'
+  protocol: udp
+  up: '500'
+- name: 德国-005
+  type: hysteria
+  server: 5.83.129.153
+  port: 20088
+  skip-cert-verify: true
+  sni: apple.com
+  alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '1000'
+  protocol: udp
+  up: '500'
+- name: 美国-015 |568KB/s|0%
+  type: http
+  server: 154.26.192.123
+  port: 10988
+  password: gs4BXwT6SW
+  skip-cert-verify: false
+  tls: false
+  username: fQ67Dpe5dU
+- name: 日本-002 |1.4MB/s|7%|YT-JP|NF|D+|GPT⁺|GM-JP
+  type: vless
+  network: ws
+  uuid: 69b73277-99ed-6b7f-f52b-79b98093e7ae
+  server: 153.121.45.101
+  servername: dd4973b2.lfree.cn.mt
+  port: 443
+  tls: true
+  udp: true
+  alpn:
+  - h3
+  ws-opts:
+    headers:
+      Host: dd4973b2.lfree.cn.mt
+    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
+  client-fingerprint: random
+- name: 韩国-003 |1.2MB/s|YT-KR|NF|D+
   type: vless
   network: ws
   uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -294,7 +558,39 @@ proxies:
     path: /Telegram🇨🇳@WangCai2
   client-fingerprint: chrome
   encryption: none
-- name: 韩国-008 |2.9MB/s|YT-KR|NF|D+|GM-KR
+- name: 美国-016 |4.6MB/s|7%|TK-GB|YT-GB|NF|D+|GPT⁺
+  type: vless
+  network: ws
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  server: 192.0.63.162
+  servername: snippet.danfeng.casacam.net
+  port: 443
+  tls: true
+  udp: true
+  alpn:
+  - http/1.1
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.casacam.net
+    path: /danfeng
+  client-fingerprint: random
+- name: 塞浦路斯-001 |4.0MB/s|7%|TK-US|YT-US|NF|D+|GPT⁺|GM-US
+  type: vless
+  network: ws
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  server: 154.92.9.157
+  servername: snippet.danfeng.ee.cd
+  port: 2053
+  tls: true
+  udp: true
+  alpn:
+  - http/1.1
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.ee.cd
+    path: /danfeng
+  client-fingerprint: random
+- name: 韩国-004 |2.9MB/s|YT-KR|NF|D+|GM-KR
   type: trojan
   network: ws
   server: 118.34.36.61
@@ -309,123 +605,89 @@ proxies:
         like Gecko) Chrome/49.0.2623.87 Safari/537.36
     path: /
   client-fingerprint: chrome
-- name: 南非-001 |3.8MB/s|0%|YT-CN|NF|D+|GPT⁺
-  type: anytls
-  server: 45.221.98.14
-  port: 59901
-  password: dongtaiwang.com
-  skip-cert-verify: true
-  udp: true
-  sni: 45.221.98.14
-  alpn:
-  - h2
-  client-fingerprint: chrome
-  disable-sni: true
-  fp: chrome
-  allowInsecure: '1'
-- name: 俄罗斯联邦-001 |2.7MB/s|TK-US|YT-US|NF|D+|GPT|GM-US
-  type: vless
-  network: ws
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  server: 193.9.49.65
-  servername: r.icy.de5.net
-  port: 443
-  tls: true
-  ws-opts:
-    headers:
-      Host: r.icy.de5.net
-    path: /?ed=2560
-- name: 美国-010 |3.1MB/s|7%
-  type: vless
-  network: ws
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  server: 143.20.139.113
-  servername: danfeng.sylu.cc
-  port: 8443
-  tls: true
-  udp: true
-  alpn:
-  - http/1.1
-  ws-opts:
-    headers:
-      Host: danfeng.sylu.cc
-    path: /danfeng
-  client-fingerprint: random
-- name: 南非-002
-  type: mieru
-  server: 45.221.98.11
-  port: 28866
-  password: dongtaiwang.com
-  multiplexing: MULTIPLEXING_LOW
-  transport: TCP
-  username: dongtaiwang.com
-- name: 美国-011
-  type: mieru
-  server: 157.254.223.48
-  port: 33990
-  password: dongtaiwang.com
-  multiplexing: MULTIPLEXING_LOW
-  transport: TCP
-  username: dongtaiwang.com
-- name: 德国-001 |3.0MB/s|7%|TK-DE|YT-DE|NF|D+|GPT⁺
-  type: vless
-  network: ws
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  server: 143.20.175.56
-  servername: snippet.danfeng.casacam.net
-  port: 389
-  tls: true
-  udp: true
-  xudp: true
-  alpn:
-  - http/1.1
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.casacam.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /danfeng
-  client-fingerprint: random
-- name: 美国-012 |5.5MB/s|0%|YT-JP|NF|D+|GPT⁺|GM-JP
-  type: vless
-  network: ws
-  uuid: 6d31e562-2107-4531-bec5-5ed5b4af118c
-  server: 69.84.182.13
-  servername: jp1-jp1.aiopen.sbs
-  port: 443
-  tls: true
-  udp: true
-  xudp: true
-  ws-opts:
-    headers:
-      Host: jp1-jp1.aiopen.sbs
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /kbjc/jp1
-  client-fingerprint: chrome
-- name: 沙特阿拉伯-001 |4.1MB/s|YT-RU|NF|D+
+- name: 日本-003 |6.5MB/s|0%|YT-JP|NF|GPT⁺|GM-JP
   type: vless
   network: tcp
-  uuid: c2d09c1c-7d4d-46c4-838f-ad263b93c4e1
-  server: 213.165.54.4
-  servername: cdnjs.com
+  uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
+  server: 116.80.44.144
+  servername: www.yahoo.co.jp
+  port: 27724
+  security: reality
+  tls: true
+  udp: false
+  sni: www.yahoo.co.jp
+  reality-opts:
+    public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  fp: chrome
+  pbk: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
+- name: 新加坡-001 |4.2MB/s|TK-US|YT-US|NF|D+|GPT⁺|GM-US
+  type: vless
+  network: ws
+  uuid: 69b73277-99ed-6b7f-f52b-79b98093e7ae
+  server: 27.50.48.2
+  servername: dd4973b2.lfree.cn.mt
+  port: 443
+  tls: true
+  udp: true
+  alpn:
+  - h3
+  ws-opts:
+    headers:
+      Host: dd4973b2.lfree.cn.mt
+    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
+  client-fingerprint: random
+- name: 奥地利-001 |3.2MB/s|TK-NL|YT-NL|NF|D+
+  type: trojan
+  network: ws
+  server: 152.53.200.167
+  port: 8444
+  password: trojan
+  skip-cert-verify: false
+  udp: true
+  sni: jflsjlaf.pages.dev
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
+- name: 美国-017 |716KB/s|YT-HK|D+
+  type: vless
+  network: ws
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  server: 68.64.179.250
+  servername: ylnhh.cc.cd
   port: 443
   tls: true
   udp: true
   xudp: true
-  reality-opts:
-    public-key: vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4
-    short-id: 82c8140feb118043
-  client-fingerprint: safari
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /Telegram🇨🇳@WangCai2
+  client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-- name: 立陶宛-001 |5.0MB/s|44%|TK-LT|YT-GB|NF|GPT⁺
-  type: ss
-  server: 195.66.25.220
-  port: 8388
-  password: yhrHMDgZ2egKftvrecvkpUPqpUTyac7q
-  cipher: chacha20-ietf-poly1305
-- name: 德国-002 |4.4MB/s|7%|TK-DE|YT-DE|NF|D+|GPT⁺
+- name: 日本-004 |7.0MB/s|YT-JP|NF|D+|GM-JP
+  type: vless
+  network: ws
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  port: 20524
+  tls: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /Telegram🇨🇳@WangCai2
+  client-fingerprint: chrome
+  encryption: none
+- name: 德国-006 |4.4MB/s|7%|TK-DE|YT-DE|NF|D+|GPT⁺
   type: vless
   network: ws
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
@@ -444,38 +706,13 @@ proxies:
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /danfeng
   client-fingerprint: random
-- name: 新加坡-001 |4.6MB/s|7%|YT-JP|NF|D+|GPT⁺|GM-JP
+- name: 德国-007 |3.0MB/s|7%|TK-DE|YT-DE|NF|D+|GPT⁺
   type: vless
   network: ws
-  uuid: 69b73277-99ed-6b7f-f52b-79b98093e7ae
-  server: 8.222.185.236
-  servername: dd4973b2.lfree.cn.mt
-  port: 443
-  tls: true
-  udp: true
-  xudp: true
-  alpn:
-  - h3
-  ws-opts:
-    headers:
-      Host: dd4973b2.lfree.cn.mt
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
-  client-fingerprint: random
-- name: 西班牙-001 |1.2MB/s|100%|TK-ES|YT-ES|NF|GPT⁺
-  type: ss
-  server: 5.188.181.201
-  port: 9025
-  password: XPtzA9sCug3SPR4c
-  cipher: aes-256-cfb
-- name: 美国-013 |5.0MB/s|TK-GB|YT-US|NF|GPT⁺
-  type: vless
-  network: ws
-  uuid: ee248e40-9468-4ef6-81b7-707a1e47c54a
-  server: 192.200.160.20
-  servername: 639073677243557970.camry-perma.info
-  port: 443
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  server: 143.20.175.56
+  servername: snippet.danfeng.casacam.net
+  port: 389
   tls: true
   udp: true
   xudp: true
@@ -483,293 +720,48 @@ proxies:
   - http/1.1
   ws-opts:
     headers:
-      Host: 639073677243557970.camry-perma.info
-    path: /yaeungws?ed=2560
-  client-fingerprint: chrome
-  encryption: none
-- name: 俄罗斯联邦-002 |3.8MB/s|TK-FI|YT-RU|GPT⁺
-  type: vless
-  network: tcp
-  uuid: 29aab552-bfbb-07d0-b22a-9a9c58c84811
-  server: 83.166.235.245
-  servername: max.ru
-  port: 52006
-  tls: true
-  udp: true
-  xudp: true
-  http-opts:
-    path:
-    - /
-  reality-opts:
-    public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
-    short-id: d8c6b58bcbb0c323
-  client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-- name: 韩国-009 |2.6MB/s
-  type: vless
-  network: ws
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  server: 14.42.206.205
-  servername: snippet.danfeng.kozow.com
-  port: 16001
-  tls: true
-  udp: true
-  xudp: true
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.kozow.com
+      Host: snippet.danfeng.casacam.net
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /danfeng?ed=2560
-  client-fingerprint: chrome
-- name: 越南-001 |1.3MB/s|YT-VN|NF|GPT⁺|GM-VN
-  type: ss
-  server: 103.186.155.54
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 越南-002 |1.7MB/s|YT-VN|NF|GPT⁺|GM-VN
-  type: ss
-  server: 103.186.155.61
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 俄罗斯联邦-003 |3.8MB/s|39%|YT-US|NF|D+|GPT⁺|GM-US
-  type: vless
-  network: tcp
-  uuid: 2254f987-055f-4f7f-b53f-fd77a9443744
-  server: 51.250.17.51
-  servername: max.ru
-  port: 8443
-  tls: true
-  udp: true
-  xudp: true
-  http-opts:
-    path:
-    - /
-  reality-opts:
-    public-key: EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14
-    short-id: 425ba80cd1a821a8
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-- name: 美国-014 |4.5MB/s|0%|TK-US|YT-US|NF|D+|GM-US
-  type: vless
-  network: tcp
-  uuid: e5130eee-cf44-405e-ce04-25817f961399
-  server: 23.148.20.55
-  servername: www.apple.com
-  port: 443
-  tls: true
-  sni: www.apple.com
-  alterId: 0
-  reality-opts:
-    public-key: R0M4F0Di9oppNbz_LRIkF08whSeXbBHMNkAKVq5l-U8
-    short-id: ea80ef
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 越南-003 |1.5MB/s|YT-US|NF|GPT⁺|GM-MM
-  type: ss
-  server: 103.186.155.19
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 德国-003
-  type: hysteria
-  server: 5.83.129.90
-  port: 54177
-  skip-cert-verify: true
-  sni: apple.com
-  alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '1000'
-  protocol: udp
-  up: '500'
-- name: 越南-004 |2.9MB/s|YT-US|NF|GPT⁺|GM-MM
-  type: ss
-  server: 103.186.155.138
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 俄罗斯联邦-004 |4.5MB/s|TK-MD|YT-RU|NF|GPT⁺
-  type: vless
-  network: tcp
-  uuid: 29aab552-bfbb-04b0-b22a-9a9c58c84811
-  server: 83.166.249.47
-  servername: max.ru
-  port: 52006
-  tls: true
-  udp: true
-  xudp: true
-  http-opts:
-    path:
-    - /
-  reality-opts:
-    public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
-    short-id: d8c6b58bcbb0c323
-  client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-- name: 俄罗斯联邦-005 |6.1MB/s|TK-MD|YT-RU|NF|GPT⁺
-  type: vless
-  network: tcp
-  uuid: 29aab552-bfbb-04b0-b22a-9a9c58c84811
-  server: 83.166.249.42
-  servername: max.ru
-  port: 52006
-  tls: true
-  udp: true
-  xudp: true
-  http-opts:
-    path:
-    - /
-  reality-opts:
-    public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
-    short-id: d8c6b58bcbb0c323
-  client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-- name: 德国-004
-  type: hysteria
-  server: 5.83.129.153
-  port: 20088
-  skip-cert-verify: true
-  sni: apple.com
-  alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '1000'
-  protocol: udp
-  up: '500'
-- name: 德国-005 |6.4MB/s|YT-DE|NF|D+
-  type: vless
-  network: ws
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 5.178.110.39
-  servername: sni.111000.indevs.in
-  port: 2053
-  tls: true
-  udp: true
-  xudp: true
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-  client-fingerprint: chrome
-- name: 拉脱维亚-001 |5.3MB/s|0%|TK-LV|YT-LV|NF|GPT⁺
-  type: ss
-  server: 185.176.221.72
-  port: 24637
-  password: MholStyHL7DhrewKbpQa20
-  udp: true
-  cipher: chacha20-ietf-poly1305
-- name: 爱尔兰-001 |3.7MB/s|5%
-  type: vless
-  network: ws
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  server: 194.87.245.253
-  servername: snippet.danfeng.kozow.com
-  port: 443
-  tls: true
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.kozow.com
-    path: /danfeng?ed=2560
-- name: 美国-015 |3.0MB/s|5%|TK-US|YT-US|NF|D+|GPT⁺|GM-US
-  type: vless
-  network: ws
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  server: 89.117.0.166
-  servername: danfeng.sylu.cc
-  port: 8085
-  tls: true
-  udp: true
-  xudp: true
-  alpn:
-  - http/1.1
-  ws-opts:
-    headers:
-      Host: danfeng.sylu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
     path: /danfeng
   client-fingerprint: random
-- name: 美国-016 |568KB/s|0%
-  type: http
-  server: 154.26.192.123
-  port: 10988
-  password: gs4BXwT6SW
-  skip-cert-verify: false
-  tls: false
-  username: fQ67Dpe5dU
-- name: 美国-017 |1.9MB/s|YT-HK|NF|D+
+- name: 波兰-003 |3.1MB/s|0%|TK-PL|YT-RU|NF|GPT⁺
   type: vless
-  network: ws
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  server: 68.64.179.250
-  servername: ylnhh.cc.cd
+  network: tcp
+  uuid: 418a67d1-e7fc-4832-bc5d-980c77c1f7de
+  server: 144.31.112.100
+  servername: pl.rexten.cc
   port: 443
-  skip-cert-verify: false
+  tls: true
+  udp: true
+  xudp: true
+  http-opts:
+    path:
+    - /
+  reality-opts:
+    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+- name: 韩国-005 |2.1MB/s|YT-KR|NF|D+|GM-KR
+  type: vless
+  network: ws
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  server: 211.243.73.135
+  servername: ylnhh.cc.cd
+  port: 30023
   tls: true
   udp: true
   xudp: true
   ws-opts:
     headers:
       Host: ylnhh.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /Telegram🇨🇳@WangCai2
   client-fingerprint: chrome
   encryption: none
-- name: 日本-002 |7.0MB/s|YT-JP|NF|D+|GM-JP
-  type: vless
-  network: ws
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  server: 43.165.191.25
-  servername: ylnhh.cc.cd
-  port: 20524
-  tls: true
-  udp: true
-  xudp: true
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /Telegram🇨🇳@WangCai2
-  client-fingerprint: chrome
-  encryption: none
-- name: 韩国-010 |5.4MB/s|YT-KR|NF|D+
-  type: vless
-  network: ws
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  server: 210.105.224.42
-  servername: ylnhh.cc.cd
-  port: 10840
-  tls: true
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- name: 韩国-011 |1015KB/s|YT-KR|NF|D+
-  type: vless
-  network: ws
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  server: 175.212.45.195
-  servername: ylnhh.cc.cd
-  port: 12053
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- name: 韩国-012 |1.2MB/s|YT-KR|NF|D+|GM-KR
+- name: 韩国-006 |1.2MB/s|YT-KR|NF|D+|GM-KR
   type: vless
   network: ws
   uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -786,49 +778,102 @@ proxies:
     path: /
   client-fingerprint: chrome
   encryption: none
-- name: 德国-006 |2.4MB/s
-  type: vmess
-  network: tcp
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  server: 82.198.246.97
-  servername: cdnfire.xiaomispeed.com
-  port: 180
-  skip-cert-verify: false
-  tls: false
+- name: 新加坡-002 |620KB/s|7%
+  type: vless
+  network: ws
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  server: 217.116.173.221
+  servername: snippet.danfeng.gv.uy
+  port: 443
+  tls: true
   udp: true
-  xudp: true
+  alpn:
+  - http/1.1
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.gv.uy
+    path: /danfeng
+  client-fingerprint: random
+- name: 美国-018 |4.5MB/s|0%|TK-US|YT-US|NF|D+|GM-US
+  type: vless
+  network: tcp
+  uuid: e5130eee-cf44-405e-ce04-25817f961399
+  server: 23.148.20.55
+  servername: www.apple.com
+  port: 443
+  tls: true
+  sni: www.apple.com
   alterId: 0
-  cipher: auto
-- name: 美国-018 |5.1MB/s|19%|TK-US|YT-US|NF|GPT⁺
+  reality-opts:
+    public-key: R0M4F0Di9oppNbz_LRIkF08whSeXbBHMNkAKVq5l-U8
+    short-id: ea80ef
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 美国-019 |4.3MB/s|28%|TK-US|YT-US|NF|GPT⁺
   type: ss
-  server: 95.174.71.98
+  server: 88.210.36.109
   port: 2377
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   udp: true
   cipher: chacha20-ietf-poly1305
   plugin: obfs
   plugin-opts:
-    host: e7b7ab7:102816
+    host: 817aa69.default.nintendo.com:112719
     mode: tls
-- name: 德国-007 |6.8MB/s|TK-DE|YT-DE|NF|D+
+- name: 越南-010 |598KB/s|YT-VN|GPT⁺|GM-VN
+  type: ss
+  server: 103.186.155.128
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: aes-256-cfb
+- name: 美国-020 |787KB/s|7%|TK-US|YT-US|NF|D+|GPT⁺|GM-US
   type: vless
   network: ws
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 89.163.213.199
-  servername: qle9crwh4e2t4rtrw43k0bnyx1.luyuju.dpdns.org
-  port: 8003
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  server: 31.58.50.143
+  servername: danfeng.sylu.cc
+  port: 8443
   tls: true
   udp: true
   xudp: true
+  alpn:
+  - http/1.1
   ws-opts:
     headers:
-      Host: qle9crwh4e2t4rtrw43k0bnyx1.luyuju.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /@Marisa_kristi
-  client-fingerprint: chrome
-  encryption: none
-- name: 韩国-013 |4.1MB/s|YT-KR|NF|D+
+      Host: danfeng.sylu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /danfeng
+  client-fingerprint: random
+- name: 韩国-007 |3.4MB/s|YT-KR|NF|D+
+  type: vless
+  network: ws
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  server: 59.3.3.161
+  servername: ylnhh.cc.cd
+  port: 8443
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳+@WangCai2
+- name: 美国-021 |3.7MB/s|X
+  type: ss
+  server: 50.62.90.16
+  port: 443
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  udp: true
+  cipher: none
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    mux: false
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\
+    tls: true
+- name: 韩国-008 |4.1MB/s|YT-KR|NF|D+
   type: vless
   network: ws
   uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -840,21 +885,19 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: 美国-019 |1.5MB/s|YT-HK|NF|D+
-  type: vless
-  network: ws
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  server: 68.64.179.96
-  servername: ylnhh.cc.cd
-  port: 443
-  skip-cert-verify: false
-  tls: true
+- name: 拉脱维亚-001 |5.3MB/s|0%|TK-LV|YT-LV|NF|GPT⁺
+  type: ss
+  server: 185.176.221.72
+  port: 24637
+  password: MholStyHL7DhrewKbpQa20
   udp: true
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- name: 美国-020 |3.2MB/s|GPT⁺|YT-RU|NF|11%
+  cipher: chacha20-ietf-poly1305
+- name: 新加坡-003 |6.2MB/s
+  type: socks5
+  server: 159.223.53.194
+  port: 1080
+  skip-cert-verify: true
+- name: 美国-022 |3.2MB/s|GPT⁺|YT-RU|NF|11%
   type: vless
   network: tcp
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
@@ -870,307 +913,3 @@ proxies:
   client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-- name: 拉脱维亚-002 |3.7MB/s|22%|TK-MD|YT-RU|NF|GPT⁺
-  type: vless
-  network: tcp
-  uuid: cadadce7-0daa-44c1-9f7a-05fe4ebcbb30
-  server: 194.36.39.98
-  servername: rbc.ru
-  port: 8443
-  tls: true
-  udp: true
-  xudp: true
-  http-opts:
-    path:
-    - /
-  reality-opts:
-    public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
-    short-id: f1071c148a5aefc4
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-- name: 瑞士-001 |3.8MB/s|37%|TK-CH|NF|D+|GPT⁺|GM-US
-  type: vless
-  network: tcp
-  uuid: 2dd1a15d-1426-413a-a3b8-a645788bc844
-  server: 138.124.62.115
-  servername: isp.speedload.online
-  port: 8443
-  tls: true
-  udp: true
-  xudp: true
-  http-opts:
-    path:
-    - /
-  reality-opts:
-    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-    short-id: a20d3ed244c76426
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-- name: 拉脱维亚-003 |3.5MB/s|22%|TK-MD|YT-RU|NF|GPT⁺
-  type: vless
-  network: tcp
-  uuid: cadadce7-0daa-44c1-9f7a-05fe4ebcbb30
-  server: 194.36.39.176
-  servername: rbc.ru
-  port: 8443
-  tls: true
-  udp: true
-  xudp: true
-  http-opts:
-    path:
-    - /
-  reality-opts:
-    public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
-    short-id: f1071c148a5aefc4
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-- name: 奥地利-001 |3.0MB/s|0%|TK-AT|NF|GPT|GM-US
-  type: vless
-  uuid: 2dd1a15d-1426-413a-a3b8-a645788bc844
-  server: 144.31.131.64
-  servername: aus.speedload.online
-  port: 8443
-  tls: true
-  reality-opts:
-    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-    short-id: a20d3ed244c76426
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 匈牙利-001 |3.8MB/s|49%|TK-NL|YT-RU|NF|GPT⁺
-  type: vless
-  network: tcp
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  server: 87.229.108.135
-  servername: yandex.com
-  port: 5443
-  tls: true
-  udp: true
-  xudp: true
-  http-opts:
-    path:
-    - /
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-- name: 美国-021 |3.8MB/s|0%|TK-US|YT-NL|NF|D+|GPT⁺
-  type: vless
-  network: tcp
-  uuid: b9e5c4b7-1e9b-4ca5-82dc-43f3a440484c
-  server: 45.15.125.8
-  servername: max.ru
-  port: 8443
-  tls: true
-  udp: true
-  xudp: true
-  reality-opts:
-    public-key: YF_Vfx9VdDFXKM4bL1RZx6vsUqlSMtT56wPt987Aul8
-    short-id: db49831a996244d8
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-- name: 俄罗斯联邦-006 |3.1MB/s|YT-RU
-  type: vless
-  network: tcp
-  uuid: cc58e2af-0244-440c-987a-90f424662eb0
-  server: 51.250.94.211
-  servername: ads.x5.ru
-  port: 443
-  tls: true
-  udp: true
-  xudp: true
-  http-opts:
-    path:
-    - /
-  reality-opts:
-    public-key: xBU5EmUOBUUZTUwgq5Td9MeMNGbV_64SGpSD79af7Q4
-    short-id: 879359db
-  client-fingerprint: qq
-  encryption: none
-- name: 日本-003 |8.4MB/s|5%|YT-JP|NF|D+|GM-JP
-  type: vless
-  network: ws
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  server: 43.165.180.71
-  servername: ylnhh.cc.cd
-  port: 8443
-  tls: true
-  udp: true
-  xudp: true
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
-    path: /Telegram🇨🇳@WangCai2
-  client-fingerprint: chrome
-  encryption: none
-- name: 俄罗斯联邦-007 |5.4MB/s|0%|TK-FI|YT-RU|NF|GPT⁺
-  type: vless
-  network: tcp
-  uuid: bb1deb35-8580-0bb8-b8f9-a8681669d6f5
-  server: 37.139.32.191
-  servername: max.ru
-  port: 443
-  tls: true
-  udp: true
-  xudp: true
-  http-opts:
-    path:
-    - /
-  reality-opts:
-    public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
-    short-id: d8c6b58bcbb0c323
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-- name: 俄罗斯联邦-008 |4.5MB/s|0%|TK-NL|YT-RU|NF|GPT⁺
-  type: vless
-  network: tcp
-  uuid: 2a1a88b3-7204-4d06-93e9-304827ec3df1
-  server: 51.250.75.192
-  servername: ads.x5.ru
-  port: 7445
-  tls: true
-  udp: true
-  xudp: true
-  http-opts:
-    path:
-    - /
-  reality-opts:
-    public-key: 1nX2U0-rg8Lw6Bz0i16x1YItJUs8X9CsvzQjCk-DOhA
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-- name: 越南-005 |1.5MB/s|YT-VN|NF|GPT⁺|GM-VN
-  type: ss
-  server: 103.186.155.221
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  cipher: aes-256-cfb
-- name: 俄罗斯联邦-009 |3.1MB/s|0%|TK-US|YT-RU|NF|GPT⁺
-  type: vless
-  network: tcp
-  uuid: 41d99003-2c98-488f-b9d9-5c95cffaa571
-  server: 51.250.72.141
-  servername: ads.x5.ru
-  port: 7443
-  tls: true
-  udp: true
-  xudp: true
-  http-opts:
-    path:
-    - /
-  reality-opts:
-    public-key: 59iHd67rGlyJBUpDq5NXC91EB0U4AXtSlOjAQsW2D14
-  client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-- name: 俄罗斯联邦-010 |5.2MB/s|0%|TK-NL|YT-RU|NF|GPT⁺
-  type: vless
-  network: tcp
-  uuid: f13e1729-162e-4578-8238-e213d2f90f2b
-  server: 51.250.72.141
-  servername: api-maps.yandex.ru
-  port: 7445
-  tls: true
-  udp: true
-  xudp: true
-  http-opts:
-    path:
-    - /
-  reality-opts:
-    public-key: 1nX2U0-rg8Lw6Bz0i16x1YItJUs8X9CsvzQjCk-DOhA
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-- name: 俄罗斯联邦-011 |4.0MB/s|YT-RU|NF|GPT⁺
-  type: vless
-  network: tcp
-  uuid: e48a1723-bb7b-4d13-ace6-0be7c62f16b3
-  server: 89.169.181.188
-  servername: rbc.ru
-  port: 8443
-  tls: true
-  udp: true
-  xudp: true
-  http-opts:
-    path:
-    - /
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: 205748bc0f24a747
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-- name: 荷兰-001 |3.8MB/s|8%
-  type: socks5
-  server: 5.255.99.75
-  port: 1080
-  udp: true
-- name: 俄罗斯联邦-012 |3.8MB/s|0%|TK-IT|YT-RU|NF|D+|GPT⁺
-  type: vless
-  network: tcp
-  uuid: 5729df32-b2f2-4a10-932c-fe37dfd5b6b4
-  server: 89.169.175.22
-  servername: rbc.ru
-  port: 443
-  tls: true
-  udp: true
-  xudp: true
-  http-opts:
-    path:
-    - /
-  reality-opts:
-    public-key: _CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM
-    short-id: 6419bed7fd0a2cff
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-- name: 意大利-001 |5.0MB/s|0%
-  type: socks5
-  server: 149.62.186.244
-  port: 1080
-  skip-cert-verify: true
-- name: 韩国-014 |2.7MB/s|YT-KR|NF|D+|GM-KR
-  type: vless
-  network: ws
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  server: 220.92.158.117
-  servername: ylnhh.cc.cd
-  port: 15916
-  tls: true
-  udp: true
-  xudp: true
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /Telegram🇨🇳@WangCai2
-  client-fingerprint: chrome
-  encryption: none
-- name: 美国-022 |3.7MB/s|X
-  type: ss
-  server: 50.62.90.16
-  port: 443
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  udp: true
-  cipher: none
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    mux: false
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\
-    tls: true
-- name: 新加坡-002 |6.2MB/s
-  type: socks5
-  server: 159.223.53.194
-  port: 1080
-  skip-cert-verify: true
