@@ -1,0 +1,263 @@
+proxies:
+- name: 其他-001
+  type: vless
+  network: tcp
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
+  server: jp.sofast.live
+  port: 52683
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: jp.sofast.live
+    path: /
+- name: 巴西-001
+  type: vless
+  network: xhttp
+  uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
+  server: 200.102.179.69
+  servername: dmbdnpctq8hjxx.hat.onl
+  port: 443
+  tls: true
+  udp: true
+  client-fingerprint: chrome
+  xhttp-opts:
+    host: dmbdnpctq8hjxx.hat.onl
+    mode: auto
+    path: /hls/014373eq/seg
+- name: 德国-001 |1.6MB/s
+  type: hysteria
+  server: 5.83.129.90
+  port: 54177
+  skip-cert-verify: true
+  udp: true
+  sni: apple.com
+  alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  protocol: udp
+  up: 500
+- name: 德国-002 |594KB/s
+  type: hysteria
+  server: 5.83.129.153
+  port: 20088
+  skip-cert-verify: true
+  udp: true
+  sni: apple.com
+  alpn:
+  - h3
+  protocol: udp
+  auth-str: dongtaiwang.com
+  up: 500
+  down: 1000
+  auth_str: dongtaiwang.com
+- name: 波兰-001
+  type: vless
+  network: grpc
+  uuid: 3f5e89d5-591f-4ac9-b071-b05680b573c3
+  server: 138.124.242.46
+  servername: pl2-edge.gacvpn.site
+  port: 8443
+  tls: true
+  udp: true
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: connect-pl
+  client-fingerprint: firefox
+- name: 澳大利亚-001 |3.0MB/s|TK-AU|YT-AU|GPT⁺-AU
+  type: http
+  server: 159.13.44.228
+  port: 443
+  skip-cert-verify: true
+  tls: true
+- name: 罗马尼亚-001 |3.3MB/s|TK-RO|GPT⁺-RO|GM-RO
+  type: http
+  server: 193.176.84.35
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 罗马尼亚-002 |2.3MB/s|TK-RO|GPT⁺-RO|GM-RO
+  type: http
+  server: 193.176.84.17
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 罗马尼亚-003 |1.4MB/s
+  type: http
+  server: 193.176.84.27
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 罗马尼亚-004 |1.3MB/s
+  type: http
+  server: 193.176.84.36
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  sni: www.bing.com
+- name: 罗马尼亚-005 |1.2MB/s
+  type: http
+  server: 193.176.84.32
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 罗马尼亚-006 |1.1MB/s
+  type: http
+  server: 193.176.84.40
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 罗马尼亚-007 |1.1MB/s|TK-RO|GPT⁺-RO|GM-RO
+  type: http
+  server: 193.176.84.30
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 罗马尼亚-008 |1.0MB/s
+  type: http
+  server: 193.176.84.26
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 罗马尼亚-009 |1.0MB/s
+  type: http
+  server: 193.176.84.23
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 罗马尼亚-010 |1020KB/s
+  type: http
+  server: 193.176.84.22
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 罗马尼亚-011 |968KB/s
+  type: http
+  server: 193.176.84.37
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 罗马尼亚-012 |943KB/s
+  type: http
+  server: 193.176.84.34
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 罗马尼亚-013 |891KB/s
+  type: http
+  server: 193.176.84.31
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 罗马尼亚-014 |768KB/s
+  type: http
+  server: 193.176.84.24
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 罗马尼亚-015 |731KB/s
+  type: http
+  server: 193.176.84.19
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 罗马尼亚-016 |639KB/s
+  type: http
+  server: 193.176.84.20
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 罗马尼亚-017 |622KB/s
+  type: http
+  server: 193.176.84.21
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 罗马尼亚-018 |586KB/s
+  type: http
+  server: 193.176.84.25
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 罗马尼亚-019 |557KB/s
+  type: http
+  server: 193.176.84.39
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 罗马尼亚-020 |554KB/s
+  type: http
+  server: 193.176.84.38
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 美国-001 |3.3MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+  type: http
+  server: 138.199.35.215
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+- name: 美国-002 |3.2MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+  type: http
+  server: 38.28.193.188
+  port: 443
+  skip-cert-verify: true
+  tls: true
+- name: 美国-003 |1.5MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+  type: http
+  server: 209.148.53.153
+  port: 8090
+  skip-cert-verify: true
+  tls: true
+- name: 美国-004 |1.0MB/s|TK-US|GPT⁺-US
+  type: http
+  server: 138.199.35.198
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+- name: 荷兰-001 |2.1MB/s|TK-NL|GPT⁺-NL|GM-NL
+  type: http
+  server: 84.17.47.150
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+- name: 荷兰-002 |1.8MB/s|TK-NL|GPT⁺-NL
+  type: http
+  server: 51.159.225.196
+  port: 23856
+  skip-cert-verify: true
+  tls: true
+- name: 荷兰-003 |1.8MB/s|TK-NL|GPT⁺-NL|GM-NL
+  type: http
+  server: 5.255.118.82
+  port: 443
+  skip-cert-verify: true
+  tls: true
+- name: 荷兰-004 |1.6MB/s|TK-NL|GPT⁺-NL|GM-NL
+  type: http
+  server: 84.17.47.147
+  port: 9002
+  skip-cert-verify: true
+  tls: true
